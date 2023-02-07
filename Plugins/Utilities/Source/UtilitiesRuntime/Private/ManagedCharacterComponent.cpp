@@ -2,7 +2,7 @@
 
 class UObject;
 
-void UManagedCharacterComponent::StartSettingMovementMode(TEnumAsByte<EMovementMode> InMovementMode, EManagedMovementModePriority Priority, const UObject* Provider) {
+void UManagedCharacterComponent::StartSettingMovementMode(EMovementMode InMovementMode, EManagedMovementModePriority Priority, const UObject* Provider) {
 }
 
 void UManagedCharacterComponent::SetStartFacialEmotionWithTags(EFacialEmotion Emotion, UObject* Provider, float Transition, EManagedFacialEmotionPriority ManagedFacialEmotionPriority, FGameplayTagContainer AnimTags) {

@@ -30,7 +30,7 @@ public:
     static void UseIdleAnimations(bool Flag);
     
     UFUNCTION(BlueprintCallable)
-    static void UseIdleAnimation(TEnumAsByte<EChromaSDKDeviceEnum::Type> device, bool Flag);
+    static void UseIdleAnimation(EChromaSDKDeviceEnum::Type device, bool Flag);
     
     UFUNCTION(BlueprintCallable)
     static void UnloadAnimationName(const FString& AnimationName);
@@ -132,7 +132,7 @@ public:
     static void StreamBroadcast(const FString& streamId, const FString& streamKey);
     
     UFUNCTION(BlueprintCallable)
-    static void StopAnimationType(TEnumAsByte<EChromaSDKDeviceEnum::Type> device);
+    static void StopAnimationType(EChromaSDKDeviceEnum::Type device);
     
     UFUNCTION(BlueprintCallable)
     static void StopAnimations(const TArray<FString>& animationNames);
@@ -150,10 +150,10 @@ public:
     static void SetStaticColorAll(const FLinearColor& Color);
     
     UFUNCTION(BlueprintCallable)
-    static void SetStaticColor(TEnumAsByte<EChromaSDKDeviceEnum::Type> device, const FLinearColor& Color);
+    static void SetStaticColor(EChromaSDKDeviceEnum::Type device, const FLinearColor& Color);
     
     UFUNCTION(BlueprintCallable)
-    static void SetMouseLedColor(TEnumAsByte<EChromaSDKMouseLed::Type> led, const FLinearColor& colorParam, UPARAM(Ref) TArray<FChromaSDKColors>& Colors);
+    static void SetMouseLedColor(EChromaSDKMouseLed::Type led, const FLinearColor& colorParam, UPARAM(Ref) TArray<FChromaSDKColors>& Colors);
     
     UFUNCTION(BlueprintCallable)
     static void SetKeysNonZeroColorName(const FString& AnimationName, const int32 FrameIndex, const TArray<TEnumAsByte<EChromaSDKKeyboardKey::Type>>& Keys, const FLinearColor& colorParam);
@@ -219,7 +219,7 @@ public:
     static void SetKeyColor(int32 animationId, int32 FrameIndex, TEnumAsByte<EChromaSDKKeyboardKey::Type> Key, const FLinearColor& colorParam);
     
     UFUNCTION(BlueprintCallable)
-    static void SetKeyboardKeyColor(TEnumAsByte<EChromaSDKKeyboardKey::Type> Key, const FLinearColor& colorParam, UPARAM(Ref) TArray<FChromaSDKColors>& Colors);
+    static void SetKeyboardKeyColor(EChromaSDKKeyboardKey::Type Key, const FLinearColor& colorParam, UPARAM(Ref) TArray<FChromaSDKColors>& Colors);
     
     UFUNCTION(BlueprintCallable)
     static void SetIdleAnimationName(const FString& AnimationName);
@@ -771,7 +771,7 @@ public:
     static void CloseAll();
     
     UFUNCTION(BlueprintCallable)
-    static void ClearAnimationType(TEnumAsByte<EChromaSDKDeviceEnum::Type> device);
+    static void ClearAnimationType(EChromaSDKDeviceEnum::Type device);
     
     UFUNCTION(BlueprintCallable)
     static void ClearAll();

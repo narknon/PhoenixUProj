@@ -1,9 +1,9 @@
 #include "TriggerEffectComponent.h"
 
-void UTriggerEffectComponent::RemoveObjectTypeToAffect(TEnumAsByte<EObjectTypeQuery> ObjectType) {
+void UTriggerEffectComponent::RemoveObjectTypeToAffect(EObjectTypeQuery ObjectType) {
 }
 
-void UTriggerEffectComponent::AddObjectTypeToAffect(TEnumAsByte<EObjectTypeQuery> ObjectType) {
+void UTriggerEffectComponent::AddObjectTypeToAffect(EObjectTypeQuery ObjectType) {
 }
 
 UTriggerEffectComponent::UTriggerEffectComponent() {

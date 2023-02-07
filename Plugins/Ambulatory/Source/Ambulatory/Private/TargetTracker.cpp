@@ -4,10 +4,10 @@
 class AActor;
 class UTargetTypeBase;
 
-void UTargetTracker::RemoveTargetByPtr(TEnumAsByte<ETargetID::Type> InTargetID, UTargetTypeBase* InTargetToRemove) {
+void UTargetTracker::RemoveTargetByPtr(ETargetID::Type InTargetID, UTargetTypeBase* InTargetToRemove) {
 }
 
-void UTargetTracker::RemoveTarget(TEnumAsByte<ETargetID::Type> InTargetID, bool bCheckForEmptyList) {
+void UTargetTracker::RemoveTarget(ETargetID::Type InTargetID, bool bCheckForEmptyList) {
 }
 
 bool UTargetTracker::IsTargetListEmptyThisFrame() {

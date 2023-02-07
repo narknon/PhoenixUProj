@@ -15,7 +15,7 @@ void UIconButtonWidget::SetImage(const FString& ImageName, bool MatchSize, EUIAs
 void UIconButtonWidget::SetHexBack(const FString& ImageName) {
 }
 
-void UIconButtonWidget::SetFactsheetItemType(TEnumAsByte<EFactsheetItemType> Type) {
+void UIconButtonWidget::SetFactsheetItemType(EFactsheetItemType Type) {
 }
 
 void UIconButtonWidget::SetButtonStatus(const FString& StateImage, bool StateImageVisible, const FString& StateHexBack, bool StateEnabled) {

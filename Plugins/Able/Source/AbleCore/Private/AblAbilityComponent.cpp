@@ -66,7 +66,7 @@ UAblAbility* UAblAbilityComponent::GetActiveAbility() const {
     return NULL;
 }
 
-void UAblAbilityComponent::CancelAllAbilities(TEnumAsByte<EAblAbilityTaskResult> ResultToUse, bool bHideActor) {
+void UAblAbilityComponent::CancelAllAbilities(EAblAbilityTaskResult ResultToUse, bool bHideActor) {
 }
 
 void UAblAbilityComponent::CancelAbilityChannel(const FName& ChannelName, TEnumAsByte<EAblAbilityTaskResult> ResultToUse, bool bHideActor) {

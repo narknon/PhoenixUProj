@@ -20,7 +20,7 @@ void UMapScreenBase::UnregisterBButton() {
 void UMapScreenBase::ShowFastTravelList() {
 }
 
-void UMapScreenBase::SetZoomType(TEnumAsByte<EMapZoomTypes::Type> ZoomType) {
+void UMapScreenBase::SetZoomType(EMapZoomTypes::Type ZoomType) {
 }
 
 
@@ -28,7 +28,7 @@ void UMapScreenBase::SetZoomType(TEnumAsByte<EMapZoomTypes::Type> ZoomType) {
 void UMapScreenBase::SetMouseDelta(FVector2D Delta) {
 }
 
-void UMapScreenBase::SetMapType(TEnumAsByte<EMapTypes::Type> MapType) {
+void UMapScreenBase::SetMapType(EMapTypes::Type MapType) {
 }
 
 
@@ -175,7 +175,7 @@ FUMGConsolidatedAxisInputData UMapScreenBase::GetInputAxisData() {
 void UMapScreenBase::ClearMouseButtons() {
 }
 
-void UMapScreenBase::ClearMouseButton(TEnumAsByte<EMapScreenMouseButtonID> buttonID) {
+void UMapScreenBase::ClearMouseButton(EMapScreenMouseButtonID buttonID) {
 }
 
 UMapScreenBase::UMapScreenBase() {

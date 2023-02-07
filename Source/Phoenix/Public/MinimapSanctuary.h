@@ -21,7 +21,7 @@ public:
     void TextureLoadedCallback(UTexture2D* Texture, UObject* Param);
     
     UFUNCTION(BlueprintCallable)
-    void SetMapType(TEnumAsByte<ESanctuaryMiniMapType::Type> MapType, bool LoadNavMesh, bool fromInit);
+    void SetMapType(ESanctuaryMiniMapType::Type MapType, bool LoadNavMesh, bool fromInit);
     
     UFUNCTION(BlueprintCallable)
     void SetHubLevelUnlock(const FString& NameOfUnlock, bool LoadTexture, bool FromLoadGame);

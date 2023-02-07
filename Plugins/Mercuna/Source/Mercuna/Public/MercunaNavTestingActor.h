@@ -79,7 +79,7 @@ public:
     AMercunaNavTestingActor();
 protected:
     UFUNCTION(BlueprintCallable)
-    void OnSplineUpdate(TEnumAsByte<EMercunaSplineEvent::Type> SplineEvent);
+    void OnSplineUpdate(EMercunaSplineEvent::Type SplineEvent);
     
     UFUNCTION(BlueprintCallable)
     void OnOctreeBuildComplete();

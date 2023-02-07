@@ -269,7 +269,7 @@ public:
     bool ExecuteSave(const int32 CharacterID);
     
     UFUNCTION(BlueprintCallable, Exec)
-    void Debug_StartMap(TEnumAsByte<EMapTypes::Type> MapTypeIn, UWorld* WorldIn);
+    void Debug_StartMap(EMapTypes::Type MapTypeIn, UWorld* WorldIn);
     
     UFUNCTION(BlueprintCallable)
     void ClearWaypointPathTarget();

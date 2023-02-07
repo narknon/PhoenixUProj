@@ -47,7 +47,7 @@ void UMinimapManager::SetMiniMapWidgetSize(FVector2D Size) {
 void UMinimapManager::SetMiniMapSize(float Size, float ZoomTime) {
 }
 
-void UMinimapManager::SetMiniMapLevel(TEnumAsByte<EMiniMapLevels::Type> LevelType, bool hideCurrentMap, bool ShowMap, bool LoadNavMesh, bool AllowMiniMapReveal) {
+void UMinimapManager::SetMiniMapLevel(EMiniMapLevels::Type LevelType, bool hideCurrentMap, bool ShowMap, bool LoadNavMesh, bool AllowMiniMapReveal) {
 }
 
 void UMinimapManager::SetLockMiniMapReveal(bool pLockMiniMapReveal) {

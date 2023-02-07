@@ -49,7 +49,7 @@ public:
     
     UMapIcon();
     UFUNCTION(BlueprintCallable)
-    void StopAnimationAndChain(TEnumAsByte<EMapIconState> NextState);
+    void StopAnimationAndChain(EMapIconState NextState);
     
     UFUNCTION(BlueprintCallable)
     void StopAnimation();
@@ -61,7 +61,7 @@ public:
     void SetTargetColor(FLinearColor pTargetColor);
     
     UFUNCTION(BlueprintCallable)
-    void SetState(TEnumAsByte<EMapIconState> IconState, bool SaveState);
+    void SetState(EMapIconState IconState, bool SaveState);
     
     UFUNCTION(BlueprintCallable)
     void SetStartingScale(float Scale);

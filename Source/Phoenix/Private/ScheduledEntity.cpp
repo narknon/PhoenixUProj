@@ -200,10 +200,10 @@ FVector UScheduledEntity::GetLocation() {
     return FVector{};
 }
 
-void UScheduledEntity::GetGoalStatus(TEnumAsByte<E_Goal::Type> GoalType, FGoalStatus& GoalStatus) {
+void UScheduledEntity::GetGoalStatus(E_Goal::Type GoalType, FGoalStatus& GoalStatus) {
 }
 
-void UScheduledEntity::GetGoalActivity(TEnumAsByte<E_Goal::Type> GoalType, bool& ActivityIsValid, FScheduleEntry& RequestedActivity) {
+void UScheduledEntity::GetGoalActivity(E_Goal::Type GoalType, bool& ActivityIsValid, FScheduleEntry& RequestedActivity) {
 }
 
 APawn* UScheduledEntity::GetFlesh() const {

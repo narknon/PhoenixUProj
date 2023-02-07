@@ -131,7 +131,7 @@ void ABiped_Player::SetManagedAM(float Value) {
 void ABiped_Player::SetLastSafeInteractLocation(FVector Location) {
 }
 
-void ABiped_Player::SetLastEdgeState(TEnumAsByte<EEdgeState::Type> InEdgeState) {
+void ABiped_Player::SetLastEdgeState(EEdgeState::Type InEdgeState) {
 }
 
 void ABiped_Player::SetInvulnerableTime(float invulnerableTime) {

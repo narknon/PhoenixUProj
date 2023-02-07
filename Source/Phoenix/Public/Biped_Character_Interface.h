@@ -68,7 +68,7 @@ public:
     void SetRootMotionOffset();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange);
+    void SetRightArmState(ERightArmState::Type InState, ERightArmPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetPickupTool(const APickupTool* InPickupTool);
@@ -209,10 +209,10 @@ public:
     APickupTool* GetPickupTool();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetPartialBodyState(TEnumAsByte<EPartialBodyState::Type>& OutState);
+    void GetPartialBodyState(EPartialBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetParryState(TEnumAsByte<EParryState::Type>& OutState);
+    void GetParryState(EParryState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     FInventoryResult GetInventoryResult();
@@ -248,7 +248,7 @@ public:
     FVector GetAutoTargetFocusDirection();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetAdditiveBodyState(TEnumAsByte<EAdditiveBodyState::Type>& OutState);
+    void GetAdditiveBodyState(EAdditiveBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void FullyResetPhoenixCamera(float ResetSpeed, UCurveFloat* ResetSpeedCurve);
@@ -275,7 +275,7 @@ public:
     FVector CalculateLookAtDirection();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void CalculateClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
+    void CalculateClimbingLedgeState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType);
     
 };
 

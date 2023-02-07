@@ -99,7 +99,7 @@ public:
     void SetHexBack(const FString& ImageName);
     
     UFUNCTION(BlueprintCallable)
-    void SetFactsheetItemType(TEnumAsByte<EFactsheetItemType> Type);
+    void SetFactsheetItemType(EFactsheetItemType Type);
     
     UFUNCTION(BlueprintCallable)
     void SetButtonStatus(const FString& StateImage, bool StateImageVisible, const FString& StateHexBack, bool StateEnabled);

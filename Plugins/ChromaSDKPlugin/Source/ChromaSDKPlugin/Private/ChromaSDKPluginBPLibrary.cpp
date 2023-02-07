@@ -9,7 +9,7 @@ void UChromaSDKPluginBPLibrary::UsePreloading(int32 animationId, bool Flag) {
 void UChromaSDKPluginBPLibrary::UseIdleAnimations(bool Flag) {
 }
 
-void UChromaSDKPluginBPLibrary::UseIdleAnimation(TEnumAsByte<EChromaSDKDeviceEnum::Type> device, bool Flag) {
+void UChromaSDKPluginBPLibrary::UseIdleAnimation(EChromaSDKDeviceEnum::Type device, bool Flag) {
 }
 
 void UChromaSDKPluginBPLibrary::UnloadAnimationName(const FString& AnimationName) {
@@ -122,7 +122,7 @@ void UChromaSDKPluginBPLibrary::StreamBroadcastEnd() {
 void UChromaSDKPluginBPLibrary::StreamBroadcast(const FString& streamId, const FString& streamKey) {
 }
 
-void UChromaSDKPluginBPLibrary::StopAnimationType(TEnumAsByte<EChromaSDKDeviceEnum::Type> device) {
+void UChromaSDKPluginBPLibrary::StopAnimationType(EChromaSDKDeviceEnum::Type device) {
 }
 
 void UChromaSDKPluginBPLibrary::StopAnimations(const TArray<FString>& animationNames) {
@@ -140,10 +140,10 @@ void UChromaSDKPluginBPLibrary::StopAll() {
 void UChromaSDKPluginBPLibrary::SetStaticColorAll(const FLinearColor& Color) {
 }
 
-void UChromaSDKPluginBPLibrary::SetStaticColor(TEnumAsByte<EChromaSDKDeviceEnum::Type> device, const FLinearColor& Color) {
+void UChromaSDKPluginBPLibrary::SetStaticColor(EChromaSDKDeviceEnum::Type device, const FLinearColor& Color) {
 }
 
-void UChromaSDKPluginBPLibrary::SetMouseLedColor(TEnumAsByte<EChromaSDKMouseLed::Type> led, const FLinearColor& colorParam, TArray<FChromaSDKColors>& Colors) {
+void UChromaSDKPluginBPLibrary::SetMouseLedColor(EChromaSDKMouseLed::Type> led, const FLinearColor& colorParam, TArray<FChromaSDKColors& Colors) {
 }
 
 void UChromaSDKPluginBPLibrary::SetKeysNonZeroColorName(const FString& AnimationName, const int32 FrameIndex, const TArray<TEnumAsByte<EChromaSDKKeyboardKey::Type>>& Keys, const FLinearColor& colorParam) {
@@ -209,7 +209,7 @@ void UChromaSDKPluginBPLibrary::SetKeyColorAllFrames(int32 animationId, TEnumAsB
 void UChromaSDKPluginBPLibrary::SetKeyColor(int32 animationId, int32 FrameIndex, TEnumAsByte<EChromaSDKKeyboardKey::Type> Key, const FLinearColor& colorParam) {
 }
 
-void UChromaSDKPluginBPLibrary::SetKeyboardKeyColor(TEnumAsByte<EChromaSDKKeyboardKey::Type> Key, const FLinearColor& colorParam, TArray<FChromaSDKColors>& Colors) {
+void UChromaSDKPluginBPLibrary::SetKeyboardKeyColor(EChromaSDKKeyboardKey::Type> Key, const FLinearColor& colorParam, TArray<FChromaSDKColors& Colors) {
 }
 
 void UChromaSDKPluginBPLibrary::SetIdleAnimationName(const FString& AnimationName) {
@@ -797,7 +797,7 @@ void UChromaSDKPluginBPLibrary::CloseAnimation(const int32 animationId) {
 void UChromaSDKPluginBPLibrary::CloseAll() {
 }
 
-void UChromaSDKPluginBPLibrary::ClearAnimationType(TEnumAsByte<EChromaSDKDeviceEnum::Type> device) {
+void UChromaSDKPluginBPLibrary::ClearAnimationType(EChromaSDKDeviceEnum::Type device) {
 }
 
 void UChromaSDKPluginBPLibrary::ClearAll() {

@@ -29,10 +29,10 @@ private:
 public:
     UTargetTracker();
     UFUNCTION(BlueprintCallable)
-    void RemoveTargetByPtr(TEnumAsByte<ETargetID::Type> InTargetID, UTargetTypeBase* InTargetToRemove);
+    void RemoveTargetByPtr(ETargetID::Type InTargetID, UTargetTypeBase* InTargetToRemove);
     
     UFUNCTION(BlueprintCallable)
-    void RemoveTarget(TEnumAsByte<ETargetID::Type> InTargetID, bool bCheckForEmptyList);
+    void RemoveTarget(ETargetID::Type InTargetID, bool bCheckForEmptyList);
     
     UFUNCTION(BlueprintCallable)
     bool IsTargetListEmptyThisFrame();

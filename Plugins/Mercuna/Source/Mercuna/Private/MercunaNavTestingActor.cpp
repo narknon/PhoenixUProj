@@ -1,7 +1,7 @@
 #include "MercunaNavTestingActor.h"
 #include "Components/SphereComponent.h"
 
-void AMercunaNavTestingActor::OnSplineUpdate(TEnumAsByte<EMercunaSplineEvent::Type> SplineEvent) {
+void AMercunaNavTestingActor::OnSplineUpdate(EMercunaSplineEvent::Type SplineEvent) {
 }
 
 void AMercunaNavTestingActor::OnOctreeBuildComplete() {

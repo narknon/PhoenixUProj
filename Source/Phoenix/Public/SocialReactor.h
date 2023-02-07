@@ -28,7 +28,7 @@ public:
     bool ValidateInteractionType(FName InTargetName, AActor* InTargetActor, TEnumAsByte<SocialInteractionTypeIDs> InInteractionType);
     
     UFUNCTION(BlueprintCallable)
-    void ToggleAmbientChatterTopic(TEnumAsByte<AmbientChatterTopicIDs> InTopic, bool bInTurnOn);
+    void ToggleAmbientChatterTopic(AmbientChatterTopicIDs InTopic, bool bInTurnOn);
     
     UFUNCTION(BlueprintCallable)
     void StartSettingMissionGossipCalloutsMuted(bool InMuted, EStandardManagedPriority InPriority, UObject* InCaller);
@@ -40,7 +40,7 @@ public:
     void SetEmotionalState(FName InActorName, TEnumAsByte<SocialSemanticIDs> InSocialEmotion, int32 InMagnitude);
     
     UFUNCTION(BlueprintCallable)
-    void ReportSocialAction(TEnumAsByte<SocialActionTypes> inActionID, const FString& inActionData, const FString& inLocationName, const FString& InTargetName);
+    void ReportSocialAction(SocialActionTypes inActionID, const FString& inActionData, const FString& inLocationName, const FString& InTargetName);
     
 private:
     UFUNCTION(BlueprintCallable)

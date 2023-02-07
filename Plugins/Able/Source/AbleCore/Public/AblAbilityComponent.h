@@ -100,7 +100,7 @@ public:
     UAblAbility* GetActiveAbility() const;
     
     UFUNCTION(BlueprintCallable)
-    void CancelAllAbilities(TEnumAsByte<EAblAbilityTaskResult> ResultToUse, bool bHideActor);
+    void CancelAllAbilities(EAblAbilityTaskResult ResultToUse, bool bHideActor);
     
     UFUNCTION(BlueprintCallable)
     void CancelAbilityChannel(const FName& ChannelName, TEnumAsByte<EAblAbilityTaskResult> ResultToUse, bool bHideActor);

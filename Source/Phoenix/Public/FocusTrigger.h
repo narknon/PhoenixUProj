@@ -56,7 +56,7 @@ protected:
 public:
     AFocusTrigger();
     UFUNCTION(BlueprintCallable)
-    void SetTheReaction(TEnumAsByte<SocialActionTypes> InSocialAction);
+    void SetTheReaction(SocialActionTypes InSocialAction);
     
     UFUNCTION(BlueprintCallable)
     void SetTheFocusProbablity(float InProbability);
@@ -68,7 +68,7 @@ public:
     void SetTheFocusActor(AActor* InFocusActor);
     
     UFUNCTION(BlueprintCallable)
-    void SetTheEmotion(TEnumAsByte<SocialSemanticIDs> InEmotion);
+    void SetTheEmotion(SocialSemanticIDs InEmotion);
     
     UFUNCTION(BlueprintCallable)
     void SetTheActionProbablity(float InProbability);

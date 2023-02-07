@@ -18,7 +18,7 @@ void ACreatureMountHandler::PlayerPossessCreature() {
 
 
 
-void ACreatureMountHandler::OnHoverDroneControlModeChanged(TEnumAsByte<EHoverDroneControlMode::Type> NewMode) {
+void ACreatureMountHandler::OnHoverDroneControlModeChanged(EHoverDroneControlMode::Type NewMode) {
 }
 
 void ACreatureMountHandler::MountExistingCreature(ACharacter* InRiderCharacter, ACreature_Character* InCreatureCharacter) {

@@ -261,7 +261,7 @@ public:
     void OnSpell_Pressed(const int32 SpellSlot);
     
     UFUNCTION(BlueprintCallable)
-    void OnRightArmStateChanged(TEnumAsByte<ERightArmState::Type> RightArmState, TEnumAsByte<ERightArmState::Type> LastRightArmState);
+    void OnRightArmStateChanged(ERightArmState::Type RightArmState, ERightArmState::Type LastRightArmState);
     
 private:
     UFUNCTION(BlueprintCallable)

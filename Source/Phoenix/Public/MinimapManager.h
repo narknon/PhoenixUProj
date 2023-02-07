@@ -227,7 +227,7 @@ public:
     void SetMiniMapSize(float Size, float ZoomTime);
     
     UFUNCTION(BlueprintCallable)
-    void SetMiniMapLevel(TEnumAsByte<EMiniMapLevels::Type> LevelType, bool hideCurrentMap, bool ShowMap, bool LoadNavMesh, bool AllowMiniMapReveal);
+    void SetMiniMapLevel(EMiniMapLevels::Type LevelType, bool hideCurrentMap, bool ShowMap, bool LoadNavMesh, bool AllowMiniMapReveal);
     
     UFUNCTION(BlueprintCallable)
     void SetLockMiniMapReveal(bool pLockMiniMapReveal);
@@ -280,7 +280,7 @@ public:
     void QuickFadeInMinimap();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void MinimapScaleChanged(TEnumAsByte<EMiniMapSizeOption> MiniMapSize);
+    void MinimapScaleChanged(EMiniMapSizeOption MiniMapSize);
     
     UFUNCTION(BlueprintCallable)
     bool IsParentHoverDrone();

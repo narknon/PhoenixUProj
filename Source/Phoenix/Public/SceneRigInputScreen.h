@@ -33,7 +33,7 @@ public:
     
 protected:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetPositionAndPadding(TEnumAsByte<EHorizontalAlignment> HAlign, TEnumAsByte<EVerticalAlignment> VAlign, FMargin InPadding);
+    void SetPositionAndPadding(EHorizontalAlignment HAlign, EVerticalAlignment VAlign, FMargin InPadding);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetModifierButtonCallout(const FString& ModButtonLegend, bool DisplayModifierFirst);

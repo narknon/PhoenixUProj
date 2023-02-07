@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<init>
+		<log text="Wwise UPL init" />
+	</init>
+	<resourceCopies>
+		<copyDir src="$S(PluginDir)/../../ThirdParty/Android_$S(Architecture)/Profile/bin/" dst="$S(BuildDir)/libs/$S(Architecture)/" />
+		<log text="Wwise plug-ins copied for Android architecture: $S(Architecture)" />
+		<copyDir src="$S(PluginDir)/../../ThirdParty/Android/$S(Architecture)/Profile/bin/" dst="$S(BuildDir)/libs/$S(Architecture)/" />
+		<log text="Wwise plug-ins copied for Android architecture: $S(Architecture)" />
+	</resourceCopies>
+</root>

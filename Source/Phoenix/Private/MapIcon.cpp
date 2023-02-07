@@ -1,7 +1,7 @@
 #include "MapIcon.h"
 #include "MapIconInstance.h"
 
-void UMapIcon::StopAnimationAndChain(TEnumAsByte<EMapIconState> NextState) {
+void UMapIcon::StopAnimationAndChain(EMapIconState NextState) {
 }
 
 void UMapIcon::StopAnimation() {
@@ -13,7 +13,7 @@ void UMapIcon::SetTargetScale(float Scale) {
 void UMapIcon::SetTargetColor(FLinearColor pTargetColor) {
 }
 
-void UMapIcon::SetState(TEnumAsByte<EMapIconState> IconState, bool SaveState) {
+void UMapIcon::SetState(EMapIconState IconState, bool SaveState) {
 }
 
 void UMapIcon::SetStartingScale(float Scale) {

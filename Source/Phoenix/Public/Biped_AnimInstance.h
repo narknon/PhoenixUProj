@@ -277,7 +277,7 @@ public:
     void StartSettingCinematicRightArmState(ERightArmState::Type InState, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void StartSettingCinematicLeftArmState(TEnumAsByte<ELeftArmState::Type> InState, bool bBroadcastChange);
+    void StartSettingCinematicLeftArmState(ELeftArmState::Type InState, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetWandEquipped(bool WandEquipped);
@@ -292,7 +292,7 @@ public:
     void SetStationMode(const TEnumAsByte<EStationMode::Type>& InMode);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange);
+    void SetRightArmState(ERightArmState::Type InState, ERightArmPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetPickupTool(APickupTool* InPickupTool);
@@ -313,7 +313,7 @@ public:
     void SetMobilityState(const TEnumAsByte<EMobilityState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetLeftArmState(TEnumAsByte<ELeftArmState::Type> InState, TEnumAsByte<ELeftArmPriority::Type> InPriority, bool bBroadcastChange);
+    void SetLeftArmState(ELeftArmState::Type InState, ELeftArmPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetIsHoldingAttack(bool InHoldingAttack);
@@ -337,7 +337,7 @@ public:
     void SetDodgeState(const TEnumAsByte<EDodgeState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetCombatAdditiveState(TEnumAsByte<ECombatAdditiveState::Type> InState, TEnumAsByte<ECombatAdditivePriority::Type> InPriority, bool bBroadcastChange);
+    void SetCombatAdditiveState(ECombatAdditiveState::Type InState, ECombatAdditivePriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetAttackState(const TEnumAsByte<EAttackState::Type>& InState);
@@ -367,16 +367,16 @@ public:
     void PopBasicMobilityMode(int32 UniqueId);
     
     UFUNCTION(BlueprintCallable)
-    void OnLeftArmStateChanged(TEnumAsByte<ELeftArmState::Type> InLeftArmState);
+    void OnLeftArmStateChanged(ELeftArmState::Type InLeftArmState);
     
     UFUNCTION(BlueprintCallable)
-    void OnCombatAdditiveStateChanged(TEnumAsByte<ECombatAdditiveState::Type> InCombatAdditiveState);
+    void OnCombatAdditiveStateChanged(ECombatAdditiveState::Type InCombatAdditiveState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetStationState(TEnumAsByte<EStationState::Type>& OutState);
+    void GetStationState(EStationState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetStationMode(TEnumAsByte<EStationMode::Type>& OutMode);
+    void GetStationMode(EStationMode::Type& OutMode);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     TEnumAsByte<ERightArmState::Type> GetRightArmState(TEnumAsByte<ERightArmPriority::Type> InPriority);
@@ -385,22 +385,22 @@ public:
     APickupTool* GetPickupTool();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetPartialBodyState(TEnumAsByte<EPartialBodyState::Type>& OutState);
+    void GetPartialBodyState(EPartialBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetParryStateNext(TEnumAsByte<EParryState::Type>& OutState);
+    void GetParryStateNext(EParryState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetParryState(TEnumAsByte<EParryState::Type>& OutState);
+    void GetParryState(EParryState::Type& OutState);
     
     UFUNCTION(BlueprintCallable)
     int32 GetNumberOfAttackingActors();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetMobilityStateLast(TEnumAsByte<EMobilityState::Type>& OutState);
+    void GetMobilityStateLast(EMobilityState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetMobilityState(TEnumAsByte<EMobilityState::Type>& OutState);
+    void GetMobilityState(EMobilityState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     TEnumAsByte<ELeftArmState::Type> GetLeftArmState();
@@ -412,7 +412,7 @@ public:
     EHeadTrackingState::Type GetHeadTrackingState();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetHarvestState(TEnumAsByte<EHarvestState::Type>& OutState);
+    void GetHarvestState(EHarvestState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void GetFullBodyStateLast(EFullBodyState::Type& OutState);
@@ -427,7 +427,7 @@ public:
     AActor* GetFirstAttackingActor();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetDodgeState(TEnumAsByte<EDodgeState::Type>& OutState);
+    void GetDodgeState(EDodgeState::Type& OutState);
     
     UFUNCTION(BlueprintCallable)
     TEnumAsByte<EBasicMobilityMode::Type> GetDefaultBasicMobilityMode();
@@ -436,10 +436,10 @@ public:
     TEnumAsByte<EBasicMobilityMode::Type> GetCurrentBasicMobilityMode();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetAttackState(TEnumAsByte<EAttackState::Type>& OutState);
+    void GetAttackState(EAttackState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetAdditiveBodyState(TEnumAsByte<EAdditiveBodyState::Type>& OutState);
+    void GetAdditiveBodyState(EAdditiveBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
     bool GetAbortAnim() const;

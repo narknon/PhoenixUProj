@@ -1,39 +1,41 @@
 {
-	"FileVersion": 3,
-	"Version": 202112311,
-	"VersionName": "2021.1.9.7847.2311",
-	"FriendlyName": "Wwise Unreal Engine Integration",
-	"Description": "Wwise integration for Unreal Engine",
-	"Category": "Audio",
-	"CreatedBy": "Audiokinetic, Inc.",
-	"CreatedByURL": "http://audiokinetic.com",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
-	"EnabledByDefault": true,
-	"CanContainContent": true,
-	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
-	"Installed": false,
-	"Modules": [
+	"FileVersion" : 1,
+	
+	"FriendlyName" : "Wwise Unreal Engine Integration",
+	"Version" : 202112311,
+	"VersionName" : "2021.1.9.7847.2311",
+	"CreatedBy" : "Audiokinetic, Inc.",
+	"CreatedByURL" : "http://audiokinetic.com",
+	"EngineVersion" : "4.27.0",
+	"Description" : "Wwise integration for Unreal Engine",
+	"Category" : "Audio",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
 		{
-			"Name": "AkAudio",
+			"Name": "AkAudioMixer",
 			"Type": "Runtime",
 			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name" : "AkAudio",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		},
+		{
+			"Name" : "AudiokineticTools",
+			"Type" : "Editor"
 		}
 	],
-	"Plugins": [
+	
+	"Plugins":
+	[
 		{
 			"Name": "GeometryMode",
 			"Enabled": true
-		},
-		{
-			"Name": "MasterTickThrottler",
-			"Enabled": true
-		},
-		{
-			"Name": "Utilities",
-			"Enabled": true
 		}
-	]
+	],
+	
+	"CanContainContent" : true
 }

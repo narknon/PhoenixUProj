@@ -3,10 +3,10 @@
 class AActor;
 class APickupTool;
 
-void UBiped_AnimInstance::StartSettingCinematicRightArmState_Implementation(TEnumAsByte<ERightArmState::Type> InState, bool bBroadcastChange) {
+void UBiped_AnimInstance::StartSettingCinematicRightArmState_Implementation(ERightArmState::Type InState, bool bBroadcastChange) {
 }
 
-void UBiped_AnimInstance::StartSettingCinematicLeftArmState_Implementation(TEnumAsByte<ELeftArmState::Type> InState, bool bBroadcastChange) {
+void UBiped_AnimInstance::StartSettingCinematicLeftArmState_Implementation(ELeftArmState::Type InState, bool bBroadcastChange) {
 }
 
 void UBiped_AnimInstance::SetWandEquipped_Implementation(bool WandEquipped) {
@@ -21,7 +21,7 @@ void UBiped_AnimInstance::SetStationState_Implementation(const TEnumAsByte<EStat
 void UBiped_AnimInstance::SetStationMode_Implementation(const TEnumAsByte<EStationMode::Type>& InMode) {
 }
 
-void UBiped_AnimInstance::SetRightArmState_Implementation(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange) {
+void UBiped_AnimInstance::SetRightArmState_Implementation(ERightArmState::Type InState, ERightArmPriority::Type InPriority, bool bBroadcastChange) {
 }
 
 void UBiped_AnimInstance::SetPickupTool_Implementation(APickupTool* InPickupTool) {
@@ -42,7 +42,7 @@ void UBiped_AnimInstance::SetMobilityStateLast_Implementation(const TEnumAsByte<
 void UBiped_AnimInstance::SetMobilityState_Implementation(const TEnumAsByte<EMobilityState::Type>& InState) {
 }
 
-void UBiped_AnimInstance::SetLeftArmState_Implementation(TEnumAsByte<ELeftArmState::Type> InState, TEnumAsByte<ELeftArmPriority::Type> InPriority, bool bBroadcastChange) {
+void UBiped_AnimInstance::SetLeftArmState_Implementation(ELeftArmState::Type InState, ELeftArmPriority::Type InPriority, bool bBroadcastChange) {
 }
 
 void UBiped_AnimInstance::SetIsHoldingAttack_Implementation(bool InHoldingAttack) {
@@ -66,7 +66,7 @@ void UBiped_AnimInstance::SetFullBodyState_Implementation(const EFullBodyState::
 void UBiped_AnimInstance::SetDodgeState_Implementation(const TEnumAsByte<EDodgeState::Type>& InState) {
 }
 
-void UBiped_AnimInstance::SetCombatAdditiveState_Implementation(TEnumAsByte<ECombatAdditiveState::Type> InState, TEnumAsByte<ECombatAdditivePriority::Type> InPriority, bool bBroadcastChange) {
+void UBiped_AnimInstance::SetCombatAdditiveState_Implementation(ECombatAdditiveState::Type InState, ECombatAdditivePriority::Type InPriority, bool bBroadcastChange) {
 }
 
 void UBiped_AnimInstance::SetAttackState_Implementation(const TEnumAsByte<EAttackState::Type>& InState) {
@@ -96,16 +96,16 @@ void UBiped_AnimInstance::PushNewBasicMobilityMode(const int32 UniqueIDOverride,
 void UBiped_AnimInstance::PopBasicMobilityMode(int32 UniqueId) {
 }
 
-void UBiped_AnimInstance::OnLeftArmStateChanged(TEnumAsByte<ELeftArmState::Type> InLeftArmState) {
+void UBiped_AnimInstance::OnLeftArmStateChanged(ELeftArmState::Type InLeftArmState) {
 }
 
-void UBiped_AnimInstance::OnCombatAdditiveStateChanged(TEnumAsByte<ECombatAdditiveState::Type> InCombatAdditiveState) {
+void UBiped_AnimInstance::OnCombatAdditiveStateChanged(ECombatAdditiveState::Type InCombatAdditiveState) {
 }
 
-void UBiped_AnimInstance::GetStationState_Implementation(TEnumAsByte<EStationState::Type>& OutState) {
+void UBiped_AnimInstance::GetStationState_Implementation(EStationState::Type& OutState) {
 }
 
-void UBiped_AnimInstance::GetStationMode_Implementation(TEnumAsByte<EStationMode::Type>& OutMode) {
+void UBiped_AnimInstance::GetStationMode_Implementation(EStationMode::Type& OutMode) {
 }
 
 TEnumAsByte<ERightArmState::Type> UBiped_AnimInstance::GetRightArmState_Implementation(TEnumAsByte<ERightArmPriority::Type> InPriority) {
@@ -116,23 +116,23 @@ APickupTool* UBiped_AnimInstance::GetPickupTool_Implementation() {
     return NULL;
 }
 
-void UBiped_AnimInstance::GetPartialBodyState_Implementation(TEnumAsByte<EPartialBodyState::Type>& OutState) {
+void UBiped_AnimInstance::GetPartialBodyState_Implementation(EPartialBodyState::Type& OutState) {
 }
 
-void UBiped_AnimInstance::GetParryStateNext_Implementation(TEnumAsByte<EParryState::Type>& OutState) {
+void UBiped_AnimInstance::GetParryStateNext_Implementation(EParryState::Type& OutState) {
 }
 
-void UBiped_AnimInstance::GetParryState_Implementation(TEnumAsByte<EParryState::Type>& OutState) {
+void UBiped_AnimInstance::GetParryState_Implementation(EParryState::Type& OutState) {
 }
 
 int32 UBiped_AnimInstance::GetNumberOfAttackingActors() {
     return 0;
 }
 
-void UBiped_AnimInstance::GetMobilityStateLast_Implementation(TEnumAsByte<EMobilityState::Type>& OutState) {
+void UBiped_AnimInstance::GetMobilityStateLast_Implementation(EMobilityState::Type& OutState) {
 }
 
-void UBiped_AnimInstance::GetMobilityState_Implementation(TEnumAsByte<EMobilityState::Type>& OutState) {
+void UBiped_AnimInstance::GetMobilityState_Implementation(EMobilityState::Type& OutState) {
 }
 
 TEnumAsByte<ELeftArmState::Type> UBiped_AnimInstance::GetLeftArmState_Implementation() {
@@ -147,7 +147,7 @@ EHeadTrackingState::Type UBiped_AnimInstance::GetHeadTrackingState_Implementatio
     return EHeadTrackingState::None;
 }
 
-void UBiped_AnimInstance::GetHarvestState_Implementation(TEnumAsByte<EHarvestState::Type>& OutState) {
+void UBiped_AnimInstance::GetHarvestState_Implementation(EHarvestState::Type& OutState) {
 }
 
 void UBiped_AnimInstance::GetFullBodyStateLast_Implementation(EFullBodyState::Type& OutState) {
@@ -164,7 +164,7 @@ AActor* UBiped_AnimInstance::GetFirstAttackingActor() {
     return NULL;
 }
 
-void UBiped_AnimInstance::GetDodgeState_Implementation(TEnumAsByte<EDodgeState::Type>& OutState) {
+void UBiped_AnimInstance::GetDodgeState_Implementation(EDodgeState::Type& OutState) {
 }
 
 TEnumAsByte<EBasicMobilityMode::Type> UBiped_AnimInstance::GetDefaultBasicMobilityMode() {
@@ -175,10 +175,10 @@ TEnumAsByte<EBasicMobilityMode::Type> UBiped_AnimInstance::GetCurrentBasicMobili
     return EBasicMobilityMode::Normal;
 }
 
-void UBiped_AnimInstance::GetAttackState_Implementation(TEnumAsByte<EAttackState::Type>& OutState) {
+void UBiped_AnimInstance::GetAttackState_Implementation(EAttackState::Type& OutState) {
 }
 
-void UBiped_AnimInstance::GetAdditiveBodyState_Implementation(TEnumAsByte<EAdditiveBodyState::Type>& OutState) {
+void UBiped_AnimInstance::GetAdditiveBodyState_Implementation(EAdditiveBodyState::Type& OutState) {
 }
 
 bool UBiped_AnimInstance::GetAbortAnim_Implementation() const {

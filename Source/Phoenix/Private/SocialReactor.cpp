@@ -10,7 +10,7 @@ bool USocialReactor::ValidateInteractionType(FName InTargetName, AActor* InTarge
     return false;
 }
 
-void USocialReactor::ToggleAmbientChatterTopic(TEnumAsByte<AmbientChatterTopicIDs> InTopic, bool bInTurnOn) {
+void USocialReactor::ToggleAmbientChatterTopic(AmbientChatterTopicIDs InTopic, bool bInTurnOn) {
 }
 
 void USocialReactor::StartSettingMissionGossipCalloutsMuted(bool InMuted, EStandardManagedPriority InPriority, UObject* InCaller) {
@@ -22,7 +22,7 @@ void USocialReactor::StartEmoAbility(APawn* InActorPawn) {
 void USocialReactor::SetEmotionalState(FName InActorName, TEnumAsByte<SocialSemanticIDs> InSocialEmotion, int32 InMagnitude) {
 }
 
-void USocialReactor::ReportSocialAction(TEnumAsByte<SocialActionTypes> inActionID, const FString& inActionData, const FString& inLocationName, const FString& InTargetName) {
+void USocialReactor::ReportSocialAction(SocialActionTypes inActionID, const FString& inActionData, const FString& inLocationName, const FString& InTargetName) {
 }
 
 void USocialReactor::PerformNewDay() {

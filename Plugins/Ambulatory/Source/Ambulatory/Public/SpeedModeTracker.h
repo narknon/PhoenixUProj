@@ -11,10 +11,10 @@ class AMBULATORY_API USpeedModeTracker : public UObject {
 public:
     USpeedModeTracker();
     UFUNCTION(BlueprintCallable)
-    void SetTargetSpeedMode(TEnumAsByte<ETargetSpeedMode::Type> InSpeedMode, TEnumAsByte<ETargetSpeedPriority::Type> InPriority, bool bBroadcastChange);
+    void SetTargetSpeedMode(ETargetSpeedMode::Type InSpeedMode, ETargetSpeedPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable)
-    void SetBaseTargetSpeedMode(TEnumAsByte<ETargetSpeedMode::Type> InSpeedMode);
+    void SetBaseTargetSpeedMode(ETargetSpeedMode::Type InSpeedMode);
     
     UFUNCTION(BlueprintCallable)
     TEnumAsByte<ETargetSpeedMode::Type> GetTargetSpeedMode();
@@ -23,7 +23,7 @@ public:
     TEnumAsByte<ETargetSpeedMode::Type> GetBaseTargetSpeedMode();
     
     UFUNCTION(BlueprintCallable)
-    void ClearTargetSpeedMode(TEnumAsByte<ETargetSpeedPriority::Type> InPriority, bool bBroadcastChange);
+    void ClearTargetSpeedMode(ETargetSpeedPriority::Type InPriority, bool bBroadcastChange);
     
 };
 

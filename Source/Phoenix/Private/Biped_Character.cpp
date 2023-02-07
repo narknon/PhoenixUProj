@@ -29,7 +29,7 @@ void ABiped_Character::UnEquipWand_Implementation() {
 void ABiped_Character::StartCrouching(const UObject* Provider, TEnumAsByte<ETargetSpeedMode::Type> SpeedMode, TEnumAsByte<ETargetSpeedMode::Type> SpeedModifier) {
 }
 
-void ABiped_Character::StairsStateHasChanged(TEnumAsByte<EStairsState::Type> InLastStairsState, TEnumAsByte<EStairsState::Type> InNewStairsState) {
+void ABiped_Character::StairsStateHasChanged(EStairsState::Type> InLastStairsState, TEnumAsByte<EStairsState::Type InNewStairsState) {
 }
 
 void ABiped_Character::SetTargetDirection(FVector i_targetDirection) {
@@ -50,7 +50,7 @@ void ABiped_Character::SetSpellCastHandle_Implementation(int32 InSpellCastHandle
 void ABiped_Character::SetSpell(int32 Group, int32 Index, USpellToolRecord* Spell) {
 }
 
-void ABiped_Character::SetRightArmState_Implementation(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange) {
+void ABiped_Character::SetRightArmState_Implementation(ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type InPriority, bool bBroadcastChange) {
 }
 
 void ABiped_Character::SetRayCastActor(AActor* i_pRayCastActor) {
@@ -87,7 +87,7 @@ FName ABiped_Character::ParkourJump_Implementation(FName DefaultNode) {
     return NAME_None;
 }
 
-void ABiped_Character::OnHoverDroneControlModeChanged(TEnumAsByte<EHoverDroneControlMode::Type> NewMode) {
+void ABiped_Character::OnHoverDroneControlModeChanged(EHoverDroneControlMode::Type NewMode) {
 }
 
 void ABiped_Character::OnEquippedChanged(ATool* ActivatedTool, ATool* DeactivatedTool) {
@@ -167,10 +167,10 @@ APickupTool* ABiped_Character::GetPickupTool_Implementation() {
     return NULL;
 }
 
-void ABiped_Character::GetPartialBodyState_Implementation(TEnumAsByte<EPartialBodyState::Type>& OutState) {
+void ABiped_Character::GetPartialBodyState_Implementation(EPartialBodyState::Type& OutState) {
 }
 
-void ABiped_Character::GetParryState_Implementation(TEnumAsByte<EParryState::Type>& OutState) {
+void ABiped_Character::GetParryState_Implementation(EParryState::Type& OutState) {
 }
 
 FTransform ABiped_Character::GetOriginalLedgeTransform() const {
@@ -223,16 +223,16 @@ FVector ABiped_Character::GetAutoTargetFocusDirection_Implementation() {
     return FVector{};
 }
 
-void ABiped_Character::GetAdditiveBodyState_Implementation(TEnumAsByte<EAdditiveBodyState::Type>& OutState) {
+void ABiped_Character::GetAdditiveBodyState_Implementation(EAdditiveBodyState::Type& OutState) {
 }
 
 void ABiped_Character::FinishCrouching(const UObject* Provider) {
 }
 
-void ABiped_Character::FacingTargetsListIsNowEmpty(TEnumAsByte<ETargetType::Type> LastTargetType, TEnumAsByte<ETargetID::Type> LastTargetID) {
+void ABiped_Character::FacingTargetsListIsNowEmpty(ETargetType::Type> LastTargetType, TEnumAsByte<ETargetID::Type LastTargetID) {
 }
 
-void ABiped_Character::FacingNotifyOfNewBestTarget(TEnumAsByte<ETargetType::Type> NewTargetType, TEnumAsByte<ETargetID::Type> NewTargetID) {
+void ABiped_Character::FacingNotifyOfNewBestTarget(ETargetType::Type> NewTargetType, TEnumAsByte<ETargetID::Type NewTargetID) {
 }
 
 void ABiped_Character::EquipWand_Implementation() {
@@ -272,10 +272,10 @@ bool ABiped_Character::CanLandOnLedge() const {
 void ABiped_Character::CancelCurrentSpell(bool RemoveDisillusionment) const {
 }
 
-void ABiped_Character::CalculateLedgePullUpState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType) {
+void ABiped_Character::CalculateLedgePullUpState(EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type& OutType) {
 }
 
-void ABiped_Character::CalculateClimbingLedgeState_Implementation(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType) {
+void ABiped_Character::CalculateClimbingLedgeState_Implementation(EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type& OutType) {
 }
 
 bool ABiped_Character::AdjustHealth(float change, bool bDontKill) {

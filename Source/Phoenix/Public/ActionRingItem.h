@@ -27,7 +27,7 @@ public:
     void SetItemInventoryData();
     
     UFUNCTION(BlueprintCallable)
-    void SetItemData(TEnumAsByte<UIActionModes> ActionMode, int32 iGroupIndex, int32 iMacroIndex, int32 iItemIndex, bool ShowNone);
+    void SetItemData(UIActionModes ActionMode, int32 iGroupIndex, int32 iMacroIndex, int32 iItemIndex, bool ShowNone);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnUpdateMeter(float pct, bool IsASpell);

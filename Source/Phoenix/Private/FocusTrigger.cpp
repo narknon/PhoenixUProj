@@ -3,7 +3,7 @@
 class AActor;
 class UPrimitiveComponent;
 
-void AFocusTrigger::SetTheReaction(TEnumAsByte<SocialActionTypes> InSocialAction) {
+void AFocusTrigger::SetTheReaction(SocialActionTypes InSocialAction) {
 }
 
 void AFocusTrigger::SetTheFocusProbablity(float InProbability) {
@@ -15,7 +15,7 @@ void AFocusTrigger::SetTheFocusOffset(FVector InFocusOffset) {
 void AFocusTrigger::SetTheFocusActor(AActor* InFocusActor) {
 }
 
-void AFocusTrigger::SetTheEmotion(TEnumAsByte<SocialSemanticIDs> InEmotion) {
+void AFocusTrigger::SetTheEmotion(SocialSemanticIDs InEmotion) {
 }
 
 void AFocusTrigger::SetTheActionProbablity(float InProbability) {

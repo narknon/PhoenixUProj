@@ -17,7 +17,7 @@ void UIcarus3DMovementComponent::DisableFlying(bool bSwitchToGroundNavigation) {
 void UIcarus3DMovementComponent::BehaviorTakeOffStart(TSubclassOf<UAblAbility> TakeOffAbility, bool bTeleportIfNoTakeOffAbility) {
 }
 
-void UIcarus3DMovementComponent::BehaviorStop(TEnumAsByte<EBehaviorResult::Type> Result) {
+void UIcarus3DMovementComponent::BehaviorStop(EBehaviorResult::Type Result) {
 }
 
 void UIcarus3DMovementComponent::BehaviorLandingLocationStart(FVector LocationToLandAt, float Height) {

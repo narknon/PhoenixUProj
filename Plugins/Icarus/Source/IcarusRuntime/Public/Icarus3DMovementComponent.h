@@ -46,7 +46,7 @@ public:
     void BehaviorTakeOffStart(TSubclassOf<UAblAbility> TakeOffAbility, bool bTeleportIfNoTakeOffAbility);
     
     UFUNCTION(BlueprintCallable)
-    void BehaviorStop(TEnumAsByte<EBehaviorResult::Type> Result);
+    void BehaviorStop(EBehaviorResult::Type Result);
     
     UFUNCTION(BlueprintCallable)
     void BehaviorLandingLocationStart(FVector LocationToLandAt, float Height);

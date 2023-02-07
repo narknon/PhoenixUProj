@@ -697,7 +697,7 @@ public:
     void SetLastSafeInteractLocation(FVector Location);
     
     UFUNCTION(BlueprintCallable)
-    void SetLastEdgeState(TEnumAsByte<EEdgeState::Type> InEdgeState);
+    void SetLastEdgeState(EEdgeState::Type InEdgeState);
     
     UFUNCTION(BlueprintCallable)
     void SetInvulnerableTime(float invulnerableTime);

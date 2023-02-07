@@ -388,7 +388,7 @@ public:
     void TriggerMapScreenFadeIn();
     
     UFUNCTION(BlueprintCallable)
-    void TriggerAccessibility(TEnumAsByte<EAccessibilityAudioCueEventType> Type, AActor* Actor);
+    void TriggerAccessibility(EAccessibilityAudioCueEventType Type, AActor* Actor);
     
     UFUNCTION(BlueprintCallable, Exec)
     void TeleportToListIndex(int32 Index);
@@ -1099,7 +1099,7 @@ public:
     bool AreItemsRevealed(const FString& ItemName);
     
     UFUNCTION(BlueprintCallable)
-    void ActivateMapByType(TEnumAsByte<EMapTypes::Type> MapType, bool fromOverland, bool fromDungeon);
+    void ActivateMapByType(EMapTypes::Type MapType, bool fromOverland, bool fromDungeon);
     
     UFUNCTION(BlueprintCallable)
     void ActivateMap();

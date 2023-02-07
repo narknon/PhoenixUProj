@@ -190,7 +190,7 @@ public:
     void StartCrouching(const UObject* Provider, TEnumAsByte<ETargetSpeedMode::Type> SpeedMode, TEnumAsByte<ETargetSpeedMode::Type> SpeedModifier);
     
     UFUNCTION(BlueprintCallable)
-    void StairsStateHasChanged(TEnumAsByte<EStairsState::Type> InLastStairsState, TEnumAsByte<EStairsState::Type> InNewStairsState);
+    void StairsStateHasChanged(EStairsState::Type InLastStairsState, EStairsState::Type InNewStairsState);
     
     UFUNCTION(BlueprintCallable)
     void SetTargetDirection(FVector i_targetDirection);
@@ -211,7 +211,7 @@ public:
     void SetSpell(int32 Group, int32 Index, USpellToolRecord* Spell);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange);
+    void SetRightArmState(ERightArmState::Type InState, ERightArmPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable)
     void SetRayCastActor(AActor* i_pRayCastActor);
@@ -247,7 +247,7 @@ public:
     FName ParkourJump(FName DefaultNode);
     
     UFUNCTION(BlueprintCallable)
-    void OnHoverDroneControlModeChanged(TEnumAsByte<EHoverDroneControlMode::Type> NewMode);
+    void OnHoverDroneControlModeChanged(EHoverDroneControlMode::Type NewMode);
     
     UFUNCTION(BlueprintCallable)
     void OnEquippedChanged(ATool* ActivatedTool, ATool* DeactivatedTool);
@@ -310,10 +310,10 @@ public:
     APickupTool* GetPickupTool();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetPartialBodyState(TEnumAsByte<EPartialBodyState::Type>& OutState);
+    void GetPartialBodyState(EPartialBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetParryState(TEnumAsByte<EParryState::Type>& OutState);
+    void GetParryState(EParryState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FTransform GetOriginalLedgeTransform() const;
@@ -355,16 +355,16 @@ public:
     FVector GetAutoTargetFocusDirection();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetAdditiveBodyState(TEnumAsByte<EAdditiveBodyState::Type>& OutState);
+    void GetAdditiveBodyState(EAdditiveBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable)
     void FinishCrouching(const UObject* Provider);
     
     UFUNCTION(BlueprintCallable)
-    void FacingTargetsListIsNowEmpty(TEnumAsByte<ETargetType::Type> LastTargetType, TEnumAsByte<ETargetID::Type> LastTargetID);
+    void FacingTargetsListIsNowEmpty(ETargetType::Type LastTargetType, ETargetID::Type LastTargetID);
     
     UFUNCTION(BlueprintCallable)
-    void FacingNotifyOfNewBestTarget(TEnumAsByte<ETargetType::Type> NewTargetType, TEnumAsByte<ETargetID::Type> NewTargetID);
+    void FacingNotifyOfNewBestTarget(ETargetType::Type NewTargetType, ETargetID::Type NewTargetID);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void EquipWand();
@@ -400,10 +400,10 @@ public:
     void CancelCurrentSpell(bool RemoveDisillusionment) const;
     
     UFUNCTION(BlueprintCallable)
-    void CalculateLedgePullUpState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
+    void CalculateLedgePullUpState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void CalculateClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
+    void CalculateClimbingLedgeState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType);
     
     UFUNCTION(BlueprintCallable)
     bool AdjustHealth(float change, bool bDontKill);

@@ -33,7 +33,7 @@ private:
     
 public:
     UFUNCTION(BlueprintCallable)
-    void SetMobility(TEnumAsByte<EComponentMobility::Type> InMobility);
+    void SetMobility(EComponentMobility::Type InMobility);
     
 };
 

@@ -1,9 +1,9 @@
 #include "SpeedModeTracker.h"
 
-void USpeedModeTracker::SetTargetSpeedMode(TEnumAsByte<ETargetSpeedMode::Type> InSpeedMode, TEnumAsByte<ETargetSpeedPriority::Type> InPriority, bool bBroadcastChange) {
+void USpeedModeTracker::SetTargetSpeedMode(ETargetSpeedMode::Type InSpeedMode, ETargetSpeedPriority::Type InPriority, bool bBroadcastChange) {
 }
 
-void USpeedModeTracker::SetBaseTargetSpeedMode(TEnumAsByte<ETargetSpeedMode::Type> InSpeedMode) {
+void USpeedModeTracker::SetBaseTargetSpeedMode(ETargetSpeedMode::Type InSpeedMode) {
 }
 
 TEnumAsByte<ETargetSpeedMode::Type> USpeedModeTracker::GetTargetSpeedMode() {
@@ -14,7 +14,7 @@ TEnumAsByte<ETargetSpeedMode::Type> USpeedModeTracker::GetBaseTargetSpeedMode() 
     return ETargetSpeedMode::None;
 }
 
-void USpeedModeTracker::ClearTargetSpeedMode(TEnumAsByte<ETargetSpeedPriority::Type> InPriority, bool bBroadcastChange) {
+void USpeedModeTracker::ClearTargetSpeedMode(ETargetSpeedPriority::Type InPriority, bool bBroadcastChange) {
 }
 
 USpeedModeTracker::USpeedModeTracker() {

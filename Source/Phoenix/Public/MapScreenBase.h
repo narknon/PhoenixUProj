@@ -86,7 +86,7 @@ public:
     void ShowFastTravelList();
     
     UFUNCTION(BlueprintCallable)
-    void SetZoomType(TEnumAsByte<EMapZoomTypes::Type> ZoomType);
+    void SetZoomType(EMapZoomTypes::Type ZoomType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetTipLegend_Event(const FText& NewLegend);
@@ -98,7 +98,7 @@ public:
     void SetMouseDelta(FVector2D Delta);
     
     UFUNCTION(BlueprintCallable)
-    void SetMapType(TEnumAsByte<EMapTypes::Type> MapType);
+    void SetMapType(EMapTypes::Type MapType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetLocationName_Event(const FString& PrimarayLocationName);
@@ -272,7 +272,7 @@ public:
     void ClearMouseButtons();
     
     UFUNCTION(BlueprintCallable)
-    void ClearMouseButton(TEnumAsByte<EMapScreenMouseButtonID> buttonID);
+    void ClearMouseButton(EMapScreenMouseButtonID buttonID);
     
 };
 

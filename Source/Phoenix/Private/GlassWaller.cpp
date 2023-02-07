@@ -6,7 +6,7 @@ bool AGlassWaller::WithEditor() {
     return false;
 }
 
-void AGlassWaller::SetMobility(TEnumAsByte<EComponentMobility::Type> InMobility) {
+void AGlassWaller::SetMobility(EComponentMobility::Type InMobility) {
 }
 
 AGlassWaller::AGlassWaller() {

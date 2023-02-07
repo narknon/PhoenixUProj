@@ -28,16 +28,16 @@ private:
 public:
     UUIAccessibilityManager();
     UFUNCTION(BlueprintCallable)
-    static void TriggerAccessibilityEventLeave(TEnumAsByte<EAccessibilityAudioCueEventType> EventType, AActor* EventActor);
+    static void TriggerAccessibilityEventLeave(EAccessibilityAudioCueEventType EventType, AActor* EventActor);
     
     UFUNCTION(BlueprintCallable)
-    static void TriggerAccessibilityEventEnter(TEnumAsByte<EAccessibilityAudioCueEventType> EventType, AActor* EventActor);
+    static void TriggerAccessibilityEventEnter(EAccessibilityAudioCueEventType EventType, AActor* EventActor);
     
     UFUNCTION(BlueprintCallable)
     static void TriggerAccessibilityEventDamage(AActor* EventActor, FVector Location, float Angle, float Damage);
     
     UFUNCTION(BlueprintCallable)
-    static void TriggerAccessibilityEvent(TEnumAsByte<EAccessibilityAudioCueEventType> EventType, AActor* EventActor);
+    static void TriggerAccessibilityEvent(EAccessibilityAudioCueEventType EventType, AActor* EventActor);
     
     UFUNCTION(BlueprintCallable)
     void DeactivateAudioCues();

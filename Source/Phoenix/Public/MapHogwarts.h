@@ -117,7 +117,7 @@ public:
     void ShowPortraitTravel(const TMap<FString, FVector>& Locations);
     
     UFUNCTION(BlueprintCallable)
-    void SetZoomType(TEnumAsByte<EMapZoomTypes::Type> ZoomType);
+    void SetZoomType(EMapZoomTypes::Type ZoomType);
     
     UFUNCTION(BlueprintCallable)
     void SetUseNewIcons(bool pUseNewIcons);

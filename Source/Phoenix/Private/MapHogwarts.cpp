@@ -17,7 +17,7 @@ void UMapHogwarts::UnregisterMarkupActor(AActor* Actor) {
 void UMapHogwarts::ShowPortraitTravel(const TMap<FString, FVector>& Locations) {
 }
 
-void UMapHogwarts::SetZoomType(TEnumAsByte<EMapZoomTypes::Type> ZoomType) {
+void UMapHogwarts::SetZoomType(EMapZoomTypes::Type ZoomType) {
 }
 
 void UMapHogwarts::SetUseNewIcons(bool pUseNewIcons) {

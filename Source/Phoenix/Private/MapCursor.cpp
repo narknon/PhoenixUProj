@@ -24,7 +24,7 @@ void AMapCursor::SetScreenBounds(FVector4 BoundsArray) {
 void AMapCursor::SetRightMouseButtonClicked(bool Clicked) {
 }
 
-void AMapCursor::SetCursorControl(TEnumAsByte<ECursorControlTypes::Type>& ControlType) {
+void AMapCursor::SetCursorControl(ECursorControlTypes::Type& ControlType) {
 }
 
 void AMapCursor::SetCursorBounds(FVector4 BoundsArray) {

@@ -194,7 +194,7 @@ public:
     
 protected:
     UFUNCTION(BlueprintCallable)
-    void OnHoverDroneControlModeChanged(TEnumAsByte<EHoverDroneControlMode::Type> NewMode);
+    void OnHoverDroneControlModeChanged(EHoverDroneControlMode::Type NewMode);
     
 public:
     UFUNCTION(BlueprintCallable)

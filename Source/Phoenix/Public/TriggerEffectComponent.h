@@ -62,10 +62,10 @@ private:
 public:
     UTriggerEffectComponent();
     UFUNCTION(BlueprintCallable)
-    void RemoveObjectTypeToAffect(TEnumAsByte<EObjectTypeQuery> ObjectType);
+    void RemoveObjectTypeToAffect(EObjectTypeQuery ObjectType);
     
     UFUNCTION(BlueprintCallable)
-    void AddObjectTypeToAffect(TEnumAsByte<EObjectTypeQuery> ObjectType);
+    void AddObjectTypeToAffect(EObjectTypeQuery ObjectType);
     
 };
 

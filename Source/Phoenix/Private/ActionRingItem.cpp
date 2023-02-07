@@ -11,7 +11,7 @@ void UActionRingItem::SetSpellTool() {
 void UActionRingItem::SetItemInventoryData() {
 }
 
-void UActionRingItem::SetItemData(TEnumAsByte<UIActionModes> ActionMode, int32 iGroupIndex, int32 iMacroIndex, int32 iItemIndex, bool ShowNone) {
+void UActionRingItem::SetItemData(UIActionModes ActionMode, int32 iGroupIndex, int32 iMacroIndex, int32 iItemIndex, bool ShowNone) {
 }
 
 

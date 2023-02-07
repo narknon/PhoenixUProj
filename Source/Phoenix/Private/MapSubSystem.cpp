@@ -41,7 +41,7 @@ void UMapSubSystem::TriggerMapScreenFadeOut() {
 void UMapSubSystem::TriggerMapScreenFadeIn() {
 }
 
-void UMapSubSystem::TriggerAccessibility(TEnumAsByte<EAccessibilityAudioCueEventType> Type, AActor* Actor) {
+void UMapSubSystem::TriggerAccessibility(EAccessibilityAudioCueEventType Type, AActor* Actor) {
 }
 
 void UMapSubSystem::TeleportToListIndex(int32 Index) {
@@ -829,7 +829,7 @@ bool UMapSubSystem::AreItemsRevealed(const FString& ItemName) {
     return false;
 }
 
-void UMapSubSystem::ActivateMapByType(TEnumAsByte<EMapTypes::Type> MapType, bool fromOverland, bool fromDungeon) {
+void UMapSubSystem::ActivateMapByType(EMapTypes::Type MapType, bool fromOverland, bool fromDungeon) {
 }
 
 void UMapSubSystem::ActivateMap() {

@@ -752,7 +752,7 @@ void UUIManager::FadeOut(float Duration) {
 void UUIManager::FadeIn(float Duration) {
 }
 
-void UUIManager::ExitFieldGuideWithReason(TEnumAsByte<EFieldGuideExitReasons> ExitReason, bool SkipFadeScreen, int32 CharacterID, const FString& Filename, const FString& FastTravelName) {
+void UUIManager::ExitFieldGuideWithReason(EFieldGuideExitReasons ExitReason, bool SkipFadeScreen, int32 CharacterID, const FString& Filename, const FString& FastTravelName) {
 }
 
 void UUIManager::DropLoadScreen() {

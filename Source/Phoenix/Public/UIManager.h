@@ -848,7 +848,7 @@ public:
     void FadeIn(float Duration);
     
     UFUNCTION(BlueprintCallable)
-    void ExitFieldGuideWithReason(TEnumAsByte<EFieldGuideExitReasons> ExitReason, bool SkipFadeScreen, int32 CharacterID, const FString& Filename, const FString& FastTravelName);
+    void ExitFieldGuideWithReason(EFieldGuideExitReasons ExitReason, bool SkipFadeScreen, int32 CharacterID, const FString& Filename, const FString& FastTravelName);
     
     UFUNCTION(BlueprintCallable)
     void DropLoadScreen();

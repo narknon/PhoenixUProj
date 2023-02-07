@@ -208,7 +208,7 @@ public:
     void SetLandingType(ELandingType::Type InType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetJumpingType(TEnumAsByte<EJumpingType::Type> InType);
+    void SetJumpingType(EJumpingType::Type InType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetIsViewAlignedWithDesiredDirection(bool InFlag);
@@ -229,10 +229,10 @@ public:
     void SetGlobalIKState(bool State);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type> InType);
+    void SetClimbingLedgeState(EClimbingLedgeState::Type InType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetClimbingLadderState(TEnumAsByte<EClimbingLadderState::Type> InType);
+    void SetClimbingLadderState(EClimbingLadderState::Type InType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void Set_WandCastMelee(const bool bInFlag);
@@ -259,10 +259,10 @@ public:
     void Set_PlayRate(float InPlayRate);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void Set_MobilityModeState(TEnumAsByte<EMobilityModeState::Type> InState);
+    void Set_MobilityModeState(EMobilityModeState::Type InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void Set_MobilityActionState(TEnumAsByte<EMobilityActionState::Type> InState);
+    void Set_MobilityActionState(EMobilityActionState::Type InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void Set_MaxSpeed(float InMaxSpeed);
@@ -334,7 +334,7 @@ public:
     void GetLandingType(ELandingType::Type& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetJumpingType(TEnumAsByte<EJumpingType::Type>& OutType);
+    void GetJumpingType(EJumpingType::Type& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool GetIKState();
@@ -343,10 +343,10 @@ public:
     bool GetGlobalIKState();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutType);
+    void GetClimbingLedgeState(EClimbingLedgeState::Type& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetClimbingLadderState(TEnumAsByte<EClimbingLadderState::Type>& OutType);
+    void GetClimbingLadderState(EClimbingLadderState::Type& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool Get_WandCastMelee();
@@ -364,19 +364,19 @@ public:
     void Get_Speed(float& OutSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void Get_PrevMobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutState);
+    void Get_PrevMobilityModeState(EMobilityModeState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void Get_PrevMobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutState);
+    void Get_PrevMobilityActionState(EMobilityActionState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void Get_PlayRate(float& OutPlayRate);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void Get_MobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutState);
+    void Get_MobilityModeState(EMobilityModeState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void Get_MobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutState);
+    void Get_MobilityActionState(EMobilityActionState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void Get_MaxSpeed(float& OutMaxSpeed);

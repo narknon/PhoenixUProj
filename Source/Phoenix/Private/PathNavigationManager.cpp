@@ -146,7 +146,7 @@ bool UPathNavigationManager::ExecuteSave(const int32 CharacterID) {
     return false;
 }
 
-void UPathNavigationManager::Debug_StartMap(TEnumAsByte<EMapTypes::Type> MapTypeIn, UWorld* WorldIn) {
+void UPathNavigationManager::Debug_StartMap(EMapTypes::Type MapTypeIn, UWorld* WorldIn) {
 }
 
 void UPathNavigationManager::ClearWaypointPathTarget() {

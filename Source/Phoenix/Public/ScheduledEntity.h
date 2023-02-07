@@ -268,10 +268,10 @@ public:
     FVector GetLocation();
     
     UFUNCTION(BlueprintCallable)
-    void GetGoalStatus(TEnumAsByte<E_Goal::Type> GoalType, FGoalStatus& GoalStatus);
+    void GetGoalStatus(E_Goal::Type GoalType, FGoalStatus& GoalStatus);
     
     UFUNCTION(BlueprintCallable)
-    void GetGoalActivity(TEnumAsByte<E_Goal::Type> GoalType, bool& ActivityIsValid, FScheduleEntry& RequestedActivity);
+    void GetGoalActivity(E_Goal::Type GoalType, bool& ActivityIsValid, FScheduleEntry& RequestedActivity);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     APawn* GetFlesh() const;

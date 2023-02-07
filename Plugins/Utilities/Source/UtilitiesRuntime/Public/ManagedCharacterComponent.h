@@ -16,7 +16,7 @@ class UTILITIESRUNTIME_API UManagedCharacterComponent : public UManagedStateComp
 public:
     UManagedCharacterComponent();
     UFUNCTION(BlueprintCallable)
-    void StartSettingMovementMode(TEnumAsByte<EMovementMode> InMovementMode, EManagedMovementModePriority Priority, const UObject* Provider);
+    void StartSettingMovementMode(EMovementMode InMovementMode, EManagedMovementModePriority Priority, const UObject* Provider);
     
     UFUNCTION(BlueprintCallable)
     void SetStartFacialEmotionWithTags(EFacialEmotion Emotion, UObject* Provider, float Transition, EManagedFacialEmotionPriority ManagedFacialEmotionPriority, FGameplayTagContainer AnimTags);
