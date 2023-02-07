@@ -5,6 +5,7 @@
 #include "AlphaBlend.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EEvaluatorRootMotion -FallbackName=EEvaluatorRootMotion
 #include "EAnimBlendTickStyle.h"
+#include "EEvaluatorRootMotion.h"
 #include "AblAbilityContext.generated.h"
 
 class AActor;

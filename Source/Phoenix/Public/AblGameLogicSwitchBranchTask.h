@@ -4,6 +4,7 @@
 #include "EAnimBlendTickStyle.h"
 #include "AlphaBlend.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EEvaluatorRootMotion -FallbackName=EEvaluatorRootMotion
+#include "EEvaluatorRootMotion.h"
 #include "Name_GameLogicBoolResult.h"
 #include "Templates/SubclassOf.h"
 #include "AblGameLogicSwitchBranchTask.generated.h"

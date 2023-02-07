@@ -35,7 +35,7 @@ protected:
     
 public:
     UFUNCTION(BlueprintCallable)
-    void HandleConfirmExitDialog(EUMGInputAction ExitAction, TEnumAsByte<EInputEvent> ExitEvent, const FString& TitleText, const FString& DescText);
+    void HandleConfirmExitDialog(EUMGInputAction ExitAction, EInputEvent ExitEvent, const FString& TitleText, const FString& DescText);
     
     UFUNCTION(BlueprintCallable)
     bool ExecuteSave(const int32 CharacterID);

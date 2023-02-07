@@ -3,6 +3,7 @@
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EWorldCalcSceneViewType -FallbackName=EWorldCalcSceneViewType
+#include "EWorldCalcSceneViewType.h"
 #include "PostProcessSettingsWeak.h"
 #include "CalcViewInfo.generated.h"
 

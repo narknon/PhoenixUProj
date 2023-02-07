@@ -6,7 +6,7 @@
 #include "SceneActionState_WeatherSequenceLightingPostProcessing.generated.h"
 
 UCLASS(Blueprintable)
-class WEATHER_API USceneActionState_WeatherSequenceLightingPostProcessing : public USceneActionState_WeatherSequenceLightingBase, public IInterface_PostProcessVolume {
+class WEATHER_API USceneActionState_WeatherSequenceLightingPostProcessing : public USceneActionState_WeatherSequenceLightingBase/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))

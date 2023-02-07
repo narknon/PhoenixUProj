@@ -95,10 +95,10 @@ public:
     void SetParryState(const TEnumAsByte<EParryState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetFullBodyStateLast(const TEnumAsByte<EFullBodyState::Type>& InState);
+    void SetFullBodyStateLast(const EFullBodyState::Type& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetFullBodyState(const TEnumAsByte<EFullBodyState::Type>& InState);
+    void SetFullBodyState(const EFullBodyState::Type& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetFinisherOptimalRatio(const float OptimalRatio, TEnumAsByte<EDynamicForceFeedbackAction::Type> FeedbackAction);
@@ -221,10 +221,10 @@ public:
     AActor* GetHighlitActor();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetFullBodyStateLast(TEnumAsByte<EFullBodyState::Type>& OutState);
+    void GetFullBodyStateLast(EFullBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetFullBodyState(TEnumAsByte<EFullBodyState::Type>& OutState);
+    void GetFullBodyState(EFullBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     FVector GetBestLockOnActor_WorldLocation();

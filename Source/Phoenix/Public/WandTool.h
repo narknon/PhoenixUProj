@@ -211,7 +211,7 @@ public:
     void SetProjectileSpeedMultiplier(float Multiplier);
     
     UFUNCTION(BlueprintCallable)
-    void SetNextWandCastType(TEnumAsByte<EWandCastType::Type> WandCastState);
+    void SetNextWandCastType(EWandCastType::Type WandCastState);
     
     UFUNCTION(BlueprintCallable)
     void SetNextLightCastAbility(TSubclassOf<UAblAbility> InAbility);

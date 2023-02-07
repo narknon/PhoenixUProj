@@ -42,7 +42,7 @@ public:
     void Consume();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void BroadcastAction(const FBTCustomAction ActionName, const TEnumAsByte<EBTCustomActionType::Type> ActionType, FVariantMapHandle VarMapHandle, bool bDestroyVarMap);
+    void BroadcastAction(const FBTCustomAction ActionName, const EBTCustomActionType::Type ActionType, FVariantMapHandle VarMapHandle, bool bDestroyVarMap);
     
     
     // Fix for true pure virtual functions not being implemented

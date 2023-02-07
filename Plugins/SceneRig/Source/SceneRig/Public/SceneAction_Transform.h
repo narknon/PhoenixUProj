@@ -4,6 +4,7 @@
 #include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RuntimeCurveVector -FallbackName=RuntimeCurveVector
 #include "ESceneAction_ClothingTeleportMode.h"
+#include "RuntimeCurveVector.h"
 #include "SceneAction_AnimateCurves.h"
 #include "SceneAction_Transform.generated.h"
 

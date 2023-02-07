@@ -36,7 +36,7 @@ FName UBTService_AvaAITree::GetActiveLeafNodeName() {
 void UBTService_AvaAITree::Consume_Implementation() {
 }
 
-void UBTService_AvaAITree::BroadcastAction_Implementation(const FBTCustomAction ActionName, const TEnumAsByte<EBTCustomActionType::Type> ActionType, FVariantMapHandle VarMapHandle, bool bDestroyVarMap) {
+void UBTService_AvaAITree::BroadcastAction_Implementation(const FBTCustomAction ActionName, const EBTCustomActionType::Type ActionType, FVariantMapHandle VarMapHandle, bool bDestroyVarMap) {
 }
 
 UBTService_AvaAITree::UBTService_AvaAITree() {

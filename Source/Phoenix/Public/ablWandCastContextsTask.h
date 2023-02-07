@@ -11,7 +11,7 @@ class UablWandCastContextsTask : public UAblAbilityTask {
 public:
 protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<TEnumAsByte<EWandCastType::Type>, FFrameToContexts> WandCastTypeToContextMap;
+    TMap<EWandCastType::Type, FFrameToContexts> WandCastTypeToContextMap;
     
 public:
     UablWandCastContextsTask();

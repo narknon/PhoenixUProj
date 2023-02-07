@@ -10,7 +10,7 @@ class UAblBranchConditionFullBodyState : public UAblBranchCondition {
 public:
 protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TEnumAsByte<EFullBodyState::Type> FullBodyState;
+    EFullBodyState::Type FullBodyState;
     
 public:
     UAblBranchConditionFullBodyState();

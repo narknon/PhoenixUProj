@@ -7,7 +7,7 @@
 #include "RenderSettingsPostProcessingVolume.generated.h"
 
 UCLASS(Abstract, Blueprintable)
-class RENDERSETTINGS_API ARenderSettingsPostProcessingVolume : public AVolume, public IInterface_PostProcessVolume {
+class RENDERSETTINGS_API ARenderSettingsPostProcessingVolume : public AVolume/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -6,7 +6,7 @@ class UObject;
 void UMastermindBPLibrary::SimulateTappedInput(const UObject* InWorldContextObject, FKey InInputKey) {
 }
 
-void UMastermindBPLibrary::SimulateInput(const UObject* InWorldContextObject, FKey InInputKey, TEnumAsByte<EInputEvent> InInputEvent) {
+void UMastermindBPLibrary::SimulateInput(const UObject* InWorldContextObject, FKey InInputKey, EInputEvent InInputEvent) {
 }
 
 void UMastermindBPLibrary::SimulateAxis(const UObject* InWorldContextObject, FKey InInputKey, float InDelta) {

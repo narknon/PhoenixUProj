@@ -5,5 +5,5 @@
 
 class ALockable;
 
-UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE_TwoParams(FPlayerFailedToUnlockLock, ALockable*, Lockable, EUnlockFailedReason, UnlockFailedReason);
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FPlayerFailedToUnlockLock, ALockable*, Lockable, EUnlockFailedReason, UnlockFailedReason);
 

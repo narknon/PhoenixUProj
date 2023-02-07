@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EVisibilityGroupMask -FallbackName=EVisibilityGroupMask
+#include "EVisibilityGroupMask.h"
 #include "Components/SceneComponent.h"
 #include "VolumetricCloudsGroundShadowsCutOut.h"
 #include "VolumetricCloudsGroundShadowsParams.h"

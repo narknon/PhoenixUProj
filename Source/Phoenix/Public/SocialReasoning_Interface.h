@@ -15,10 +15,10 @@ class ISocialReasoning_Interface : public IInterface {
     GENERATED_BODY()
 public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void RunEQS_FindStations(TEnumAsByte<EEnvQueryRunMode::Type> RunMode, FQueryFinishedData& QueryFinishedDelegate);
+    void RunEQS_FindStations(EEnvQueryRunMode::Type RunMode, FQueryFinishedData& QueryFinishedDelegate);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void RunEQS_FindSocialReasonings(TEnumAsByte<EEnvQueryRunMode::Type> RunMode, FQueryFinishedData& QueryFinishedDelegate);
+    void RunEQS_FindSocialReasonings(EEnvQueryRunMode::Type RunMode, FQueryFinishedData& QueryFinishedDelegate);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void PlayerSighted();

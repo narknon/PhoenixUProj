@@ -76,16 +76,16 @@ public:
     void SetInventoryResult(const FInventoryResult InInventoryResult);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetHeadTrackingState(TEnumAsByte<EHeadTrackingState::Type> InState, TEnumAsByte<EHeadTrackingPriority::Type> InPriority, bool bBroadcastChange);
+    void SetHeadTrackingState(EHeadTrackingState::Type InState, EHeadTrackingPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetHarvestState(const TEnumAsByte<EHarvestState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetFullBodyStateLast(const TEnumAsByte<EFullBodyState::Type>& InState);
+    void SetFullBodyStateLast(const EFullBodyState::Type& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetFullBodyState(const TEnumAsByte<EFullBodyState::Type>& InState);
+    void SetFullBodyState(const EFullBodyState::Type& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetFireOnce(bool InFireOnce);
@@ -151,16 +151,16 @@ public:
     FInventoryResult GetInventoryResult();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    TEnumAsByte<EHeadTrackingState::Type> GetHeadTrackingState();
+    EHeadTrackingState::Type GetHeadTrackingState();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void GetHarvestState(TEnumAsByte<EHarvestState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetFullBodyStateLast(TEnumAsByte<EFullBodyState::Type>& OutState);
+    void GetFullBodyStateLast(EFullBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetFullBodyState(TEnumAsByte<EFullBodyState::Type>& OutState);
+    void GetFullBodyState(EFullBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void GetDodgeState(TEnumAsByte<EDodgeState::Type>& OutState);

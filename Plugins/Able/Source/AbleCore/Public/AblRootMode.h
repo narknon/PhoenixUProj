@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "EEvaluatorRootMotion.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EEvaluatorRootMotion -FallbackName=EEvaluatorRootMotion
 #include "AblRootMode.generated.h"
 

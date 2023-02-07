@@ -6,5 +6,5 @@
 
 class ASocialReasoning;
 
-UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FRunEQS_FinishedDelegate, const ASocialReasoning*, SocialReasoning, TEnumAsByte<EEnvQueryRunMode::Type>, RunMode, const FQueryFinishedData&, QueryFinishedDelegate);
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FRunEQS_FinishedDelegate, const ASocialReasoning*, SocialReasoning, EEnvQueryRunMode::Type, RunMode, const FQueryFinishedData&, QueryFinishedDelegate);
 

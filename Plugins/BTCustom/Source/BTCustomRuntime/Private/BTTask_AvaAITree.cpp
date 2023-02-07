@@ -30,7 +30,7 @@ AActor* UBTTask_AvaAITree::GetActorOwner() {
 void UBTTask_AvaAITree::Consume_Implementation() {
 }
 
-void UBTTask_AvaAITree::BroadcastAction_Implementation(const FBTCustomAction ActionName, const TEnumAsByte<EBTCustomActionType::Type> ActionType, FVariantMapHandle VarMapHandle, bool bDestroyVarMap) {
+void UBTTask_AvaAITree::BroadcastAction_Implementation(const FBTCustomAction ActionName, const EBTCustomActionType::Type ActionType, FVariantMapHandle VarMapHandle, bool bDestroyVarMap) {
 }
 
 UBTTask_AvaAITree::UBTTask_AvaAITree() {

@@ -25,7 +25,7 @@ public:
     void SetAttackTypeTag(FGameplayTag InType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    TEnumAsByte<EEnemyAIAnimTransState::Type> GetTransState() const;
+    EEnemyAIAnimTransState::Type GetTransState() const;
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     UEnemyAISpawnData* GetSpawnData() const;

@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ESeasonEnum -FallbackName=ESeasonEnum
+#include "ESeasonEnum.h"
 #include "SeasonOverrideVolume.h"
 #include "SeasonFXOverrideVolume.generated.h"
 

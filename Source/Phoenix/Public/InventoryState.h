@@ -29,7 +29,7 @@ public:
     void InitializeState(UUserWidget* OwningWidget);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    bool HandleUMGInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent, UUserWidget* InventoryButton);
+    bool HandleUMGInputAction(EUMGInputAction InputAction, EInputEvent InputEvent, UUserWidget* InventoryButton);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool HandleClicked(UUserWidget* InventoryButton);

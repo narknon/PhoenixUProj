@@ -4,6 +4,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EEvaluatorRootMotion -FallbackName=EEvaluatorRootMotion
 #include "AblAbilityTask.h"
 #include "EAnimBlendTickStyle.h"
+#include "EEvaluatorRootMotion.h"
 #include "Templates/SubclassOf.h"
 #include "AblBranchTask.generated.h"
 

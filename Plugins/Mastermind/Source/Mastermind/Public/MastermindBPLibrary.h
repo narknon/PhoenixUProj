@@ -22,7 +22,7 @@ public:
     static void SimulateTappedInput(const UObject* InWorldContextObject, FKey InInputKey);
     
     UFUNCTION(BlueprintCallable, meta=(WorldContext="InWorldContextObject"))
-    static void SimulateInput(const UObject* InWorldContextObject, FKey InInputKey, TEnumAsByte<EInputEvent> InInputEvent);
+    static void SimulateInput(const UObject* InWorldContextObject, FKey InInputKey, EInputEvent InInputEvent);
     
     UFUNCTION(BlueprintCallable, meta=(WorldContext="InWorldContextObject"))
     static void SimulateAxis(const UObject* InWorldContextObject, FKey InInputKey, float InDelta);

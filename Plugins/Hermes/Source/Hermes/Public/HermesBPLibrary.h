@@ -15,13 +15,13 @@ class HERMES_API UHermesBPLibrary : public UBlueprintFunctionLibrary {
     GENERATED_BODY()
 public:
     DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesVectorDelegate, const UObject*, Caller, const FVector&, Vector);
-    DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesIntDelegate, const UObject*, Caller, int32, int);
+    DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesIntDelegate, const UObject*, Caller, int32, Int);
     DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesHitResultDelegate, const UObject*, Caller, const FHitResult&, HitResult);
     DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesGuidDelegate, const UObject*, Caller, const FGuid&, Guid);
     DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesFTextDelegate, const UObject*, Caller, const FText&, Text);
     DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesFStringDelegate, const UObject*, Caller, const FString&, String);
     DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesFNameDelegate, const UObject*, Caller, const FName&, String);
-    DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesFloatDelegate, const UObject*, Caller, float, float);
+    DECLARE_DYNAMIC_DELEGATE_TwoParams(FHermesFloatDelegate, const UObject*, Caller, float, Float);
     DECLARE_DYNAMIC_DELEGATE_OneParam(FHermesEventDelegate, const UObject*, Caller);
     DECLARE_DYNAMIC_DELEGATE_ThreeParams(FHermesDoubleIntDelegate, const UObject*, Caller, int32, Int1, int32, Int2);
     DECLARE_DYNAMIC_DELEGATE_ThreeParams(FHermesDoubleFStringDelegate, const UObject*, Caller, const FString&, String1, const FString&, String2);
@@ -35,7 +35,7 @@ public:
     static void HermesExecuteOwnedVector(const FString& Name, const UObject* Owner, const UObject* Caller, const FVector& Vector);
     
     UFUNCTION(BlueprintCallable)
-    static void HermesExecuteOwnedInt(const FString& Name, const UObject* Owner, const UObject* Caller, int32 int);
+    static void HermesExecuteOwnedInt(const FString& Name, const UObject* Owner, const UObject* Caller, int32 Int);
     
     UFUNCTION(BlueprintCallable)
     static void HermesExecuteOwnedHitResult(const FString& Name, const UObject* Owner, const UObject* Caller, const FHitResult& HitResult);
@@ -53,7 +53,7 @@ public:
     static void HermesExecuteOwnedFName(const FString& Name, const UObject* Owner, const UObject* Caller, const FName& String);
     
     UFUNCTION(BlueprintCallable)
-    static void HermesExecuteOwnedFloat(const FString& Name, const UObject* Owner, const UObject* Caller, float float);
+    static void HermesExecuteOwnedFloat(const FString& Name, const UObject* Owner, const UObject* Caller, float Float);
     
     UFUNCTION(BlueprintCallable)
     static void HermesExecuteOwnedEvent(const FString& Name, const UObject* Owner, const UObject* Caller);
@@ -71,7 +71,7 @@ public:
     static void HermesExecuteAllVector(const FString& Name, const UObject* Caller, const FVector& Vector);
     
     UFUNCTION(BlueprintCallable)
-    static void HermesExecuteAllInt(const FString& Name, const UObject* Caller, int32 int);
+    static void HermesExecuteAllInt(const FString& Name, const UObject* Caller, int32 Int);
     
     UFUNCTION(BlueprintCallable)
     static void HermesExecuteAllHitResult(const FString& Name, const UObject* Caller, const FHitResult& HitResult);
@@ -89,7 +89,7 @@ public:
     static void HermesExecuteAllFName(const FString& Name, const UObject* Caller, const FName& String);
     
     UFUNCTION(BlueprintCallable)
-    static void HermesExecuteAllFloat(const FString& Name, const UObject* Caller, float float);
+    static void HermesExecuteAllFloat(const FString& Name, const UObject* Caller, float Float);
     
     UFUNCTION(BlueprintCallable)
     static void HermesExecuteAllEvent(const FString& Name, const UObject* Caller);

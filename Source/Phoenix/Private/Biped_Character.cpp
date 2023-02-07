@@ -65,10 +65,10 @@ void ABiped_Character::SetPartialBodyState_Implementation(const TEnumAsByte<EPar
 void ABiped_Character::SetParryState_Implementation(const TEnumAsByte<EParryState::Type>& InState) {
 }
 
-void ABiped_Character::SetFullBodyStateLast_Implementation(const TEnumAsByte<EFullBodyState::Type>& InState) {
+void ABiped_Character::SetFullBodyStateLast_Implementation(const EFullBodyState::Type& InState) {
 }
 
-void ABiped_Character::SetFullBodyState_Implementation(const TEnumAsByte<EFullBodyState::Type>& InState) {
+void ABiped_Character::SetFullBodyState_Implementation(const EFullBodyState::Type& InState) {
 }
 
 void ABiped_Character::SetFinisherOptimalRatio_Implementation(const float OptimalRatio, TEnumAsByte<EDynamicForceFeedbackAction::Type> FeedbackAction) {
@@ -193,10 +193,10 @@ float ABiped_Character::GetHealth() {
     return 0.0f;
 }
 
-void ABiped_Character::GetFullBodyStateLast_Implementation(TEnumAsByte<EFullBodyState::Type>& OutState) {
+void ABiped_Character::GetFullBodyStateLast_Implementation(EFullBodyState::Type& OutState) {
 }
 
-void ABiped_Character::GetFullBodyState_Implementation(TEnumAsByte<EFullBodyState::Type>& OutState) {
+void ABiped_Character::GetFullBodyState_Implementation(EFullBodyState::Type& OutState) {
 }
 
 bool ABiped_Character::GetFinishers(TArray<USpellToolRecord*>& ToolRecordArray) {

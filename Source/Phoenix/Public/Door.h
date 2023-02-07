@@ -102,7 +102,7 @@ public:
     bool SlowPlayerInFrontOfDoor;
     
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
-    int64 Expiry Time;
+    int64 ExpiryTime;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool ForceTickEnabled;
@@ -203,7 +203,7 @@ public:
     void SetState(EDoorState DoorState, bool LockVisible, bool PlaySoundsAndEffects);
     
     UFUNCTION(BlueprintCallable)
-    void SetLockLevel(const UObject* Caller, int32 int);
+    void SetLockLevel(const UObject* Caller, int32 Int);
     
 protected:
     UFUNCTION(BlueprintCallable)

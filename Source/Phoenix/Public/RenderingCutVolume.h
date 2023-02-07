@@ -10,7 +10,7 @@
 class AActor;
 
 UCLASS(Blueprintable)
-class ARenderingCutVolume : public AVolume, public IInterface_PostProcessVolume {
+class ARenderingCutVolume : public AVolume/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

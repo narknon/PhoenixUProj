@@ -4,6 +4,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ESeasonEnum -FallbackName=ESeasonEnum
 #include "GlobalLightingBlendableInterface.h"
 #include "BlendDomain.h"
+#include "ESeasonEnum.h"
 #include "EWeatherSurfaceStormType.h"
 #include "WeatherActionContext.h"
 #include "WeatherDefinitionName.h"

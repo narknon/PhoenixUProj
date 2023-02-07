@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=WLightProbesVolumeCaptureSetup -FallbackName=WLightProbesVolumeCaptureSetup
 #include "LightProbeCaptureSetupComputer.h"
+#include "WLightProbesVolumeCaptureSetup.h"
 #include "LightProbeCaptureLocalFixedSetup.generated.h"
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)

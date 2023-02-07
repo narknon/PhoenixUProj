@@ -22,7 +22,7 @@ bool ACandles::CandleSetup(UObjectStateComponent* i_ObjectStateComp, uint8 i_Can
     return false;
 }
 
-ACandles::ACandles() {
+ACandles::ACandles() : AStaticMeshActor(FObjectInitializer::Get()) {
     this->bStartLit = true;
     this->bGIOnlyLight = false;
     this->bSimulatePhysics = false;

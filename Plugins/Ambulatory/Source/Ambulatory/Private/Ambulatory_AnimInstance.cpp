@@ -3,10 +3,10 @@
 void UAmbulatory_AnimInstance::WandCastInfo_ClearAttackCount() {
 }
 
-void UAmbulatory_AnimInstance::SetWandCastInfo_PreWandCastState(TEnumAsByte<EPreWandCastState::Type> PreWandCastState) {
+void UAmbulatory_AnimInstance::SetWandCastInfo_PreWandCastState(EPreWandCastState::Type PreWandCastState) {
 }
 
-void UAmbulatory_AnimInstance::SetWandCastInfo_AnticipationWandCastState(TEnumAsByte<EPreWandCastState::Type> AnticipationWandCastState) {
+void UAmbulatory_AnimInstance::SetWandCastInfo_AnticipationWandCastState(EPreWandCastState::Type AnticipationWandCastState) {
 }
 
 void UAmbulatory_AnimInstance::SetStartMoveTimeToCurrentTime_Implementation() {
@@ -15,10 +15,10 @@ void UAmbulatory_AnimInstance::SetStartMoveTimeToCurrentTime_Implementation() {
 void UAmbulatory_AnimInstance::SetPlayerIKState_Implementation(bool State) {
 }
 
-void UAmbulatory_AnimInstance::SetNextWandCastType(TEnumAsByte<EWandCastType::Type> WandCastType) {
+void UAmbulatory_AnimInstance::SetNextWandCastType(EWandCastType::Type WandCastType) {
 }
 
-void UAmbulatory_AnimInstance::SetLandingType_Implementation(TEnumAsByte<ELandingType::Type> InType) {
+void UAmbulatory_AnimInstance::SetLandingType_Implementation(ELandingType::Type InType) {
 }
 
 void UAmbulatory_AnimInstance::SetJumpingType_Implementation(TEnumAsByte<EJumpingType::Type> InType) {
@@ -138,7 +138,7 @@ void UAmbulatory_AnimInstance::Revert_MobilityActionState_Implementation() {
 void UAmbulatory_AnimInstance::InitRootMotionModifierVectors_Implementation() {
 }
 
-TEnumAsByte<EPreWandCastState::Type> UAmbulatory_AnimInstance::GetWandCastInfo_AnticipationWandCastState() {
+EPreWandCastState::Type UAmbulatory_AnimInstance::GetWandCastInfo_AnticipationWandCastState() {
     return EPreWandCastState::None;
 }
 
@@ -146,7 +146,7 @@ bool UAmbulatory_AnimInstance::GetPlayerIKState_Implementation() {
     return false;
 }
 
-void UAmbulatory_AnimInstance::GetLandingType_Implementation(TEnumAsByte<ELandingType::Type>& OutType) {
+void UAmbulatory_AnimInstance::GetLandingType_Implementation(ELandingType::Type& OutType) {
 }
 
 void UAmbulatory_AnimInstance::GetJumpingType_Implementation(TEnumAsByte<EJumpingType::Type>& OutType) {

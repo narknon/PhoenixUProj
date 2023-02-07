@@ -66,10 +66,10 @@ public:
     TEnumAsByte<EStationMode::Type> StationMode;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TEnumAsByte<EFullBodyState::Type> FullBodyState;
+    EFullBodyState::Type FullBodyState;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TEnumAsByte<EFullBodyState::Type> FullBodyStateLast;
+    EFullBodyState::Type FullBodyStateLast;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TEnumAsByte<EMobilityState::Type> MobilityTypeState;
@@ -96,7 +96,7 @@ public:
     int32 RightArmActiveCinematicCount;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<TEnumAsByte<EHeadTrackingPriority::Type>, TEnumAsByte<EHeadTrackingState::Type>> HeadTrackingStateMap;
+    TMap<EHeadTrackingPriority::Type, EHeadTrackingState::Type> HeadTrackingStateMap;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TMap<TEnumAsByte<ECombatAdditivePriority::Type>, TEnumAsByte<ECombatAdditiveState::Type>> CombatAdditiveStateMap;
@@ -322,16 +322,16 @@ public:
     void SetInventoryResult(const FInventoryResult InInventoryResult);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetHeadTrackingState(TEnumAsByte<EHeadTrackingState::Type> InState, TEnumAsByte<EHeadTrackingPriority::Type> InPriority, bool bBroadcastChange);
+    void SetHeadTrackingState(EHeadTrackingState::Type InState, EHeadTrackingPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetHarvestState(const TEnumAsByte<EHarvestState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetFullBodyStateLast(const TEnumAsByte<EFullBodyState::Type>& InState);
+    void SetFullBodyStateLast(const EFullBodyState::Type& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetFullBodyState(const TEnumAsByte<EFullBodyState::Type>& InState);
+    void SetFullBodyState(const EFullBodyState::Type& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetDodgeState(const TEnumAsByte<EDodgeState::Type>& InState);
@@ -409,16 +409,16 @@ public:
     FInventoryResult GetInventoryResult();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    TEnumAsByte<EHeadTrackingState::Type> GetHeadTrackingState();
+    EHeadTrackingState::Type GetHeadTrackingState();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void GetHarvestState(TEnumAsByte<EHarvestState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetFullBodyStateLast(TEnumAsByte<EFullBodyState::Type>& OutState);
+    void GetFullBodyStateLast(EFullBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetFullBodyState(TEnumAsByte<EFullBodyState::Type>& OutState);
+    void GetFullBodyState(EFullBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable)
     AActor* GetFirstAttackingActorInStack();

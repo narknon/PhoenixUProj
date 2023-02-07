@@ -6,31 +6,31 @@ void AUMGInputManager::UnregisterUMGInputListener(FUMGInputListener& InputListen
 void AUMGInputManager::UnregisterUMGInputAxis(FUMGInputListener& InputListener, EUMGInputAxis InputAxis) {
 }
 
-void AUMGInputManager::UnregisterUMGInputAction(FUMGInputListener& InputListener, EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent) {
+void AUMGInputManager::UnregisterUMGInputAction(FUMGInputListener& InputListener, EUMGInputAction InputAction, EInputEvent InputEvent) {
 }
 
 void AUMGInputManager::UnregisterInputAxis(EUMGInputAxis InputAxis) {
 }
 
-void AUMGInputManager::UnregisterInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent) {
+void AUMGInputManager::UnregisterInputAction(EUMGInputAction InputAction, EInputEvent InputEvent) {
 }
 
 void AUMGInputManager::RegisterUMGInputAxis(FUMGInputListener& InputListener, EUMGInputAxis InputAxis) {
 }
 
-void AUMGInputManager::RegisterUMGInputAction(FUMGInputListener& InputListener, EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent) {
+void AUMGInputManager::RegisterUMGInputAction(FUMGInputListener& InputListener, EUMGInputAction InputAction, EInputEvent InputEvent) {
 }
 
 void AUMGInputManager::RegisterInputAxis(EUMGInputAxis InputAxis) {
 }
 
-void AUMGInputManager::RegisterInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent) {
+void AUMGInputManager::RegisterInputAction(EUMGInputAction InputAction, EInputEvent InputEvent) {
 }
 
 void AUMGInputManager::OnInputAxis(EUMGInputAxis InputAxis, const float AxisValue) {
 }
 
-void AUMGInputManager::OnInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent) {
+void AUMGInputManager::OnInputAction(EUMGInputAction InputAction, EInputEvent InputEvent) {
 }
 
 FString AUMGInputManager::GetInputAxisEnumValueAsString(EUMGInputAxis InputAxis) {
@@ -44,7 +44,7 @@ FString AUMGInputManager::GetInputActionEnumValueAsString(EUMGInputAction InputA
 void AUMGInputManager::CreateInputAxisBinding(EUMGInputAxis InputAxis) {
 }
 
-void AUMGInputManager::CreateInputActionBinding(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent) {
+void AUMGInputManager::CreateInputActionBinding(EUMGInputAction InputAction, EInputEvent InputEvent) {
 }
 
 AUMGInputManager::AUMGInputManager() {

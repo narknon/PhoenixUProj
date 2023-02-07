@@ -37,7 +37,7 @@ void AWandTool::SpellPreload() {
 void AWandTool::SetProjectileSpeedMultiplier(float Multiplier) {
 }
 
-void AWandTool::SetNextWandCastType(TEnumAsByte<EWandCastType::Type> WandCastState) {
+void AWandTool::SetNextWandCastType(EWandCastType::Type WandCastState) {
 }
 
 void AWandTool::SetNextLightCastAbility(TSubclassOf<UAblAbility> InAbility) {

@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RuntimeCurveVector -FallbackName=RuntimeCurveVector
+#include "RuntimeCurveVector.h"
 #include "SceneAction_AnimateProperty.h"
 #include "SceneAction_AnimateVectorProperty.generated.h"
 

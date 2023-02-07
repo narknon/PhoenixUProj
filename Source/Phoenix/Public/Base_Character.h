@@ -74,10 +74,10 @@ public:
     void StartSettingLODOverride(int32 LODOverride, UObject* Provider);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void RunEQS_FindStations(TEnumAsByte<EEnvQueryRunMode::Type> RunMode, FQueryFinishedData& QueryFinishedDelegate);
+    void RunEQS_FindStations(EEnvQueryRunMode::Type RunMode, FQueryFinishedData& QueryFinishedDelegate);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void RunEQS_FindSocialReasonings(TEnumAsByte<EEnvQueryRunMode::Type> RunMode, FQueryFinishedData& QueryFinishedDelegate);
+    void RunEQS_FindSocialReasonings(EEnvQueryRunMode::Type RunMode, FQueryFinishedData& QueryFinishedDelegate);
     
     UFUNCTION(BlueprintCallable)
     void ReRegisterWithSignificanceManager();

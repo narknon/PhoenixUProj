@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigUnitMutable.h"
 #include "UObject/NoExportTypes.h"
 #include "ControlRigConeConstraint.h"
 #include "RigUnit_ConstrainRotation_DebugSettings.h"
 #include "RigUnit_ConstrainRotation_WorkData.h"
+#include "Units/RigUnit.h"
 #include "RigUnit_ConstrainRotation.generated.h"
 
 USTRUCT(BlueprintType)

@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "RuntimeCurveVector.h"
 #include "TransformProvider.h"
 #include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RuntimeCurveVector -FallbackName=RuntimeCurveVector

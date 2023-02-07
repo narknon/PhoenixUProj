@@ -12,7 +12,7 @@ public:
     EUMGInputAction InputAction;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TEnumAsByte<EInputEvent> InputEvent;
+    EInputEvent InputEvent;
     
     UMGFOCUS_API FUMGInputActionInfo();
 };

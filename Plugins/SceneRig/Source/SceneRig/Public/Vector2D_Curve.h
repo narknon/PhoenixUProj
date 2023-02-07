@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "RuntimeCurveVector2D.h"
 #include "Vector2DProvider.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RuntimeCurveVector2D -FallbackName=RuntimeCurveVector2D
 #include "Vector2D_Curve.generated.h"

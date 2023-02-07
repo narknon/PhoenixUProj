@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.27",
+	"EngineAssociation": "{D6CD33AA-48FB-A06F-36C7-98A13E3ACC37}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -119,10 +119,6 @@
 		},
 		{
 			"Name": "ControlMapper",
-			"Enabled": true
-		},
-		{
-			"Name": "ToolSet",
 			"Enabled": true
 		},
 		{
@@ -306,11 +302,6 @@
 		{
 			"Name": "AvaLocDirect",
 			"Enabled": true
-		},
-		{
-			"Name": "InstanceTool",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/0283702886e8467383899c7b791c4b40"
 		},
 		{
 			"Name": "ComponentNativize",
@@ -552,15 +543,6 @@
 		{
 			"Name": "AnimationBudgetAllocator",
 			"Enabled": true
-		},
-		{
-			"Name": "MegascansPlugin",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
 		},
 		{
 			"Name": "UMGFocus",

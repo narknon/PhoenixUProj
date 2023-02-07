@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RuntimeCurveVector -FallbackName=RuntimeCurveVector
 #include "CameraStackBehaviorBlend.h"
+#include "RuntimeCurveVector.h"
 #include "CameraStackBehaviorAddCameraSpaceTranslationFromTargetSize.generated.h"
 
 class UCameraStackSecondaryTargetGetter;

@@ -4,6 +4,7 @@
 #include "UObject/NoExportTypes.h"
 #include "Engine/DataAsset.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RuntimeCurveVector -FallbackName=RuntimeCurveVector
+#include "RuntimeCurveVector.h"
 #include "Curves/CurveFloat.h"
 #include "PhysicalResponseConfig.generated.h"
 

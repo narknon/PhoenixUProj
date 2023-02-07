@@ -10,7 +10,7 @@ class IBlendableInterface;
 class UBlendableInterface;
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class RENDERSETTINGS_API UPostProcessWithBlendDomainComponent : public USceneComponent, public IInterface_PostProcessVolume {
+class RENDERSETTINGS_API UPostProcessWithBlendDomainComponent : public USceneComponent/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

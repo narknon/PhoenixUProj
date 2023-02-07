@@ -18,10 +18,10 @@ void ABase_Character::StartSettingMaxHeightEnabledValue(bool bValue, EStandardMa
 void ABase_Character::StartSettingLODOverride(int32 LODOverride, UObject* Provider) {
 }
 
-void ABase_Character::RunEQS_FindStations_Implementation(TEnumAsByte<EEnvQueryRunMode::Type> RunMode, FQueryFinishedData& QueryFinishedDelegate) {
+void ABase_Character::RunEQS_FindStations_Implementation(EEnvQueryRunMode::Type RunMode, FQueryFinishedData& QueryFinishedDelegate) {
 }
 
-void ABase_Character::RunEQS_FindSocialReasonings_Implementation(TEnumAsByte<EEnvQueryRunMode::Type> RunMode, FQueryFinishedData& QueryFinishedDelegate) {
+void ABase_Character::RunEQS_FindSocialReasonings_Implementation(EEnvQueryRunMode::Type RunMode, FQueryFinishedData& QueryFinishedDelegate) {
 }
 
 void ABase_Character::ReRegisterWithSignificanceManager() {

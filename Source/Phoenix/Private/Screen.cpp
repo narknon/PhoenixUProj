@@ -5,13 +5,13 @@ class UPhoenixUserWidget;
 void UScreen::ScreenUnregisterAllUMGInputAxis() {
 }
 
-void UScreen::ScreenUnregisterAllUMGInputActions(TEnumAsByte<EInputEvent> InputEvent) {
+void UScreen::ScreenUnregisterAllUMGInputActions(EInputEvent InputEvent) {
 }
 
 void UScreen::ScreenRegisterAllUMGInputAxis() {
 }
 
-void UScreen::ScreenRegisterAllUMGInputActions(TEnumAsByte<EInputEvent> InputEvent) {
+void UScreen::ScreenRegisterAllUMGInputActions(EInputEvent InputEvent) {
 }
 
 void UScreen::OnScreenOutroComplete(UPhoenixUserWidget* PhoenixWidget, int32 OutroType) {

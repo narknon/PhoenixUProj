@@ -33,25 +33,25 @@ public:
     void UnregisterUMGInputAxis(EUMGInputAxis InputAxis);
     
     UFUNCTION(BlueprintCallable)
-    void UnregisterUMGInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent);
+    void UnregisterUMGInputAction(EUMGInputAction InputAction, EInputEvent InputEvent);
     
     UFUNCTION(BlueprintCallable)
     void UnregisterAllUMGInputAxis();
     
     UFUNCTION(BlueprintCallable)
-    void UnregisterAllUMGInputActions(TEnumAsByte<EInputEvent> InputEvent);
+    void UnregisterAllUMGInputActions(EInputEvent InputEvent);
     
     UFUNCTION(BlueprintCallable)
     void RegisterUMGInputAxis(EUMGInputAxis InputAxis);
     
     UFUNCTION(BlueprintCallable)
-    void RegisterUMGInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent);
+    void RegisterUMGInputAction(EUMGInputAction InputAction, EInputEvent InputEvent);
     
     UFUNCTION(BlueprintCallable)
     void RegisterAllUMGInputAxis();
     
     UFUNCTION(BlueprintCallable)
-    void RegisterAllUMGInputActions(TEnumAsByte<EInputEvent> InputEvent);
+    void RegisterAllUMGInputActions(EInputEvent InputEvent);
     
     UFUNCTION(BlueprintCallable)
     void LoseFocus();
@@ -60,7 +60,7 @@ public:
     bool HasFocus() const;
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    bool BlueprintOnUMGInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent);
+    bool BlueprintOnUMGInputAction(EUMGInputAction InputAction, EInputEvent InputEvent);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void BlueprintFocusLost();

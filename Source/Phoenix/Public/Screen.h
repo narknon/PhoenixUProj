@@ -49,13 +49,13 @@ public:
     void ScreenUnregisterAllUMGInputAxis();
     
     UFUNCTION(BlueprintCallable)
-    void ScreenUnregisterAllUMGInputActions(TEnumAsByte<EInputEvent> InputEvent);
+    void ScreenUnregisterAllUMGInputActions(EInputEvent InputEvent);
     
     UFUNCTION(BlueprintCallable)
     void ScreenRegisterAllUMGInputAxis();
     
     UFUNCTION(BlueprintCallable)
-    void ScreenRegisterAllUMGInputActions(TEnumAsByte<EInputEvent> InputEvent);
+    void ScreenRegisterAllUMGInputActions(EInputEvent InputEvent);
     
 protected:
     UFUNCTION(BlueprintCallable)

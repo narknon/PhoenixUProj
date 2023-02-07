@@ -24,7 +24,7 @@ class URenderSettingsCustomBlendDomain;
 class URenderSettingsLibrary;
 
 UCLASS(Blueprintable)
-class RENDERSETTINGS_API ARenderSettingsVolume : public AVolume, public IInterface_PostProcessVolume, public IInterface_RenderSettingsEmissiveAdaptation {
+class RENDERSETTINGS_API ARenderSettingsVolume : public AVolume/*, public IInterface_PostProcessVolume, public IInterface_RenderSettingsEmissiveAdaptation*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

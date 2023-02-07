@@ -14,7 +14,7 @@ void ADoor::SwingDoorFinished() {
 void ADoor::SetState(EDoorState DoorState, bool LockVisible, bool PlaySoundsAndEffects) {
 }
 
-void ADoor::SetLockLevel(const UObject* Caller, int32 int) {
+void ADoor::SetLockLevel(const UObject* Caller, int32 Int) {
 }
 
 void ADoor::SetKeepDoorOpen(bool InKeepDoorOpen) {
@@ -69,7 +69,7 @@ ADoor::ADoor() {
     this->AllowNPCToPassThroughLockedDoor = true;
     this->BlockNPCsIfLocked = false;
     this->SlowPlayerInFrontOfDoor = true;
-    this->Expiry Time = 259200;
+    this->ExpiryTime = 259200;
     this->ForceTickEnabled = false;
     this->bNeverBlockNavGuide = false;
     this->AcousticPortal = NULL;

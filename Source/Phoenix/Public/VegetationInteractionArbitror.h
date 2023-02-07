@@ -20,7 +20,7 @@ public:
     bool bSuspend;
     
 protected:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Export, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Export, Transient, meta=(AllowPrivateAccess=true))
     TSet<TWeakObjectPtr<UVegetationInteractionComponent>> VICs;
     
 public:

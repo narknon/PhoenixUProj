@@ -6,7 +6,7 @@
 #include "WeatherPostProcessingOrphanComponent.generated.h"
 
 UCLASS(Blueprintable, NonTransient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class WEATHER_API UWeatherPostProcessingOrphanComponent : public UWeatherOrphanComponent, public IInterface_PostProcessVolume {
+class WEATHER_API UWeatherPostProcessingOrphanComponent : public UWeatherOrphanComponent/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))

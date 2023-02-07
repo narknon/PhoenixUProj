@@ -6,7 +6,7 @@
 #include "SceneActionState_PostProcessing.generated.h"
 
 UCLASS(Blueprintable)
-class USceneActionState_PostProcessing : public USceneRigActionState, public IInterface_PostProcessVolume {
+class USceneActionState_PostProcessing : public USceneRigActionState/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))

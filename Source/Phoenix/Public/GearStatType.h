@@ -5,7 +5,7 @@
 UENUM(BlueprintType)
 enum GearStatType {
     None = -0x1,
-    Offense,
+    Offense = 0x0,
     Defense,
     Cooldown,
 };

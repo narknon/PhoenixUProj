@@ -2,9 +2,9 @@
 #include "CoreMinimal.h"
 #include "WeatherWindDirectionalSourceComponentBase.h"
 #include "WindParametersInstant.h"
+#include "Phoenix/Public/MultiFX2_WindDirectionalSource.h"
 #include "WeatherWindDirectionalSourceInstantComponent.generated.h"
 
-class UWindGustController;
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew, Transient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class WEATHER_API UWeatherWindDirectionalSourceInstantComponent : public UWeatherWindDirectionalSourceComponentBase {

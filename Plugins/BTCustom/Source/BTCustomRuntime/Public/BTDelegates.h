@@ -7,7 +7,7 @@ USTRUCT(BlueprintType)
 struct FBTDelegates {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     TArray<FBTCustomActionDelegate> DelegateList;
     
     BTCUSTOMRUNTIME_API FBTDelegates();

@@ -7,6 +7,7 @@
 #include "EEventType.h"
 #include "ESchedulerMoonPhase.h"
 #include "ESchedulerTimeDateType.h"
+#include "ESeasonEnum.h"
 #include "EventDateTime.h"
 #include "OnInitiateEndOfDayDelegate.h"
 #include "OnStartNewDayDelegate.h"

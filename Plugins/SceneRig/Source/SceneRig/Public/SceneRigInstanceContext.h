@@ -15,7 +15,7 @@ class ULevelStreaming;
 class UObject;
 
 UCLASS(Blueprintable)
-class SCENERIG_API USceneRigInstanceContext : public UTimeRigInstanceContext, public IMovieScenePlaybackClient, public IAnimationArchitect_TagProviderInterface, public IAnimationArchitect_ComponentOwnerInterface, public IAnimDebugInfo, public ISpawnedActorHost, public IProviderStateHost {
+class SCENERIG_API USceneRigInstanceContext : public UTimeRigInstanceContext/*, public IMovieScenePlaybackClient, public IAnimationArchitect_TagProviderInterface, public IAnimationArchitect_ComponentOwnerInterface, public IAnimDebugInfo, public ISpawnedActorHost, public IProviderStateHost*/ {
     GENERATED_BODY()
 public:
 protected:

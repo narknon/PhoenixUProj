@@ -6,7 +6,7 @@
 #include "PlayerCentricPostProcessingComponent.generated.h"
 
 UCLASS(Blueprintable, CollapseCategories, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class RENDERSETTINGS_API UPlayerCentricPostProcessingComponent : public UActorComponent, public IInterface_PostProcessVolume {
+class RENDERSETTINGS_API UPlayerCentricPostProcessingComponent : public UActorComponent/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

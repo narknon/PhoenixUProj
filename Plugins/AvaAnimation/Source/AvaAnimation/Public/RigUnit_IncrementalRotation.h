@@ -1,11 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EControlRigAnimEasingType.h"
-#include "RigUnitMutable.h"
+
 #include "LookLimits.h"
 #include "RigUnit_IncrementalRotation_DebugSettings.h"
 #include "RigUnit_IncrementalRotation_WorkData.h"
 #include "RigUnit_WB_AimBone_Target.h"
+#include "Math/ControlRigMathLibrary.h"
+#include "Units/RigUnit.h"
 #include "RigUnit_IncrementalRotation.generated.h"
 
 USTRUCT(BlueprintType)

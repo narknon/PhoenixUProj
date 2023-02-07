@@ -35,35 +35,35 @@ public:
     void UnregisterUMGInputAxis(FUMGInputListener& InputListener, EUMGInputAxis InputAxis);
     
     UFUNCTION(BlueprintCallable)
-    void UnregisterUMGInputAction(FUMGInputListener& InputListener, EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent);
+    void UnregisterUMGInputAction(FUMGInputListener& InputListener, EUMGInputAction InputAction, EInputEvent InputEvent);
     
 protected:
     UFUNCTION(BlueprintCallable)
     void UnregisterInputAxis(EUMGInputAxis InputAxis);
     
     UFUNCTION(BlueprintCallable)
-    void UnregisterInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent);
+    void UnregisterInputAction(EUMGInputAction InputAction, EInputEvent InputEvent);
     
 public:
     UFUNCTION(BlueprintCallable)
     void RegisterUMGInputAxis(FUMGInputListener& InputListener, EUMGInputAxis InputAxis);
     
     UFUNCTION(BlueprintCallable)
-    void RegisterUMGInputAction(FUMGInputListener& InputListener, EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent);
+    void RegisterUMGInputAction(FUMGInputListener& InputListener, EUMGInputAction InputAction, EInputEvent InputEvent);
     
 protected:
     UFUNCTION(BlueprintCallable)
     void RegisterInputAxis(EUMGInputAxis InputAxis);
     
     UFUNCTION(BlueprintCallable)
-    void RegisterInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent);
+    void RegisterInputAction(EUMGInputAction InputAction, EInputEvent InputEvent);
     
 public:
     UFUNCTION(BlueprintCallable)
     void OnInputAxis(EUMGInputAxis InputAxis, const float AxisValue);
     
     UFUNCTION(BlueprintCallable)
-    void OnInputAction(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent);
+    void OnInputAction(EUMGInputAction InputAction, EInputEvent InputEvent);
     
     UFUNCTION(BlueprintCallable)
     FString GetInputAxisEnumValueAsString(EUMGInputAxis InputAxis);
@@ -76,7 +76,7 @@ protected:
     void CreateInputAxisBinding(EUMGInputAxis InputAxis);
     
     UFUNCTION(BlueprintCallable)
-    void CreateInputActionBinding(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent);
+    void CreateInputActionBinding(EUMGInputAction InputAction, EInputEvent InputEvent);
     
 };
 

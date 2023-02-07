@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RuntimeCurveVector -FallbackName=RuntimeCurveVector
+#include "RuntimeCurveVector.h"
 #include "Curves/CurveFloat.h"
 #include "SceneRigActionBase.h"
 #include "SceneAction_ModifyMaterialParameterCollection.generated.h"

@@ -8,7 +8,7 @@
 class UMultiFX2_PostProcessingDefinition;
 
 UCLASS(Blueprintable, Transient, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class UMultiFX2PostProcessComponent : public USceneComponent, public IInterface_PostProcessVolume {
+class UMultiFX2PostProcessComponent : public USceneComponent/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -3,6 +3,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EWindSourceCombine -FallbackName=EWindSourceCombine
 #include "MultiFX2_Filtered.h"
 #include "EWindDirectionalEnvelopeAffects.h"
+#include "EWindSourceCombine.h"
 #include "MultiFX2_WindDirectionalSource.generated.h"
 
 class UWindEnvelopeController;

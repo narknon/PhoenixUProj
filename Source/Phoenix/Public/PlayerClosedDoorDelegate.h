@@ -2,5 +2,5 @@
 #include "CoreMinimal.h"
 #include "PlayerClosedDoorDelegate.generated.h"
 
-UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE(FPlayerClosedDoor);
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE(FPlayerClosedDoor);
 

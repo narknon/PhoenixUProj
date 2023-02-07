@@ -50,7 +50,7 @@ public:
     bool IsHidden();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void InteractionTerminated(UStationComponent* InStationComponent, const TEnumAsByte<EEndPlayReason::Type> InTerminationReason);
+    void InteractionTerminated(UStationComponent* InStationComponent, const EEndPlayReason::Type InTerminationReason);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool InDynamicInteraction();

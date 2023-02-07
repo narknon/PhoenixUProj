@@ -3,6 +3,8 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=WLightProbesBlendData -FallbackName=WLightProbesBlendData
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=WLightProbesCaptureEvaluator -FallbackName=WLightProbesCaptureEvaluator
 #include "LightProbeCaptureSetupComputer.h"
+#include "WLightProbesBlendData.h"
+#include "WLightProbesCaptureEvaluator.h"
 #include "LightProbeCaptureTimeSlot.generated.h"
 
 USTRUCT(BlueprintType)

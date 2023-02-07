@@ -13,7 +13,7 @@ class UGlobalLightingBlendableGTAOFromAOVolume;
 class UTextureCube;
 
 UCLASS(Blueprintable)
-class GLOBALLIGHTRIG_API AAmbientOcclusionVolume : public AVolume, public IInterface_PostProcessVolume, public IGlobalLightingBlendableInterface {
+class GLOBALLIGHTRIG_API AAmbientOcclusionVolume : public AVolume/*, public IInterface_PostProcessVolume, public IGlobalLightingBlendableInterface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

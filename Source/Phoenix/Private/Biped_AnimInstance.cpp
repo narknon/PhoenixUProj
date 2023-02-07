@@ -51,16 +51,16 @@ void UBiped_AnimInstance::SetIsHoldingAttack_Implementation(bool InHoldingAttack
 void UBiped_AnimInstance::SetInventoryResult_Implementation(const FInventoryResult InInventoryResult) {
 }
 
-void UBiped_AnimInstance::SetHeadTrackingState_Implementation(TEnumAsByte<EHeadTrackingState::Type> InState, TEnumAsByte<EHeadTrackingPriority::Type> InPriority, bool bBroadcastChange) {
+void UBiped_AnimInstance::SetHeadTrackingState_Implementation(EHeadTrackingState::Type InState, EHeadTrackingPriority::Type InPriority, bool bBroadcastChange) {
 }
 
 void UBiped_AnimInstance::SetHarvestState_Implementation(const TEnumAsByte<EHarvestState::Type>& InState) {
 }
 
-void UBiped_AnimInstance::SetFullBodyStateLast_Implementation(const TEnumAsByte<EFullBodyState::Type>& InState) {
+void UBiped_AnimInstance::SetFullBodyStateLast_Implementation(const EFullBodyState::Type& InState) {
 }
 
-void UBiped_AnimInstance::SetFullBodyState_Implementation(const TEnumAsByte<EFullBodyState::Type>& InState) {
+void UBiped_AnimInstance::SetFullBodyState_Implementation(const EFullBodyState::Type& InState) {
 }
 
 void UBiped_AnimInstance::SetDodgeState_Implementation(const TEnumAsByte<EDodgeState::Type>& InState) {
@@ -143,17 +143,17 @@ FInventoryResult UBiped_AnimInstance::GetInventoryResult_Implementation() {
     return FInventoryResult{};
 }
 
-TEnumAsByte<EHeadTrackingState::Type> UBiped_AnimInstance::GetHeadTrackingState_Implementation() {
+EHeadTrackingState::Type UBiped_AnimInstance::GetHeadTrackingState_Implementation() {
     return EHeadTrackingState::None;
 }
 
 void UBiped_AnimInstance::GetHarvestState_Implementation(TEnumAsByte<EHarvestState::Type>& OutState) {
 }
 
-void UBiped_AnimInstance::GetFullBodyStateLast_Implementation(TEnumAsByte<EFullBodyState::Type>& OutState) {
+void UBiped_AnimInstance::GetFullBodyStateLast_Implementation(EFullBodyState::Type& OutState) {
 }
 
-void UBiped_AnimInstance::GetFullBodyState_Implementation(TEnumAsByte<EFullBodyState::Type>& OutState) {
+void UBiped_AnimInstance::GetFullBodyState_Implementation(EFullBodyState::Type& OutState) {
 }
 
 AActor* UBiped_AnimInstance::GetFirstAttackingActorInStack() {

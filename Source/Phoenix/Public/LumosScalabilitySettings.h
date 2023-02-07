@@ -3,6 +3,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EShadowQualityLevels -FallbackName=EShadowQualityLevels
 #include "ELumosContactShadows.h"
 #include "ELumosLightingScenario.h"
+#include "EShadowQualityLevels.h"
 #include "LumosScalabilitySettings.generated.h"
 
 class ULumosPostProcessingAsset;

@@ -37,7 +37,7 @@ public:
     FName MonitoredAction;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TEnumAsByte<EInputEvent> PressOrRelease;
+    EInputEvent PressOrRelease;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FString OptInMessage;

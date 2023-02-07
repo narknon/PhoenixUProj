@@ -21,10 +21,10 @@ public:
     void Think(const ASocialReasoning* SocialReasoning, const FTimeEvent& TimeEvent);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void RunEQS_FindStations(const ASocialReasoning* SocialReasoning, TEnumAsByte<EEnvQueryRunMode::Type> RunMode, const FQueryFinishedData& QueryFinishedDelegate);
+    void RunEQS_FindStations(const ASocialReasoning* SocialReasoning, EEnvQueryRunMode::Type RunMode, const FQueryFinishedData& QueryFinishedDelegate);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void RunEQS_FindSocialReasonings(const ASocialReasoning* SocialReasoning, TEnumAsByte<EEnvQueryRunMode::Type> RunMode, const FQueryFinishedData& QueryFinishedDelegate);
+    void RunEQS_FindSocialReasonings(const ASocialReasoning* SocialReasoning, EEnvQueryRunMode::Type RunMode, const FQueryFinishedData& QueryFinishedDelegate);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void PlayerSighted(const ASocialReasoning* SocialReasoning);

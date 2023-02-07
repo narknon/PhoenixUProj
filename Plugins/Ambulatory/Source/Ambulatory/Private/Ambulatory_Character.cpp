@@ -54,7 +54,7 @@ void AAmbulatory_Character::SetMobilityModeState_Implementation(TEnumAsByte<EMob
 void AAmbulatory_Character::SetMobilityActionState_Implementation(TEnumAsByte<EMobilityActionState::Type> InMobilityActionState, bool bSetTargetSpeed) {
 }
 
-void AAmbulatory_Character::SetLandingType_Implementation(TEnumAsByte<ELandingType::Type> InType) {
+void AAmbulatory_Character::SetLandingType_Implementation(ELandingType::Type InType) {
 }
 
 void AAmbulatory_Character::SetJumpingType_Implementation(const TEnumAsByte<EJumpingType::Type>& InType) {
@@ -158,7 +158,7 @@ void AAmbulatory_Character::GetLedgeTransform_Implementation(FTransform& LedgeTr
 void AAmbulatory_Character::GetLedgeNormal_Implementation(FVector& LedgeNormal) {
 }
 
-void AAmbulatory_Character::GetLandingType_Implementation(TEnumAsByte<ELandingType::Type>& OutType) {
+void AAmbulatory_Character::GetLandingType_Implementation(ELandingType::Type& OutType) {
 }
 
 void AAmbulatory_Character::GetJumpingType_Implementation(TEnumAsByte<EJumpingType::Type>& OutType) {

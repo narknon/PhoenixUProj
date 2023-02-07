@@ -208,7 +208,7 @@ public:
     void SetMobilityActionState(TEnumAsByte<EMobilityActionState::Type> InMobilityActionState, bool bSetTargetSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetLandingType(TEnumAsByte<ELandingType::Type> InType);
+    void SetLandingType(ELandingType::Type InType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetJumpingType(const TEnumAsByte<EJumpingType::Type>& InType);
@@ -304,7 +304,7 @@ public:
     void GetLedgeNormal(FVector& LedgeNormal);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetLandingType(TEnumAsByte<ELandingType::Type>& OutType);
+    void GetLandingType(ELandingType::Type& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void GetJumpingType(TEnumAsByte<EJumpingType::Type>& OutType);

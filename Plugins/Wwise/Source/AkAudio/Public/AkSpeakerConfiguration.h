@@ -2,10 +2,10 @@
 #include "CoreMinimal.h"
 #include "AkSpeakerConfiguration.generated.h"
 
-UENUM(BlueprintType)
-enum class AkSpeakerConfiguration : uint8 {
+UENUM()
+enum class AkSpeakerConfiguration : uint32 {
     Ak_Speaker_Front_Left = 0x1,
-    Ak_Speaker_Front_Right,
+    Ak_Speaker_Front_Right = 0x0,
     Ak_Speaker_Front_Center = 0x4,
     Ak_Speaker_Low_Frequency = 0x8,
     Ak_Speaker_Back_Left = 0x10,

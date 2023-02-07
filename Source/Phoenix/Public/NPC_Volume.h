@@ -14,7 +14,7 @@ protected:
     UShapeComponent* CollisionComponent;
     
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     TSet<TWeakObjectPtr<AActor>> EnteredList;
     
     ANPC_Volume();

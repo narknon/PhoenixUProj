@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigUnitMutable.h"
 #include "UObject/NoExportTypes.h"
 #include "Curves/CurveFloat.h"
 #include "RigUnit_AddOffsetToControl_BoneOffset.h"
+#include "Units/RigUnit.h"
 #include "RigUnit_AddOffsetToControl.generated.h"
 
 USTRUCT(BlueprintType)

@@ -1,5 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "WindSourceComponentBase.h"
+#include "Components/SceneComponent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=WindSourceComponentBase -FallbackName=WindSourceComponentBase
 #include "WeatherWindDirectionalSourceComponentBase.generated.h"
 

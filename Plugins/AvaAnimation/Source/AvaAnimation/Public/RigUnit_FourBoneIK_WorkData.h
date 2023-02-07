@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigBoneHierarchy.h"
+#include "Rigs/RigBoneHierarchy.h"
 #include "UObject/NoExportTypes.h"
 #include "RigUnit_FourBoneIK_WorkData.generated.h"
 

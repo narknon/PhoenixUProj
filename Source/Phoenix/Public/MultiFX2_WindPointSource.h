@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EWindSourceCombine -FallbackName=EWindSourceCombine
+#include "EWindSourceCombine.h"
 #include "MultiFX2_Filtered.h"
 #include "MultiFX2_WindPointSource.generated.h"
 

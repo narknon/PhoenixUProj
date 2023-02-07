@@ -10,7 +10,7 @@ class ULevelSequencePlayer;
 class UMovieSceneBindingOverrides;
 
 UCLASS(Blueprintable)
-class SCENERIG_API USceneActionState_Sequence : public USceneRigActionState, public ISceneRigBakeSequence, public IMovieScenePlaybackClient {
+class SCENERIG_API USceneActionState_Sequence : public USceneRigActionState/*, public ISceneRigBakeSequence, public IMovieScenePlaybackClient*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

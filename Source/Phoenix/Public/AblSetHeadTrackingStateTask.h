@@ -11,16 +11,16 @@ class UAblSetHeadTrackingStateTask : public UAblAbilityTask {
 public:
 protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TEnumAsByte<EHeadTrackingState::Type> HeadTrackingState;
+    EHeadTrackingState::Type HeadTrackingState;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bUseEndState;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TEnumAsByte<EHeadTrackingState::Type> EndHeadTrackingState;
+    EHeadTrackingState::Type EndHeadTrackingState;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TEnumAsByte<EHeadTrackingPriority::Type> HeadTrackingPriority;
+    EHeadTrackingPriority::Type HeadTrackingPriority;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bBroadcastChange;

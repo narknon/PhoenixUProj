@@ -29,7 +29,7 @@ public:
     void SetPlayerIKState(bool State);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetLandingType(TEnumAsByte<ELandingType::Type> InType);
+    void SetLandingType(ELandingType::Type InType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetJumpingType(TEnumAsByte<EJumpingType::Type> InType);
@@ -149,7 +149,7 @@ public:
     bool GetPlayerIKState();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetLandingType(TEnumAsByte<ELandingType::Type>& OutType);
+    void GetLandingType(ELandingType::Type& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void GetJumpingType(TEnumAsByte<EJumpingType::Type>& OutType);

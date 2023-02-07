@@ -6,7 +6,7 @@
 #include "EmissiveAdaptationFixedOverrideComponent.generated.h"
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
-class UEmissiveAdaptationFixedOverrideComponent : public UEmissiveAdaptationOverrideComponent, public IInterface_PostProcessVolume {
+class UEmissiveAdaptationFixedOverrideComponent : public UEmissiveAdaptationOverrideComponent/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

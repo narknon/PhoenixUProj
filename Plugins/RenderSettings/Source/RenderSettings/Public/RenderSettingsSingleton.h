@@ -23,7 +23,7 @@ class UPlayerCentricPostProcessingComponent;
 class UPostProcessComponent;
 
 UCLASS(Blueprintable, NotPlaceable, Transient)
-class RENDERSETTINGS_API ARenderSettingsSingleton : public AActor, public IInterface_PostProcessVolume {
+class RENDERSETTINGS_API ARenderSettingsSingleton : public AActor/*, public IInterface_PostProcessVolume*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))

@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "WindAffectedComponent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=WindAffectedComponent -FallbackName=WindAffectedComponent
 #include "WindAffectedTickingComponent.generated.h"
 

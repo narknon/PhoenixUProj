@@ -9,7 +9,7 @@ void UHermesBPLibrary::HermesUnbind(const FHermesBPDelegateHandle& Handle) {
 void UHermesBPLibrary::HermesExecuteOwnedVector(const FString& Name, const UObject* Owner, const UObject* Caller, const FVector& Vector) {
 }
 
-void UHermesBPLibrary::HermesExecuteOwnedInt(const FString& Name, const UObject* Owner, const UObject* Caller, int32 int) {
+void UHermesBPLibrary::HermesExecuteOwnedInt(const FString& Name, const UObject* Owner, const UObject* Caller, int32 Int) {
 }
 
 void UHermesBPLibrary::HermesExecuteOwnedHitResult(const FString& Name, const UObject* Owner, const UObject* Caller, const FHitResult& HitResult) {
@@ -27,7 +27,7 @@ void UHermesBPLibrary::HermesExecuteOwnedFString(const FString& Name, const UObj
 void UHermesBPLibrary::HermesExecuteOwnedFName(const FString& Name, const UObject* Owner, const UObject* Caller, const FName& String) {
 }
 
-void UHermesBPLibrary::HermesExecuteOwnedFloat(const FString& Name, const UObject* Owner, const UObject* Caller, float float) {
+void UHermesBPLibrary::HermesExecuteOwnedFloat(const FString& Name, const UObject* Owner, const UObject* Caller, float Float) {
 }
 
 void UHermesBPLibrary::HermesExecuteOwnedEvent(const FString& Name, const UObject* Owner, const UObject* Caller) {
@@ -45,7 +45,7 @@ void UHermesBPLibrary::HermesExecuteOwnedAActor(const FString& Name, const UObje
 void UHermesBPLibrary::HermesExecuteAllVector(const FString& Name, const UObject* Caller, const FVector& Vector) {
 }
 
-void UHermesBPLibrary::HermesExecuteAllInt(const FString& Name, const UObject* Caller, int32 int) {
+void UHermesBPLibrary::HermesExecuteAllInt(const FString& Name, const UObject* Caller, int32 Int) {
 }
 
 void UHermesBPLibrary::HermesExecuteAllHitResult(const FString& Name, const UObject* Caller, const FHitResult& HitResult) {
@@ -63,7 +63,7 @@ void UHermesBPLibrary::HermesExecuteAllFString(const FString& Name, const UObjec
 void UHermesBPLibrary::HermesExecuteAllFName(const FString& Name, const UObject* Caller, const FName& String) {
 }
 
-void UHermesBPLibrary::HermesExecuteAllFloat(const FString& Name, const UObject* Caller, float float) {
+void UHermesBPLibrary::HermesExecuteAllFloat(const FString& Name, const UObject* Caller, float Float) {
 }
 
 void UHermesBPLibrary::HermesExecuteAllEvent(const FString& Name, const UObject* Caller) {

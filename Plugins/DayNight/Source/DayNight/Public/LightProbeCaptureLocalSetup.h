@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "WLightProbesVolumeCaptureSetup.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=WLightProbesVolumeCaptureSetup -FallbackName=WLightProbesVolumeCaptureSetup
 #include "LightProbeCaptureLocalSetup.generated.h"
 

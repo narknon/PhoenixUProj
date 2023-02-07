@@ -9,6 +9,7 @@
 #include "Components/ActorComponent.h"
 #include "Engine/EngineTypes.h"
 #include "SavedMeshSettings2.h"
+#include "Chaos/ChaosRemovalCompletedEvent.h"
 #include "RepairComponent.generated.h"
 
 class AActor;

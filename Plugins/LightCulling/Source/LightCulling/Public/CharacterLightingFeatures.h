@@ -14,7 +14,7 @@ public:
     FCharacterLightingFeaturesOptions OPTIONS;
     
 private:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     TSet<TWeakObjectPtr<AActor>> IgnoreCharacters;
     
     UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))

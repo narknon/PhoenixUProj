@@ -31,13 +31,13 @@ public:
     void UpdateColorBlindColors(FLinearColor ObjectiveTintColor);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void ShowBPStepBanner(TEnumAsByte<BannerUpdateType> updateType, FName updateTitle, FName bannerText, FName bannerText2, bool bShowTrackMission, const TArray<FString>& objectiveText, const TArray<bool>& objectiveChecked, const TArray<bool>& objectiveCheckChanged, const TArray<int32>& objectiveRuntimeValue1, const TArray<int32>& objectiveRuntimeValue2, const FString& MissionDescription, const FString& MissionTypeIcon, const FString& MissionObjectiveIcon, const FLinearColor ObjectiveTintColor);
+    void ShowBPStepBanner(BannerUpdateType updateType, FName updateTitle, FName bannerText, FName bannerText2, bool bShowTrackMission, const TArray<FString>& objectiveText, const TArray<bool>& objectiveChecked, const TArray<bool>& objectiveCheckChanged, const TArray<int32>& objectiveRuntimeValue1, const TArray<int32>& objectiveRuntimeValue2, const FString& MissionDescription, const FString& MissionTypeIcon, const FString& MissionObjectiveIcon, const FLinearColor ObjectiveTintColor);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void ShowBPMissionBanner(TEnumAsByte<BannerUpdateType> updateType, FName updateTitle, FName bannerText, FName bannerText2, bool bShowTrackMission, const TArray<FString>& objectiveText, const TArray<bool>& objectiveChecked, const TArray<bool>& objectiveCheckChanged, const TArray<int32>& objectiveRuntimeValue1, const TArray<int32>& objectiveRuntimeValue2);
+    void ShowBPMissionBanner(BannerUpdateType updateType, FName updateTitle, FName bannerText, FName bannerText2, bool bShowTrackMission, const TArray<FString>& objectiveText, const TArray<bool>& objectiveChecked, const TArray<bool>& objectiveCheckChanged, const TArray<int32>& objectiveRuntimeValue1, const TArray<int32>& objectiveRuntimeValue2);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void ShowBPCelebrationBanner(TEnumAsByte<BannerUpdateType> updateType, FName updateTitle, FName bannerText, FName bannerText2, bool bShowTrackMission, const TArray<FString>& objectiveText, const TArray<bool>& objectiveChecked, const TArray<bool>& objectiveCheckChanged, const TArray<int32>& objectiveRuntimeValue1, const TArray<int32>& objectiveRuntimeValue2);
+    void ShowBPCelebrationBanner(BannerUpdateType updateType, FName updateTitle, FName bannerText, FName bannerText2, bool bShowTrackMission, const TArray<FString>& objectiveText, const TArray<bool>& objectiveChecked, const TArray<bool>& objectiveCheckChanged, const TArray<int32>& objectiveRuntimeValue1, const TArray<int32>& objectiveRuntimeValue2);
     
     UFUNCTION(BlueprintCallable)
     void BeginOrEndPlay(const bool endPlay);

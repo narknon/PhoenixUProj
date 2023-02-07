@@ -226,10 +226,10 @@ public:
     void SetParryState(const TEnumAsByte<EParryState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetFullBodyStateLast(const TEnumAsByte<EFullBodyState::Type>& InState);
+    void SetFullBodyStateLast(const EFullBodyState::Type& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetFullBodyState(const TEnumAsByte<EFullBodyState::Type>& InState);
+    void SetFullBodyState(const EFullBodyState::Type& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetFinisherOptimalRatio(const float OptimalRatio, TEnumAsByte<EDynamicForceFeedbackAction::Type> FeedbackAction);
@@ -331,10 +331,10 @@ public:
     float GetHealth();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetFullBodyStateLast(TEnumAsByte<EFullBodyState::Type>& OutState);
+    void GetFullBodyStateLast(EFullBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetFullBodyState(TEnumAsByte<EFullBodyState::Type>& OutState);
+    void GetFullBodyState(EFullBodyState::Type& OutState);
     
     UFUNCTION(BlueprintCallable)
     bool GetFinishers(TArray<USpellToolRecord*>& ToolRecordArray);

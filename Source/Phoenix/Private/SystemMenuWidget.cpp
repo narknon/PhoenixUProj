@@ -11,7 +11,7 @@ void USystemMenuWidget::OnExitPopupGone() {
 void USystemMenuWidget::OnExitPopupDismissed(UPopupScreen* Popup, int32 ConfirmationResult) {
 }
 
-void USystemMenuWidget::HandleConfirmExitDialog(EUMGInputAction ExitAction, TEnumAsByte<EInputEvent> ExitEvent, const FString& TitleText, const FString& DescText) {
+void USystemMenuWidget::HandleConfirmExitDialog(EUMGInputAction ExitAction, EInputEvent ExitEvent, const FString& TitleText, const FString& DescText) {
 }
 
 bool USystemMenuWidget::ExecuteSave(const int32 CharacterID) {

@@ -3,7 +3,7 @@
 void UPhoenixForceFeedbackComponent::SetCadenceMultiplier(float NewCadenceMultiplier) {
 }
 
-UPhoenixForceFeedbackComponent::UPhoenixForceFeedbackComponent() {
+UPhoenixForceFeedbackComponent::UPhoenixForceFeedbackComponent() : UForceFeedbackComponent(FObjectInitializer::Get()) {
     this->CadenceMultiplier = 1.00f;
 }
 

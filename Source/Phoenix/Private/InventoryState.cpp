@@ -8,7 +8,7 @@ void UInventoryState::OnEndState_Implementation() {
 void UInventoryState::InitializeState_Implementation(UUserWidget* OwningWidget) {
 }
 
-bool UInventoryState::HandleUMGInputAction_Implementation(EUMGInputAction InputAction, TEnumAsByte<EInputEvent> InputEvent, UUserWidget* InventoryButton) {
+bool UInventoryState::HandleUMGInputAction_Implementation(EUMGInputAction InputAction, EInputEvent InputEvent, UUserWidget* InventoryButton) {
     return false;
 }
 

@@ -39,7 +39,7 @@ public:
     TEnumAsByte<EJumpingType::Type> JumpType;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TEnumAsByte<ELandingType::Type> LandType;
+    ELandingType::Type LandType;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TEnumAsByte<EAnimSpeedType::Type> AnimSpeedType;
@@ -190,10 +190,10 @@ public:
     void WandCastInfo_ClearAttackCount();
     
     UFUNCTION(BlueprintCallable)
-    void SetWandCastInfo_PreWandCastState(TEnumAsByte<EPreWandCastState::Type> PreWandCastState);
+    void SetWandCastInfo_PreWandCastState(EPreWandCastState::Type PreWandCastState);
     
     UFUNCTION(BlueprintCallable)
-    void SetWandCastInfo_AnticipationWandCastState(TEnumAsByte<EPreWandCastState::Type> AnticipationWandCastState);
+    void SetWandCastInfo_AnticipationWandCastState(EPreWandCastState::Type AnticipationWandCastState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetStartMoveTimeToCurrentTime();
@@ -202,10 +202,10 @@ public:
     void SetPlayerIKState(bool State);
     
     UFUNCTION(BlueprintCallable)
-    void SetNextWandCastType(TEnumAsByte<EWandCastType::Type> WandCastType);
+    void SetNextWandCastType(EWandCastType::Type WandCastType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetLandingType(TEnumAsByte<ELandingType::Type> InType);
+    void SetLandingType(ELandingType::Type InType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetJumpingType(TEnumAsByte<EJumpingType::Type> InType);
@@ -325,13 +325,13 @@ public:
     void InitRootMotionModifierVectors();
     
     UFUNCTION(BlueprintCallable)
-    TEnumAsByte<EPreWandCastState::Type> GetWandCastInfo_AnticipationWandCastState();
+    EPreWandCastState::Type GetWandCastInfo_AnticipationWandCastState();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool GetPlayerIKState();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetLandingType(TEnumAsByte<ELandingType::Type>& OutType);
+    void GetLandingType(ELandingType::Type& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void GetJumpingType(TEnumAsByte<EJumpingType::Type>& OutType);
