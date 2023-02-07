@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "",
+	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -770,15 +770,6 @@
 		}
 	],
 	"TargetPlatforms": [
-		"PS4",
-		"Switch",
-		"WindowsNoEditor",
-		"XboxOne",
-		"PS5",
-		"XboxOneGDK",
-		"XSX",
-		"GDK",
-		"Sony",
-		"Windows"
+		"WindowsNoEditor"
 	]
 }

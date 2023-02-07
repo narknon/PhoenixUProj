@@ -20,17 +20,7 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"WhitelistPlatforms": [
-				"Mac",
-				"IOS",
-				"Android",
-				"Win64",
-				"Linux",
-				"PS4",
-				"PS5",
-				"XboxOne",
-				"XboxOneGDK",
-				"XSX",
-				"Switch"
+				"Win64"
 			]
 		}
 	],
