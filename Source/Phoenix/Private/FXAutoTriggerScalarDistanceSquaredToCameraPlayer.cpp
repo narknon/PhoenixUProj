@@ -1,0 +1,5 @@
+#include "FXAutoTriggerScalarDistanceSquaredToCameraPlayer.h"
+
+UFXAutoTriggerScalarDistanceSquaredToCameraPlayer::UFXAutoTriggerScalarDistanceSquaredToCameraPlayer() {
+}
+

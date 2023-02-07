@@ -1,0 +1,5 @@
+#include "TurnDirectionTagChooser_DesiredWorldDirectionGetter.h"
+
+UTurnDirectionTagChooser_DesiredWorldDirectionGetter::UTurnDirectionTagChooser_DesiredWorldDirectionGetter() {
+}
+

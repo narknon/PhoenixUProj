@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Cognition",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Cognition",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ControlMapper",
+			"Enabled": true
+		},
+		{
+			"Name": "CustomizableCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "StencilManager",
+			"Enabled": true
+		},
+		{
+			"Name": "AccessibilitySettings",
+			"Enabled": true
+		}
+	]
+}

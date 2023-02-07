@@ -1,0 +1,55 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Ambulatory",
+	"Description": "RootMotion Mobility Class.",
+	"Category": "Animation",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Ambulatory",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Able",
+			"Enabled": true
+		},
+		{
+			"Name": "Odyssey",
+			"Enabled": true
+		},
+		{
+			"Name": "WWise",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAudioLow",
+			"Enabled": true
+		},
+		{
+			"Name": "Icarus",
+			"Enabled": true
+		},
+		{
+			"Name": "Ragdoll",
+			"Enabled": true
+		}
+	]
+}

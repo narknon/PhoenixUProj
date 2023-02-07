@@ -1,0 +1,5 @@
+#include "RenderSettingsNamedCustomBlendDomainLibraryCustom.h"
+
+URenderSettingsNamedCustomBlendDomainLibraryCustom::URenderSettingsNamedCustomBlendDomainLibraryCustom() {
+}
+

@@ -1,0 +1,55 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BTCustom",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BTCustomRuntime",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "Munitions",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlMapper",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "Cognition",
+			"Enabled": true
+		},
+		{
+			"Name": "GameThreadTasksScheduler",
+			"Enabled": true
+		}
+	]
+}

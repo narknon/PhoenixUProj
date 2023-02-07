@@ -1,0 +1,5 @@
+#include "CloudLightingParamsForceDirectionalSceneLighting.h"
+
+UCloudLightingParamsForceDirectionalSceneLighting::UCloudLightingParamsForceDirectionalSceneLighting() {
+}
+

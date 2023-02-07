@@ -1,0 +1,5 @@
+#include "ModFilter_EnemyAwareness_MatchingMultiAwarenessStates.h"
+
+UModFilter_EnemyAwareness_MatchingMultiAwarenessStates::UModFilter_EnemyAwareness_MatchingMultiAwarenessStates() {
+}
+

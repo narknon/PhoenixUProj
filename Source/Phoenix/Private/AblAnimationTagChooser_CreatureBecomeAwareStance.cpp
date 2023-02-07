@@ -1,0 +1,5 @@
+#include "AblAnimationTagChooser_CreatureBecomeAwareStance.h"
+
+UAblAnimationTagChooser_CreatureBecomeAwareStance::UAblAnimationTagChooser_CreatureBecomeAwareStance() {
+}
+

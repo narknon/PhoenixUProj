@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 12,
+	"VersionName": "2.3.5",
+	"FriendlyName": "NVIDIA DLSS",
+	"Description": "NVIDIA Deep Learning Super Sampling",
+	"Category": "Rendering",
+	"CreatedBy": "NVIDIA",
+	"CreatedByURL": "https://developer.nvidia.com/dlss",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:DLSS-Support@nvidia.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DLSS",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "DLSSBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit"
+		}
+	]
+}

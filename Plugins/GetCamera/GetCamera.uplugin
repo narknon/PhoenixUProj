@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GetCamera",
+	"Description": "Universal way to get camaera, even in editor",
+	"Category": "Rendering",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GetCamera",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

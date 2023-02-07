@@ -1,0 +1,5 @@
+#include "ConversationPreset_RelativeInteractionActorTest_KeepInteractionActorRotation.h"
+
+UConversationPreset_RelativeInteractionActorTest_KeepInteractionActorRotation::UConversationPreset_RelativeInteractionActorTest_KeepInteractionActorRotation() {
+}
+

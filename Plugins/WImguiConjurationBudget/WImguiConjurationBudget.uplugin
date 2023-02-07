@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ImGUI Conjuration Budget Cost Calculator",
+	"Description": "Adds an ImGUI window that allows us to calculate conjuration budget costs for transfigurable objects and update the DB, as well as manipulate the total budget for this feature.",
+	"Category": "Performance",
+	"CreatedBy": "Studio Gobo - dennis.grigoropoulos@studiogobo.com",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		}
+	]
+}

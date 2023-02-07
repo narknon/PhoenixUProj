@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Imgui AvaLocDirect Plugin",
+	"Description": "This plugin adds LocDirect to ImGui.",
+	"Category": "Other",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaLocDirect",
+			"Enabled": true
+		}
+	]
+}

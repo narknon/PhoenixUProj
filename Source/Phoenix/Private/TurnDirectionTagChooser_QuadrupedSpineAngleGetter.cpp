@@ -1,0 +1,5 @@
+#include "TurnDirectionTagChooser_QuadrupedSpineAngleGetter.h"
+
+UTurnDirectionTagChooser_QuadrupedSpineAngleGetter::UTurnDirectionTagChooser_QuadrupedSpineAngleGetter() {
+}
+

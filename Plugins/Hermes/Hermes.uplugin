@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Hermes",
+	"Description": "Message Dispatch System",
+	"Category": "Other",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Hermes",
+			"Type": "Runtime",
+			"LoadingPhase": "EarliestPossible"
+		}
+	]
+}

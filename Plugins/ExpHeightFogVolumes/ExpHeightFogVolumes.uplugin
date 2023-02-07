@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ExpHeightFogVolumes",
+	"Description": "Tuneable fog volumes",
+	"Category": "Rendering",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ExpHeightFogVolumes",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "FXUtil",
+			"Enabled": true
+		},
+		{
+			"Name": "GetCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "DayNight",
+			"Enabled": true
+		},
+		{
+			"Name": "RenderSettings",
+			"Enabled": true
+		}
+	]
+}

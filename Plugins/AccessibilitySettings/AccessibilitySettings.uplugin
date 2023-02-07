@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "AccessibilitySettings",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AccessibilitySettings",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

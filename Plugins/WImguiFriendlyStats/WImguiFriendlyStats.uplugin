@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Imgui Friendly Stats Plugin",
+	"Description": "This plugin adds Friendly Stats to ImGui.",
+	"Category": "Performance",
+	"CreatedBy": "Studio Gobo - simon.coenen@studiogobo.com",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		}
+	]
+}

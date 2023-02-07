@@ -1,0 +1,5 @@
+#include "SceneAction_WeatherSequenceEnvGlobalScalarConstantIn.h"
+
+USceneAction_WeatherSequenceEnvGlobalScalarConstantIn::USceneAction_WeatherSequenceEnvGlobalScalarConstantIn() {
+}
+

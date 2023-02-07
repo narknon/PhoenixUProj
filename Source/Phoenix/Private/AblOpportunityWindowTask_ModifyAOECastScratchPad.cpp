@@ -1,0 +1,5 @@
+#include "AblOpportunityWindowTask_ModifyAOECastScratchPad.h"
+
+UAblOpportunityWindowTask_ModifyAOECastScratchPad::UAblOpportunityWindowTask_ModifyAOECastScratchPad() {
+}
+

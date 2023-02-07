@@ -1,0 +1,5 @@
+#include "FXAutoTriggerCognitionStimuliTestHasSenseFromList.h"
+
+UFXAutoTriggerCognitionStimuliTestHasSenseFromList::UFXAutoTriggerCognitionStimuliTestHasSenseFromList() {
+}
+

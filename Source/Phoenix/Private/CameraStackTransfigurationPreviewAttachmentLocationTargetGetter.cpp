@@ -1,0 +1,5 @@
+#include "CameraStackTransfigurationPreviewAttachmentLocationTargetGetter.h"
+
+UCameraStackTransfigurationPreviewAttachmentLocationTargetGetter::UCameraStackTransfigurationPreviewAttachmentLocationTargetGetter() {
+}
+

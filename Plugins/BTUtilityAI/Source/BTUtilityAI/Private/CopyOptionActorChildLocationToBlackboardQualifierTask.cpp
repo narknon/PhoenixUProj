@@ -1,0 +1,5 @@
+#include "CopyOptionActorChildLocationToBlackboardQualifierTask.h"
+
+UCopyOptionActorChildLocationToBlackboardQualifierTask::UCopyOptionActorChildLocationToBlackboardQualifierTask() {
+}
+

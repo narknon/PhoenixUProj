@@ -1,0 +1,21 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ESpawnRestrictionResponse.generated.h"
+
+UENUM(BlueprintType)
+enum class ESpawnRestrictionResponse : uint8 {
+    SRR_NO_RESTRICTIONS,
+    SRR_FAIL_UNREGISTERED_TYPE,
+    SRR_FAIL_TIME_RESTRICTION,
+    SRR_FAIL_DATE_RESTRICTION,
+    SRR_FAIL_SEASON_RESTRICTION,
+    SRR_FAIL_COUNT_RESTRICTION,
+    SRR_FAIL_PLACE_RESTRICTION,
+    SRR_FAIL_MISSION_RESTRICTION,
+    SRR_FAIL_MISSION_RESTRICTION_NO_CALLBACK,
+    SRR_FAIL_LOCKED,
+    SRR_FAIL_LEVEL_NOT_LOADED,
+    SRR_FAIL_UNKNOWN,
+    SRR_MAX UMETA(Hidden),
+};
+

@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "3.0",
+	"FriendlyName": "InstaLOD for Unreal Engine",
+	"Description": "Everything you need for 3D Optimization and automatic data-prepping.",
+	"Category": "Editor",
+	"CreatedBy": "InstaLOD",
+	"CreatedByURL": "http://www.InstaLOD.com",
+	"DocsURL": "http://www.InstaLOD.com/GettingStartedWithUE2018",
+	"MarketplaceURL": "",
+	"SupportURL": "http://www.InstaLOD.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

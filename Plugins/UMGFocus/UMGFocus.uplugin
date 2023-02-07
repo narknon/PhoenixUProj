@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "UMGFocus",
+	"Description": "Alternative solution for UMG Focus and Input handling.",
+	"Category": "WBGamesMontreal",
+	"CreatedBy": "WB Games Montreal",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UMGFocus",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

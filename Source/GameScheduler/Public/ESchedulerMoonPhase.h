@@ -1,0 +1,17 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ESchedulerMoonPhase.generated.h"
+
+UENUM(BlueprintType)
+enum ESchedulerMoonPhase {
+    MOONPHASE_NEWMOON,
+    MOONPHASE_WAXINGCRESCENT,
+    MOONPHASE_FIRSTQUARTER,
+    MOONPHASE_WAXINGGIBBOUS,
+    MOONPHASE_FULLMOON,
+    MOONPHASE_WANINGGIBBOUS,
+    MOONPHASE_LASTQUARTER,
+    MOONPHASE_WANINGCRESCENT,
+    MOONPHASE_MAX UMETA(Hidden),
+};
+

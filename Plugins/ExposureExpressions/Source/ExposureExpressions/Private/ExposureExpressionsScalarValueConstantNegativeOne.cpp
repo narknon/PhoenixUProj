@@ -1,0 +1,5 @@
+#include "ExposureExpressionsScalarValueConstantNegativeOne.h"
+
+UExposureExpressionsScalarValueConstantNegativeOne::UExposureExpressionsScalarValueConstantNegativeOne() {
+}
+

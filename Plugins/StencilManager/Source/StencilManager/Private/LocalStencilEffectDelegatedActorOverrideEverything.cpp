@@ -1,0 +1,5 @@
+#include "LocalStencilEffectDelegatedActorOverrideEverything.h"
+
+ULocalStencilEffectDelegatedActorOverrideEverything::ULocalStencilEffectDelegatedActorOverrideEverything() {
+}
+

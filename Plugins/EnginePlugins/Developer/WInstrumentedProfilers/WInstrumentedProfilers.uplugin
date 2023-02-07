@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Instrumented Profilers",
+	"Description": "This plugin provides control over Telemetry and instrumented profilers.",
+	"Category": "WBGamesMontreal",
+	"CreatedBy": "WB Games Montreal",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "WInstrumentedProfilersSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		}
+	]
+}

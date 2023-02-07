@@ -1,0 +1,5 @@
+#include "TurnDirectionTagChooser_BlackboardDirectionGetter.h"
+
+UTurnDirectionTagChooser_BlackboardDirectionGetter::UTurnDirectionTagChooser_BlackboardDirectionGetter() {
+}
+

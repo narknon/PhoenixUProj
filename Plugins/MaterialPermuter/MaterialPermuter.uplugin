@@ -1,0 +1,47 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MaterialPermuter",
+	"Description": "Automagic material permutation",
+	"Category": "Rendering",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MaterialPermuter",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		},
+		{
+			"Name": "SuperFriendlyLog",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaRenderTech",
+			"Enabled": true
+		},
+		{
+			"Name": "GetCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "DebugPanel",
+			"Enabled": true
+		}
+	]
+}

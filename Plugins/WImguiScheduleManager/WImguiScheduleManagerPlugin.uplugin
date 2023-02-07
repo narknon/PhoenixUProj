@@ -1,0 +1,48 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Imgui Schedule Manager Plugin",
+	"Description": "This plugin adds Schedule Manager to ImGui.",
+	"Category": "Performance",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "CISQLite3",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "SceneRig",
+			"Enabled": true
+		},
+		{
+			"Name": "CustomizableCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		}
+	]
+}

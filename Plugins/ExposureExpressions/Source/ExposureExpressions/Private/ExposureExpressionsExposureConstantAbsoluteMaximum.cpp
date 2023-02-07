@@ -1,0 +1,5 @@
+#include "ExposureExpressionsExposureConstantAbsoluteMaximum.h"
+
+UExposureExpressionsExposureConstantAbsoluteMaximum::UExposureExpressionsExposureConstantAbsoluteMaximum() {
+}
+

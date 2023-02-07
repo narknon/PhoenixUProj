@@ -1,0 +1,5 @@
+#include "DynamicLightAdaptationModSettingsVariableRawBlendDomainCurve.h"
+
+UDynamicLightAdaptationModSettingsVariableRawBlendDomainCurve::UDynamicLightAdaptationModSettingsVariableRawBlendDomainCurve() {
+}
+

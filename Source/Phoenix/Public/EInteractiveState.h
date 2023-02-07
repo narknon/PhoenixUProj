@@ -1,0 +1,46 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EInteractiveState.generated.h"
+
+UENUM(BlueprintType)
+enum class EInteractiveState : uint8 {
+    Normal,
+    Any,
+    Locked,
+    Unlocked,
+    Open,
+    Closed,
+    Frozen,
+    Wet,
+    OnFire,
+    Invisible,
+    Immobilized,
+    ScaleIncreased,
+    ScaledDecreased,
+    MassIncreased,
+    MassDecreased,
+    Undamaged,
+    Damage_1,
+    Damage_2,
+    Damage_3,
+    Destroyed,
+    Cut,
+    Custom_1,
+    Custom_2,
+    Custom_3,
+    Custom_4,
+    Custom_5,
+    Custom_6,
+    Custom_7,
+    Custom_8,
+    Custom_9,
+    Failed,
+    Highlighted,
+    Dead,
+    Unsolved,
+    Solved,
+    Harvested,
+    StateCount,
+    None = 0xFF,
+};
+

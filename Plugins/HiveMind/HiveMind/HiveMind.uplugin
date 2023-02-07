@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 12,
+	"VersionName": "12.0.0",
+	"FriendlyName": "HiveMind",
+	"Description": "Create, update, and display Issues directly from the game.",
+	"Category": "QA",
+	"CreatedBy": "WB Games QA",
+	"CreatedByURL": "https://mtl-confluence.wbgames.com/x/9AhLAQ",
+	"DocsURL": "https://mtl-confluence.wbgames.com/x/uItnB",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:MTL-WBGAMES-QA-DEVELOPERS@wbgames.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.031",
+	"FriendlyName": "SnapTo Plugin",
+	"Description": "Extend UEd SnapTo Commands to include snap to surface under mouse pointer. Icon by SmashIcons, used under Creative Commons 3.0",
+	"Category": "Editor",
+	"CreatedBy": "ben.andrews@studiogobo.com",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": true
+}

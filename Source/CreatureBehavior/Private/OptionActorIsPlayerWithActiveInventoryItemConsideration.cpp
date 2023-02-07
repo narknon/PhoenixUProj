@@ -1,0 +1,5 @@
+#include "OptionActorIsPlayerWithActiveInventoryItemConsideration.h"
+
+UOptionActorIsPlayerWithActiveInventoryItemConsideration::UOptionActorIsPlayerWithActiveInventoryItemConsideration() {
+}
+

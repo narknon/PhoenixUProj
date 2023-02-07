@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Imgui Usage Template Plugin",
+	"Description": "This plugin is a template that you can copy and build some ImGui plugin yourself.",
+	"Category": "WBGamesMontreal",
+	"CreatedBy": "WB Games Montreal",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		}
+	]
+}

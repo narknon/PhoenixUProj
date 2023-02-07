@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "NiagaraHelpers",
+	"Description": "Helpers for Niagara",
+	"Category": "Rendering",
+	"CreatedBy": "0xf00d",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "NiagaraHelpers",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "WWise",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAudioLow",
+			"Enabled": true
+		},
+		{
+			"Name": "SuperFriendlyLog",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,95 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "DayNight",
+	"Description": "Day Night System",
+	"Category": "Rendering",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "DayNight",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraStarField",
+			"Enabled": true
+		},
+		{
+			"Name": "TickSequencer",
+			"Enabled": true
+		},
+		{
+			"Name": "FXUtil",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaRenderTech",
+			"Enabled": true
+		},
+		{
+			"Name": "DebugPanel",
+			"Enabled": true
+		},
+		{
+			"Name": "GlobalLightRig",
+			"Enabled": true
+		},
+		{
+			"Name": "GetCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "ExposureConvert",
+			"Enabled": true
+		},
+		{
+			"Name": "ExposureExpressions",
+			"Enabled": true
+		},
+		{
+			"Name": "LerpVolumes",
+			"Enabled": true
+		},
+		{
+			"Name": "RenderSettings",
+			"Enabled": true
+		},
+		{
+			"Name": "EnvironmentalGlobals",
+			"Enabled": true
+		},
+		{
+			"Name": "Weather",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimatedLights",
+			"Enabled": true
+		},
+		{
+			"Name": "WWise",
+			"Enabled": true
+		}
+	]
+}

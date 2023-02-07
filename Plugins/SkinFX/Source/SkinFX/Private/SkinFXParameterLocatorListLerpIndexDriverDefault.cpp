@@ -1,0 +1,5 @@
+#include "SkinFXParameterLocatorListLerpIndexDriverDefault.h"
+
+USkinFXParameterLocatorListLerpIndexDriverDefault::USkinFXParameterLocatorListLerpIndexDriverDefault() {
+}
+

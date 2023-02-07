@@ -1,0 +1,5 @@
+#include "LightSettingsModThresholdConsoleVariableAltitude.h"
+
+ULightSettingsModThresholdConsoleVariableAltitude::ULightSettingsModThresholdConsoleVariableAltitude() {
+}
+

@@ -1,0 +1,5 @@
+#include "MultiFX2_MaterialPermuterSwapInfoOverrideMaterials.h"
+
+UMultiFX2_MaterialPermuterSwapInfoOverrideMaterials::UMultiFX2_MaterialPermuterSwapInfoOverrideMaterials() {
+}
+

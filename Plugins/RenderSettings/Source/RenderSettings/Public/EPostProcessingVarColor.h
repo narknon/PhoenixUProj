@@ -1,0 +1,47 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EPostProcessingVarColor.generated.h"
+
+UENUM(BlueprintType)
+enum class EPostProcessingVarColor : uint8 {
+    None,
+    FilmWhitePoint,
+    FilmShadowTint,
+    FilmChannelMixerRed,
+    FilmChannelMixerGreen,
+    FilmChannelMixerBlue,
+    SceneColorTint,
+    Bloom1Tint,
+    Bloom2Tint,
+    Bloom3Tint,
+    Bloom4Tint,
+    Bloom5Tint,
+    Bloom6Tint,
+    BloomDirtMaskTint,
+    AmbientCubemapTint,
+    LensFlareTint,
+    IndirectLightingColor,
+    ColorSaturation,
+    ColorContrast,
+    ColorGamma,
+    ColorGain,
+    ColorOffset,
+    ColorSaturationShadows,
+    ColorContrastShadows,
+    ColorGammaShadows,
+    ColorGainShadows,
+    ColorOffsetShadows,
+    ColorSaturationMidtones,
+    ColorContrastMidtones,
+    ColorGammaMidtones,
+    ColorGainMidtones,
+    ColorOffsetMidtones,
+    ColorSaturationHighlights,
+    ColorContrastHighlights,
+    ColorGammaHighlights,
+    ColorGainHighlights,
+    ColorOffsetHighlights,
+    ReflectionCaptureOutsideColorTint,
+    ReflectionCaptureInsideColorTint,
+};
+

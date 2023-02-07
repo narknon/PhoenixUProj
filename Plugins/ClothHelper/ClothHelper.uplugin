@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ClothHelper",
+	"Description": "WB/Avalanche - Cloth Helper Plugin",
+	"Category": "Editor",
+	"CreatedBy": "Adam Clayton",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SceneRig",
+			"Enabled": true
+		},
+		{
+			"Name": "Frost",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Hydra",
+	"Description": "Hydra UE Plugin",
+	"Category": "Other",
+	"CreatedBy": "Hydra Team",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HydraManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Mac",
+				"IOS",
+				"Android",
+				"Win64",
+				"Linux",
+				"PS4",
+				"PS5",
+				"XboxOne",
+				"XboxOneGDK",
+				"XSX",
+				"Switch"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		}
+	]
+}

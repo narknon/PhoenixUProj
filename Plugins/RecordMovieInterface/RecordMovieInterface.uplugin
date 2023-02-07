@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RecordMovieInterface",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RecordMovieInterface",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"BlacklistTargetConfigurations": [
+				"Shipping"
+			]
+		},
+		{
+			"Name": "RecordMovieWin64",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "NVIDIAGfeSDK",
+			"Enabled": true,
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}

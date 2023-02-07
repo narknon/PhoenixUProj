@@ -1,0 +1,5 @@
+#include "CogGroupBestTargetProcess_TrackTargetIsInAttackAwareness.h"
+
+UCogGroupBestTargetProcess_TrackTargetIsInAttackAwareness::UCogGroupBestTargetProcess_TrackTargetIsInAttackAwareness() {
+}
+

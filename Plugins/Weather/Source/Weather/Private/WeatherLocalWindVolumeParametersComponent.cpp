@@ -1,0 +1,5 @@
+#include "WeatherLocalWindVolumeParametersComponent.h"
+
+UDEPRECATED_WeatherLocalWindVolumeParametersComponent::UDEPRECATED_WeatherLocalWindVolumeParametersComponent() {
+}
+

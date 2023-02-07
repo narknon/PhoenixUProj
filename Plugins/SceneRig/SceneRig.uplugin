@@ -1,0 +1,103 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SceneRig",
+	"Description": "WB/Avalanche - Custom Scene Rig Plugin",
+	"Category": "Animation",
+	"CreatedBy": "Eric Brown",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SceneRig",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "TimeRig",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Ambulatory",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "CameraStack",
+			"Enabled": true
+		},
+		{
+			"Name": "Frost",
+			"Enabled": true
+		},
+		{
+			"Name": "GetCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "GlobalLightRig",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAudioLow",
+			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "Timeline",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true,
+			"BlacklistTargetConfigurations": [
+				"Shipping"
+			]
+		},
+		{
+			"Name": "CustomizableCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		},
+		{
+			"Name": "DebugPanel",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaLocDirect",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "LODStreamingManager",
+			"Enabled": true
+		},
+		{
+			"Name": "BinkMedia",
+			"Enabled": true
+		}
+	]
+}

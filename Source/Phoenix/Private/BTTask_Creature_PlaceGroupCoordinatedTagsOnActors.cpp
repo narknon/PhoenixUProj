@@ -1,0 +1,5 @@
+#include "BTTask_Creature_PlaceGroupCoordinatedTagsOnActors.h"
+
+UBTTask_Creature_PlaceGroupCoordinatedTagsOnActors::UBTTask_Creature_PlaceGroupCoordinatedTagsOnActors() {
+}
+

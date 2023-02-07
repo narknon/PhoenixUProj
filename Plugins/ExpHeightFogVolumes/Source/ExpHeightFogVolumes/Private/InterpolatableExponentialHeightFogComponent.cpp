@@ -1,0 +1,5 @@
+#include "InterpolatableExponentialHeightFogComponent.h"
+
+UDEPRECATED_InterpolatableExponentialHeightFogComponent::UDEPRECATED_InterpolatableExponentialHeightFogComponent() {
+}
+

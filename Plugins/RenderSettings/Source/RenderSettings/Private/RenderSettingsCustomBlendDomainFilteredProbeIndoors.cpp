@@ -1,0 +1,5 @@
+#include "RenderSettingsCustomBlendDomainFilteredProbeIndoors.h"
+
+URenderSettingsCustomBlendDomainFilteredProbeIndoors::URenderSettingsCustomBlendDomainFilteredProbeIndoors() {
+}
+

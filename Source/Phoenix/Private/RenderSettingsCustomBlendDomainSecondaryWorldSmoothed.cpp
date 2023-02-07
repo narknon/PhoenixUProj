@@ -1,0 +1,5 @@
+#include "RenderSettingsCustomBlendDomainSecondaryWorldSmoothed.h"
+
+URenderSettingsCustomBlendDomainSecondaryWorldSmoothed::URenderSettingsCustomBlendDomainSecondaryWorldSmoothed() {
+}
+

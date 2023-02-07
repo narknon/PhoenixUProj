@@ -1,0 +1,71 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GlobalLightRig",
+	"Description": "Global light rig",
+	"Category": "Rendering",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GlobalLightRig",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TickSequencer",
+			"Enabled": true
+		},
+		{
+			"Name": "GetCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "ExposureConvert",
+			"Enabled": true
+		},
+		{
+			"Name": "DebugPanel",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaRenderTech",
+			"Enabled": true
+		},
+		{
+			"Name": "RenderSettings",
+			"Enabled": true
+		},
+		{
+			"Name": "SuperFriendlyLog",
+			"Enabled": true
+		},
+		{
+			"Name": "EnvironmentalGlobals",
+			"Enabled": true
+		},
+		{
+			"Name": "LerpVolumes",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "ExposureExpressions",
+			"Enabled": true
+		}
+	]
+}

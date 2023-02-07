@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Mission Editor",
+	"Description": "",
+	"Category": "Mission",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		},
+		{
+			"Name": "CISQLite3",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaLocDirect",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "Weather",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAnimation",
+			"Enabled": true
+		}
+	]
+}

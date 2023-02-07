@@ -1,0 +1,5 @@
+#include "OptionActorCentaurRepositionTurnTargetConsideration.h"
+
+UOptionActorCentaurRepositionTurnTargetConsideration::UOptionActorCentaurRepositionTurnTargetConsideration() {
+}
+

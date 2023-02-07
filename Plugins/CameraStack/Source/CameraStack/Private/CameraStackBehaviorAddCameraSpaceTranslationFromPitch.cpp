@@ -1,0 +1,5 @@
+#include "CameraStackBehaviorAddCameraSpaceTranslationFromPitch.h"
+
+UCameraStackBehaviorAddCameraSpaceTranslationFromPitch::UCameraStackBehaviorAddCameraSpaceTranslationFromPitch() {
+}
+

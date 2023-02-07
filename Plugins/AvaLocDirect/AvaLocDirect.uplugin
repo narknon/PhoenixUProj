@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "AvaLocDirect",
+	"Description": "LocDirect Bridge",
+	"Category": "Avalanche",
+	"CreatedBy": "Benson Yee",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AvaLocDirect",
+			"Type": "Runtime",
+			"LoadingPhase": "PreEarlyLoadingScreen"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "CISQLite3",
+			"Enabled": true
+		},
+		{
+			"Name": "AssetManagerEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true,
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}

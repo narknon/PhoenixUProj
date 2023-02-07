@@ -1,0 +1,5 @@
+#include "CreatureLookAtTargetEvaluation_TimeSinceBeingTarget.h"
+
+UCreatureLookAtTargetEvaluation_TimeSinceBeingTarget::UCreatureLookAtTargetEvaluation_TimeSinceBeingTarget() {
+}
+

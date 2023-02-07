@@ -1,0 +1,18 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EEnterExitAnimVariants.generated.h"
+
+UENUM(BlueprintType)
+enum EEnterExitAnimVariants {
+    ENTEREXITANIM_HUMAN_A,
+    ENTEREXITANIM_HUMAN_F,
+    ENTEREXITANIM_HUMAN_M,
+    ENTEREXITANIM_CHILD_F,
+    ENTEREXITANIM_CHILD_M,
+    ENTEREXITANIM_DEATHMINION_A,
+    ENTEREXITANIM_ELF_A,
+    ENTEREXITANIM_GOBLIN_A,
+    ENTEREXITANIM_TROLL_A,
+    ENTEREXITANIM_MAX UMETA(Hidden),
+};
+

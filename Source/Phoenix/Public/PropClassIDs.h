@@ -1,0 +1,24 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "PropClassIDs.generated.h"
+
+UENUM(BlueprintType)
+enum PropClassIDs {
+    PROP_CLASS_BED,
+    PROP_CLASS_BENCH,
+    PROP_CLASS_CHAIR,
+    PROP_CLASS_CUSTOM,
+    PROP_CLASS_DESK,
+    PROP_CLASS_DYNAMIC,
+    PROP_CLASS_GROUND,
+    PROP_CLASS_INTERACTION,
+    PROP_CLASS_LOCATION,
+    PROP_CLASS_NONE,
+    PROP_CLASS_OCCUPATION,
+    PROP_CLASS_STAIRS,
+    PROP_CLASS_STAND,
+    PROP_CLASS_TABLE,
+    PROP_CLASS_COUNT,
+    PROP_CLASS_MAX UMETA(Hidden),
+};
+

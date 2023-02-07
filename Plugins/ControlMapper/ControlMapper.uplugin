@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ControlMapper",
+	"Description": "Input Control System",
+	"Category": "Other",
+	"CreatedBy": "Jim Henn",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ControlMapper",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		},
+		{
+			"Name": "GameLogic",
+			"Enabled": true
+		}
+	]
+}

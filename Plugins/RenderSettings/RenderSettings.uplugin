@@ -1,0 +1,71 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RenderSettings",
+	"Description": "Phoenix render settings support!",
+	"Category": "Rendering",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RenderSettings",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ExposureConvert",
+			"Enabled": true
+		},
+		{
+			"Name": "ExposureExpressions",
+			"Enabled": true
+		},
+		{
+			"Name": "TickSequencer",
+			"Enabled": true
+		},
+		{
+			"Name": "GetCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "LightCulling",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "EnvironmentalGlobals",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimatedLights",
+			"Enabled": true
+		},
+		{
+			"Name": "ConsoleMacros",
+			"Enabled": true
+		},
+		{
+			"Name": "DebugPanel",
+			"Enabled": true
+		},
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		}
+	]
+}

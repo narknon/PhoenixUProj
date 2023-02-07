@@ -1,0 +1,5 @@
+#include "PostProcessingVarsDriverEnvironmentalGlobalsExtra.h"
+
+UPostProcessingVarsDriverEnvironmentalGlobalsExtra::UPostProcessingVarsDriverEnvironmentalGlobalsExtra() {
+}
+

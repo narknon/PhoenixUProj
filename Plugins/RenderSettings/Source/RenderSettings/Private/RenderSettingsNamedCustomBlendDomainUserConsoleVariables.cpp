@@ -1,0 +1,5 @@
+#include "RenderSettingsNamedCustomBlendDomainUserConsoleVariables.h"
+
+URenderSettingsNamedCustomBlendDomainUserConsoleVariables::URenderSettingsNamedCustomBlendDomainUserConsoleVariables() {
+}
+

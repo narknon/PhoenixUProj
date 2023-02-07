@@ -1,0 +1,5 @@
+#include "CameraStackBehaviorCrossBlendByCapturedBeastSize.h"
+
+UCameraStackBehaviorCrossBlendByCapturedBeastSize::UCameraStackBehaviorCrossBlendByCapturedBeastSize() {
+}
+

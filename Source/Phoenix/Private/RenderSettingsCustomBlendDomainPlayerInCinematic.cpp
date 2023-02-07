@@ -1,0 +1,5 @@
+#include "RenderSettingsCustomBlendDomainPlayerInCinematic.h"
+
+URenderSettingsCustomBlendDomainPlayerInCinematic::URenderSettingsCustomBlendDomainPlayerInCinematic() {
+}
+

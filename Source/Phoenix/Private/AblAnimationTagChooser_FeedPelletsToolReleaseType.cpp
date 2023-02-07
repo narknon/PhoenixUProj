@@ -1,0 +1,5 @@
+#include "AblAnimationTagChooser_FeedPelletsToolReleaseType.h"
+
+UAblAnimationTagChooser_FeedPelletsToolReleaseType::UAblAnimationTagChooser_FeedPelletsToolReleaseType() {
+}
+

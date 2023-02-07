@@ -1,0 +1,5 @@
+#include "SceneActionState_WeatherSequenceLightingPostProcessing.h"
+
+USceneActionState_WeatherSequenceLightingPostProcessing::USceneActionState_WeatherSequenceLightingPostProcessing() {
+}
+

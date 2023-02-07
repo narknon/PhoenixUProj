@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Tick Function Utils",
+	"Description": "Plugin helping to organize gameplay system ticks using tick functions",
+	"Category": "Utils",
+	"CreatedBy": "Globant",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TickFunctionUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

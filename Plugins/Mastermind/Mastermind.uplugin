@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 11,
+	"VersionName": "11.1.0",
+	"FriendlyName": "Mastermind Plugin",
+	"Description": "Mastermind integration plugin.",
+	"Category": "Mastermind",
+	"CreatedBy": "WB Games QA",
+	"CreatedByURL": "http://mastermind.wbiegames.com",
+	"DocsURL": "https://mtl-confluence.wbgames.com/display/Mastermind",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:MTL-WBGAMES_MASTERMIND@wbgames.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Mastermind",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

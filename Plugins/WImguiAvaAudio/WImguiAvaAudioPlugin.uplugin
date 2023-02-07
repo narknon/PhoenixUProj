@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Imgui AvaAudio Plugin",
+	"Description": "This plugin adds AvaAudio to ImGui.",
+	"Category": "Performance",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "CISQLite3",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAudioLow",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaLocDirect",
+			"Enabled": true
+		}
+	]
+}

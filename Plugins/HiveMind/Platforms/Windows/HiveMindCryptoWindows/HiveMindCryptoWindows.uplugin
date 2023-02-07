@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 8,
+	"VersionName": "8",
+	"FriendlyName": "HiveMindCryptoWindows",
+	"Description": "Windows implementation of HiveMindCrypto.",
+	"Category": "QA",
+	"CreatedBy": "WB Games QA",
+	"CreatedByURL": "https://mtl-confluence.wbgames.com/x/9AhLAQ",
+	"DocsURL": "https://mtl-confluence.wbgames.com/x/uItnB",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:MTL-WBGAMES-QA-DEVELOPERS@wbgames.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Plugins": [
+		{
+			"Name": "HiveMind",
+			"Enabled": true
+		}
+	]
+}

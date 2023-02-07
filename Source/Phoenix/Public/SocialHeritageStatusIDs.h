@@ -1,0 +1,14 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "SocialHeritageStatusIDs.generated.h"
+
+UENUM(BlueprintType)
+enum SocialHeritageStatusIDs {
+    SOCIAL_HERITAGE_STATUS_HALFBLOOD,
+    SOCIAL_HERITAGE_STATUS_MUGGLEBORN,
+    SOCIAL_HERITAGE_STATUS_PUREBLOOD,
+    SOCIAL_HERITAGE_STATUS_SQUIB,
+    SOCIAL_HERITAGE_STATUS_COUNT,
+    SOCIAL_HERITAGE_STATUS_MAX UMETA(Hidden),
+};
+

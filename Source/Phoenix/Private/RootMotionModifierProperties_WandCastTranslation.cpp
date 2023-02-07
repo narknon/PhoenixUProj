@@ -1,0 +1,5 @@
+#include "RootMotionModifierProperties_WandCastTranslation.h"
+
+URootMotionModifierProperties_WandCastTranslation::URootMotionModifierProperties_WandCastTranslation() {
+}
+

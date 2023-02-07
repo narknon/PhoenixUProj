@@ -1,0 +1,5 @@
+#include "OptionActorIsTaggedByGroupCoordinationConsideration.h"
+
+UOptionActorIsTaggedByGroupCoordinationConsideration::UOptionActorIsTaggedByGroupCoordinationConsideration() {
+}
+

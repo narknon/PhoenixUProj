@@ -1,0 +1,16 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "MissionStatus.generated.h"
+
+UENUM(BlueprintType)
+enum MissionStatus {
+    MISSION_STATUS_PREACTIVE,
+    MISSION_STATUS_ACTIVATING,
+    MISSION_STATUS_ACTIVE,
+    MISSION_STATUS_POSTACTIVE,
+    MISSION_STATUS_COMPLETE,
+    MISSION_STATUS_FAILED,
+    MISSION_STATUS_INVALID,
+    MISSION_STATUS_MAX UMETA(Hidden),
+};
+

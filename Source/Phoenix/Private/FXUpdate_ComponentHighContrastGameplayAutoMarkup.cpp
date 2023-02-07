@@ -1,0 +1,5 @@
+#include "FXUpdate_ComponentHighContrastGameplayAutoMarkup.h"
+
+UFXUpdate_ComponentHighContrastGameplayAutoMarkup::UFXUpdate_ComponentHighContrastGameplayAutoMarkup() {
+}
+

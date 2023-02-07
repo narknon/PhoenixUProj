@@ -1,0 +1,99 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Weather",
+	"Description": "Weather System",
+	"Category": "Rendering",
+	"CreatedBy": "Avalanche",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Weather",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "TickSequencer",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaRenderTech",
+			"Enabled": true
+		},
+		{
+			"Name": "CachedLevelBounds",
+			"Enabled": true
+		},
+		{
+			"Name": "ConsoleMacros",
+			"Enabled": true
+		},
+		{
+			"Name": "DebugPanel",
+			"Enabled": true
+		},
+		{
+			"Name": "GlobalLightRig",
+			"Enabled": true
+		},
+		{
+			"Name": "GetCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "EnvironmentalGlobals",
+			"Enabled": true
+		},
+		{
+			"Name": "RenderSettings",
+			"Enabled": true
+		},
+		{
+			"Name": "GlobalLightRig",
+			"Enabled": true
+		},
+		{
+			"Name": "MaterialPermuter",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraHelpers",
+			"Enabled": true
+		},
+		{
+			"Name": "FXUtil",
+			"Enabled": true
+		},
+		{
+			"Name": "SkinFX",
+			"Enabled": true
+		},
+		{
+			"Name": "SceneRig",
+			"Enabled": true
+		},
+		{
+			"Name": "Wind",
+			"Enabled": true
+		},
+		{
+			"Name": "WWise",
+			"Enabled": true
+		}
+	]
+}

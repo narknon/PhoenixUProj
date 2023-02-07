@@ -1,0 +1,5 @@
+#include "ConversationPreset_RelativeInteractionActorTest_RotateInteractionActorToAvatarPosition.h"
+
+UConversationPreset_RelativeInteractionActorTest_RotateInteractionActorToAvatarPosition::UConversationPreset_RelativeInteractionActorTest_RotateInteractionActorToAvatarPosition() {
+}
+

@@ -1,0 +1,5 @@
+#include "WeatherCustomBlendDomainWeatherCameraParticlesSpawnRate.h"
+
+UWeatherCustomBlendDomainWeatherCameraParticlesSpawnRate::UWeatherCustomBlendDomainWeatherCameraParticlesSpawnRate() {
+}
+

@@ -1,0 +1,5 @@
+#include "FXAutoTriggerRequiredActorsPhoenixTier4Characters.h"
+
+UFXAutoTriggerRequiredActorsPhoenixTier4Characters::UFXAutoTriggerRequiredActorsPhoenixTier4Characters() {
+}
+

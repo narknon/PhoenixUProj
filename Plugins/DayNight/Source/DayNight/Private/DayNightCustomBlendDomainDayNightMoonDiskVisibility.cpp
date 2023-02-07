@@ -1,0 +1,5 @@
+#include "DayNightCustomBlendDomainDayNightMoonDiskVisibility.h"
+
+UDayNightCustomBlendDomainDayNightMoonDiskVisibility::UDayNightCustomBlendDomainDayNightMoonDiskVisibility() {
+}
+

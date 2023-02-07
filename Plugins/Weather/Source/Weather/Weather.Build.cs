@@ -1,0 +1,68 @@
+using UnrealBuildTool;
+
+public class Weather : ModuleRules {
+    public Weather(ReadOnlyTargetRules Target) : base(Target) {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        bLegacyPublicIncludePaths = false;
+        ShadowVariableWarningLevel = WarningLevel.Warning;
+        
+        PublicDependencyModuleNames.AddRange(new string[] {
+            "AIModule",
+            "AkAudio",
+            "AnimGraphRuntime",
+            "AnimatedLights",
+            "AnimationArchitectRuntime",
+            "AnimationCore",
+            "AudioMixer",
+            "AvaAnimation",
+            "AvaRenderTech",
+            "BinkMediaPlayer",
+            "CameraStack",
+            "Chaos",
+            "CinematicCamera",
+            "ClothingSystemRuntimeCommon",
+            "ClothingSystemRuntimeInterface",
+            "ConsoleMacros",
+            "ControlRig",
+            "Core",
+            "CoreUObject",
+            "CustomizableCharacter",
+            "DeveloperSettings",
+            "Engine",
+            "EnvironmentalGlobals",
+            "ExposureConvert",
+            "ExposureExpressions",
+            "GameplayTags",
+            "GameplayTasks",
+            "GlobalLightRig",
+            "InputCore",
+            "Landscape",
+            "LerpVolumes",
+            "LevelSequence",
+            "MasterTickThrottler",
+            "MaterialPermuter",
+            "MediaAssets",
+            "MediaUtils",
+            "MovieScene",
+            "MovieSceneTracks",
+            "NavigationSystem",
+            "Niagara",
+            "NiagaraCore",
+            "NiagaraHelpers",
+            "NiagaraShader",
+            "PhoenixSignificanceManager",
+            "PhysicsCore",
+            "PropertyPath",
+            "RenderSettings",
+            "RigVM",
+            "SceneRig",
+            "SkinFX",
+            "Slate",
+            "SlateCore",
+            "TimeRig",
+            "UMG",
+            "UtilitiesRuntime",
+            "VolumetricClouds",
+        });
+    }
+}

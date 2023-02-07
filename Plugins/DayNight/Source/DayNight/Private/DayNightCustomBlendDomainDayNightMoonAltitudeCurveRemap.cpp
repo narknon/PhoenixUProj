@@ -1,0 +1,5 @@
+#include "DayNightCustomBlendDomainDayNightMoonAltitudeCurveRemap.h"
+
+UDayNightCustomBlendDomainDayNightMoonAltitudeCurveRemap::UDayNightCustomBlendDomainDayNightMoonAltitudeCurveRemap() {
+}
+

@@ -1,0 +1,5 @@
+#include "CameraStackBehaviorDisableCreatureTickThrottling.h"
+
+UCameraStackBehaviorDisableCreatureTickThrottling::UCameraStackBehaviorDisableCreatureTickThrottling() {
+}
+

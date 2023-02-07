@@ -1,0 +1,71 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "AvaAnimation",
+	"Description": "WB/Avalanche - Custom Animation Plugin",
+	"Category": "Animation",
+	"CreatedBy": "Eric Brown",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AvaAnimation",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AnimationArchitect",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAudioLow",
+			"Enabled": true
+		},
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		},
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "CustomizableCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaLocDirect",
+			"Enabled": true
+		},
+		{
+			"Name": "CameraStack",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCloth",
+			"Enabled": true
+		},
+		{
+			"Name": "Odyssey",
+			"Enabled": true
+		}
+	]
+}

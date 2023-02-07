@@ -1,0 +1,5 @@
+#include "ModFilter_DealDamage_Instigator_IsImperiusControlled.h"
+
+UModFilter_DealDamage_Instigator_IsImperiusControlled::UModFilter_DealDamage_Instigator_IsImperiusControlled() {
+}
+

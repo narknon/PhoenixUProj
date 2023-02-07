@@ -1,0 +1,5 @@
+#include "RenderSettingsCustomBlendDomainInCinematicCamera.h"
+
+URenderSettingsCustomBlendDomainInCinematicCamera::URenderSettingsCustomBlendDomainInCinematicCamera() {
+}
+

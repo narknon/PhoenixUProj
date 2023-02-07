@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "1.1",
+	"FriendlyName": "NVIDIA NIS",
+	"Description": "NVIDIA Image Scaling",
+	"Category": "Rendering",
+	"CreatedBy": "NVIDIA",
+	"CreatedByURL": "https://developer.nvidia.com/image-scaling",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:DLSS-Support@nvidia.com",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "NISBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}

@@ -1,0 +1,5 @@
+#include "ForceResidentStreamableRenderAssetCollectionWrapper.h"
+
+UForceResidentStreamableRenderAssetCollectionWrapper::UForceResidentStreamableRenderAssetCollectionWrapper() {
+}
+

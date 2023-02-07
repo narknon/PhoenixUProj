@@ -1,0 +1,5 @@
+#include "BTDCustomLoopCount_CreatureCombat_NumBehaviorCyclesBeforeReposition.h"
+
+UBTDCustomLoopCount_CreatureCombat_NumBehaviorCyclesBeforeReposition::UBTDCustomLoopCount_CreatureCombat_NumBehaviorCyclesBeforeReposition() {
+}
+

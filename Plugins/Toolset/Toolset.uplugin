@@ -1,0 +1,63 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Toolset",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Toolset",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlMapper",
+			"Enabled": true
+		},
+		{
+			"Name": "BTCustom",
+			"Enabled": true
+		},
+		{
+			"Name": "Cognition",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "Munitions",
+			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "MaterialPermuter",
+			"Enabled": true
+		},
+		{
+			"Name": "FXUtil",
+			"Enabled": true
+		}
+	]
+}

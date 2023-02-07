@@ -1,0 +1,5 @@
+#include "BTDCustomLoopCount_CreatureCombat_MaxNumChainedAttacks.h"
+
+UBTDCustomLoopCount_CreatureCombat_MaxNumChainedAttacks::UBTDCustomLoopCount_CreatureCombat_MaxNumChainedAttacks() {
+}
+

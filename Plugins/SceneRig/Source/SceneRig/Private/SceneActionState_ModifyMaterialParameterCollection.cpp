@@ -1,0 +1,5 @@
+#include "SceneActionState_ModifyMaterialParameterCollection.h"
+
+USceneActionState_ModifyMaterialParameterCollection::USceneActionState_ModifyMaterialParameterCollection() {
+}
+

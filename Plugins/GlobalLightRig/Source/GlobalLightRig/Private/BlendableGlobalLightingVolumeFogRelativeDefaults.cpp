@@ -1,0 +1,5 @@
+#include "BlendableGlobalLightingVolumeFogRelativeDefaults.h"
+
+UBlendableGlobalLightingVolumeFogRelativeDefaults::UBlendableGlobalLightingVolumeFogRelativeDefaults() {
+}
+

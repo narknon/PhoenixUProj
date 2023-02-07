@@ -1,0 +1,5 @@
+#include "ModFilter_DealDamage_Target_IsImperiousControlled.h"
+
+UModFilter_DealDamage_Target_IsImperiousControlled::UModFilter_DealDamage_Target_IsImperiousControlled() {
+}
+

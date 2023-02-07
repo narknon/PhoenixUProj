@@ -1,0 +1,5 @@
+#include "BTDCustomLoopCount_CreatureIdle_NumExploreCycles.h"
+
+UBTDCustomLoopCount_CreatureIdle_NumExploreCycles::UBTDCustomLoopCount_CreatureIdle_NumExploreCycles() {
+}
+

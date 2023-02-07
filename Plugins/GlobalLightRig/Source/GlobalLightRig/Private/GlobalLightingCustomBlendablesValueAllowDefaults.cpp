@@ -1,0 +1,5 @@
+#include "GlobalLightingCustomBlendablesValueAllowDefaults.h"
+
+UGlobalLightingCustomBlendablesValueAllowDefaults::UGlobalLightingCustomBlendablesValueAllowDefaults() {
+}
+

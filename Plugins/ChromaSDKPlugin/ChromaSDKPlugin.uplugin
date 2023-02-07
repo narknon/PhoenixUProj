@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ChromaSDKPlugin",
+	"Description": "Plugin for Chroma",
+	"Category": "Other",
+	"CreatedBy": "Razer, Inc.",
+	"CreatedByURL": "https://github.com/razerofficial/UE4_XDK_SampleApp",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ChromaSDKPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}

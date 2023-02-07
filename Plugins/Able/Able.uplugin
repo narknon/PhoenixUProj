@@ -1,0 +1,86 @@
+{
+	"FileVersion": 3,
+	"Version": 19,
+	"VersionName": "2.15",
+	"FriendlyName": "Able",
+	"Description": "A suite of data driven tools to create and edit Abilities.",
+	"Category": "Able",
+	"CreatedBy": "Extra Life Studios, LLC",
+	"CreatedByURL": "https://extralifestudios.com",
+	"DocsURL": "http://able.extralifestudios.com",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/567d7a4af24a4c0eaab75961e0686feb",
+	"SupportURL": "http://able.extralifestudios.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AbleCore",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac",
+				"IOS",
+				"Android",
+				"PS4",
+				"Linux",
+				"XboxOne",
+				"Switch"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayTagsEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "Timeline",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationArchitect",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "BTCustom",
+			"Enabled": true
+		},
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		},
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Ragdoll",
+			"Enabled": true
+		},
+		{
+			"Name": "StencilManager",
+			"Enabled": true
+		},
+		{
+			"Name": "WBA",
+			"Enabled": true
+		},
+		{
+			"Name": "FXUtil",
+			"Enabled": true
+		}
+	]
+}

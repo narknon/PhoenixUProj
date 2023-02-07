@@ -1,0 +1,5 @@
+#include "BlueprintGlobalLightingCustomBlendablesLinearColor.h"
+
+FBlueprintGlobalLightingCustomBlendablesLinearColor::FBlueprintGlobalLightingCustomBlendablesLinearColor() {
+}
+

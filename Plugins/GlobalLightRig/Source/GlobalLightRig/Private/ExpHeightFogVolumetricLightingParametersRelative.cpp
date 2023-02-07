@@ -1,0 +1,5 @@
+#include "ExpHeightFogVolumetricLightingParametersRelative.h"
+
+FExpHeightFogVolumetricLightingParametersRelative::FExpHeightFogVolumetricLightingParametersRelative() {
+}
+

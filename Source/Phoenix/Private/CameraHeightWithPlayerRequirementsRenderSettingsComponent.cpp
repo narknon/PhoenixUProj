@@ -1,0 +1,5 @@
+#include "CameraHeightWithPlayerRequirementsRenderSettingsComponent.h"
+
+UCameraHeightWithPlayerRequirementsRenderSettingsComponent::UCameraHeightWithPlayerRequirementsRenderSettingsComponent() {
+}
+

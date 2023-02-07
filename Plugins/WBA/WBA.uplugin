@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "4.41.2",
+	"FriendlyName": "WBA Plugin",
+	"Description": "Plugin to simplfy the sending of JSON in Apache avro data format.",
+	"Category": "Analytics",
+	"CreatedBy": "WBIE",
+	"CreatedByURL": "http://www.warnerbros.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		}
+	]
+}

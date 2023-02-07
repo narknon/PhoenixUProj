@@ -1,0 +1,5 @@
+#include "OptionActorFeedingStationContentionConsideration.h"
+
+UOptionActorFeedingStationContentionConsideration::UOptionActorFeedingStationContentionConsideration() {
+}
+

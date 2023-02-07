@@ -1,0 +1,5 @@
+#include "FXAutoTriggerCognitionStimuliTestAnyCalloutAction.h"
+
+UFXAutoTriggerCognitionStimuliTestAnyCalloutAction::UFXAutoTriggerCognitionStimuliTestAnyCalloutAction() {
+}
+

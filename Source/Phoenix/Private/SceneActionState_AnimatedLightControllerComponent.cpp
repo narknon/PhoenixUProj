@@ -1,0 +1,5 @@
+#include "SceneActionState_AnimatedLightControllerComponent.h"
+
+USceneActionState_AnimatedLightControllerComponent::USceneActionState_AnimatedLightControllerComponent() {
+}
+

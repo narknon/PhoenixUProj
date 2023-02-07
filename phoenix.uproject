@@ -1,0 +1,784 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Phoenix",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule",
+				"UMG",
+				"ProceduralMeshComponent",
+				"CoreUObject",
+				"AbleCore",
+				"Mastermind",
+				"UMGFocus"
+			]
+		},
+		{
+			"Name": "DbGateway",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"Core",
+				"CoreUObject",
+				"UtilitiesRuntime"
+			]
+		},
+		{
+			"Name": "SocialDisplay",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule"
+			]
+		},
+		{
+			"Name": "GameScheduler",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
+			"Name": "AIPathScheduler",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
+			"Name": "PersistentData",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
+			"Name": "SceneRigShim",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault",
+			"AdditionalDependencies": [
+				"Phoenix"
+			]
+		},
+		{
+			"Name": "AvaAnimationShim",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault",
+			"AdditionalDependencies": [
+				"Phoenix"
+			]
+		},
+		{
+			"Name": "PhoenixSignificanceManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CreatureBehavior",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DbAssetMapper",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "OnlineStore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "BinkMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "BTCustom",
+			"Enabled": true
+		},
+		{
+			"Name": "CameraStack",
+			"Enabled": true
+		},
+		{
+			"Name": "Cognition",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlMapper",
+			"Enabled": true
+		},
+		{
+			"Name": "ToolSet",
+			"Enabled": true
+		},
+		{
+			"Name": "Utilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Progression",
+			"Enabled": true
+		},
+		{
+			"Name": "Hermes",
+			"Enabled": true
+		},
+		{
+			"Name": "HoverDrone",
+			"Enabled": true
+		},
+		{
+			"Name": "LoadingScreen",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAnimation",
+			"Enabled": true
+		},
+		{
+			"Name": "CISQLite3",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorCustomizationHelper",
+			"Enabled": true
+		},
+		{
+			"Name": "SceneRig",
+			"Enabled": true
+		},
+		{
+			"Name": "Ambulatory",
+			"Enabled": true
+		},
+		{
+			"Name": "Able",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/567d7a4af24a4c0eaab75961e0686feb"
+		},
+		{
+			"Name": "AvaRenderTech",
+			"Enabled": true
+		},
+		{
+			"Name": "BestDirectionalLight",
+			"Enabled": true
+		},
+		{
+			"Name": "DebugPanel",
+			"Enabled": true
+		},
+		{
+			"Name": "TickSequencer",
+			"Enabled": true
+		},
+		{
+			"Name": "MaterialPermuter",
+			"Enabled": true
+		},
+		{
+			"Name": "PerlinNoise",
+			"Enabled": true
+		},
+		{
+			"Name": "SkinFX",
+			"Enabled": true
+		},
+		{
+			"Name": "ActorMeshStates",
+			"Enabled": true
+		},
+		{
+			"Name": "LightCulling",
+			"Enabled": true
+		},
+		{
+			"Name": "ExposureConvert",
+			"Enabled": true
+		},
+		{
+			"Name": "ExposureExpressions",
+			"Enabled": true
+		},
+		{
+			"Name": "RenderSettings",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimatedLights",
+			"Enabled": true
+		},
+		{
+			"Name": "ExpHeightFogVolumes",
+			"Enabled": true
+		},
+		{
+			"Name": "DayNight",
+			"Enabled": true
+		},
+		{
+			"Name": "GetCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "FXUtil",
+			"Enabled": true
+		},
+		{
+			"Name": "WBDynamicSplines",
+			"Enabled": true
+		},
+		{
+			"Name": "GlobalLightRig",
+			"Enabled": true
+		},
+		{
+			"Name": "LerpVolumes",
+			"Enabled": true
+		},
+		{
+			"Name": "CachedLevelBounds",
+			"Enabled": true
+		},
+		{
+			"Name": "EnvironmentalGlobals",
+			"Enabled": true
+		},
+		{
+			"Name": "GlobalLightGroups",
+			"Enabled": true
+		},
+		{
+			"Name": "MasterTickThrottler",
+			"Enabled": true
+		},
+		{
+			"Name": "CurveHelpers",
+			"Enabled": true
+		},
+		{
+			"Name": "StencilManager",
+			"Enabled": true
+		},
+		{
+			"Name": "Weather",
+			"Enabled": true
+		},
+		{
+			"Name": "Wind",
+			"Enabled": true
+		},
+		{
+			"Name": "WorldFX",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraHelpers",
+			"Enabled": true
+		},
+		{
+			"Name": "Odyssey",
+			"Enabled": true
+		},
+		{
+			"Name": "PivotTool",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/a220ab040cb844beb355b0f159eabefa"
+		},
+		{
+			"Name": "AnimationArchitect",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaLocDirect",
+			"Enabled": true
+		},
+		{
+			"Name": "InstanceTool",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/0283702886e8467383899c7b791c4b40"
+		},
+		{
+			"Name": "ComponentNativize",
+			"Enabled": true
+		},
+		{
+			"Name": "ConsoleMacros",
+			"Enabled": true
+		},
+		{
+			"Name": "AnalyticsBlueprintLibrary",
+			"Enabled": true
+		},
+		{
+			"Name": "HTTPChunkInstaller",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "WBA",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraExtras",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorUtilityAssetsPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "PeevesPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "ACLPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/993b51e29e9a48d0b3fb449645b82cb6"
+		},
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayMods",
+			"Enabled": true
+		},
+		{
+			"Name": "Ansel",
+			"Enabled": true
+		},
+		{
+			"Name": "FacialAnimation",
+			"Enabled": false
+		},
+		{
+			"Name": "BackChannel",
+			"Enabled": false
+		},
+		{
+			"Name": "ArchVisCharacter",
+			"Enabled": false
+		},
+		{
+			"Name": "Hydra",
+			"Enabled": true
+		},
+		{
+			"Name": "PhysXVehicles",
+			"Enabled": false
+		},
+		{
+			"Name": "BTUtilityAI",
+			"Enabled": true
+		},
+		{
+			"Name": "RenderDocPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "Flow",
+			"Enabled": true
+		},
+		{
+			"Name": "Ragdoll",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleImageUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "MobileLauncherProfileWizard",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "AvfMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "MagicLeapMedia",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin"
+			]
+		},
+		{
+			"Name": "AndroidDeviceProfileSelector",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemGooglePlay",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "AndroidPermission",
+			"Enabled": false
+		},
+		{
+			"Name": "GoogleCloudMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "MagicLeap",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin"
+			]
+		},
+		{
+			"Name": "IOSDeviceProfileSelector",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemIOS",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"TVOS"
+			]
+		},
+		{
+			"Name": "NullSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "LinuxDeviceProfileSelector",
+			"Enabled": false
+		},
+		{
+			"Name": "MacGraphicsSwitching",
+			"Enabled": false
+		},
+		{
+			"Name": "Firebase",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "MobilePatchingUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "LocationServicesBPLibrary",
+			"Enabled": false
+		},
+		{
+			"Name": "MfMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "Paper2D",
+			"Enabled": false
+		},
+		{
+			"Name": "CLionSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "CodeLiteSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "KDevelopSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "SubversionSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
+		},
+		{
+			"Name": "WEditorImprovements",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationBudgetAllocator",
+			"Enabled": true
+		},
+		{
+			"Name": "MegascansPlugin",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "UMGFocus",
+			"Enabled": true
+		},
+		{
+			"Name": "Path",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAppTracker",
+			"Enabled": true
+		},
+		{
+			"Name": "PSOCaching",
+			"Enabled": true
+		},
+		{
+			"Name": "WinDualShock",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SnapTo",
+			"Enabled": true
+		},
+		{
+			"Name": "RemoteControl",
+			"Enabled": true
+		},
+		{
+			"Name": "FieldSystemPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "OodleData",
+			"Enabled": true
+		},
+		{
+			"Name": "TextureFormatOodle",
+			"Enabled": true
+		},
+		{
+			"Name": "NVIDIAGfeSDK",
+			"Enabled": true
+		},
+		{
+			"Name": "GraphPrinter",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/466303b6cd724968b3ee0a1a1b623f4b"
+		},
+		{
+			"Name": "HoudiniNiagara",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/79d2dd58387c4696a0f3458275f739d6"
+		},
+		{
+			"Name": "DLSS",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCaching",
+			"Enabled": true
+		},
+		{
+			"Name": "IGCacheSim",
+			"Enabled": true
+		},
+		{
+			"Name": "Watermark",
+			"Enabled": true
+		},
+		{
+			"Name": "LODStreamingManager",
+			"Enabled": true
+		},
+		{
+			"Name": "CascadeToNiagaraConverter",
+			"Enabled": true
+		},
+		{
+			"Name": "USDImporter",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "MasterOverlapThrottler",
+			"Enabled": true
+		},
+		{
+			"Name": "OpenImageDenoise",
+			"Enabled": false
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": false
+		},
+		{
+			"Name": "OpenXREyeTracker",
+			"Enabled": false
+		},
+		{
+			"Name": "OpenXRHandTracking",
+			"Enabled": false
+		},
+		{
+			"Name": "MagicLeapPassableWorld",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Mac",
+				"Win64"
+			]
+		},
+		{
+			"Name": "LuminPlatformFeatures",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Lumin"
+			]
+		},
+		{
+			"Name": "Reflex",
+			"Enabled": false
+		},
+		{
+			"Name": "FSR",
+			"Enabled": true
+		},
+		{
+			"Name": "FSR2",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "XeSS",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "MoviePipelineMaskRenderPass",
+			"Enabled": true
+		},
+		{
+			"Name": "NIS",
+			"Enabled": true
+		},
+		{
+			"Name": "StaticMeshEditorExtension",
+			"Enabled": true
+		},
+		{
+			"Name": "EOSShared",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemEOS",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "VirtualCamera",
+			"Enabled": false
+		},
+		{
+			"Name": "AsyncActorSpawnController",
+			"Enabled": true
+		},
+		{
+			"Name": "Streamline",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/nvidia-dlss",
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "CopyVirtualTextureRegion",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"PS4",
+		"Switch",
+		"WindowsNoEditor",
+		"XboxOne",
+		"PS5",
+		"XboxOneGDK",
+		"XSX",
+		"GDK",
+		"Sony",
+		"Windows"
+	]
+}

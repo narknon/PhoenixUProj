@@ -1,0 +1,50 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Icarus Advanced 3D Navigation System",
+	"Description": "Advanced 3D Navigation System",
+	"Category": "AI",
+	"CreatedBy": "WB Games Montreal",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "IcarusRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule",
+				"CoreUObject",
+				"AbleCore",
+				"OdysseyRuntime"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Mercuna",
+			"Enabled": true
+		},
+		{
+			"Name": "WImguiPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Able",
+			"Enabled": true
+		},
+		{
+			"Name": "Odyssey",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,5 @@
+#include "SceneActionState_WeatherSequenceLightingGlobalLightRigBlendable.h"
+
+USceneActionState_WeatherSequenceLightingGlobalLightRigBlendable::USceneActionState_WeatherSequenceLightingGlobalLightRigBlendable() {
+}
+
