@@ -13,13 +13,19 @@
 	"EnabledByDefault": true,
 	"CanContainContent": true,
 	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
-	"Installed": false,
+	"EngineVersion": "4.27.0",
 	"Modules": [
 		{
 			"Name": "ACLPlugin",
 			"Type": "Runtime",
-			"LoadingPhase": "PostConfigInit"
+			"LoadingPhase": "PostConfigInit",
+			"BlacklistPlatforms": []
+		},
+		{
+			"Name": "ACLPluginEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "Default",
+			"BlacklistPlatforms": []
 		}
 	]
 }
