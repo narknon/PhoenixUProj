@@ -66,10 +66,10 @@ public:
     TEnumAsByte<EStationMode::Type> StationMode;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EFullBodyState::Type FullBodyState;
+    TEnumAsByte<EFullBodyState::Type> FullBodyState;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EFullBodyState::Type FullBodyStateLast;
+    TEnumAsByte<EFullBodyState::Type> FullBodyStateLast;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TEnumAsByte<EMobilityState::Type> MobilityTypeState;
@@ -96,7 +96,7 @@ public:
     int32 RightArmActiveCinematicCount;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TMap<EHeadTrackingPriority::Type, EHeadTrackingState::Type> HeadTrackingStateMap;
+    TMap<TEnumAsByte<EHeadTrackingPriority::Type>, TEnumAsByte<EHeadTrackingState::Type>> HeadTrackingStateMap;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TMap<TEnumAsByte<ECombatAdditivePriority::Type>, TEnumAsByte<ECombatAdditiveState::Type>> CombatAdditiveStateMap;
@@ -274,7 +274,7 @@ public:
     
     UBiped_AnimInstance();
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void StartSettingCinematicRightArmState(TEnumAsByte<ERightArmState::Type> InState, bool bBroadcastChange);
+    void StartSettingCinematicRightArmState(ERightArmState::Type InState, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void StartSettingCinematicLeftArmState(TEnumAsByte<ELeftArmState::Type> InState, bool bBroadcastChange);

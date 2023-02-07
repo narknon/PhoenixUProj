@@ -9,7 +9,7 @@ class UablWandCastContextsTaskScratchPad : public UAblAbilityTaskScratchPad {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    EWandCastType::Type WandCastType;
+    TEnumAsByte<EWandCastType::Type> WandCastType;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     TMap<int32, bool> FrameReachedMap;

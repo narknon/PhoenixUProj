@@ -10,7 +10,7 @@ void UAblCustomTask::OnTaskTickBP_Implementation(const UAblAbilityContext* Conte
 void UAblCustomTask::OnTaskStartBP_Implementation(const UAblAbilityContext* Context) const {
 }
 
-void UAblCustomTask::OnTaskEndBP_Implementation(const UAblAbilityContext* Context, const TEnumAsByte<EAblAbilityTaskResult> Result) const {
+void UAblCustomTask::OnTaskEndBP_Implementation(const UAblAbilityContext* Context, const EAblAbilityTaskResult Result) const {
 }
 
 bool UAblCustomTask::IsSingleFrameBP_Implementation() const {

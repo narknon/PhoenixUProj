@@ -59,7 +59,7 @@ public:
     static void HermesExecuteOwnedEvent(const FString& Name, const UObject* Owner, const UObject* Caller);
     
     UFUNCTION(BlueprintCallable)
-    static void HermesExecuteOwnedDoubleInt(const FString& Name, const UObject* Owner, const UObject* Caller, int32 int, int32 Int2);
+    static void HermesExecuteOwnedDoubleInt(const FString& Name, const UObject* Owner, const UObject* Caller, int32 Int, int32 Int2);
     
     UFUNCTION(BlueprintCallable)
     static void HermesExecuteOwnedDoubleFString(const FString& Name, const UObject* Owner, const UObject* Caller, const FString& String1, const FString& String2);

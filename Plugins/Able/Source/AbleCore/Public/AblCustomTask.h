@@ -22,7 +22,7 @@ public:
     void OnTaskStartBP(const UAblAbilityContext* Context) const;
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void OnTaskEndBP(const UAblAbilityContext* Context, const TEnumAsByte<EAblAbilityTaskResult> Result) const;
+    void OnTaskEndBP(const UAblAbilityContext* Context, const EAblAbilityTaskResult Result) const;
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool IsSingleFrameBP() const;

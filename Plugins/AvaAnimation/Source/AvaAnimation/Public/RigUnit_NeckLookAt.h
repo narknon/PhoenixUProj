@@ -1,6 +1,5 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigUnitMutable.h"
 #include "UObject/NoExportTypes.h"
 #include "Curves/CurveFloat.h"
 #include "RigUnit_NeckLookAt_BoneRotation.h"
@@ -10,6 +9,7 @@
 #include "RigUnit_NeckLookAt_SoftAngleLimits.h"
 #include "RigUnit_NeckLookAt_Target.h"
 #include "RigUnit_NeckLookAt_WorkData.h"
+#include "Units/RigUnit.h"
 #include "RigUnit_NeckLookAt.generated.h"
 
 USTRUCT(BlueprintType)

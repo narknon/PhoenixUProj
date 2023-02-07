@@ -33,7 +33,7 @@ void UHermesBPLibrary::HermesExecuteOwnedFloat(const FString& Name, const UObjec
 void UHermesBPLibrary::HermesExecuteOwnedEvent(const FString& Name, const UObject* Owner, const UObject* Caller) {
 }
 
-void UHermesBPLibrary::HermesExecuteOwnedDoubleInt(const FString& Name, const UObject* Owner, const UObject* Caller, int32 int, int32 Int2) {
+void UHermesBPLibrary::HermesExecuteOwnedDoubleInt(const FString& Name, const UObject* Owner, const UObject* Caller, int32 Int, int32 Int2) {
 }
 
 void UHermesBPLibrary::HermesExecuteOwnedDoubleFString(const FString& Name, const UObject* Owner, const UObject* Caller, const FString& String1, const FString& String2) {

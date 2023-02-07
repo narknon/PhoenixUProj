@@ -32,7 +32,7 @@ public:
     void Consume();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void BroadcastAction(const FBTCustomAction ActionName, const TEnumAsByte<EBTCustomActionType::Type> ActionType, FVariantMapHandle VarMapHandle, bool bDestroyVarMap);
+    void BroadcastAction(const FBTCustomAction ActionName, const EBTCustomActionType::Type ActionType, FVariantMapHandle VarMapHandle, bool bDestroyVarMap);
     
 };
 

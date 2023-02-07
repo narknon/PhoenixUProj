@@ -202,10 +202,10 @@ public:
     void SetMountNormal(const FVector& Normal);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetMobilityModeState(TEnumAsByte<EMobilityModeState::Type> InMobilityModeState);
+    void SetMobilityModeState(EMobilityModeState::Type InMobilityModeState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetMobilityActionState(TEnumAsByte<EMobilityActionState::Type> InMobilityActionState, bool bSetTargetSpeed);
+    void SetMobilityActionState(EMobilityActionState::Type InMobilityActionState, bool bSetTargetSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetLandingType(ELandingType::Type InType);

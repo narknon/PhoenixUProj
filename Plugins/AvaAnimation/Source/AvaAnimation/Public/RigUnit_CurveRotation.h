@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigUnitMutable.h"
 #include "Curves/CurveFloat.h"
 #include "RigUnit_CurveRotation_DebugSettings.h"
 #include "RigUnit_CurveRotation_Target.h"
 #include "RigUnit_CurveRotation_WorkData.h"
+#include "Units/RigUnit.h"
 #include "RigUnit_CurveRotation.generated.h"
 
 USTRUCT(BlueprintType)

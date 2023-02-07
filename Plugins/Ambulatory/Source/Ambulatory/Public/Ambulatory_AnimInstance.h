@@ -39,7 +39,7 @@ public:
     TEnumAsByte<EJumpingType::Type> JumpType;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    ELandingType::Type LandType;
+    TEnumAsByte<ELandingType::Type> LandType;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TEnumAsByte<EAnimSpeedType::Type> AnimSpeedType;

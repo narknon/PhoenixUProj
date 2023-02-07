@@ -10,16 +10,16 @@ struct FWandCastInfo {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EWandCastType::Type WandCastType;
+    TEnumAsByte<EWandCastType::Type> WandCastType;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EWandCastType::Type LastWandCastType;
+    TEnumAsByte<EWandCastType::Type> LastWandCastType;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EPreWandCastState::Type PreWandCastState;
+    TEnumAsByte<EPreWandCastState::Type> PreWandCastState;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EPreWandCastState::Type AnticipationWandCastState;
+    TEnumAsByte<EPreWandCastState::Type> AnticipationWandCastState;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TEnumAsByte<ELastWandCastState::Type> LastWandCastState;

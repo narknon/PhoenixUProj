@@ -52,7 +52,7 @@ public:
     TEnumAsByte<ERightArmState::Type> RightArmState;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EHeadTrackingState::Type HeadTrackingState;
+    TEnumAsByte<EHeadTrackingState::Type> HeadTrackingState;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bDisableRiderHandIK;
