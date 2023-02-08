@@ -36,7 +36,7 @@ public:
     void SprintStop();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SprintStart(TEnumAsByte<ESpeedModifierType::Type> SpeedModType);
+    void SprintStart(ESpeedModifierType::Type SpeedModType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetUseSpeedModifier(bool bUseSpeedModifier);
@@ -57,10 +57,10 @@ public:
     void SetMountNormal(const FVector& Normal);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetMobilityModeState(TEnumAsByte<EMobilityModeState::Type> InMobilityModeState);
+    void SetMobilityModeState(EMobilityModeState::Type InMobilityModeState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetMobilityActionState(TEnumAsByte<EMobilityActionState::Type> InMobilityActionState, bool bSetTargetSpeed);
+    void SetMobilityActionState(EMobilityActionState::Type InMobilityActionState, bool bSetTargetSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetLandingType(TEnumAsByte<ELandingType::Type> InType);
@@ -114,7 +114,7 @@ public:
     TEnumAsByte<ESpeedModifierType::Type> GetSpeedModifierType();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetPreviousMobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState);
+    void GetPreviousMobilityActionState(EMobilityActionState::Type& OutMobilityActionState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void GetMountTransform(FTransform& LedgeTransform);
@@ -126,7 +126,7 @@ public:
     void GetMobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutMobilityModeState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetMobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState);
+    void GetMobilityActionState(EMobilityActionState::Type& OutMobilityActionState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     UTargetTracker* GetLookAtTargetTracker();

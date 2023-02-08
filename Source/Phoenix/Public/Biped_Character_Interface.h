@@ -67,7 +67,7 @@ public:
     void SetRootMotionOffset();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange);
+    void SetRightArmState(ERightArmState::Type InState, ERightArmPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetPickupTool(const APickupTool* InPickupTool);
@@ -100,7 +100,7 @@ public:
     void SetFullBodyState(const TEnumAsByte<EFullBodyState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetFinisherOptimalRatio(const float OptimalRatio, TEnumAsByte<EDynamicForceFeedbackAction::Type> FeedbackAction);
+    void SetFinisherOptimalRatio(const float OptimalRatio, EDynamicForceFeedbackAction::Type FeedbackAction);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetAdditiveBodyState(const TEnumAsByte<EAdditiveBodyState::Type>& InState);
@@ -130,7 +130,7 @@ public:
     void PushDisableStack(FName_GameLogicVarInt32 StackName);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    bool ProcessStick(float StickX, float StickY, const float DeltaTime, const UCurveFloat* DeadZoneCurve, const UCurveFloat* SpeedCurve, const UCurveFloat* SpeedGovernorCurve, float& WorldSpeed, FVector& WorldDirection, TEnumAsByte<ECustomInterpType::Type> InterpType, float InterpSpeed, float StickMagReductionDelayTimer);
+    bool ProcessStick(float StickX, float StickY, const float DeltaTime, const UCurveFloat* DeadZoneCurve, const UCurveFloat* SpeedCurve, const UCurveFloat* SpeedGovernorCurve, float& WorldSpeed, FVector& WorldDirection, ECustomInterpType::Type InterpType, float InterpSpeed, float StickMagReductionDelayTimer);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void PopDisableStack(FName_GameLogicVarInt32 StackName);
@@ -196,7 +196,7 @@ public:
     void GetRootMotionOffset(FVector& OutTranslationOffset);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    TEnumAsByte<ERightArmState::Type> GetRightArmState(TEnumAsByte<ERightArmPriority::Type> InPriority);
+    ERightArmState::Type GetRightArmState(ERightArmPriority::Type InPriority);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     float GetPutdownToolHeight();

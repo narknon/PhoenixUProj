@@ -169,7 +169,7 @@ public:
     void SprintStop();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SprintStart(TEnumAsByte<ESpeedModifierType::Type> SpeedModType);
+    void SprintStart(ESpeedModifierType::Type SpeedModType);
     
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject"))
     static void ShowTimingMessage(const FString& MyMessage, UObject* WorldContextObject, float Duration);
@@ -205,7 +205,7 @@ public:
     void SetMobilityModeState(TEnumAsByte<EMobilityModeState::Type> InMobilityModeState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetMobilityActionState(TEnumAsByte<EMobilityActionState::Type> InMobilityActionState, bool bSetTargetSpeed);
+    void SetMobilityActionState(EMobilityActionState::Type InMobilityActionState, bool bSetTargetSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetLandingType(TEnumAsByte<ELandingType::Type> InType);
@@ -271,7 +271,7 @@ public:
     TEnumAsByte<ESpeedModifierType::Type> GetSpeedModifierType();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetPreviousMobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState);
+    void GetPreviousMobilityActionState(EMobilityActionState::Type& OutMobilityActionState);
     
     UFUNCTION(BlueprintCallable)
     FOdcPathSpec GetPathSpec() const;
@@ -289,7 +289,7 @@ public:
     void GetMobilityActionStateName(UAnimInstance* InAnimInstance, FString& OutString);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetMobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState);
+    void GetMobilityActionState(EMobilityActionState::Type& OutMobilityActionState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     UTargetTracker* GetLookAtTargetTracker();
@@ -355,7 +355,7 @@ public:
     void ApplySlideHorizontalMovement(float WorldSpeed, const FVector InWorldDirection);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void ApplyMobilityModeStateSpeeds(TEnumAsByte<EMobilityModeState::Type> InMobilityModeState);
+    void ApplyMobilityModeStateSpeeds(EMobilityModeState::Type InMobilityModeState);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool AmIMovingIntoStairs() const;

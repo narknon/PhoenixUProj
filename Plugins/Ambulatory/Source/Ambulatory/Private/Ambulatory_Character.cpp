@@ -51,7 +51,7 @@ void AAmbulatory_Character::SetMountNormal_Implementation(const FVector& Normal)
 void AAmbulatory_Character::SetMobilityModeState_Implementation(TEnumAsByte<EMobilityModeState::Type> InMobilityModeState) {
 }
 
-void AAmbulatory_Character::SetMobilityActionState_Implementation(TEnumAsByte<EMobilityActionState::Type> InMobilityActionState, bool bSetTargetSpeed) {
+void AAmbulatory_Character::SetMobilityActionState_Implementation(EMobilityActionState::Type InMobilityActionState, bool bSetTargetSpeed) {
 }
 
 void AAmbulatory_Character::SetLandingType_Implementation(TEnumAsByte<ELandingType::Type> InType) {
@@ -122,7 +122,7 @@ TEnumAsByte<ESpeedModifierType::Type> AAmbulatory_Character::GetSpeedModifierTyp
     return ESpeedModifierType::None;
 }
 
-void AAmbulatory_Character::GetPreviousMobilityActionState_Implementation(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState) {
+void AAmbulatory_Character::GetPreviousMobilityActionState_Implementation(EMobilityActionState::Type& OutMobilityActionState) {
 }
 
 FOdcPathSpec AAmbulatory_Character::GetPathSpec() const {
@@ -141,7 +141,7 @@ void AAmbulatory_Character::GetMobilityModeState_Implementation(TEnumAsByte<EMob
 void AAmbulatory_Character::GetMobilityActionStateName(UAnimInstance* InAnimInstance, FString& OutString) {
 }
 
-void AAmbulatory_Character::GetMobilityActionState_Implementation(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState) {
+void AAmbulatory_Character::GetMobilityActionState_Implementation(EMobilityActionState::Type& OutMobilityActionState) {
 }
 
 UTargetTracker* AAmbulatory_Character::GetLookAtTargetTracker_Implementation() {
@@ -218,7 +218,7 @@ USceneComponent* AAmbulatory_Character::AttachSceneComponent_Implementation(FTra
 void AAmbulatory_Character::ApplySlideHorizontalMovement(float WorldSpeed, const FVector InWorldDirection) {
 }
 
-void AAmbulatory_Character::ApplyMobilityModeStateSpeeds_Implementation(TEnumAsByte<EMobilityModeState::Type> InMobilityModeState) {
+void AAmbulatory_Character::ApplyMobilityModeStateSpeeds_Implementation(EMobilityModeState::Type InMobilityModeState) {
 }
 
 bool AAmbulatory_Character::AmIMovingIntoStairs() const {

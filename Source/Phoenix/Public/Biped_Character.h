@@ -210,7 +210,7 @@ public:
     void SetSpell(int32 Group, int32 Index, USpellToolRecord* Spell);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange);
+    void SetRightArmState(ERightArmState::Type InState, ERightArmPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable)
     void SetRayCastActor(AActor* i_pRayCastActor);
@@ -231,7 +231,7 @@ public:
     void SetFullBodyState(const TEnumAsByte<EFullBodyState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetFinisherOptimalRatio(const float OptimalRatio, TEnumAsByte<EDynamicForceFeedbackAction::Type> FeedbackAction);
+    void SetFinisherOptimalRatio(const float OptimalRatio, EDynamicForceFeedbackAction::Type FeedbackAction);
     
     UFUNCTION(BlueprintCallable)
     void SetFinisher(int32 Index, USpellToolRecord* Spell);
@@ -294,7 +294,7 @@ public:
     USkeletalMeshComponent* GetSkeletalMesh() const;
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    TEnumAsByte<ERightArmState::Type> GetRightArmState(TEnumAsByte<ERightArmPriority::Type> InPriority);
+    ERightArmState::Type GetRightArmState(ERightArmPriority::Type InPriority);
     
     UFUNCTION(BlueprintCallable)
     AActor* GetRayCastActor();
