@@ -3,6 +3,8 @@
 #include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EWindGustCurveRemap -FallbackName=EWindGustCurveRemap
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EWindGustSpeedOp -FallbackName=EWindGustSpeedOp
+#include "EWindGustCurveRemap.h"
+#include "EWindGustSpeedOp.h"
 #include "WindGustControllerSimplexNoise.h"
 #include "WindGustControllerSimplexNoiseSpeed.generated.h"
 

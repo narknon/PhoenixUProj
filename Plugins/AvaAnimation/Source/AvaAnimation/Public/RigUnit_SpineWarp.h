@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigUnitMutable.h"
 #include "UObject/NoExportTypes.h"
 #include "Curves/CurveFloat.h"
 #include "RigUnit_SpineWarp_CounterRotateBone.h"
 #include "RigUnit_SpineWarp_DebugSettings.h"
 #include "RigUnit_SpineWarp_WorkData.h"
+#include "Units/RigUnit.h"
 #include "RigUnit_SpineWarp.generated.h"
 
 USTRUCT(BlueprintType)

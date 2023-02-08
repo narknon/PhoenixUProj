@@ -4,6 +4,7 @@
 #include "GameFramework/Actor.h"
 #include "Engine/EngineTypes.h"
 #include "AIPerformTaskContainer.h"
+#include "AvaAudioDialogueEvent.h"
 #include "DialogueConversationReference.h"
 #include "EPerformTaskContainerType.h"
 #include "PerformTriggerTaskCompleteBPDelegate.h"
@@ -14,7 +15,7 @@
 
 class APerformTasksForAI;
 class UAblAbility;
-class UAvaAudioDialogueEvent;
+
 class UBoxComponent;
 class UObject;
 class UPrimitiveComponent;

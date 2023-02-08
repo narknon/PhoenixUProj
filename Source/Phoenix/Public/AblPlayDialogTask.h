@@ -1,11 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "AblAbilityTask.h"
+#include "AnimNotify_PlayAvaAudioDialogue.h"
 #include "AudioDialogueFlags.h"
 #include "DialogueConversationReference.h"
 #include "AblPlayDialogTask.generated.h"
 
-class UAvaAudioDialogueEvent;
+
 
 UCLASS(Blueprintable, EditInlineNew)
 class UAblPlayDialogTask : public UAblAbilityTask {

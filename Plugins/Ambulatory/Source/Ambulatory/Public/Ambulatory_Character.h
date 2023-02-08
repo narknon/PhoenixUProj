@@ -268,7 +268,7 @@ public:
     void GetTargetSpeedModifier(ETargetSpeedMode::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    TEnumAsByte<ESpeedModifierType::Type> GetSpeedModifierType();
+    ESpeedModifierType::Type GetSpeedModifierType();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void GetPreviousMobilityActionState(EMobilityActionState::Type& OutMobilityActionState);

@@ -3,7 +3,7 @@
 class UObject;
 class UTimeOverrideDateTimeRaw;
 
-void UTimeOverrideDateTimeRaw::TimeOverrideDateTimeCreate(UObject* Owner, const UTimeOverrideDateTimeRaw*& TimeOverride, FDateTime CreateDateTime, float CreatePriority, bool bCreateEnabled, bool bIsTransient) {
+void UTimeOverrideDateTimeRaw::TimeOverrideDateTimeCreate(UObject* Owner, UTimeOverrideDateTimeRaw*& TimeOverride, FDateTime CreateDateTime, float CreatePriority, bool bCreateEnabled, bool bIsTransient) {
 }
 
 UTimeOverrideDateTimeRaw::UTimeOverrideDateTimeRaw() {

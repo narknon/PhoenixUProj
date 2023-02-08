@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=WindPointSourceComponent -FallbackName=WindPointSourceComponent
 #include "EWindPointEnvelopeAffects.h"
+#include "WindPointSourceComponent.h"
 #include "WindSourceEnvelopeRetriggerDelegate.h"
 #include "WindPointSourceWithEnvelopeComponent.generated.h"
 

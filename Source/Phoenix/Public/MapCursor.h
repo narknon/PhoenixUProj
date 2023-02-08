@@ -173,7 +173,7 @@ public:
     void SetRightMouseButtonClicked(bool Clicked);
     
     UFUNCTION(BlueprintCallable)
-    void SetCursorControl(ECursorControlTypes::Type& ControlType);
+    void SetCursorControl(TEnumAsByte<ECursorControlTypes::Type>& ControlType);
     
     UFUNCTION(BlueprintCallable)
     void SetCursorBounds(FVector4 BoundsArray);

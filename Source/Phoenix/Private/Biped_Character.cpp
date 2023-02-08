@@ -29,7 +29,7 @@ void ABiped_Character::UnEquipWand_Implementation() {
 void ABiped_Character::StartCrouching(const UObject* Provider, TEnumAsByte<ETargetSpeedMode::Type> SpeedMode, TEnumAsByte<ETargetSpeedMode::Type> SpeedModifier) {
 }
 
-void ABiped_Character::StairsStateHasChanged(EStairsState::Type> InLastStairsState, TEnumAsByte<EStairsState::Type InNewStairsState) {
+void ABiped_Character::StairsStateHasChanged(EStairsState::Type InLastStairsState, EStairsState::Type InNewStairsState) {
 }
 
 void ABiped_Character::SetTargetDirection(FVector i_targetDirection) {
@@ -50,7 +50,7 @@ void ABiped_Character::SetSpellCastHandle_Implementation(int32 InSpellCastHandle
 void ABiped_Character::SetSpell(int32 Group, int32 Index, USpellToolRecord* Spell) {
 }
 
-void ABiped_Character::SetRightArmState_Implementation(ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type InPriority, bool bBroadcastChange) {
+void ABiped_Character::SetRightArmState_Implementation(ERightArmState::Type InState, ERightArmPriority::Type InPriority, bool bBroadcastChange) {
 }
 
 void ABiped_Character::SetRayCastActor(AActor* i_pRayCastActor) {
@@ -229,10 +229,10 @@ void ABiped_Character::GetAdditiveBodyState_Implementation(EAdditiveBodyState::T
 void ABiped_Character::FinishCrouching(const UObject* Provider) {
 }
 
-void ABiped_Character::FacingTargetsListIsNowEmpty(ETargetType::Type> LastTargetType, TEnumAsByte<ETargetID::Type LastTargetID) {
+void ABiped_Character::FacingTargetsListIsNowEmpty(ETargetType::Type LastTargetType, ETargetID::Type LastTargetID) {
 }
 
-void ABiped_Character::FacingNotifyOfNewBestTarget(ETargetType::Type> NewTargetType, TEnumAsByte<ETargetID::Type NewTargetID) {
+void ABiped_Character::FacingNotifyOfNewBestTarget(ETargetType::Type NewTargetType, ETargetID::Type NewTargetID) {
 }
 
 void ABiped_Character::EquipWand_Implementation() {
@@ -272,10 +272,10 @@ bool ABiped_Character::CanLandOnLedge() const {
 void ABiped_Character::CancelCurrentSpell(bool RemoveDisillusionment) const {
 }
 
-void ABiped_Character::CalculateLedgePullUpState(EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type& OutType) {
+void ABiped_Character::CalculateLedgePullUpState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType) {
 }
 
-void ABiped_Character::CalculateClimbingLedgeState_Implementation(EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type& OutType) {
+void ABiped_Character::CalculateClimbingLedgeState_Implementation(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType) {
 }
 
 bool ABiped_Character::AdjustHealth(float change, bool bDontKill) {

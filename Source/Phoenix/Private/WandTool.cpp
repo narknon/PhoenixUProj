@@ -79,7 +79,7 @@ void AWandTool::OnSpell_Released(const int32 SpellSlot) {
 void AWandTool::OnSpell_Pressed(const int32 SpellSlot) {
 }
 
-void AWandTool::OnRightArmStateChanged(ERightArmState::Type> RightArmState, TEnumAsByte<ERightArmState::Type LastRightArmState) {
+void AWandTool::OnRightArmStateChanged(ERightArmState::Type RightArmState, ERightArmState::Type LastRightArmState) {
 }
 
 void AWandTool::OnCharacterLoadComplete(AActor* Actor) {

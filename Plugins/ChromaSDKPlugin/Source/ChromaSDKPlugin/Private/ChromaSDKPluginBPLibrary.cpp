@@ -143,7 +143,7 @@ void UChromaSDKPluginBPLibrary::SetStaticColorAll(const FLinearColor& Color) {
 void UChromaSDKPluginBPLibrary::SetStaticColor(EChromaSDKDeviceEnum::Type device, const FLinearColor& Color) {
 }
 
-void UChromaSDKPluginBPLibrary::SetMouseLedColor(EChromaSDKMouseLed::Type> led, const FLinearColor& colorParam, TArray<FChromaSDKColors& Colors) {
+void UChromaSDKPluginBPLibrary::SetMouseLedColor(EChromaSDKMouseLed::Type led, const FLinearColor& colorParam, TArray<FChromaSDKColors>& Colors) {
 }
 
 void UChromaSDKPluginBPLibrary::SetKeysNonZeroColorName(const FString& AnimationName, const int32 FrameIndex, const TArray<TEnumAsByte<EChromaSDKKeyboardKey::Type>>& Keys, const FLinearColor& colorParam) {
@@ -209,7 +209,7 @@ void UChromaSDKPluginBPLibrary::SetKeyColorAllFrames(int32 animationId, TEnumAsB
 void UChromaSDKPluginBPLibrary::SetKeyColor(int32 animationId, int32 FrameIndex, TEnumAsByte<EChromaSDKKeyboardKey::Type> Key, const FLinearColor& colorParam) {
 }
 
-void UChromaSDKPluginBPLibrary::SetKeyboardKeyColor(EChromaSDKKeyboardKey::Type> Key, const FLinearColor& colorParam, TArray<FChromaSDKColors& Colors) {
+void UChromaSDKPluginBPLibrary::SetKeyboardKeyColor(EChromaSDKKeyboardKey::Type Key, const FLinearColor& colorParam, TArray<FChromaSDKColors>& Colors) {
 }
 
 void UChromaSDKPluginBPLibrary::SetIdleAnimationName(const FString& AnimationName) {

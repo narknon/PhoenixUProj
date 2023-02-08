@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AnimNotify_PlayAvaAudioDialogue.h"
 #include "AvaDialogueTrackSectionData.generated.h"
 
-class UAvaAudioDialogueEvent;
 
 USTRUCT(BlueprintType)
 struct FAvaDialogueTrackSectionData {

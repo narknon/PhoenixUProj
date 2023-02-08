@@ -36,7 +36,7 @@ void AAmbulatory_Character::SetTargetSpeedAndDirection(const float InAbstractSpe
 void AAmbulatory_Character::SetTargetSpeed(float InAbstractSpeed, bool InSetMobilityStateBasedOnSpeed) {
 }
 
-void AAmbulatory_Character::SetSpeedMode_Implementation(ETargetSpeedMode::Type> SpeedMode, TEnumAsByte<ETargetSpeedMode::Type> SpeedModifier, TEnumAsByte<ETargetSpeedPriority::Type SpeedPriority) {
+void AAmbulatory_Character::SetSpeedMode_Implementation(ETargetSpeedMode::Type SpeedMode, ETargetSpeedMode::Type SpeedModifier, ETargetSpeedPriority::Type SpeedPriority) {
 }
 
 void AAmbulatory_Character::SetMovementSpeeds_Implementation(float InMin, float InMax) {
@@ -75,7 +75,7 @@ void AAmbulatory_Character::SetClimbingLedgeState_Implementation(EClimbingLedgeS
 void AAmbulatory_Character::SetClimbingLadderState_Implementation(EClimbingLadderState::Type InType) {
 }
 
-void AAmbulatory_Character::SetBaseSpeedMode_Implementation(ETargetSpeedMode::Type> SpeedMode, TEnumAsByte<ETargetSpeedMode::Type SpeedModifier) {
+void AAmbulatory_Character::SetBaseSpeedMode_Implementation(ETargetSpeedMode::Type SpeedMode, ETargetSpeedMode::Type SpeedModifier) {
 }
 
 void AAmbulatory_Character::Set_ForceTurnAndFace_Implementation(bool InFlag) {
@@ -118,7 +118,7 @@ UPrimitiveComponent* AAmbulatory_Character::GetWadingComponent() const {
 void AAmbulatory_Character::GetTargetSpeedModifier_Implementation(ETargetSpeedMode::Type& OutState) {
 }
 
-TEnumAsByte<ESpeedModifierType::Type> AAmbulatory_Character::GetSpeedModifierType_Implementation() {
+ESpeedModifierType::Type AAmbulatory_Character::GetSpeedModifierType_Implementation() {
     return ESpeedModifierType::None;
 }
 

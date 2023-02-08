@@ -3,6 +3,6 @@
 void UTesselatedPlaneComponent::Construct() {
 }
 
-UTesselatedPlaneComponent::UTesselatedPlaneComponent() {
+UTesselatedPlaneComponent::UTesselatedPlaneComponent() : UProceduralMeshComponent(FObjectInitializer::Get()) {
 }
 

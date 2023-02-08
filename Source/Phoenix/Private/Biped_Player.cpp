@@ -231,7 +231,7 @@ void ABiped_Player::PutPlayerIntoCinematicState(bool bFlag, bool bAlterAbilities
 void ABiped_Player::PushDisableStack_Implementation(FName_GameLogicVarInt32 StackName) {
 }
 
-bool ABiped_Player::ProcessStick_Implementation(float StickX, float StickY, const float DeltaTime, const UCurveFloat* DeadZoneCurve, const UCurveFloat* SpeedCurve, const UCurveFloat* SpeedGovernorCurve, float& WorldSpeed, FVector& WorldDirection, TEnumAsByte<ECustomInterpType::Type> InterpType, float InterpSpeed, float StickMagReductionDelayTimer) {
+bool ABiped_Player::ProcessStick_Implementation(float StickX, float StickY, const float DeltaTime, const UCurveFloat* DeadZoneCurve, const UCurveFloat* SpeedCurve, const UCurveFloat* SpeedGovernorCurve, float& WorldSpeed, FVector& WorldDirection, ECustomInterpType::Type InterpType, float InterpSpeed, float StickMagReductionDelayTimer) {
     return false;
 }
 

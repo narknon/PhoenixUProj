@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "EWindSourceEnvelopeTriggerEvent.h"
-#include "WeatherWindDirectionalSourceComponentBase.h"
+#include "WindSourceComponentBase.h"
 #include "WindSourceEnvelopeRetriggerDelegate.generated.h"
 
 class UWindEnvelopeController;

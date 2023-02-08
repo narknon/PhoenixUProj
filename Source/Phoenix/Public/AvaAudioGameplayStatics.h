@@ -12,10 +12,11 @@
 #include "DialogueEventCompleteDelegateDelegate.h"
 #include "DialogueSequenceReference.h"
 #include "EGenderVoice.h"
+#include "MultiFX2_Dialogue.h"
 #include "AvaAudioGameplayStatics.generated.h"
 
 class AActor;
-class UAvaAudioDialogueEvent;
+
 class UObject;
 
 UCLASS(Blueprintable)

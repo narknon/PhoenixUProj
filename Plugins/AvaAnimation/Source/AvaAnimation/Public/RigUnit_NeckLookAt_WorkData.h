@@ -1,8 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigBoneHierarchy.h"
+
 #include "UObject/NoExportTypes.h"
 #include "RigUnit_NeckLookAt_ConeConstraint.h"
+#include "Rigs/RigBoneHierarchy.h"
 #include "RigUnit_NeckLookAt_WorkData.generated.h"
 
 USTRUCT(BlueprintType)

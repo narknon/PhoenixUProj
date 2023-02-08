@@ -1,10 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AvaAudioDialogueEvent.h"
 #include "MultiFX2_Filtered.h"
 #include "AvaAudioDialogueFlags.h"
+#include "PerformTasksForAI.h"
 #include "MultiFX2_Dialogue.generated.h"
 
-class UAvaAudioDialogueEvent;
+
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
 class UMultiFX2_Dialogue : public UMultiFX2_Filtered {

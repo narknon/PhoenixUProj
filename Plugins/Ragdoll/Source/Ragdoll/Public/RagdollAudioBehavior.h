@@ -1,10 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AvaAudioDialogueEvent.h"
+
 #include "RagdollBehaviorBase.h"
 #include "RagdollAudioBehavior.generated.h"
 
-class UAvaAudioDialogueEvent;
-class URagdollAudioBehavior;
+
 
 UCLASS(Blueprintable)
 class RAGDOLL_API URagdollAudioBehavior : public URagdollBehaviorBase {

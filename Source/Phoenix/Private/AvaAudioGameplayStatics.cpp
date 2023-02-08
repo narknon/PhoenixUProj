@@ -1,8 +1,6 @@
 #include "AvaAudioGameplayStatics.h"
 
-class AActor;
-class UAvaAudioDialogueEvent;
-class UObject;
+
 
 void UAvaAudioGameplayStatics::WriteStringToSpeechLog(const FString& LogString) {
 }

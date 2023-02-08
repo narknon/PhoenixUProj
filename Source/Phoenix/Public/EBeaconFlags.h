@@ -14,6 +14,5 @@ enum class EBeaconFlags : uint8 {
     BEACON_FLAG_DONTLOCKONHUD = 0x40,
     BEACON_FLAG_HIDEFROMMAP = 0x80,
     BEACON_FLAG_ALL = 0xFF,
-    BEACON_FLAG_MAX UMETA(Hidden),
 };
 

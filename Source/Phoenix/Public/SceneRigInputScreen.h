@@ -2,7 +2,6 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "Types/SlateEnums.h"
-#include "Types/SlateEnums.h"
 #include "Layout/Margin.h"
 #include "Blueprint/UserWidget.h"
 #include "DialogueConversationReference.h"

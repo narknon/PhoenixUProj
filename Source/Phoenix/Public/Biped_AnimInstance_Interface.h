@@ -106,7 +106,7 @@ public:
     void SetAmpedPercent(float InAmpedPercent);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetAdditiveBodyState(const TEnumAsByte<EAdditiveBodyState::Type>& InState);
+    void SetAdditiveBodyState(const EAdditiveBodyState::Type& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetAbortAnim(bool InAbortAnim);

@@ -1,11 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigUnitMutable.h"
+
 #include "UObject/NoExportTypes.h"
 #include "AlphaBlend.h"
 #include "ESplineIKBoneAxis.h"
 #include "RigUnit_SplineIK_DebugSettings.h"
 #include "RigUnit_SplineIK_WorkData.h"
+#include "Units/RigUnit.h"
 #include "RigUnit_SplineIK.generated.h"
 
 USTRUCT(BlueprintType)

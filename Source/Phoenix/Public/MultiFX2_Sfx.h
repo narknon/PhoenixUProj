@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EAkCallbackType.h"
+#include "AkGameplayTypes.h"
+
 #include "MultiFX2_Filtered.h"
 #include "ESfxOcclusion.h"
 #include "MultiFX2_Sfx.generated.h"

@@ -3,7 +3,7 @@
 class UObject;
 class UTimeOverrideTimeHours;
 
-void UTimeOverrideTimeHours::TimeOverrideTimeHoursCreate(UObject* Owner, const UTimeOverrideTimeHours*& TimeOverride, float CreateTime, ETimeOverrideType CreateType, float CreatePriority, bool bCreateEnabled, bool bIsTransient) const {
+void UTimeOverrideTimeHours::TimeOverrideTimeHoursCreate(UObject* Owner, UTimeOverrideTimeHours*& TimeOverride, float CreateTime, ETimeOverrideType CreateType, float CreatePriority, bool bCreateEnabled, bool bIsTransient) {
 }
 
 UTimeOverrideTimeHours::UTimeOverrideTimeHours() {

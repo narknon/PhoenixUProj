@@ -799,7 +799,7 @@ public:
     void PushDisableStack(FName_GameLogicVarInt32 StackName);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    bool ProcessStick(float StickX, float StickY, const float DeltaTime, const UCurveFloat* DeadZoneCurve, const UCurveFloat* SpeedCurve, const UCurveFloat* SpeedGovernorCurve, float& WorldSpeed, FVector& WorldDirection, TEnumAsByte<ECustomInterpType::Type> InterpType, float InterpSpeed, float StickMagReductionDelayTimer);
+    bool ProcessStick(float StickX, float StickY, const float DeltaTime, const UCurveFloat* DeadZoneCurve, const UCurveFloat* SpeedCurve, const UCurveFloat* SpeedGovernorCurve, float& WorldSpeed, FVector& WorldDirection, ECustomInterpType::Type InterpType, float InterpSpeed, float StickMagReductionDelayTimer);
     
     UFUNCTION(BlueprintCallable)
     bool ProcessFollowTarget(AActor* InFollowActor, const UCurveFloat* SpeedCurve, float& OutWorldSpeed, FVector& OutWorldDirection);

@@ -1,10 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AvaAudioGameplayStatics.h"
 #include "Animation/AnimNotifies/AnimNotify.h"
 #include "DialogueConversationReference.h"
 #include "AnimNotify_PlayAvaAudioDialogue.generated.h"
 
-class UAvaAudioDialogueEvent;
+
 
 UCLASS(Blueprintable, CollapseCategories)
 class UAnimNotify_PlayAvaAudioDialogue : public UAnimNotify {

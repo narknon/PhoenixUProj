@@ -25,7 +25,7 @@ public:
     
     UTimeOverrideTimeHours();
     UFUNCTION(BlueprintCallable, BlueprintPure=false)
-    static void TimeOverrideTimeHoursCreate(UObject* Owner, const UTimeOverrideTimeHours*& TimeOverride, float CreateTime, ETimeOverrideType CreateType, float CreatePriority, bool bCreateEnabled, bool bIsTransient) const;
+    static void TimeOverrideTimeHoursCreate(UObject* Owner, UTimeOverrideTimeHours*& TimeOverride, float CreateTime, ETimeOverrideType CreateType, float CreatePriority, bool bCreateEnabled, bool bIsTransient);
     
 };
 

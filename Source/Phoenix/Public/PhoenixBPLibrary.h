@@ -19,6 +19,7 @@
 #include "HouseIds.h"
 #include "InventoryResult.h"
 #include "LockManagerLock.h"
+#include "RuntimeCurveVector.h"
 #include "SpellForce.h"
 #include "PhoenixBPLibrary.generated.h"
 

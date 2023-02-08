@@ -22,7 +22,7 @@ public:
     
     UTimeOverrideDateTimeRaw();
     UFUNCTION(BlueprintCallable, BlueprintPure=false)
-    static void TimeOverrideDateTimeCreate(UObject* Owner, const UTimeOverrideDateTimeRaw*& TimeOverride, FDateTime CreateDateTime, float CreatePriority, bool bCreateEnabled, bool bIsTransient);
+    static void TimeOverrideDateTimeCreate(UObject* Owner, UTimeOverrideDateTimeRaw*& TimeOverride, FDateTime CreateDateTime, float CreatePriority, bool bCreateEnabled, bool bIsTransient);
     
 };
 

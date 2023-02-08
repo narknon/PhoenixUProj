@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=WindSourceComponentBaseData -FallbackName=WindSourceComponentBaseData
 #include "EWindVortexEnvelopeAffects.h"
+#include "WindSourceComponentBaseData.h"
 #include "WindSourceEnvelopeRetriggerDelegate.h"
 #include "WindSourceVortexComponent.generated.h"
 
