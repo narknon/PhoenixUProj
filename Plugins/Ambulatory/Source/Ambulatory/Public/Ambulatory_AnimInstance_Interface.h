@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
@@ -182,7 +183,7 @@ public:
     void Get_Speed(float& OutSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void Get_PrevMobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutState);
+    void Get_PrevMobilityModeState(EMobilityActionState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void Get_PrevMobilityActionState(EMobilityActionState::Type& OutState);
@@ -191,7 +192,7 @@ public:
     void Get_PlayRate(float& OutPlayRate);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void Get_MobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutState);
+    void Get_MobilityModeState(EMobilityActionState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void Get_MobilityActionState(EMobilityActionState::Type& OutState);
@@ -227,4 +228,5 @@ public:
     void Get_DesiredDirection(float& OutDirection);
     
 };
+*/
 

@@ -17,10 +17,10 @@ public:
     void SetBaseTargetSpeedMode(ETargetSpeedMode::Type InSpeedMode);
     
     UFUNCTION(BlueprintCallable)
-    TEnumAsByte<ETargetSpeedMode::Type> GetTargetSpeedMode();
+    ETargetSpeedMode::Type GetTargetSpeedMode();
     
     UFUNCTION(BlueprintCallable)
-    TEnumAsByte<ETargetSpeedMode::Type> GetBaseTargetSpeedMode();
+    ETargetSpeedMode::Type GetBaseTargetSpeedMode();
     
     UFUNCTION(BlueprintCallable)
     void ClearTargetSpeedMode(ETargetSpeedPriority::Type InPriority, bool bBroadcastChange);

@@ -17,7 +17,7 @@
 #include "Ambulatory_AnimInstance.generated.h"
 
 UCLASS(Blueprintable, NonTransient)
-class AMBULATORY_API UAmbulatory_AnimInstance : public UAble_AnimInstance, public IAmbulatory_AnimInstance_Interface {
+class AMBULATORY_API UAmbulatory_AnimInstance : public UAble_AnimInstance/*, public IAmbulatory_AnimInstance_Interface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -343,7 +343,7 @@ public:
     bool GetGlobalIKState();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetClimbingLedgeState(EClimbingLedgeState::Type& OutType);
+    void GetClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void GetClimbingLadderState(EClimbingLadderState::Type& OutType);
@@ -364,7 +364,7 @@ public:
     void Get_Speed(float& OutSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void Get_PrevMobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutState);
+    void Get_PrevMobilityModeState(EMobilityActionState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void Get_PrevMobilityActionState(EMobilityActionState::Type& OutState);
@@ -373,7 +373,7 @@ public:
     void Get_PlayRate(float& OutPlayRate);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void Get_MobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutState);
+    void Get_MobilityModeState(EMobilityActionState::Type& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void Get_MobilityActionState(EMobilityActionState::Type& OutState);

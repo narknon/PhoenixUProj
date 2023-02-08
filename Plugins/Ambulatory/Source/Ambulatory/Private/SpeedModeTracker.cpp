@@ -6,11 +6,11 @@ void USpeedModeTracker::SetTargetSpeedMode(ETargetSpeedMode::Type InSpeedMode, E
 void USpeedModeTracker::SetBaseTargetSpeedMode(ETargetSpeedMode::Type InSpeedMode) {
 }
 
-TEnumAsByte<ETargetSpeedMode::Type> USpeedModeTracker::GetTargetSpeedMode() {
+ETargetSpeedMode::Type USpeedModeTracker::GetTargetSpeedMode() {
     return ETargetSpeedMode::None;
 }
 
-TEnumAsByte<ETargetSpeedMode::Type> USpeedModeTracker::GetBaseTargetSpeedMode() {
+ETargetSpeedMode::Type USpeedModeTracker::GetBaseTargetSpeedMode() {
     return ETargetSpeedMode::None;
 }
 

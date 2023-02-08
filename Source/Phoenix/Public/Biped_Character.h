@@ -47,7 +47,7 @@ class USpellToolRecord;
 class UToolSetComponent;
 
 UCLASS(Blueprintable)
-class PHOENIX_API ABiped_Character : public ABase_Character, public IBiped_Character_Interface, public IAISightTargetInterface {
+class PHOENIX_API ABiped_Character : public ABase_Character/*, public IBiped_Character_Interface*/, public IAISightTargetInterface {
     GENERATED_BODY()
 public:
     DECLARE_DYNAMIC_MULTICAST_DELEGATE_FiveParams(FOnSpellCast, AActor*, Target, FVector, Location, ASpellTool*, Spell, FName, SpellType, AMunitionType_Base*, Munition);
@@ -399,10 +399,10 @@ public:
     void CancelCurrentSpell(bool RemoveDisillusionment) const;
     
     UFUNCTION(BlueprintCallable)
-    void CalculateLedgePullUpState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
+    void CalculateLedgePullUpState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void CalculateClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
+    void CalculateClimbingLedgeState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType);
     
     UFUNCTION(BlueprintCallable)
     bool AdjustHealth(float change, bool bDontKill);

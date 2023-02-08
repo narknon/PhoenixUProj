@@ -160,7 +160,7 @@ bool UAmbulatory_AnimInstance::GetGlobalIKState_Implementation() {
     return false;
 }
 
-void UAmbulatory_AnimInstance::GetClimbingLedgeState_Implementation(EClimbingLedgeState::Type& OutType) {
+void UAmbulatory_AnimInstance::GetClimbingLedgeState_Implementation(TEnumAsByte<EClimbingLedgeState::Type>& OutType) {
 }
 
 void UAmbulatory_AnimInstance::GetClimbingLadderState_Implementation(EClimbingLadderState::Type& OutType) {
@@ -183,7 +183,7 @@ void UAmbulatory_AnimInstance::Get_StartTurnDirection_Implementation(float& OutD
 void UAmbulatory_AnimInstance::Get_Speed_Implementation(float& OutSpeed) {
 }
 
-void UAmbulatory_AnimInstance::Get_PrevMobilityModeState_Implementation(TEnumAsByte<EMobilityModeState::Type>& OutState) {
+void UAmbulatory_AnimInstance::Get_PrevMobilityModeState_Implementation(EMobilityActionState::Type& OutState) {
 }
 
 void UAmbulatory_AnimInstance::Get_PrevMobilityActionState_Implementation(EMobilityActionState::Type& OutState) {
@@ -192,7 +192,7 @@ void UAmbulatory_AnimInstance::Get_PrevMobilityActionState_Implementation(EMobil
 void UAmbulatory_AnimInstance::Get_PlayRate_Implementation(float& OutPlayRate) {
 }
 
-void UAmbulatory_AnimInstance::Get_MobilityModeState_Implementation(TEnumAsByte<EMobilityModeState::Type>& OutState) {
+void UAmbulatory_AnimInstance::Get_MobilityModeState_Implementation(EMobilityActionState::Type& OutState) {
 }
 
 void UAmbulatory_AnimInstance::Get_MobilityActionState_Implementation(EMobilityActionState::Type& OutState) {

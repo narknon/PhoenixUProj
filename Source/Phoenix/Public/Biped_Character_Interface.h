@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include "CoreMinimal.h"
 #include "EClimbingLedgeState.h"
@@ -274,7 +275,8 @@ public:
     FVector CalculateLookAtDirection();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void CalculateClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
+    void CalculateClimbingLedgeState(EClimbingLedgeState::Type& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
     
 };
+*/
 

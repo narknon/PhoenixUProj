@@ -15,7 +15,7 @@ void AAmbulatory_Character::StartWorldTurnInPlace_Implementation(FVector WorldDi
 void AAmbulatory_Character::SprintStop_Implementation() {
 }
 
-void AAmbulatory_Character::SprintStart_Implementation(TEnumAsByte<ESpeedModifierType::Type> SpeedModType) {
+void AAmbulatory_Character::SprintStart_Implementation(ESpeedModifierType::Type SpeedModType) {
 }
 
 void AAmbulatory_Character::ShowTimingMessage(const FString& MyMessage, UObject* WorldContextObject, float Duration) {
@@ -36,7 +36,7 @@ void AAmbulatory_Character::SetTargetSpeedAndDirection(const float InAbstractSpe
 void AAmbulatory_Character::SetTargetSpeed(float InAbstractSpeed, bool InSetMobilityStateBasedOnSpeed) {
 }
 
-void AAmbulatory_Character::SetSpeedMode_Implementation(TEnumAsByte<ETargetSpeedMode::Type> SpeedMode, TEnumAsByte<ETargetSpeedMode::Type> SpeedModifier, TEnumAsByte<ETargetSpeedPriority::Type> SpeedPriority) {
+void AAmbulatory_Character::SetSpeedMode_Implementation(ETargetSpeedMode::Type SpeedMode, ETargetSpeedMode::Type SpeedModifier, TEnumAsByte<ETargetSpeedPriority::Type> SpeedPriority) {
 }
 
 void AAmbulatory_Character::SetMovementSpeeds_Implementation(float InMin, float InMax) {
@@ -48,7 +48,7 @@ void AAmbulatory_Character::SetMountTransform_Implementation(const FTransform& T
 void AAmbulatory_Character::SetMountNormal_Implementation(const FVector& Normal) {
 }
 
-void AAmbulatory_Character::SetMobilityModeState_Implementation(TEnumAsByte<EMobilityModeState::Type> InMobilityModeState) {
+void AAmbulatory_Character::SetMobilityModeState_Implementation(EMobilityActionState::Type InMobilityModeState) {
 }
 
 void AAmbulatory_Character::SetMobilityActionState_Implementation(EMobilityActionState::Type InMobilityActionState, bool bSetTargetSpeed) {
@@ -69,13 +69,13 @@ void AAmbulatory_Character::SetInWaterVolume_Implementation(const bool InFlag) {
 void AAmbulatory_Character::SetDesiredDirection_Implementation(const FVector InWorldDirection) {
 }
 
-void AAmbulatory_Character::SetClimbingLedgeState_Implementation(TEnumAsByte<EClimbingLedgeState::Type> InType) {
+void AAmbulatory_Character::SetClimbingLedgeState_Implementation(EClimbingLedgeState::Type InType) {
 }
 
-void AAmbulatory_Character::SetClimbingLadderState_Implementation(TEnumAsByte<EClimbingLadderState::Type> InType) {
+void AAmbulatory_Character::SetClimbingLadderState_Implementation(EClimbingLadderState::Type InType) {
 }
 
-void AAmbulatory_Character::SetBaseSpeedMode_Implementation(TEnumAsByte<ETargetSpeedMode::Type> SpeedMode, TEnumAsByte<ETargetSpeedMode::Type> SpeedModifier) {
+void AAmbulatory_Character::SetBaseSpeedMode_Implementation(ETargetSpeedMode::Type SpeedMode, ETargetSpeedMode::Type SpeedModifier) {
 }
 
 void AAmbulatory_Character::Set_ForceTurnAndFace_Implementation(bool InFlag) {
@@ -115,10 +115,10 @@ UPrimitiveComponent* AAmbulatory_Character::GetWadingComponent() const {
     return NULL;
 }
 
-void AAmbulatory_Character::GetTargetSpeedModifier_Implementation(TEnumAsByte<ETargetSpeedMode::Type>& OutState) {
+void AAmbulatory_Character::GetTargetSpeedModifier_Implementation(ETargetSpeedMode::Type& OutState) {
 }
 
-TEnumAsByte<ESpeedModifierType::Type> AAmbulatory_Character::GetSpeedModifierType_Implementation() {
+ESpeedModifierType::Type AAmbulatory_Character::GetSpeedModifierType_Implementation() {
     return ESpeedModifierType::None;
 }
 
@@ -135,7 +135,7 @@ void AAmbulatory_Character::GetMountTransform_Implementation(FTransform& LedgeTr
 void AAmbulatory_Character::GetMountNormal_Implementation(FVector& LedgeNormal) {
 }
 
-void AAmbulatory_Character::GetMobilityModeState_Implementation(TEnumAsByte<EMobilityModeState::Type>& OutMobilityModeState) {
+void AAmbulatory_Character::GetMobilityModeState_Implementation(EMobilityActionState::Type& OutMobilityModeState) {
 }
 
 void AAmbulatory_Character::GetMobilityActionStateName(UAnimInstance* InAnimInstance, FString& OutString) {
@@ -176,17 +176,17 @@ UTargetTracker* AAmbulatory_Character::GetFaceTargetTracker_Implementation() {
     return NULL;
 }
 
-void AAmbulatory_Character::GetClimbingLedgeState_Implementation(TEnumAsByte<EClimbingLedgeState::Type>& OutType) {
+void AAmbulatory_Character::GetClimbingLedgeState_Implementation(EClimbingLedgeState::Type& OutType) {
 }
 
-void AAmbulatory_Character::GetClimbingLadderState_Implementation(TEnumAsByte<EClimbingLadderState::Type>& OutType) {
+void AAmbulatory_Character::GetClimbingLadderState_Implementation(EClimbingLadderState::Type& OutType) {
 }
 
 int32 AAmbulatory_Character::GetBlockageFlags_Implementation() const {
     return 0;
 }
 
-void AAmbulatory_Character::GetBaseSpeedMode_Implementation(TEnumAsByte<ETargetSpeedMode::Type>& OutState) {
+void AAmbulatory_Character::GetBaseSpeedMode_Implementation(ETargetSpeedMode::Type& OutState) {
 }
 
 UTargetTracker* AAmbulatory_Character::GetAimAtTargetTracker_Implementation() {

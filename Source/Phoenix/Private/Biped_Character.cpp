@@ -50,7 +50,7 @@ void ABiped_Character::SetSpellCastHandle_Implementation(int32 InSpellCastHandle
 void ABiped_Character::SetSpell(int32 Group, int32 Index, USpellToolRecord* Spell) {
 }
 
-void ABiped_Character::SetRightArmState_Implementation(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange) {
+void ABiped_Character::SetRightArmState_Implementation(ERightArmState::Type InState, ERightArmPriority::Type InPriority, bool bBroadcastChange) {
 }
 
 void ABiped_Character::SetRayCastActor(AActor* i_pRayCastActor) {
@@ -71,7 +71,7 @@ void ABiped_Character::SetFullBodyStateLast_Implementation(const TEnumAsByte<EFu
 void ABiped_Character::SetFullBodyState_Implementation(const TEnumAsByte<EFullBodyState::Type>& InState) {
 }
 
-void ABiped_Character::SetFinisherOptimalRatio_Implementation(const float OptimalRatio, TEnumAsByte<EDynamicForceFeedbackAction::Type> FeedbackAction) {
+void ABiped_Character::SetFinisherOptimalRatio_Implementation(const float OptimalRatio, EDynamicForceFeedbackAction::Type FeedbackAction) {
 }
 
 void ABiped_Character::SetFinisher(int32 Index, USpellToolRecord* Spell) {
@@ -147,7 +147,7 @@ USkeletalMeshComponent* ABiped_Character::GetSkeletalMesh_Implementation() const
     return NULL;
 }
 
-TEnumAsByte<ERightArmState::Type> ABiped_Character::GetRightArmState_Implementation(TEnumAsByte<ERightArmPriority::Type> InPriority) {
+ERightArmState::Type ABiped_Character::GetRightArmState_Implementation(ERightArmPriority::Type InPriority) {
     return ERightArmState::None;
 }
 
@@ -272,10 +272,10 @@ bool ABiped_Character::CanLandOnLedge() const {
 void ABiped_Character::CancelCurrentSpell(bool RemoveDisillusionment) const {
 }
 
-void ABiped_Character::CalculateLedgePullUpState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType) {
+void ABiped_Character::CalculateLedgePullUpState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType) {
 }
 
-void ABiped_Character::CalculateClimbingLedgeState_Implementation(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType) {
+void ABiped_Character::CalculateClimbingLedgeState_Implementation(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType) {
 }
 
 bool ABiped_Character::AdjustHealth(float change, bool bDontKill) {
