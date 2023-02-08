@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "SceneRigAnimationRegsitryAnim.generated.h"
 
-class UAnimationAsset;
+
 
 USTRUCT(BlueprintType)
 struct FSceneRigAnimationRegsitryAnim {

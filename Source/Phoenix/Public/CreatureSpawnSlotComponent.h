@@ -4,7 +4,7 @@
 #include "Components/PrimitiveComponent.h"
 #include "CreatureSpawnSlotComponent.generated.h"
 
-class UAnimationAsset;
+
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UCreatureSpawnSlotComponent : public UPrimitiveComponent {

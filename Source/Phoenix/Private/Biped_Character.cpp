@@ -65,10 +65,10 @@ void ABiped_Character::SetPartialBodyState_Implementation(const TEnumAsByte<EPar
 void ABiped_Character::SetParryState_Implementation(const TEnumAsByte<EParryState::Type>& InState) {
 }
 
-void ABiped_Character::SetFullBodyStateLast_Implementation(const EFullBodyState::Type& InState) {
+void ABiped_Character::SetFullBodyStateLast_Implementation(const TEnumAsByte<EFullBodyState::Type>& InState) {
 }
 
-void ABiped_Character::SetFullBodyState_Implementation(const EFullBodyState::Type& InState) {
+void ABiped_Character::SetFullBodyState_Implementation(const TEnumAsByte<EFullBodyState::Type>& InState) {
 }
 
 void ABiped_Character::SetFinisherOptimalRatio_Implementation(const float OptimalRatio, TEnumAsByte<EDynamicForceFeedbackAction::Type> FeedbackAction) {
@@ -229,10 +229,10 @@ void ABiped_Character::GetAdditiveBodyState_Implementation(TEnumAsByte<EAdditive
 void ABiped_Character::FinishCrouching(const UObject* Provider) {
 }
 
-void ABiped_Character::FacingTargetsListIsNowEmpty(TEnumAsByte<ETargetType::Type> LastTargetType, ETargetID::Type LastTargetID) {
+void ABiped_Character::FacingTargetsListIsNowEmpty(TEnumAsByte<ETargetType::Type> LastTargetType, TEnumAsByte<ETargetID::Type> LastTargetID) {
 }
 
-void ABiped_Character::FacingNotifyOfNewBestTarget(TEnumAsByte<ETargetType::Type> NewTargetType, ETargetID::Type NewTargetID) {
+void ABiped_Character::FacingNotifyOfNewBestTarget(TEnumAsByte<ETargetType::Type> NewTargetType, TEnumAsByte<ETargetID::Type> NewTargetID) {
 }
 
 void ABiped_Character::EquipWand_Implementation() {

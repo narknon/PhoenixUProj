@@ -2,9 +2,9 @@
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
 #include "GameplayTagContainer.h"
+#include "Animation/AnimationAsset.h"
 #include "AblAnimationTagChooser.generated.h"
 
-class UAnimationAsset;
 
 UCLASS(Abstract, Blueprintable, EditInlineNew)
 class ABLECORE_API UAblAnimationTagChooser : public UObject {
@@ -21,4 +21,3 @@ public:
     
     UAblAnimationTagChooser();
 };
-

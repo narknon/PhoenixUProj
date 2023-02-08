@@ -325,7 +325,7 @@ public:
     void InitRootMotionModifierVectors();
     
     UFUNCTION(BlueprintCallable)
-    EPreWandCastState::Type GetWandCastInfo_AnticipationWandCastState();
+    TEnumAsByte<EPreWandCastState::Type> GetWandCastInfo_AnticipationWandCastState();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool GetPlayerIKState();

@@ -4,7 +4,6 @@
 #include "EJumpingType.h"
 #include "UObject/Interface.h"
 #include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
 #include "GameFramework/PlayerController.h"
 #include "Name_GameLogicVarInt32.h"
 #include "ECustomInterpType.h"
@@ -19,8 +18,8 @@
 #include "Templates/SubclassOf.h"
 #include "Biped_Character_Interface.generated.h"
 
-class AActor;
 class ABiped_Character;
+class AActor;
 class APawn;
 class APickupTool;
 class AWandTool;
@@ -68,7 +67,7 @@ public:
     void SetRootMotionOffset();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, ERightArmPriority::Type InPriority, bool bBroadcastChange);
+    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetPickupTool(const APickupTool* InPickupTool);
@@ -95,10 +94,10 @@ public:
     void SetParryState(const TEnumAsByte<EParryState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetFullBodyStateLast(const EFullBodyState::Type& InState);
+    void SetFullBodyStateLast(const TEnumAsByte<EFullBodyState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetFullBodyState(const EFullBodyState::Type& InState);
+    void SetFullBodyState(const TEnumAsByte<EFullBodyState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetFinisherOptimalRatio(const float OptimalRatio, TEnumAsByte<EDynamicForceFeedbackAction::Type> FeedbackAction);
@@ -275,7 +274,7 @@ public:
     FVector CalculateLookAtDirection();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void CalculateClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, EJumpingType::Type& OutType);
+    void CalculateClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
     
 };
 

@@ -138,7 +138,7 @@ void UAmbulatory_AnimInstance::Revert_MobilityActionState_Implementation() {
 void UAmbulatory_AnimInstance::InitRootMotionModifierVectors_Implementation() {
 }
 
-EPreWandCastState::Type UAmbulatory_AnimInstance::GetWandCastInfo_AnticipationWandCastState() {
+TEnumAsByte<EPreWandCastState::Type> UAmbulatory_AnimInstance::GetWandCastInfo_AnticipationWandCastState() {
     return EPreWandCastState::None;
 }
 

@@ -27,7 +27,6 @@
 #include "Biped_Character.generated.h"
 
 class AActor;
-class ABiped_Character;
 class AMunitionType_Base;
 class APickupTool;
 class ASpellTool;
@@ -361,10 +360,10 @@ public:
     void FinishCrouching(const UObject* Provider);
     
     UFUNCTION(BlueprintCallable)
-    void FacingTargetsListIsNowEmpty(TEnumAsByte<ETargetType::Type> LastTargetType, ETargetID::Type LastTargetID);
+    void FacingTargetsListIsNowEmpty(TEnumAsByte<ETargetType::Type> LastTargetType, TEnumAsByte<ETargetID::Type> LastTargetID);
     
     UFUNCTION(BlueprintCallable)
-    void FacingNotifyOfNewBestTarget(TEnumAsByte<ETargetType::Type> NewTargetType, ETargetID::Type NewTargetID);
+    void FacingNotifyOfNewBestTarget(TEnumAsByte<ETargetType::Type> NewTargetType, TEnumAsByte<ETargetID::Type> NewTargetID);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void EquipWand();

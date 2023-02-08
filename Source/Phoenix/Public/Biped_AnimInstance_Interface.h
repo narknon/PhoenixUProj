@@ -43,7 +43,7 @@ public:
     void SetStationState(const TEnumAsByte<EStationState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, ERightArmPriority::Type InPriority, bool bBroadcastChange);
+    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, TEnumAsByte<ERightArmPriority::Type> InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetRelaxWand(const bool bInFlag);
@@ -67,7 +67,7 @@ public:
     void SetMobilityState(const TEnumAsByte<EMobilityState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetLeftArmState(TEnumAsByte<ELeftArmState::Type> InState, ELeftArmPriority::Type InPriority, bool bBroadcastChange);
+    void SetLeftArmState(TEnumAsByte<ELeftArmState::Type> InState, TEnumAsByte<ELeftArmPriority::Type> InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetIsHoldingAttack(bool InHoldingAttack);
@@ -76,16 +76,16 @@ public:
     void SetInventoryResult(const FInventoryResult InInventoryResult);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetHeadTrackingState(TEnumAsByte<EHeadTrackingState::Type> InState, EHeadTrackingPriority::Type InPriority, bool bBroadcastChange);
+    void SetHeadTrackingState(TEnumAsByte<EHeadTrackingState::Type> InState, TEnumAsByte<EHeadTrackingPriority::Type> InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetHarvestState(const TEnumAsByte<EHarvestState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetFullBodyStateLast(const EFullBodyState::Type& InState);
+    void SetFullBodyStateLast(const TEnumAsByte<EFullBodyState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetFullBodyState(const EFullBodyState::Type& InState);
+    void SetFullBodyState(const TEnumAsByte<EFullBodyState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetFireOnce(bool InFireOnce);
@@ -94,7 +94,7 @@ public:
     void SetDodgeState(const TEnumAsByte<EDodgeState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetCombatAdditiveState(TEnumAsByte<ECombatAdditiveState::Type> InState, ECombatAdditivePriority::Type InPriority, bool bBroadcastChange);
+    void SetCombatAdditiveState(ECombatAdditiveState::Type InState, ECombatAdditivePriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetChannelSpellFlourish(bool InFlag);
@@ -106,7 +106,7 @@ public:
     void SetAmpedPercent(float InAmpedPercent);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetAdditiveBodyState(const EAdditiveBodyState::Type& InState);
+    void SetAdditiveBodyState(const TEnumAsByte<EAdditiveBodyState::Type>& InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetAbortAnim(bool InAbortAnim);
@@ -124,7 +124,7 @@ public:
     void GetStationState(TEnumAsByte<EStationState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    TEnumAsByte<ERightArmState::Type> GetRightArmState(TEnumAsByte<ERightArmPriority::Type> InPriority);
+    ERightArmState::Type GetRightArmState(ERightArmPriority::Type InPriority);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     APickupTool* GetPickupTool();
@@ -145,7 +145,7 @@ public:
     void GetMobilityState(TEnumAsByte<EMobilityState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    TEnumAsByte<ELeftArmState::Type> GetLeftArmState();
+    ELeftArmState::Type GetLeftArmState();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     FInventoryResult GetInventoryResult();

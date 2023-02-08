@@ -1,10 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "AblTaskConditionScratchpad.h"
+#include "Animation/AnimationAsset.h"
 #include "AblTaskConditionAnimNotifyScratchpad.generated.h"
 
 class UAblAbilityContext;
-class UAnimationAsset;
+
 
 UCLASS(Blueprintable, NonTransient)
 class UAblTaskConditionAnimNotifyScratchpad : public UAblTaskConditionScratchpad {

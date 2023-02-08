@@ -169,7 +169,7 @@ public:
     void SprintStop();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SprintStart(ESpeedModifierType::Type SpeedModType);
+    void SprintStart(TEnumAsByte<ESpeedModifierType::Type> SpeedModType);
     
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject"))
     static void ShowTimingMessage(const FString& MyMessage, UObject* WorldContextObject, float Duration);
@@ -190,7 +190,7 @@ public:
     void SetTargetSpeed(float InAbstractSpeed, bool InSetMobilityStateBasedOnSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetSpeedMode(ETargetSpeedMode::Type SpeedMode, ETargetSpeedMode::Type SpeedModifier, ETargetSpeedPriority::Type SpeedPriority);
+    void SetSpeedMode(TEnumAsByte<ETargetSpeedMode::Type> SpeedMode, TEnumAsByte<ETargetSpeedMode::Type> SpeedModifier, TEnumAsByte<ETargetSpeedPriority::Type> SpeedPriority);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetMovementSpeeds(float InMin, float InMax);
@@ -202,13 +202,13 @@ public:
     void SetMountNormal(const FVector& Normal);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetMobilityModeState(EMobilityModeState::Type InMobilityModeState);
+    void SetMobilityModeState(TEnumAsByte<EMobilityModeState::Type> InMobilityModeState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetMobilityActionState(EMobilityActionState::Type InMobilityActionState, bool bSetTargetSpeed);
+    void SetMobilityActionState(TEnumAsByte<EMobilityActionState::Type> InMobilityActionState, bool bSetTargetSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetLandingType(ELandingType::Type InType);
+    void SetLandingType(TEnumAsByte<ELandingType::Type> InType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetJumpingType(const TEnumAsByte<EJumpingType::Type>& InType);
@@ -223,19 +223,19 @@ public:
     void SetDesiredDirection(const FVector InWorldDirection);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetClimbingLedgeState(EClimbingLedgeState::Type InType);
+    void SetClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type> InType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetClimbingLadderState(EClimbingLadderState::Type InType);
+    void SetClimbingLadderState(TEnumAsByte<EClimbingLadderState::Type> InType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void SetBaseSpeedMode(ETargetSpeedMode::Type SpeedMode, ETargetSpeedMode::Type SpeedModifier);
+    void SetBaseSpeedMode(TEnumAsByte<ETargetSpeedMode::Type> SpeedMode, TEnumAsByte<ETargetSpeedMode::Type> SpeedModifier);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void Set_ForceTurnAndFace(bool InFlag);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void RevertSpeedMode(ETargetSpeedPriority::Type SpeedPriority);
+    void RevertSpeedMode(TEnumAsByte<ETargetSpeedPriority::Type> SpeedPriority);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void RevertMobilityModeState();
@@ -265,13 +265,13 @@ public:
     UPrimitiveComponent* GetWadingComponent() const;
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetTargetSpeedModifier(ETargetSpeedMode::Type& OutState);
+    void GetTargetSpeedModifier(TEnumAsByte<ETargetSpeedMode::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    ESpeedModifierType::Type GetSpeedModifierType();
+    TEnumAsByte<ESpeedModifierType::Type> GetSpeedModifierType();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetPreviousMobilityActionState(EMobilityActionState::Type& OutMobilityActionState);
+    void GetPreviousMobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState);
     
     UFUNCTION(BlueprintCallable)
     FOdcPathSpec GetPathSpec() const;
@@ -283,13 +283,13 @@ public:
     void GetMountNormal(FVector& LedgeNormal);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetMobilityModeState(EMobilityModeState::Type& OutMobilityModeState);
+    void GetMobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutMobilityModeState);
     
     UFUNCTION(BlueprintCallable)
     void GetMobilityActionStateName(UAnimInstance* InAnimInstance, FString& OutString);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetMobilityActionState(EMobilityActionState::Type& OutMobilityActionState);
+    void GetMobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     UTargetTracker* GetLookAtTargetTracker();
@@ -304,10 +304,10 @@ public:
     void GetLedgeNormal(FVector& LedgeNormal);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetLandingType(ELandingType::Type& OutType);
+    void GetLandingType(TEnumAsByte<ELandingType::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetJumpingType(EJumpingType::Type& OutType);
+    void GetJumpingType(TEnumAsByte<EJumpingType::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool GetIsMovementInput();
@@ -319,16 +319,16 @@ public:
     UTargetTracker* GetFaceTargetTracker();
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetClimbingLedgeState(EClimbingLedgeState::Type& OutType);
+    void GetClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetClimbingLadderState(EClimbingLadderState::Type& OutType);
+    void GetClimbingLadderState(TEnumAsByte<EClimbingLadderState::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
     int32 GetBlockageFlags() const;
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void GetBaseSpeedMode(ETargetSpeedMode::Type& OutState);
+    void GetBaseSpeedMode(TEnumAsByte<ETargetSpeedMode::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     UTargetTracker* GetAimAtTargetTracker();
@@ -355,7 +355,7 @@ public:
     void ApplySlideHorizontalMovement(float WorldSpeed, const FVector InWorldDirection);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void ApplyMobilityModeStateSpeeds(EMobilityModeState::Type InMobilityModeState);
+    void ApplyMobilityModeStateSpeeds(TEnumAsByte<EMobilityModeState::Type> InMobilityModeState);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool AmIMovingIntoStairs() const;

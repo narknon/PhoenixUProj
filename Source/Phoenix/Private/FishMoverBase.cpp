@@ -1,6 +1,6 @@
 #include "FishMoverBase.h"
 
-class UAnimationAsset;
+
 class USkeletalMesh;
 class USplineComponent;
 

@@ -3,7 +3,7 @@
 #include "FlockPersonalityDistribution.h"
 #include "FlockPersonalityAnimate.generated.h"
 
-class UAnimationAsset;
+
 
 USTRUCT(BlueprintType)
 struct FFlockPersonalityAnimate {

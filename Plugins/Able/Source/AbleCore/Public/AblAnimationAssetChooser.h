@@ -4,7 +4,7 @@
 #include "GameplayTagContainer.h"
 #include "AblAnimationAssetChooser.generated.h"
 
-class UAnimationAsset;
+
 
 UCLASS(Abstract, Blueprintable, EditInlineNew)
 class ABLECORE_API UAblAnimationAssetChooser : public UObject {

@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "BaseArchitectTransition.generated.h"
 
-class UAnimationAsset;
+
 class UBaseArchitectState;
 
 USTRUCT(BlueprintType)

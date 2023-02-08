@@ -12,7 +12,7 @@
 
 class AActor;
 class AAmbulatory_Character;
-class UAnimationAsset;
+
 
 UCLASS(Blueprintable, NonTransient)
 class UNPC_AnimInstance : public UAmbulatory_AnimInstance, public INPC_AnimInstance_Interface {

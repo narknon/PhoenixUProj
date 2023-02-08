@@ -1,6 +1,6 @@
 #include "WorldEventAnimationComponent.h"
 
-class UAnimationAsset;
+
 
 void UWorldEventAnimationComponent::SetAnimation(UAnimationAsset* InAnimation) {
 }

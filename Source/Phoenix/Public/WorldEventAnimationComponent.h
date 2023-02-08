@@ -3,7 +3,7 @@
 #include "Components/ActorComponent.h"
 #include "WorldEventAnimationComponent.generated.h"
 
-class UAnimationAsset;
+
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UWorldEventAnimationComponent : public UActorComponent {

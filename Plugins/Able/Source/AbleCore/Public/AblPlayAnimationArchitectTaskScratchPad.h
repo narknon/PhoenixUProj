@@ -6,7 +6,7 @@
 #include "AblPlayAnimationArchitectTaskScratchPad.generated.h"
 
 class AActor;
-class UAnimationAsset;
+
 
 UCLASS(Blueprintable, NonTransient)
 class ABLECORE_API UAblPlayAnimationArchitectTaskScratchPad : public UAblAbilityTaskScratchPad {

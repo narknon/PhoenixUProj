@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "SkinFXPreviewAnimationSetup.generated.h"
 
-class UAnimationAsset;
+
 
 USTRUCT(BlueprintType)
 struct SKINFX_API FSkinFXPreviewAnimationSetup {

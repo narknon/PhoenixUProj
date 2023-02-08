@@ -4,7 +4,7 @@
 #include "AblAbilityAnimNotifyEventScratchPad.generated.h"
 
 class UAblAbilityContext;
-class UAnimationAsset;
+
 
 UCLASS(Blueprintable, NonTransient)
 class ABLECORE_API UAblAbilityAnimNotifyEventScratchPad : public UAblAbilityEventScratchPad {

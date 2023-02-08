@@ -3,7 +3,7 @@
 #include "GameFramework/Actor.h"
 #include "FishMoverBase.generated.h"
 
-class UAnimationAsset;
+
 class USkeletalMesh;
 class USkeletalMeshComponent;
 class USplineComponent;

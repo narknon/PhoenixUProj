@@ -4,7 +4,7 @@
 #include "PearLockComponent.generated.h"
 
 class AAmbulatory_Character;
-class UAnimationAsset;
+
 class UNiagaraComponent;
 class UNiagaraSystem;
 class USkeletalMesh;

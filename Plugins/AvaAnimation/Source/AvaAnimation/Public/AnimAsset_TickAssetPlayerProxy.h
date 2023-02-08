@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "UObject/ObjectMacros.h"
 #include "Animation/AnimationAsset.h"
 #include "TickAssetPlayerProxy_WeightedNotify.h"
 #include "AnimAsset_TickAssetPlayerProxy.generated.h"
@@ -19,5 +20,11 @@ public:
     float ActorMoveDeltaWeight;
     
     UAnimAsset_TickAssetPlayerProxy();
+
+    /*//Begin UObject Interface
+    virtual void PostLoad() override;
+    virtual void Serialize(FArchive& Ar) override;
+    //End UObject Interface*/
+    
 };
 

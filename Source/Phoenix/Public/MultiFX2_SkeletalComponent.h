@@ -3,7 +3,7 @@
 #include "MultiFX2_Filtered.h"
 #include "MultiFX2_SkeletalComponent.generated.h"
 
-class UAnimationAsset;
+
 class USkeletalMesh;
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)

@@ -3,7 +3,7 @@
 #include "BaseArchitectAsset_AssetProxy.h"
 #include "AnimationArchitectAsset_AssetProxy.generated.h"
 
-class UAnimationAsset;
+
 
 USTRUCT(BlueprintType)
 struct ANIMATIONARCHITECTRUNTIME_API FAnimationArchitectAsset_AssetProxy : public FBaseArchitectAsset_AssetProxy {
