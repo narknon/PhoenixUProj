@@ -272,10 +272,10 @@ bool ABiped_Character::CanLandOnLedge() const {
 void ABiped_Character::CancelCurrentSpell(bool RemoveDisillusionment) const {
 }
 
-void ABiped_Character::CalculateLedgePullUpState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType) {
+void ABiped_Character::CalculateLedgePullUpState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType) {
 }
 
-void ABiped_Character::CalculateClimbingLedgeState_Implementation(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType) {
+void ABiped_Character::CalculateClimbingLedgeState_Implementation(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType) {
 }
 
 bool ABiped_Character::AdjustHealth(float change, bool bDontKill) {

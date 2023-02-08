@@ -399,10 +399,10 @@ public:
     void CancelCurrentSpell(bool RemoveDisillusionment) const;
     
     UFUNCTION(BlueprintCallable)
-    void CalculateLedgePullUpState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType);
+    void CalculateLedgePullUpState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-    void CalculateClimbingLedgeState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType);
+    void CalculateClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, TEnumAsByte<EJumpingType::Type>& OutType);
     
     UFUNCTION(BlueprintCallable)
     bool AdjustHealth(float change, bool bDontKill);

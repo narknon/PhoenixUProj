@@ -6,7 +6,6 @@
 #include "BrewingRecipe.h"
 #include "BrewingManager.generated.h"
 
-class UBrewingManager;
 class UBrewingSiteState;
 
 UCLASS(Blueprintable)

@@ -36,7 +36,7 @@ void AAmbulatory_Character::SetTargetSpeedAndDirection(const float InAbstractSpe
 void AAmbulatory_Character::SetTargetSpeed(float InAbstractSpeed, bool InSetMobilityStateBasedOnSpeed) {
 }
 
-void AAmbulatory_Character::SetSpeedMode_Implementation(ETargetSpeedMode::Type SpeedMode, ETargetSpeedMode::Type SpeedModifier, TEnumAsByte<ETargetSpeedPriority::Type> SpeedPriority) {
+void AAmbulatory_Character::SetSpeedMode_Implementation(ETargetSpeedMode::Type SpeedMode, ETargetSpeedMode::Type SpeedModifier, ETargetSpeedPriority::Type SpeedPriority) {
 }
 
 void AAmbulatory_Character::SetMovementSpeeds_Implementation(float InMin, float InMax) {
@@ -54,7 +54,7 @@ void AAmbulatory_Character::SetMobilityModeState_Implementation(EMobilityActionS
 void AAmbulatory_Character::SetMobilityActionState_Implementation(EMobilityActionState::Type InMobilityActionState, bool bSetTargetSpeed) {
 }
 
-void AAmbulatory_Character::SetLandingType_Implementation(TEnumAsByte<ELandingType::Type> InType) {
+void AAmbulatory_Character::SetLandingType_Implementation(ELandingType::Type InType) {
 }
 
 void AAmbulatory_Character::SetJumpingType_Implementation(const TEnumAsByte<EJumpingType::Type>& InType) {
@@ -81,7 +81,7 @@ void AAmbulatory_Character::SetBaseSpeedMode_Implementation(ETargetSpeedMode::Ty
 void AAmbulatory_Character::Set_ForceTurnAndFace_Implementation(bool InFlag) {
 }
 
-void AAmbulatory_Character::RevertSpeedMode_Implementation(TEnumAsByte<ETargetSpeedPriority::Type> SpeedPriority) {
+void AAmbulatory_Character::RevertSpeedMode_Implementation(ETargetSpeedPriority::Type SpeedPriority) {
 }
 
 void AAmbulatory_Character::RevertMobilityModeState_Implementation() {
@@ -115,14 +115,14 @@ UPrimitiveComponent* AAmbulatory_Character::GetWadingComponent() const {
     return NULL;
 }
 
-void AAmbulatory_Character::GetTargetSpeedModifier_Implementation(ETargetSpeedMode::Type& OutState) {
+void AAmbulatory_Character::GetTargetSpeedModifier_Implementation(TEnumAsByte<ETargetSpeedMode::Type>& OutState) {
 }
 
 ESpeedModifierType::Type AAmbulatory_Character::GetSpeedModifierType_Implementation() {
     return ESpeedModifierType::None;
 }
 
-void AAmbulatory_Character::GetPreviousMobilityActionState_Implementation(EMobilityActionState::Type& OutMobilityActionState) {
+void AAmbulatory_Character::GetPreviousMobilityActionState_Implementation(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState) {
 }
 
 FOdcPathSpec AAmbulatory_Character::GetPathSpec() const {
@@ -135,13 +135,13 @@ void AAmbulatory_Character::GetMountTransform_Implementation(FTransform& LedgeTr
 void AAmbulatory_Character::GetMountNormal_Implementation(FVector& LedgeNormal) {
 }
 
-void AAmbulatory_Character::GetMobilityModeState_Implementation(EMobilityActionState::Type& OutMobilityModeState) {
+void AAmbulatory_Character::GetMobilityModeState_Implementation(TEnumAsByte<EMobilityActionState::Type>& OutMobilityModeState) {
 }
 
 void AAmbulatory_Character::GetMobilityActionStateName(UAnimInstance* InAnimInstance, FString& OutString) {
 }
 
-void AAmbulatory_Character::GetMobilityActionState_Implementation(EMobilityActionState::Type& OutMobilityActionState) {
+void AAmbulatory_Character::GetMobilityActionState_Implementation(TEnumAsByte<EMobilityActionState::Type>& OutMobilityActionState) {
 }
 
 UTargetTracker* AAmbulatory_Character::GetLookAtTargetTracker_Implementation() {
@@ -176,17 +176,17 @@ UTargetTracker* AAmbulatory_Character::GetFaceTargetTracker_Implementation() {
     return NULL;
 }
 
-void AAmbulatory_Character::GetClimbingLedgeState_Implementation(EClimbingLedgeState::Type& OutType) {
+void AAmbulatory_Character::GetClimbingLedgeState_Implementation(TEnumAsByte<EClimbingLedgeState::Type>& OutType) {
 }
 
-void AAmbulatory_Character::GetClimbingLadderState_Implementation(EClimbingLadderState::Type& OutType) {
+void AAmbulatory_Character::GetClimbingLadderState_Implementation(TEnumAsByte<EClimbingLadderState::Type>& OutType) {
 }
 
 int32 AAmbulatory_Character::GetBlockageFlags_Implementation() const {
     return 0;
 }
 
-void AAmbulatory_Character::GetBaseSpeedMode_Implementation(ETargetSpeedMode::Type& OutState) {
+void AAmbulatory_Character::GetBaseSpeedMode_Implementation(TEnumAsByte<ETargetSpeedMode::Type>& OutState) {
 }
 
 UTargetTracker* AAmbulatory_Character::GetAimAtTargetTracker_Implementation() {

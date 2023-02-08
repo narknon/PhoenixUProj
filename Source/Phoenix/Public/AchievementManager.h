@@ -8,7 +8,6 @@
 #include "AchievementManager.generated.h"
 
 class AActor;
-class UAchievementManager;
 
 UCLASS(Blueprintable)
 class UAchievementManager : public UObject {

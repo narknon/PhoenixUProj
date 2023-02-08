@@ -1,6 +1,5 @@
 #include "BrewingManager.h"
 
-class UBrewingManager;
 
 void UBrewingManager::UnlockAllPotionRecipes() {
 }
