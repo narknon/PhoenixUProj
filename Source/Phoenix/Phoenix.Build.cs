@@ -1,5 +1,5 @@
 using UnrealBuildTool;
-
+using System.IO;
 public class Phoenix : ModuleRules {
     public Phoenix(ReadOnlyTargetRules Target) : base(Target) {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
@@ -118,5 +118,8 @@ public class Phoenix : ModuleRules {
             "Wind",
             "WorldFX",
         });
+        
+        PublicIncludePaths.Add(Path.Combine("../Plugins/Wind/Source/Wind/Public/"));
+        
     }
 }

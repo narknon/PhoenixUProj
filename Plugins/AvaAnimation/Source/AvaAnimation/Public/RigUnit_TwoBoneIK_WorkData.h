@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigBoneHierarchy.h"
+#include "Rigs/RigBoneHierarchy.h"
+
 #include "RigUnit_TwoBoneIK_WorkData.generated.h"
 
 USTRUCT(BlueprintType)

@@ -1,5 +1,5 @@
 #include "EnvQueryInstanceBlueprintWrapperEx.h"
 
-UEnvQueryInstanceBlueprintWrapperEx::UEnvQueryInstanceBlueprintWrapperEx() {
+UEnvQueryInstanceBlueprintWrapperEx::UEnvQueryInstanceBlueprintWrapperEx() : UEnvQueryInstanceBlueprintWrapper(FObjectInitializer::Get()) {
 }
 

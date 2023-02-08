@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "PoseGroupTransition.generated.h"
 
-class UAnimationAsset;
+
 class UAnimationProvider;
 class UPoseGroup;
 

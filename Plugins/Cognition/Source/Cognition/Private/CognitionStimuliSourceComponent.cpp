@@ -55,7 +55,7 @@ float UCognitionStimuliSourceComponent::CalculateRadiusNeededToBePerceivedBy(flo
 void UCognitionStimuliSourceComponent::AddRegisterAsSourceForSenses(const TSubclassOf<UAISense>& Sense) {
 }
 
-UCognitionStimuliSourceComponent::UCognitionStimuliSourceComponent() {
+UCognitionStimuliSourceComponent::UCognitionStimuliSourceComponent() : UAIPerceptionStimuliSourceComponent(FObjectInitializer::Get()) {
     this->FootprintRadius = 0.00f;
     this->TopOffset = 0.00f;
     this->BottomOffset = 0.00f;

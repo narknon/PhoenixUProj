@@ -1,7 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CachedRigElement.h"
-#include "RigUnitMutable.h"
+#include "Units/RigUnit.h"
 #include "RitUnit_SetControlFloat_EditorWorkaround.generated.h"
 
 USTRUCT(BlueprintType)

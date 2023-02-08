@@ -1,8 +1,10 @@
+/*
 #include "MultiFX2_WindDirectionalSource.h"
 
+
 UMultiFX2_WindDirectionalSource::UMultiFX2_WindDirectionalSource() {
-    this->Envelope = NULL;
-    this->EnvelopeAffects = EWindDirectionalEnvelopeAffects::Speed;
+    /*this->Envelope = NULL;#1#
+    /*this->EnvelopeAffects = EWindDirectionalEnvelopeAffects::Speed;#1#
     this->Strength = 1.00f;
     this->Speed = 10.00f;
     this->BlendDistance = 100.00f;
@@ -14,4 +16,5 @@ UMultiFX2_WindDirectionalSource::UMultiFX2_WindDirectionalSource() {
     this->bAttached = false;
     this->SourceCombine = EWindSourceCombine::Add;
 }
+*/
 

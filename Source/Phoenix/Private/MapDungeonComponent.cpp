@@ -1,5 +1,5 @@
 #include "MapDungeonComponent.h"
 
-UMapDungeonComponent::UMapDungeonComponent() {
+UMapDungeonComponent::UMapDungeonComponent() : UProceduralMeshComponent(FObjectInitializer::Get()) {
 }
 

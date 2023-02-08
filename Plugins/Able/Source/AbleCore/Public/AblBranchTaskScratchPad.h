@@ -5,7 +5,7 @@
 #include "AblBranchTaskScratchPad.generated.h"
 
 class UAblAbilityContext;
-class UAnimationAsset;
+
 
 UCLASS(Blueprintable, NonTransient)
 class ABLECORE_API UAblBranchTaskScratchPad : public UAblAbilityTaskScratchPad {

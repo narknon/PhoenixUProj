@@ -10,6 +10,7 @@ public class AvaRenderTech : ModuleRules {
             "Core",
             "CoreUObject",
             "Engine",
+            "RenderCore",
         });
     }
 }

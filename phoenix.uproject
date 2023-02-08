@@ -187,6 +187,10 @@
 			"Enabled": true
 		},
 		{
+			"Name": "MultiFX2",
+			"Enabled": true
+		},
+		{
 			"Name": "PerlinNoise",
 			"Enabled": true
 		},

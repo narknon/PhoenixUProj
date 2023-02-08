@@ -2,11 +2,11 @@
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
 #include "EObjectPropertyType.h"
+#include "MultiFX2_Base.h"
 #include "MaterialPropertyData.generated.h"
 
 class UAkAudioEvent;
 class UMaterialInterface;
-class UMultiFX2_Base;
 class UPhysicalMaterial;
 
 UCLASS(Blueprintable, Const)

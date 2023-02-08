@@ -8,8 +8,7 @@
 #include "UObject/NoExportTypes.h"
 #include "EGenderEnum.h"
 #include "GameFramework/PlayerInput.h"
-#include "GameFramework/PlayerInput.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=InputGroupHeader -FallbackName=InputGroupHeader
+#include "InputGroupHeader.h"
 #include "InputCoreTypes.h"
 #include "AsyncScreenLoadCallbackDelegate.h"
 #include "ClosePauseMenuCompleteCallbackDelegate.h"

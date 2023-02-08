@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=WindGustController -FallbackName=WindGustController
+#include "WindGustController.h"
 #include "EWindGustSimplexNoiseMode.h"
 #include "WindGustControllerSimplexNoise.generated.h"
 

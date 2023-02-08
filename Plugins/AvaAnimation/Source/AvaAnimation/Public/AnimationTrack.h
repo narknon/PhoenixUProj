@@ -7,7 +7,7 @@
 #include "AnimTrackPlaybackOptions.h"
 #include "AnimationTrack.generated.h"
 
-class UAnimationAsset;
+
 class UAnimationProvider;
 class UBlendSpaceInputProvider;
 class UObject;

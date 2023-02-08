@@ -1,8 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CachedRigElement.h"
-#include "EBoneGetterSetterMode.h"
-#include "RigUnitMutable.h"
+#include "Units/RigUnit.h"
 #include "UObject/NoExportTypes.h"
 #include "RitUnit_SetControlTransform_EditorWorkaround.generated.h"
 

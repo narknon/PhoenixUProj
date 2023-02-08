@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EWindGustCurveRemap -FallbackName=EWindGustCurveRemap
+#include "EWindGustCurveRemap.h"
 #include "WindGustControllerSimplexNoise.h"
 #include "WindGustControllerSimplexNoiseDirection.generated.h"
 

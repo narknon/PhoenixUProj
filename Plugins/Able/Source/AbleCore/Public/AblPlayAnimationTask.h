@@ -14,7 +14,7 @@ class UAblBlendSpaceParameterGetter;
 class UAblBlendWeightMultiplierGetter;
 class UAblBoneBlendWeightAsset;
 class UAblStartPositionGetter;
-class UAnimationAsset;
+
 
 UCLASS(Blueprintable, EditInlineNew)
 class ABLECORE_API UAblPlayAnimationTask : public UAblAbilityTask {

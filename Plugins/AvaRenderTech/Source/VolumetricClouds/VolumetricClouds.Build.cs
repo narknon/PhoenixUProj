@@ -10,6 +10,7 @@ public class VolumetricClouds : ModuleRules {
             "Core",
             "CoreUObject",
             "Engine",
+            "RenderCore",
         });
     }
 }

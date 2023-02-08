@@ -17,6 +17,7 @@ public class phoenixEditorTarget : TargetRules {
 			"PhoenixSignificanceManager",
 			"SceneRigShim",
 			"SocialDisplay",
+			"Wind",
 		});
 	}
 }

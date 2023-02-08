@@ -1,12 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "FXAdjustments.h"
+#include "FXEnd.h"
+#include "FXFilter.h"
+#include "FXUpdate.h"
 #include "MultiFX2_Base.h"
 #include "MultiFX2_Filtered.generated.h"
 
-class UFXAdjustments;
-class UFXEnd;
-class UFXFilter;
-class UFXUpdate;
+
 
 UCLASS(Abstract, Blueprintable, CollapseCategories, EditInlineNew)
 class MULTIFX2_API UMultiFX2_Filtered : public UMultiFX2_Base {

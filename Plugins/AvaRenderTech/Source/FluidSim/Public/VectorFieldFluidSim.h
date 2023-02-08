@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "VectorField/VectorField.h"
+
 #include "VectorFieldFluidSim.generated.h"
 
 UCLASS(Blueprintable, MinimalAPI)

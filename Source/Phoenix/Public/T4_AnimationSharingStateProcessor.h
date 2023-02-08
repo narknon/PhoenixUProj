@@ -22,7 +22,7 @@ protected:
     void GetUsesEyeMouthAnims(uint8 InCurrentState, bool& bOutUsesEyeAnims, bool& bOutUsesMouthAnims);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    TEnumAsByte<EFacialAnimType> GetFacialAnimType(uint8 InCurrentState);
+    EFacialAnimType GetFacialAnimType(uint8 InCurrentState);
     
 };
 

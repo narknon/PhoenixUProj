@@ -1,24 +1,23 @@
+/*
 #pragma once
 #include "CoreMinimal.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EWindSourceCombine -FallbackName=EWindSourceCombine
-#include "EWindDirectionalEnvelopeAffects.h"
+
 #include "EWindSourceCombine.h"
 #include "MultiFX2_Filtered.h"
+#include "WindGustController.h"
 #include "MultiFX2_WindDirectionalSource.generated.h"
 
-class UWindEnvelopeController;
-class UWindGustController;
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
 class UMultiFX2_WindDirectionalSource : public UMultiFX2_Filtered {
     GENERATED_BODY()
 public:
 protected:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
-    UWindEnvelopeController* Envelope;
+    /*UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
+    UWindEnvelopeController* Envelope;#1#
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EWindDirectionalEnvelopeAffects EnvelopeAffects;
+    /*UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    EWindDirectionalEnvelopeAffects EnvelopeAffects;#1#
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float Strength;
@@ -53,4 +52,5 @@ protected:
 public:
     UMultiFX2_WindDirectionalSource();
 };
+*/
 

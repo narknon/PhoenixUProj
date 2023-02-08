@@ -3,7 +3,7 @@
 #include "AnimationRequestLayerReference.h"
 #include "PerClipLayerGroupLayer.generated.h"
 
-class UAnimationAsset;
+
 
 USTRUCT(BlueprintType)
 struct AVAANIMATION_API FPerClipLayerGroupLayer {

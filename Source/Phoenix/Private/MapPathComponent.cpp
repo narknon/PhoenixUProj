@@ -1,5 +1,5 @@
 #include "MapPathComponent.h"
 
-UMapPathComponent::UMapPathComponent() {
+UMapPathComponent::UMapPathComponent() : UProceduralMeshComponent(FObjectInitializer::Get()) {
 }
 

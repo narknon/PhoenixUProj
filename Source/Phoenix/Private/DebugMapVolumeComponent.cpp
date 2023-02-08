@@ -1,5 +1,5 @@
 #include "DebugMapVolumeComponent.h"
 
-UDebugMapVolumeComponent::UDebugMapVolumeComponent() {
+UDebugMapVolumeComponent::UDebugMapVolumeComponent() : UProceduralMeshComponent(FObjectInitializer::Get()) {
 }
 

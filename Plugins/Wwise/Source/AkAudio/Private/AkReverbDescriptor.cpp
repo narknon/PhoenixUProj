@@ -82,9 +82,9 @@ bool HasSimpleCollisionGeometry(UBodySetup* bodySetup)
 // References: 
 // http://amp.ece.cmu.edu/Publication/Cha/icip01_Cha.pdf
 // http://stackoverflow.com/questions/1406029/how-to-calculate-the-volume-of-a-3d-mesh-object-the-surface-of-which-is-made-up
-float SignedVolumeOfTriangle(const FVector3d& p1, const FVector3d& p2, const FVector3d& p3)
+float SignedVolumeOfTriangle(const FVector& p1, const FVector& p2, const FVector& p3)
 {
-	return FVector3d::DotProduct(p1, FVector3d::CrossProduct(p2, p3)) / 6.0f;
+	return FVector::DotProduct(p1, FVector::CrossProduct(p2, p3)) / 6.0f;
 }
 #endif
 

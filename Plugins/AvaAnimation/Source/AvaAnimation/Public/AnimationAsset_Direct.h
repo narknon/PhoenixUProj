@@ -3,7 +3,6 @@
 #include "AnimationProvider.h"
 #include "AnimationAsset_Direct.generated.h"
 
-class UAnimationAsset;
 
 UCLASS(Blueprintable, CollapseCategories, EditInlineNew)
 class AVAANIMATION_API UAnimationAsset_Direct : public UAnimationProvider {

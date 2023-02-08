@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigUnitMutable.h"
+#include "Units/RigUnit.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "RigUnit_ThreeBoneIK_DebugSettings.h"

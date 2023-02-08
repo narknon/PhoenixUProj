@@ -3,7 +3,7 @@
 #include "AnimationValidatedInWorld.h"
 #include "AnimationSetEntry.generated.h"
 
-class UAnimationAsset;
+
 
 USTRUCT(BlueprintType)
 struct AVAANIMATION_API FAnimationSetEntry {

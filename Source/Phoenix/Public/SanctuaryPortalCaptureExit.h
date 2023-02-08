@@ -2,9 +2,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Templates/SubclassOf.h"
+#include "SceneCaptureComponentCubeIncremental.h"
 #include "SanctuaryPortalCaptureExit.generated.h"
 
-class USceneCaptureComponentCubeIncremental;
 
 UCLASS(Abstract, Blueprintable)
 class ASanctuaryPortalCaptureExit : public AActor {

@@ -1,8 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "WeatherWindDirectionalSourceComponentBase.h"
+#include "WindGustController.h"
 #include "WindParametersInstant.h"
-#include "Phoenix/Public/MultiFX2_WindDirectionalSource.h"
+
 #include "WeatherWindDirectionalSourceInstantComponent.generated.h"
 
 

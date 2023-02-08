@@ -1,7 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/WindDirectionalSourceComponent.h"
-#include "EWindDirectionalEnvelopeAffects.h"
 #include "WindSourceEnvelopeRetriggerDelegate.h"
 #include "WindDirectionalSourceWithEnvelopeComponent.generated.h"
 
@@ -14,8 +13,8 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UWindEnvelopeController* Envelope;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
-    EWindDirectionalEnvelopeAffects EnvelopeAffects;
+    /*UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
+    EWindDirectionalEnvelopeAffects EnvelopeAffects;*/
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
     bool bAutoKillAfterEnvelope;
@@ -32,8 +31,8 @@ protected:
     
 public:
     UWindDirectionalSourceWithEnvelopeComponent();
-    UFUNCTION(BlueprintCallable)
-    void SetEnvelopeAffects(EWindDirectionalEnvelopeAffects InNewEnvelopeAffects);
+    /*UFUNCTION(BlueprintCallable)
+    void SetEnvelopeAffects(EWindDirectionalEnvelopeAffects InNewEnvelopeAffects);*/
     
     UFUNCTION(BlueprintCallable)
     void SetEnvelope(const UWindEnvelopeController* InNewEnvelope);
