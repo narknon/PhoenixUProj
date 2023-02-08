@@ -29,10 +29,10 @@ public:
     void SetPlayerIKState(bool State);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetLandingType(ELandingType::Type InType);
+    void SetLandingType(TEnumAsByte<ELandingType::Type> InType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetJumpingType(EJumpingType::Type InType);
+    void SetJumpingType(TEnumAsByte<EJumpingType::Type> InType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetIsViewAlignedWithDesiredDirection(bool InFlag);
@@ -50,10 +50,10 @@ public:
     void SetGlobalIKState(bool State);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetClimbingLedgeState(EClimbingLedgeState::Type InType);
+    void SetClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type> InType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetClimbingLadderState(EClimbingLadderState::Type InType);
+    void SetClimbingLadderState(TEnumAsByte<EClimbingLadderState::Type> InType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void Set_WandCastMelee(const bool bInFlag);
@@ -80,10 +80,10 @@ public:
     void Set_PlayRate(float InPlayRate);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void Set_MobilityModeState(EMobilityModeState::Type InState);
+    void Set_MobilityModeState(TEnumAsByte<EMobilityModeState::Type> InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void Set_MobilityActionState(EMobilityActionState::Type InState);
+    void Set_MobilityActionState(TEnumAsByte<EMobilityActionState::Type> InState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void Set_MaxSpeed(float InMaxSpeed);
@@ -149,10 +149,10 @@ public:
     bool GetPlayerIKState();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetLandingType(ELandingType::Type& OutType);
+    void GetLandingType(TEnumAsByte<ELandingType::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetJumpingType(EJumpingType::Type& OutType);
+    void GetJumpingType(TEnumAsByte<EJumpingType::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     bool GetIKState();
@@ -161,10 +161,10 @@ public:
     bool GetGlobalIKState();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetClimbingLedgeState(EClimbingLedgeState::Type& OutType);
+    void GetClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetClimbingLadderState(EClimbingLadderState::Type& OutType);
+    void GetClimbingLadderState(TEnumAsByte<EClimbingLadderState::Type>& OutType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     bool Get_WandCastMelee();
@@ -182,19 +182,19 @@ public:
     void Get_Speed(float& OutSpeed);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void Get_PrevMobilityModeState(EMobilityModeState::Type& OutState);
+    void Get_PrevMobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void Get_PrevMobilityActionState(EMobilityActionState::Type& OutState);
+    void Get_PrevMobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void Get_PlayRate(float& OutPlayRate);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void Get_MobilityModeState(EMobilityModeState::Type& OutState);
+    void Get_MobilityModeState(TEnumAsByte<EMobilityModeState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void Get_MobilityActionState(EMobilityActionState::Type& OutState);
+    void Get_MobilityActionState(TEnumAsByte<EMobilityActionState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void Get_MaxSpeed(float& OutMaxSpeed);

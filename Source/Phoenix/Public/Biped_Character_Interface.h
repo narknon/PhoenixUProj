@@ -68,7 +68,7 @@ public:
     void SetRootMotionOffset();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void SetRightArmState(ERightArmState::Type InState, ERightArmPriority::Type InPriority, bool bBroadcastChange);
+    void SetRightArmState(TEnumAsByte<ERightArmState::Type> InState, ERightArmPriority::Type InPriority, bool bBroadcastChange);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SetPickupTool(const APickupTool* InPickupTool);
@@ -209,10 +209,10 @@ public:
     APickupTool* GetPickupTool();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetPartialBodyState(EPartialBodyState::Type& OutState);
+    void GetPartialBodyState(TEnumAsByte<EPartialBodyState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetParryState(EParryState::Type& OutState);
+    void GetParryState(TEnumAsByte<EParryState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     FInventoryResult GetInventoryResult();
@@ -221,10 +221,10 @@ public:
     AActor* GetHighlitActor();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetFullBodyStateLast(EFullBodyState::Type& OutState);
+    void GetFullBodyStateLast(TEnumAsByte<EFullBodyState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetFullBodyState(EFullBodyState::Type& OutState);
+    void GetFullBodyState(TEnumAsByte<EFullBodyState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     FVector GetBestLockOnActor_WorldLocation();
@@ -248,7 +248,7 @@ public:
     FVector GetAutoTargetFocusDirection();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void GetAdditiveBodyState(EAdditiveBodyState::Type& OutState);
+    void GetAdditiveBodyState(TEnumAsByte<EAdditiveBodyState::Type>& OutState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void FullyResetPhoenixCamera(float ResetSpeed, UCurveFloat* ResetSpeedCurve);
@@ -275,7 +275,7 @@ public:
     FVector CalculateLookAtDirection();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void CalculateClimbingLedgeState(EClimbingLedgeState::Type& OutState, EJumpingType::Type& OutType);
+    void CalculateClimbingLedgeState(TEnumAsByte<EClimbingLedgeState::Type>& OutState, EJumpingType::Type& OutType);
     
 };
 
