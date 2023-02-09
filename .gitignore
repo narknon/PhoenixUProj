@@ -152,3 +152,4 @@ obj/
 
 Build/WindowsNoEditor/ChunkLayerInfo/pakchunklayers.txt
 WindowsNoEditor/Manifest_NonUFSFiles_Win64.txt
+Binaries/Win64/phoenix.exe
