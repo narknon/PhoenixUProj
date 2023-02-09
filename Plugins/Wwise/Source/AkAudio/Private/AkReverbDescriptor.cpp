@@ -78,13 +78,15 @@ bool HasSimpleCollisionGeometry(UBodySetup* bodySetup)
 }
 
 #if WITH_CHAOS
+
+using FVector3d = FVector;
 // Copied from BodySetup.cpp
 // References: 
 // http://amp.ece.cmu.edu/Publication/Cha/icip01_Cha.pdf
 // http://stackoverflow.com/questions/1406029/how-to-calculate-the-volume-of-a-3d-mesh-object-the-surface-of-which-is-made-up
-float SignedVolumeOfTriangle(const FVector& p1, const FVector& p2, const FVector& p3)
+float AkSignedVolumeOfTriangle(const FVector3d& p1, const FVector3d& p2, const FVector3d& p3)
 {
-	return FVector::DotProduct(p1, FVector::CrossProduct(p2, p3)) / 6.0f;
+	return FVector3d::DotProduct(p1, FVector3d::CrossProduct(p2, p3)) / 6.0f;
 }
 #endif
 
@@ -119,7 +121,7 @@ void UpdateVolumeAndArea(UBodySetup* bodySetup, const FVector& scale, float& vol
 #if WITH_CHAOS
 			// FKConvexElem::GetVolume is not implemented with Chaos
 			// TODO: Remove the following when it is implemented in the future
-			volume += SignedVolumeOfTriangle(v0, v1, v2);
+			volume += AkSignedVolumeOfTriangle(v0, v1, v2);
 #endif
 		}
 	}

@@ -416,7 +416,7 @@ class FAudiokineticToolsModule : public IAudiokineticTools
 
 	void VerifyWwiseProjectPath(UAkSettings* AkSettings, UAkSettingsPerUser* AkSettingsPerUser)
 	{
-		if (AkSettings->WwiseProjectPath.FilePath.IsEmpty())
+		if (AkSettings->WwiseProjectPath.FilePath.IsEmpty() && false)
 		{
 			if (!AkSettingsPerUser->SuppressWwiseProjectPathWarnings && FApp::CanEverRender())
 			{
@@ -438,7 +438,7 @@ class FAudiokineticToolsModule : public IAudiokineticTools
 			FString TempPath = FPaths::ConvertRelativePathToFull(FullGameDir, AkSettings->WwiseProjectPath.FilePath);
 			if (!FPaths::FileExists(TempPath))
 			{
-				if (!AkSettingsPerUser->SuppressWwiseProjectPathWarnings)
+				if (!AkSettingsPerUser->SuppressWwiseProjectPathWarnings && false)
 				{
 					TSharedPtr<SWindow> Dialog = SNew(SWindow)
 						.Title(LOCTEXT("ResetWwisePath", "Re-set Wwise Path"))

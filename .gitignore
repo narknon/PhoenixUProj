@@ -153,3 +153,12 @@ obj/
 Build/WindowsNoEditor/ChunkLayerInfo/pakchunklayers.txt
 WindowsNoEditor/Manifest_NonUFSFiles_Win64.txt
 Binaries/Win64/phoenix.exe
+Binaries/Win64/phoenix.target
+Binaries/Win64/phoenix.lib
+Binaries/Win64/phoenix.exp
+WindowsNoEditor/Engine/Content/SlateDebug/Fonts/LastResort.tps
+WindowsNoEditor/Manifest_DebugFiles_Win64.txt
+Binaries/Win64/phoenix-Win64-Shipping.exe
+Binaries/Win64/phoenix-Win64-Shipping.exp
+Binaries/Win64/phoenix-Win64-Shipping.lib
+Binaries/Win64/phoenix-Win64-Shipping.target

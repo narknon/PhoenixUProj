@@ -56,7 +56,7 @@ class AKAUDIO_API UAkSettingsPerUser : public UObject
 	bool AutoSyncSelection = true;
 
 	UPROPERTY(Config)
-	bool SuppressWwiseProjectPathWarnings = false;
+	bool SuppressWwiseProjectPathWarnings = true;
 
 	UPROPERTY(Config)
 	bool SoundDataGenerationSkipLanguage = false;
