@@ -788,7 +788,7 @@
 		},
 		{
 			"Name": "ChaosEditor",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ChaosCloth",
