@@ -710,17 +710,11 @@
 		},
 		{
 			"Name": "EOSShared",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
+			"Enabled": true
 		},
 		{
 			"Name": "OnlineSubsystemEOS",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
+			"Enabled": true
 		},
 		{
 			"Name": "VirtualCamera",
@@ -814,7 +808,6 @@
 			"Name": "ProceduralMeshComponent",
 			"Enabled": true
 		}
-		
 	],
 	"TargetPlatforms": [
 		"WindowsNoEditor"
