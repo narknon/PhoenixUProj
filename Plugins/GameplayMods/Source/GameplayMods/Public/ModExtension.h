@@ -7,6 +7,6 @@ UCLASS(Abstract, Blueprintable, MinimalAPI)
 class UModExtension : public UObject {
     GENERATED_BODY()
 public:
-    UModExtension();
+    GAMEPLAYMODS_API UModExtension();
 };
 

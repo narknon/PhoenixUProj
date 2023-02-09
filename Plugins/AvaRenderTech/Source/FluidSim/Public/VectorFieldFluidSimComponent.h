@@ -12,6 +12,8 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UVectorFieldFluidSim* FluidSimVectorField;
     
-    UVectorFieldFluidSimComponent();
+    FLUIDSIM_API UVectorFieldFluidSimComponent(const FObjectInitializer& ObjectInitializer);
+    
+    /*virtual void SetIntensity(float NewIntensity) override;*/
 };
 

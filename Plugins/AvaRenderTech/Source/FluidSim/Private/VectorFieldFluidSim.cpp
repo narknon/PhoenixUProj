@@ -6,3 +6,7 @@ UVectorFieldFluidSim::UVectorFieldFluidSim() {
     this->SizeZ = 0;
 }
 
+void UVectorFieldFluidSim::InitInstance(FVectorFieldInstance* Instance, bool bPreviewInstance)
+{
+    
+}

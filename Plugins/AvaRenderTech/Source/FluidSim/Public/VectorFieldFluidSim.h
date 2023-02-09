@@ -18,5 +18,9 @@ public:
     int32 SizeZ;
     
     UVectorFieldFluidSim();
+
+    //~ Begin UVectorField Interface
+    virtual void InitInstance(class FVectorFieldInstance* Instance, bool bPreviewInstance) override;
+    //~ End UVectorField Interface
 };
 

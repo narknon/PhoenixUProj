@@ -19,7 +19,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float ActorMoveDeltaWeight;
     
-    UAnimAsset_TickAssetPlayerProxy();
+    /*UAnimAsset_TickAssetPlayerProxy();*/
 
     /*//Begin UObject Interface
     virtual void PostLoad() override;
