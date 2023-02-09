@@ -13,6 +13,12 @@ public:
 protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<ATransfigurationPreviewActor> PreviewActorClass;
+
+    //~ Begin FTickableGameObject Interface
+    virtual void Tick(float DeltaTime) override;
+    virtual bool IsTickable() const override;
+    virtual TStatId GetStatId() const override;
+    //~ End FTickableGameObject Interface
     
 public:
     UTransfigurationSpawnController();
