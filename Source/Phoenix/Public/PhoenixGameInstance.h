@@ -8,6 +8,7 @@
 #include "EAutoSaveReason.h"
 #include "ELoadingScreenLocation.h"
 #include "ERespawnReason.h"
+#include "ESeasonEnum.h"
 #include "PlayerSpawnedDelegateDelegate.h"
 #include "Templates/SubclassOf.h"
 #include "PhoenixGameInstance.generated.h"
@@ -17,7 +18,6 @@ class APlayerStart;
 class UFastTravelManager;
 class ULevel;
 class UObject;
-class UPhoenixGameInstance;
 class UPhoenixPersistentAssets;
 class UPhxDbRegistryTypeManager;
 class UWorld;

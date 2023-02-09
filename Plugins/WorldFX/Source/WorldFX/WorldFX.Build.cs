@@ -14,7 +14,6 @@ public class WorldFX : ModuleRules {
             "DeveloperSettings",
             "Engine",
             "InputCore",
-            "MasterTickThrottler",
             "MovieScene",
             "MovieSceneTracks",
             "Niagara",

@@ -1,9 +1,5 @@
 #include "ClothInteractorBlueprintLibrary.h"
 
-class UChaosClothConfig;
-class UChaosClothSharedSimConfig;
-class UChaosClothingInteractor;
-class USkeletalMesh;
 
 UChaosClothSharedSimConfig* UClothInteractorBlueprintLibrary::GetChaosClothSharedSimConfig(USkeletalMesh* SkeletalMesh, UChaosClothingInteractor* ChaosClothingInteractor) {
     return NULL;

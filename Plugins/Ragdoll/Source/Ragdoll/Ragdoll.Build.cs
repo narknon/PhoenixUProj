@@ -15,7 +15,6 @@ public class Ragdoll : ModuleRules {
             "Engine",
             "GameplayTags",
             "InputCore",
-            "MasterTickThrottler",
             "MovieScene",
             "MovieSceneTracks",
             "PhysicsCore",

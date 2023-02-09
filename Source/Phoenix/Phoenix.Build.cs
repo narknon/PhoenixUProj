@@ -29,10 +29,8 @@ public class Phoenix : ModuleRules {
             "BinkMediaPlayer",
             "CISQLite3",
             "CameraStack",
-            "Chaos",
-            "ChaosCaching",
-            "ChaosCloth",
             "ChaosSolverEngine",
+            "ChaosCaching",
             "CinematicCamera",
             "ClothingSystemRuntimeCommon",
             "ClothingSystemRuntimeInterface",
@@ -116,10 +114,10 @@ public class Phoenix : ModuleRules {
             "VolumetricClouds",
             "Weather",
             "Wind",
-            "WorldFX",
+            "WorldFX", 
+            "Chaos",
+            "ChaosCloth",
         });
-        
-        PublicIncludePaths.Add(Path.Combine("../Plugins/Wind/Source/Wind/Public/"));
-        
+
     }
 }

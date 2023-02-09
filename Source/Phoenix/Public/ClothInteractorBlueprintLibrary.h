@@ -8,11 +8,11 @@
 #include "IntClothInteractorValue.h"
 #include "Vector2DClothInteractorValue.h"
 #include "VectorClothInteractorValue.h"
+#include "ChaosCloth/ChaosClothConfig.h"
+#include "ChaosCloth/ChaosClothingSimulationInteractor.h"
 #include "ClothInteractorBlueprintLibrary.generated.h"
 
-class UChaosClothConfig;
-class UChaosClothSharedSimConfig;
-class UChaosClothingInteractor;
+
 class USkeletalMesh;
 
 UCLASS(Blueprintable)

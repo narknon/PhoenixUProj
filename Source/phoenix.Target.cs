@@ -17,7 +17,8 @@ public class phoenixTarget : TargetRules {
 			"PhoenixSignificanceManager",
 			"SceneRigShim",
 			"SocialDisplay",
-			"Wind",
 		});
+		bUseChaos = true;
+		bCompileChaos = true;
 	}
 }

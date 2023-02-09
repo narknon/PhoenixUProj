@@ -12,3 +12,5 @@ public:
     CUSTOMIZABLECHARACTER_API FCharacterPieceCharacterType();
 };
 
+FORCEINLINE uint32 GetTypeHash(const FCharacterPieceCharacterType) { return 0; }
+

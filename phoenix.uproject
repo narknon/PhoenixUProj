@@ -614,10 +614,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "ChaosCaching",
-			"Enabled": true
-		},
-		{
 			"Name": "IGCacheSim",
 			"Enabled": true
 		},
@@ -637,9 +633,7 @@
 			"Name": "USDImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -666,8 +660,6 @@
 			"Name": "MagicLeapPassableWorld",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
-				"Lumin",
-				"Mac",
 				"Win64"
 			]
 		},
@@ -720,18 +712,14 @@
 			"Name": "EOSShared",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
 			"Name": "OnlineSubsystemEOS",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -753,7 +741,80 @@
 		{
 			"Name": "CopyVirtualTextureRegion",
 			"Enabled": true
+		},
+		{
+			"Name": "Toolset",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraStarField",
+			"Enabled": true
+		},
+		{
+			"Name": "Munitions",
+			"Enabled": true
+		},
+		{
+			"Name": "Mercuna",
+			"Enabled": true
+		},
+		{
+			"Name": "Mastermind",
+			"Enabled": true
+		},
+		{
+			"Name": "GameLogic",
+			"Enabled": true
+		},
+		{
+			"Name": "Icarus",
+			"Enabled": true
+		},
+		{
+			"Name": "DesignerHelper",
+			"Enabled": true
+		},
+		{
+			"Name": "CustomizableCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCaching",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCloth",
+			"Enabled": true
+		},
+		{
+			"Name": "AvaAudioLow",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationSharing",
+			"Enabled": true
+		},
+		{
+			"Name": "AccessibilitySettings",
+			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
 		}
+		
 	],
 	"TargetPlatforms": [
 		"WindowsNoEditor"

@@ -18,3 +18,4 @@ public:
     PHOENIX_API FCharacterNameAndIsLocalPlayer();
 };
 
+FORCEINLINE uint32 GetTypeHash(const FCharacterNameAndIsLocalPlayer) { return 0; }

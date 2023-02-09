@@ -33,7 +33,6 @@ public class IcarusRuntime : ModuleRules {
             "InputCore",
             "Landscape",
             "LevelSequence",
-            "MasterTickThrottler",
             "MaterialPermuter",
             "MediaAssets",
             "MediaUtils",

@@ -22,7 +22,6 @@ public class Munitions : ModuleRules {
             "GameplayTags",
             "Hermes",
             "InputCore",
-            "MasterTickThrottler",
             "MovieScene",
             "MovieSceneTracks",
             "Niagara",

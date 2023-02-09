@@ -39,7 +39,6 @@ public class DayNight : ModuleRules {
             "Landscape",
             "LerpVolumes",
             "LevelSequence",
-            "MasterTickThrottler",
             "MaterialPermuter",
             "MediaAssets",
             "MediaUtils",

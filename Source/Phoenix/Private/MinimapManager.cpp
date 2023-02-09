@@ -1,18 +1,5 @@
 #include "MinimapManager.h"
 
-class AActor;
-class APawn;
-class UMapSubSystem;
-class UMinimapBase;
-class UMinimapDungeon;
-class UMinimapHogsmeade;
-class UMinimapHogwarts;
-class UMinimapOverland;
-class UMinimapSanctuary;
-class UMinimapTents;
-class UMinimapTutorial;
-class UObject;
-class UTexture2D;
 
 void UMinimapManager::UnrevealMiniMapInternal() {
 }
@@ -173,11 +160,11 @@ UMinimapBase* UMinimapManager::FindMapByName(const FString& MapName) {
 
 
 
-void UMinimapManager::BeginPlay() {
+/*void UMinimapManager::BeginPlay() {
 }
 
 void UMinimapManager::BeginDestroy() {
-}
+}*/
 
 void UMinimapManager::AddMiniMap(UMinimapBase* pMiniMapbase) {
 }

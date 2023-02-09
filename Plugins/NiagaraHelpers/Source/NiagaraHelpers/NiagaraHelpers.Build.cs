@@ -14,7 +14,6 @@ public class NiagaraHelpers : ModuleRules {
             "DeveloperSettings",
             "Engine",
             "InputCore",
-            "MasterTickThrottler",
             "MovieScene",
             "MovieSceneTracks",
             "Niagara",

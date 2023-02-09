@@ -358,11 +358,11 @@ protected:
     void DoMapTransitionEnd();
     
 public:
-    UFUNCTION(BlueprintCallable)
+    /*UFUNCTION(BlueprintCallable)
     void BeginPlay();
     
     UFUNCTION(BlueprintCallable)
-    void BeginDestroy();
+    void BeginDestroy();*/
     
 protected:
     UFUNCTION(BlueprintCallable)

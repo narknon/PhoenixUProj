@@ -12,3 +12,4 @@ public:
     CUSTOMIZABLECHARACTER_API FClothingAssetName();
 };
 
+FORCEINLINE uint32 GetTypeHash(const FClothingAssetName) { return 0; }

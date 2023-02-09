@@ -71,7 +71,7 @@ ACandles::ACandles() : AStaticMeshActor(FObjectInitializer::Get()) {
     this->bDayNightModulate = false;
     this->DayIntensityMod = 100.00f;
     this->NightIntensityMod = 1.00f;
-    this->CandleMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComponent0"));
+    this->CandleMeshComp = Cast<UStaticMeshComponent>(GetDefaultSubobjectByName(TEXT("StaticMeshComponent0")));
     this->PointLightComp = NULL;
     this->SpotLightComp = NULL;
     this->AnimatedLightComp = NULL;

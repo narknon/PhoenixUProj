@@ -31,7 +31,6 @@ public class Toolset : ModuleRules {
             "InputCore",
             "Landscape",
             "LevelSequence",
-            "MasterTickThrottler",
             "MediaAssets",
             "MediaUtils",
             "MovieScene",

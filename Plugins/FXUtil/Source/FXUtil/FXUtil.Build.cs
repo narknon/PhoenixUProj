@@ -16,7 +16,6 @@ public class FXUtil : ModuleRules {
             "Engine",
             "Foliage",
             "InputCore",
-            "MasterTickThrottler",
             "MaterialPermuter",
             "MovieScene",
             "MovieSceneTracks",

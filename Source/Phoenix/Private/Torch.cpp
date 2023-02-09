@@ -166,7 +166,7 @@ ATorch::ATorch() {
     this->bDayNightModulate = false;
     this->DayIntensityMod = 100.00f;
     this->NightIntensityMod = 1.00f;
-    this->TorchMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComponent0"));
+    this->TorchMeshComp = Cast<UStaticMeshComponent>(GetDefaultSubobjectByName(TEXT("StaticMeshComponent0")));
     this->PointLightComp = NULL;
     this->SpotLightComp = NULL;
     this->IndirectLightComp = NULL;

@@ -35,7 +35,6 @@ public class Ambulatory : ModuleRules {
             "InputCore",
             "Landscape",
             "LevelSequence",
-            "MasterTickThrottler",
             "MaterialPermuter",
             "MediaAssets",
             "MediaUtils",

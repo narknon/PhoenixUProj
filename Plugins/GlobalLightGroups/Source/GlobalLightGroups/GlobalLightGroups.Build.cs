@@ -15,7 +15,6 @@ public class GlobalLightGroups : ModuleRules {
             "Engine",
             "Hermes",
             "InputCore",
-            "MasterTickThrottler",
             "MovieScene",
             "MovieSceneTracks",
             "Niagara",

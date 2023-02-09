@@ -32,7 +32,6 @@ public class AbleCore : ModuleRules {
             "InputCore",
             "Landscape",
             "LevelSequence",
-            "MasterTickThrottler",
             "MaterialPermuter",
             "MediaAssets",
             "MediaUtils",
