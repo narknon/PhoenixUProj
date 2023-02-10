@@ -1,12 +1,5 @@
 #include "PhoenixGameInstance.h"
 
-class APawn;
-class APlayerStart;
-class ULevel;
-class UObject;
-class UPhoenixGameInstance;
-class UWorld;
-
 void UPhoenixGameInstance::UpdateSaveSpawnLocationEx(const FVector PlayerPostion, const FRotator PlayerOrientation) {
 }
 
