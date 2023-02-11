@@ -4,7 +4,7 @@
 	"Configuration": "Development",
 	"TargetType": "Editor",
 	"Architecture": "",
-	"Project": "../../phoenix.uproject",
+	"Project": "../../Phoenix.uproject",
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"Version": 
 	{
@@ -16,7 +16,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.27",
-		"BuildId": "897771e7-27b9-414a-a2f1-5bcca1486572"
+		"BuildId": "7ecbb2b1-4cd9-45f8-8080-00169b6cbede"
 	},
 	"BuildProducts": [
 		{
@@ -6822,7 +6822,7 @@
 	],
 	"RuntimeDependencies": [
 		{
-			"Path": "$(ProjectDir)/phoenix.uproject",
+			"Path": "$(ProjectDir)/Phoenix.uproject",
 			"Type": "UFS"
 		},
 		{

@@ -4,7 +4,7 @@
 	"Configuration": "Development",
 	"TargetType": "Program",
 	"Architecture": "",
-	"Project": "../../phoenix.uproject",
+	"Project": "../../Phoenix.uproject",
 	"Launch": "$(EngineDir)/Binaries/Win64/UnrealPak.exe",
 	"Version": 
 	{
@@ -174,7 +174,7 @@
 	],
 	"RuntimeDependencies": [
 		{
-			"Path": "$(ProjectDir)/phoenix.uproject",
+			"Path": "$(ProjectDir)/Phoenix.uproject",
 			"Type": "UFS"
 		},
 		{

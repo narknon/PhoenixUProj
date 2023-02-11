@@ -1,6 +1,5 @@
 #include "Scheduler.h"
 
-class UScheduler;
 
 void UScheduler::StopTime(bool InStop, FName InLockName) {
 }
