@@ -4,7 +4,7 @@
 	"Configuration": "Development",
 	"TargetType": "Editor",
 	"Architecture": "",
-	"Project": "../../Phoenix.uproject",
+	"Project": "../../phoenix.uproject",
 	"Launch": "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 	"Version": 
 	{
@@ -16,7 +16,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.27",
-		"BuildId": "7ecbb2b1-4cd9-45f8-8080-00169b6cbede"
+		"BuildId": "ef192269-0d22-4a02-bf44-ae8bebd5a38b"
 	},
 	"BuildProducts": [
 		{
@@ -108,27 +108,11 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AkAudioMixer.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AkAudioMixer.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AkAudio.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AkAudio.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AudiokineticTools.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/Binaries/Win64/UE4Editor-AudiokineticTools.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -153,6 +137,22 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/Binaries/Win64/UE4Editor-TextureAlignMode.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MasterTickThrottler/Binaries/Win64/UE4Editor-MasterTickThrottler.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MasterTickThrottler/Binaries/Win64/UE4Editor-MasterTickThrottler.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GetCamera/Binaries/Win64/UE4Editor-GetCamera.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GetCamera/Binaries/Win64/UE4Editor-GetCamera.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -289,14 +289,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/AvaRenderTech/Binaries/Win64/UE4Editor-VolumetricClouds.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/GetCamera/Binaries/Win64/UE4Editor-GetCamera.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/GetCamera/Binaries/Win64/UE4Editor-GetCamera.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -897,14 +889,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/GlobalLightGroups/Binaries/Win64/UE4Editor-GlobalLightGroups.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/MasterTickThrottler/Binaries/Win64/UE4Editor-MasterTickThrottler.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/MasterTickThrottler/Binaries/Win64/UE4Editor-MasterTickThrottler.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -5996,6 +5980,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/MasterTickThrottler/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GetCamera/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/AnimationArchitect/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6025,10 +6017,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/AvaRenderTech/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/GetCamera/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -6261,10 +6249,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/GlobalLightGroups/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/MasterTickThrottler/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -6822,7 +6806,7 @@
 	],
 	"RuntimeDependencies": [
 		{
-			"Path": "$(ProjectDir)/Phoenix.uproject",
+			"Path": "$(ProjectDir)/phoenix.uproject",
 			"Type": "UFS"
 		},
 		{
@@ -6863,6 +6847,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/GeometryMode/GeometryMode.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/MasterTickThrottler/MasterTickThrottler.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/GetCamera/GetCamera.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -6907,10 +6899,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/BestDirectionalLight/BestDirectionalLight.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/GetCamera/GetCamera.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -7159,10 +7147,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/GlobalLightGroups/GlobalLightGroups.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/MasterTickThrottler/MasterTickThrottler.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -7864,158 +7848,6 @@
 		{
 			"Path": "$(EngineDir)/Plugins/XGEController/XGEController.uplugin",
 			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkAudioInput.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkCompressor.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkDelay.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkExpander.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkFlanger.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkGain.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkGuitarDistortion.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkHarmonizer.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkMatrixReverb.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkParametricEQ.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkPeakLimiter.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkPitchShifter.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkRecorder.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkRoomVerb.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkSilenceGenerator.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkSineTone.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkSoundEngineDLL.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkStereoDelay.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkSynthOne.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkTimeStretch.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkToneGen.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/AkTremolo.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.pdb",
-			"Type": "DebugNonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.pdb",
-			"Type": "DebugNonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.pdb",
-			"Type": "DebugNonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingPROFILE_x64.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingPROFILE_x64.pdb",
-			"Type": "DebugNonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.pdb",
-			"Type": "DebugNonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_ClothingPROFILE_x64.pdb",
-			"Type": "DebugNonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/APEX_LegacyPROFILE_x64.pdb",
-			"Type": "DebugNonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.dll",
-			"Type": "NonUFS"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/ApexFrameworkPROFILE_x64.pdb",
-			"Type": "DebugNonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Python3/Win64/LICENSE.txt",
@@ -25272,6 +25104,46 @@
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/Qualcomm/Win64/TextureConverter.dll",
 			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxFoundationPROFILE_x64.pdb",
+			"Type": "DebugNonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PxPvdSDKPROFILE_x64.pdb",
+			"Type": "DebugNonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3PROFILE_x64.pdb",
+			"Type": "DebugNonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingPROFILE_x64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CookingPROFILE_x64.pdb",
+			"Type": "DebugNonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/ThirdParty/PhysX3/Win64/VS2015/PhysX3CommonPROFILE_x64.pdb",
+			"Type": "DebugNonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/embree.2.14.0.dll",

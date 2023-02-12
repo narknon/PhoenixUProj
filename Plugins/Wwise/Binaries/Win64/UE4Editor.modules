@@ -1,9 +1,7 @@
 {
-	"BuildId": "7ecbb2b1-4cd9-45f8-8080-00169b6cbede",
+	"BuildId": "ef192269-0d22-4a02-bf44-ae8bebd5a38b",
 	"Modules": 
 	{
-		"AkAudio": "UE4Editor-AkAudio.dll",
-		"AkAudioMixer": "UE4Editor-AkAudioMixer.dll",
-		"AudiokineticTools": "UE4Editor-AudiokineticTools.dll"
+		"AkAudio": "UE4Editor-AkAudio.dll"
 	}
 }
