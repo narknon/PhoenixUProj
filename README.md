@@ -5,6 +5,8 @@
 
 I highly recommend following option 2, as you can update with the click of a button and updates will only download changed files.
 
+### For Audio Modding switch the the "AudioBranch" branch of this repo and follow the readme from there.
+
 
 ## Prerequisites
 
