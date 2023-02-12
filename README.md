@@ -7,6 +7,8 @@ I highly recommend following option 2, as you can update with the click of a but
 
 ### For Audio Modding switch the the "AudioBranch" branch of this repo and follow the readme from there.
 
+### [Packaging assets as IO Store (utoc/ucas)](https://github.com/narknon/PhoenixUProj/wiki/Packaging-assets-as-IO-Store-(utoc-ucas)#to-pak-files-as-ucasutoc)
+
 
 ## Prerequisites
 
