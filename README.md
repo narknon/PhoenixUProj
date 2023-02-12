@@ -1,7 +1,7 @@
 # Prebuilt uProject and Engine Installation Instructions
 
 
-### See [option 1](/uProject%20and%20Engine%20Installation.md#1-standard-install---no-easy-updating) for standard install, or [option 2](/uProject%20and%20Engine%20Installation.md#2-github-clone-install---update-with-the-click-of-a-button) for install along with Github desktop to allow for easy updates.  Be sure to install any missing [prerequisites](/uProject%20and%20Engine%20Installation.md#prerequisites) first.  See [section 3](/uProject%20and%20Engine%20Installation.md#3-troubleshooting) for troubleshooting.
+### See [option 1](\#1-standard-install---no-easy-updating) for standard install, or [option 2](\#2-github-clone-install---update-with-the-click-of-a-button) for install along with Github desktop to allow for easy updates.  Be sure to install any missing [prerequisites](\#prerequisites) first.  See [section 3](\#3-troubleshooting) for troubleshooting.
 
 I highly recommend following option 2, as you can update with the click of a button and updates will only download changed files.
 
