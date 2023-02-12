@@ -40,7 +40,7 @@ Proceed to the links https://github.com/narknon/PhoenixUProj and https://github.
 
 Click on the green arrow to the right, and select download zip.
 
-![image](https://user-images.githubusercontent.com/73571427/176456031-7dd76359-dce9-4ac4-9a10-616bae4552e4.png)
+![image](https://user-images.githubusercontent.com/73571427/218326661-f8e2b9f3-d69a-44bf-a94c-854140cc12b3.png)
 
 
 Once the downloads are complete, extract each to separate folders (I personally prefer not to use Desktop or Documents for Unreal installs, and instead install on root of my drive, or close to root).  Be sure not to use a very long path or UE will give errors.
@@ -110,7 +110,7 @@ Copy/paste the below command into the console window.
     
 Wait for the download to complete based on the output in the console window.
 
-![image](https://user-images.githubusercontent.com/73571427/176467360-19c69562-6564-48e1-aa7a-8c3d21324c1a.png)
+![image](https://user-images.githubusercontent.com/73571427/218326628-c391390f-6407-472a-bb7b-e7e59851d71c.png)
 
 
 Once completed, rename the engine folder (UnrealEngine-CEEnd) to whatever you would like just to ensure that the path to the files is not gigantic.
@@ -166,7 +166,11 @@ In the new dialog, press "Choose" and navigate to the folder to which you cloned
 
 Once inside this folder, press select folder.
 
-![image](https://user-images.githubusercontent.com/73571427/176687920-28b70244-6639-41f5-8900-c125e032a354.png)
+![image](https://user-images.githubusercontent.com/73571427/218326741-1467f772-2756-41aa-a213-4621623d5311.png)
+
+![image](https://user-images.githubusercontent.com/73571427/218326789-0748eb61-8a31-4a11-bc53-1fdfe27fe990.png)
+
+
 
 The repository should now be added as the current repository.
 
