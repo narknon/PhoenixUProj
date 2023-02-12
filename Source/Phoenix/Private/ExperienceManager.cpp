@@ -1,7 +1,6 @@
 #include "ExperienceManager.h"
 
-class UExperienceManager;
-class UObject;
+
 
 void UExperienceManager::SetLevelBounds(const int32 i_level, int32& o_startPoints, int32& o_endPoints) {
 }
