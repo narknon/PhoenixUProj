@@ -162,3 +162,6 @@ Binaries/Win64/phoenix-Win64-Shipping.exe
 Binaries/Win64/phoenix-Win64-Shipping.exp
 Binaries/Win64/phoenix-Win64-Shipping.lib
 Binaries/Win64/phoenix-Win64-Shipping.target
+
+# Include master materials and dependencies
+!Content/**/*.uasset
