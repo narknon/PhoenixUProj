@@ -108,7 +108,7 @@ Open the folder, hold Shift, and Right Click.  The Right Click context menu shou
 
 A new console window should then open. 
 
-Copy/paste the below command into the console window.
+Copy/paste the below command into the console window. Make sure you followed the Prerequisites or the clone will not work.
 
     git clone --branch 4.27-chaos --single-branch https://github.com/narknon/UnrealEngine-CEEnd.git
     
