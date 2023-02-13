@@ -38,6 +38,7 @@ To add C++ tools to your VS installation, make sure you select Game development 
 
 # 1. Standard Install - No easy updating
 
+Make sure you followed the Prerequisites or the 2nd link will not work.
 
 Proceed to the links https://github.com/narknon/PhoenixUProj and https://github.com/narknon/UnrealEngine-CEEnd/tree/4.27-chaos.
 
