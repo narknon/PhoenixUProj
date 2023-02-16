@@ -197,7 +197,7 @@ public:
     bool IsActorInBestList(TSubclassOf<UAISense> SenseClass, const AActor* TestActor);
     
     UFUNCTION(BlueprintCallable)
-    static void HermesBindForcedConversation(ABiped_PlayerController::FHermesOnForcedConversationDelegate Delegate_OnForcedConversation, const UObject* InOwner, FHermesBPDelegateHandle& Handle);
+    static void HermesBindForcedConversation(FHermesOnForcedConversationDelegate Delegate_OnForcedConversation, const UObject* InOwner, FHermesBPDelegateHandle& Handle);
     
     UFUNCTION(BlueprintCallable)
     UAISense_CogGroup_TargetOfInterest* GetTargetOfInterestSense();

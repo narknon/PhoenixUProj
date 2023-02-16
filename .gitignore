@@ -128,7 +128,7 @@
 
 
 # Ignore content folders except mats
-
+!/Plugins/ACLPlugin/Content/*
 
 !USMAP/*
 
@@ -164,4 +164,4 @@ Binaries/Win64/phoenix-Win64-Shipping.lib
 Binaries/Win64/phoenix-Win64-Shipping.target
 
 # Include master materials and dependencies
-!Content/**/*.uasset
+
