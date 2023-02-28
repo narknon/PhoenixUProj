@@ -1,0 +1,3 @@
+[submodule "Content/Python"]
+	path = Content/Python
+	url = https://github.com/Tangerie/Json2DA.git
