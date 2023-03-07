@@ -809,6 +809,11 @@
 		{
 			"Name": "ProceduralMeshComponent",
 			"Enabled": true
+		},
+		{
+			"Name": "KantanAutoJson",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/66071cf119624ffba186046d817a4075"
 		}
 	],
 	"TargetPlatforms": [
