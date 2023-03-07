@@ -16,7 +16,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.27",
-		"BuildId": "bc8c38ed-8397-49af-8b16-8411ba041db1"
+		"BuildId": "873f64a8-be9d-43b0-ba22-020b690ff90f"
 	},
 	"BuildProducts": [
 		{
@@ -1865,6 +1865,30 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Developer/WInstrumentedProfilers/Binaries/Win64/UE4Editor-WInstrumentedProfilersSettings.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/KantanAutoJson/Binaries/Win64/UE4Editor-AutoJson.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/KantanAutoJson/Binaries/Win64/UE4Editor-AutoJson.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/KantanAutoJson/Binaries/Win64/UE4Editor-AutoJsonCustomNodes.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/KantanAutoJson/Binaries/Win64/UE4Editor-AutoJsonCustomNodes.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/KantanAutoJson/Binaries/Win64/UE4Editor-AutoJsonEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/KantanAutoJson/Binaries/Win64/UE4Editor-AutoJsonEditor.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -6532,6 +6556,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/KantanAutoJson/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/RecordMovieInterface/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -7523,6 +7551,10 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/InstaLODMeshReduction/InstaLODMeshReduction.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/KantanAutoJson/KantanAutoJson.uplugin",
 			"Type": "UFS"
 		},
 		{
