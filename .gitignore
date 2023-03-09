@@ -128,7 +128,7 @@
 
 
 # Ignore content folders except mats
-!/Plugins/ACLPlugin/Content/*
+!/Content/Mods/TestMod/**
 
 !USMAP/*
 
