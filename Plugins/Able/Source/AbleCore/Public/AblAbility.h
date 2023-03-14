@@ -20,6 +20,7 @@ UCLASS(Blueprintable)
 class ABLECORE_API UAblAbility : public UObject {
     GENERATED_BODY()
 public:
+    void PostLoad() override;
 private:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float m_Length;

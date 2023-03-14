@@ -129,6 +129,8 @@ bool UAblAbility::AlwaysRefreshDuration() const {
     return false;
 }
 
+
+
 UAblAbility::UAblAbility() {
     this->m_Length = 1.00f;
     this->m_Cooldown = 0.00f;
@@ -150,5 +152,13 @@ UAblAbility::UAblAbility() {
     this->m_MustPassAllChannelConditions = false;
     this->m_AbilityNameHash = 0;
     this->m_AbilityRealm = EAblAbilityTaskRealm::Client;
+}
+
+
+void UAblAbility::PostLoad()
+{
+    Super::PostLoad();
+	// Generate our Name hash.
+	m_AbilityNameHash = FCrc::StrCrc32(*GetName());
 }
 
