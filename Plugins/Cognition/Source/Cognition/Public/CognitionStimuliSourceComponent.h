@@ -8,17 +8,13 @@
 #include "ECalloutBlipType.h"
 #include "ECalloutType.h"
 #include "ESocialCombatMode.h"
+#include "CogGroupEvaluation.h"
+#include "AISenseFOVDetails.h"
+#include "CogTargetSceneComponent.h"
+#include "CogGroupTargetPoint.h"
+#include "CogGroupLookAtPoint.h"
 #include "Templates/SubclassOf.h"
 #include "CognitionStimuliSourceComponent.generated.h"
-
-class AController;
-class UAISense;
-class UAISenseFOVDetails;
-class UAISenseSpecificDetails;
-class UCogGroupEvaluation;
-class UCogGroupLookAtPoint;
-class UCogGroupTargetPoint;
-class UCogTargetSceneComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class COGNITION_API UCognitionStimuliSourceComponent : public UAIPerceptionStimuliSourceComponent {
@@ -180,6 +176,8 @@ public:
     
     UFUNCTION(BlueprintCallable)
     void AddRegisterAsSourceForSenses(const TSubclassOf<UAISense>& Sense);
+
+    virtual void OnRegister() override;
     
 };
 
