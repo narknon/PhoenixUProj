@@ -92,7 +92,7 @@ private:
     FOnClothTargetsEnd ClothTargetsEndDelegate;
     
 public:
-    AEnemy_Character();
+    AEnemy_Character(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void UpdateBossStateEvent(FBossFightData InBossFightData);
     

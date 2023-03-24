@@ -82,7 +82,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UCurveFloat* SpeedCurve;
     
-    APhoenixHUD();
+    APhoenixHUD(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void ToggleHUD(bool Show, bool AllowSelectiveTicking, bool AllowAnimation);

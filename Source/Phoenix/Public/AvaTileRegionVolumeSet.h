@@ -39,7 +39,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<TSoftObjectPtr<UWorld>> TilesToOnlyLoad;
     
-    AAvaTileRegionVolumeSet();
+    AAvaTileRegionVolumeSet(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ForceDeactivate();
     

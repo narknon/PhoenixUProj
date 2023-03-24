@@ -70,7 +70,7 @@ protected:
     UPropOwl_AnimInstance* AnimInstance;
     
 public:
-    APropOwl();
+    APropOwl(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void StartReaction();

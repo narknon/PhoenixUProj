@@ -1,5 +1,5 @@
 #include "AvaAudioLocationActor.h"
 
-AAvaAudioLocationActor::AAvaAudioLocationActor() {
+AAvaAudioLocationActor::AAvaAudioLocationActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

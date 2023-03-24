@@ -11,7 +11,7 @@ UCLASS(Blueprintable)
 class ANoDismountZoneVolume : public AMountZoneVolumeBase {
     GENERATED_BODY()
 public:
-    ANoDismountZoneVolume();
+    ANoDismountZoneVolume(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);

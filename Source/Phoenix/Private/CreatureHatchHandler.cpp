@@ -1,5 +1,5 @@
 #include "CreatureHatchHandler.h"
 
-ACreatureHatchHandler::ACreatureHatchHandler() {
+ACreatureHatchHandler::ACreatureHatchHandler(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

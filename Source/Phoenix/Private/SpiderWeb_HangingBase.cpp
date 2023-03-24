@@ -30,7 +30,7 @@ void ASpiderWeb_HangingBase::AccioStart(bool i_Start, float i_Time) {
 void ASpiderWeb_HangingBase::AccioPull() {
 }
 
-ASpiderWeb_HangingBase::ASpiderWeb_HangingBase() {
+ASpiderWeb_HangingBase::ASpiderWeb_HangingBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CableLength = 0.00f;
     this->LootChance = 0.50f;
     this->bSpawnObject = false;

@@ -21,7 +21,7 @@ protected:
     FLightGroupWindowMaterialsResources Resources;
     
 public:
-    ALightGroupWindowMaterialsVolume();
+    ALightGroupWindowMaterialsVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RefreshBuildResults();
     

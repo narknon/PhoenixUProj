@@ -7,6 +7,6 @@ AActor* ASceneRigCameraManager::GetActiveSceneRigCamera(const UObject* WorldCont
     return NULL;
 }
 
-ASceneRigCameraManager::ASceneRigCameraManager() {
+ASceneRigCameraManager::ASceneRigCameraManager(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

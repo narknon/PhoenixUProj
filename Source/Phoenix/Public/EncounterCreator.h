@@ -32,6 +32,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<ASpawnLocation*> SpawnLocations;
     
-    AEncounterCreator();
+    AEncounterCreator(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -175,7 +175,7 @@ void AMunitionType_Base::AddMunitionTag(const FGameplayTag& InMunitionTag) {
 void AMunitionType_Base::AddMunitionDataAsset(UInteractionArchitectAsset* InMunitionDataAsset) {
 }
 
-AMunitionType_Base::AMunitionType_Base() {
+AMunitionType_Base::AMunitionType_Base(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_damage = 0.00f;
     this->m_minLifeTime = 0.25f;
     this->m_maxLifeTime = 0.25f;

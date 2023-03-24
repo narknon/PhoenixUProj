@@ -1,5 +1,5 @@
 #include "CreatureToyVolume.h"
 
-ACreatureToyVolume::ACreatureToyVolume() {
+ACreatureToyVolume::ACreatureToyVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class PSOCACHING_API APSOCachingCameraActor : public APawn {
     GENERATED_BODY()
 public:
-    APSOCachingCameraActor();
+    APSOCachingCameraActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -1,5 +1,5 @@
 #include "TileSpawnPointCollector.h"
 
-ATileSpawnPointCollector::ATileSpawnPointCollector() {
+ATileSpawnPointCollector::ATileSpawnPointCollector(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

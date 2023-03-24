@@ -38,7 +38,7 @@ void ARenderSettingsVolume::EditColorGrading() {
 void ARenderSettingsVolume::EditAll() {
 }
 
-ARenderSettingsVolume::ARenderSettingsVolume() {
+ARenderSettingsVolume::ARenderSettingsVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ExposureTweak = 0.00f;
     this->IndoorsOutdoors = ERenderSettingsVolumeIndoorsOutdoorsType::IndoorsAndOutdoors;
     this->IndoorsType = ERenderSettingsIndoorsType::ProbeIndoors;

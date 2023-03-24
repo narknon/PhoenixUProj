@@ -14,6 +14,6 @@ private:
     UWindDirectionalSourceWithEnvelopeComponent* Component;
     
 public:
-    AWindDirectionalSourceWithEnvelope();
+    AWindDirectionalSourceWithEnvelope(const FObjectInitializer& ObjectInitializer);
 };
 

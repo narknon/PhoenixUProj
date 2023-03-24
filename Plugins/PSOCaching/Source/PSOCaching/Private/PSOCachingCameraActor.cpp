@@ -1,5 +1,5 @@
 #include "PSOCachingCameraActor.h"
 
-APSOCachingCameraActor::APSOCachingCameraActor() {
+APSOCachingCameraActor::APSOCachingCameraActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

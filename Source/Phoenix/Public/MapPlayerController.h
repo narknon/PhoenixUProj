@@ -14,6 +14,6 @@ private:
     AUMGInputManager* UMGInputManager;
     
 public:
-    AMapPlayerController();
+    AMapPlayerController(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -31,6 +31,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float TargetHalfAngleZ;
     
-    AFireOnceThrowSpellTool();
+    AFireOnceThrowSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

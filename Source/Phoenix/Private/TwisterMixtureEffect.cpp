@@ -23,7 +23,7 @@ void ATwisterMixtureEffect::BeginPull() {
 void ATwisterMixtureEffect::BeginPlay() {
 }
 
-ATwisterMixtureEffect::ATwisterMixtureEffect() {
+ATwisterMixtureEffect::ATwisterMixtureEffect(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_PullRadius = 1200.00f;
     this->m_StopRadius = 150.00f;
     this->m_PullTime = 2.00f;

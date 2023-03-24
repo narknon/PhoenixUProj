@@ -33,6 +33,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float TerrainImpactZOffset;
     
-    AGlaciusMaximaSpellTool();
+    AGlaciusMaximaSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

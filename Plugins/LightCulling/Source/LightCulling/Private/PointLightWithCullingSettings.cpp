@@ -4,7 +4,7 @@
 void APointLightWithCullingSettings::Copy() {
 }
 
-APointLightWithCullingSettings::APointLightWithCullingSettings() {
+APointLightWithCullingSettings::APointLightWithCullingSettings(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PointLightComponent = CreateDefaultSubobject<UPointLightComponentWithCullingSettings>(TEXT("LightComponent0"));
 }
 

@@ -38,7 +38,7 @@ void APhoenixHUD::FinishSettingHUDVisible(EStandardManagedPriority Priority, con
 void APhoenixHUD::EnableAnimDebugInfo(bool bInFlag) {
 }
 
-APhoenixHUD::APhoenixHUD() {
+APhoenixHUD::APhoenixHUD(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->VerdanaFont = NULL;
     this->UE4Font = NULL;
     this->DefaultFontScale = 0.70f;

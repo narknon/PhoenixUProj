@@ -24,6 +24,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     ULevelStreamingDynamic* LoadedLevel;
     
-    AAvaShellVolumeSet();
+    AAvaShellVolumeSet(const FObjectInitializer& ObjectInitializer);
 };
 

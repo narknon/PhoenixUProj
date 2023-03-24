@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UHoudiniAssetComponent* HoudiniAssetComponent;
     
-    AHoudiniAssetActor();
+    AHoudiniAssetActor(const FObjectInitializer& ObjectInitializer);
 };
 

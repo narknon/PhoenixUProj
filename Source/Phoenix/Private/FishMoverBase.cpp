@@ -13,6 +13,6 @@ void AFishMoverBase::InitFish(int32 numberOfFish, USkeletalMesh* Mesh, UAnimatio
 void AFishMoverBase::AddFishSpline(USplineComponent* Spline) {
 }
 
-AFishMoverBase::AFishMoverBase() {
+AFishMoverBase::AFishMoverBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

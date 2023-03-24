@@ -156,7 +156,7 @@ private:
     UCameraStackInfluenceHandle* CameraInfluenceHandle;
     
 public:
-    ASplineFollowerForAI();
+    ASplineFollowerForAI(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateSplineType(EPerformTaskSplineTypes NewSplineType);
     

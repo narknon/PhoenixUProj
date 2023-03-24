@@ -8,7 +8,7 @@ void ACreaturePerceptionVolume::OnEndOverlap(AActor* SelfActor, AActor* OtherAct
 void ACreaturePerceptionVolume::OnBeginOverlap(AActor* SelfActor, AActor* OtherActor) {
 }
 
-ACreaturePerceptionVolume::ACreaturePerceptionVolume() {
+ACreaturePerceptionVolume::ACreaturePerceptionVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->VolumeType = ECreaturePerceptionVolumeType::AlwaysPerceiveInside;
 }
 

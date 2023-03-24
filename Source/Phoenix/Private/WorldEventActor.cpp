@@ -106,7 +106,7 @@ bool AWorldEventActor::CheckCondition(UWorldEventCondition* Conditon) {
     return false;
 }
 
-AWorldEventActor::AWorldEventActor() {
+AWorldEventActor::AWorldEventActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AnimationArcitectComponent = CreateDefaultSubobject<UAnimationArchitectComponent>(TEXT("WorldEventAnimationArchitect"));
 }
 

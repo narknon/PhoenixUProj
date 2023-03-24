@@ -27,7 +27,7 @@ protected:
     bool bHandsLookAtPlayer;
     
 public:
-    AFreeStandingClock();
+    AFreeStandingClock(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnClockChime();
     

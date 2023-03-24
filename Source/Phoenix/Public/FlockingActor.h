@@ -59,7 +59,7 @@ protected:
     FVector LastLeaderPos;
     
 public:
-    AFlockingActor();
+    AFlockingActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetFlockingStrength(float Strength);
     

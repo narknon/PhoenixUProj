@@ -180,7 +180,7 @@ protected:
     TArray<UAkComponent*> VoxFoleyAkComponents;
     
 public:
-    ACreature_Character();
+    ACreature_Character(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool StartFire(float Amount, FVector Location);

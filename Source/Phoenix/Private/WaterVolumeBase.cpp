@@ -47,7 +47,7 @@ void AWaterVolumeBase::Damp(UPrimitiveComponent* Mesh, UObjectStateInfo* ObjectS
 void AWaterVolumeBase::CalcForce(AActor* Actor, UPrimitiveComponent* Mesh, float i_Mass, bool bEmplace, URagdollControlComponent* RagdollComp) {
 }
 
-AWaterVolumeBase::AWaterVolumeBase() {
+AWaterVolumeBase::AWaterVolumeBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->WaterBox = NULL;
     this->DeepCollision = NULL;
     this->ShallowCollision = NULL;

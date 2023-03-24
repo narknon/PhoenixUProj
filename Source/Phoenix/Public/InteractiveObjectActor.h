@@ -13,7 +13,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UObjectStateComponent* ObjectState;
     
-    AInteractiveObjectActor();
+    AInteractiveObjectActor(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

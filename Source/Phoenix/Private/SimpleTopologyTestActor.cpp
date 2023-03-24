@@ -6,6 +6,6 @@ void ASimpleTopologyTestActor::Precompute() {
 void ASimpleTopologyTestActor::AbortPrecompute() {
 }
 
-ASimpleTopologyTestActor::ASimpleTopologyTestActor() {
+ASimpleTopologyTestActor::ASimpleTopologyTestActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

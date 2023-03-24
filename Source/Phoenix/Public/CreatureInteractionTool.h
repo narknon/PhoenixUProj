@@ -25,7 +25,7 @@ protected:
     float InteractRange;
     
 public:
-    ACreatureInteractionTool();
+    ACreatureInteractionTool(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void RequestInteractionEnd();

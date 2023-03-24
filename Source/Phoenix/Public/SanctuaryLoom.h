@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class ASanctuaryLoom : public ATransfigurationObjectBase {
     GENERATED_BODY()
 public:
-    ASanctuaryLoom();
+    ASanctuaryLoom(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void ShowLoomUI();

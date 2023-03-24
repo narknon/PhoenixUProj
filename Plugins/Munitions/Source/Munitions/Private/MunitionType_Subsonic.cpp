@@ -20,7 +20,7 @@ USkeletalMeshComponent* AMunitionType_Subsonic::GetMeshComp() const {
 void AMunitionType_Subsonic::DestroyMunition() {
 }
 
-AMunitionType_Subsonic::AMunitionType_Subsonic() {
+AMunitionType_Subsonic::AMunitionType_Subsonic(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_speed = 10000.00f;
     this->m_gravity = 0.00f;
     this->m_explodeOnContactWithActors = true;

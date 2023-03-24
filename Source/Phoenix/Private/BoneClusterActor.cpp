@@ -13,6 +13,6 @@ UPrimitiveComponent* ABoneClusterActor::GetClosestBoneComponent(const FVector& S
 void ABoneClusterActor::ComputeBoneCloudCenterAndRadius() {
 }
 
-ABoneClusterActor::ABoneClusterActor() {
+ABoneClusterActor::ABoneClusterActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

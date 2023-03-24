@@ -191,7 +191,7 @@ private:
     TWeakObjectPtr<UObjectStateInfo> ObjectStateInfo;
     
 public:
-    AWingardiumBulletTimeSpellTool();
+    AWingardiumBulletTimeSpellTool(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnComponentOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* Other, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);

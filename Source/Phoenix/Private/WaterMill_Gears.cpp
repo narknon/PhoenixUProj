@@ -4,6 +4,6 @@
 
 
 
-AWaterMill_Gears::AWaterMill_Gears() {
+AWaterMill_Gears::AWaterMill_Gears(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

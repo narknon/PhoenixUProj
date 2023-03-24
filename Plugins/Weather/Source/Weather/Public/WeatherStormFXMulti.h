@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     TArray<FWeatherStormTypeFXSettingsState> States;
     
-    AWeatherStormFXMulti();
+    AWeatherStormFXMulti(const FObjectInitializer& ObjectInitializer);
 };
 

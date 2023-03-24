@@ -165,7 +165,7 @@ protected:
     bool bSwarmAudioEnded;
     
 public:
-    AInstancedGroundSwarmingActor();
+    AInstancedGroundSwarmingActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Stop();
     

@@ -1,6 +1,6 @@
 #include "CreatureTransformedHandler.h"
 
-ACreatureTransformedHandler::ACreatureTransformedHandler() {
+ACreatureTransformedHandler::ACreatureTransformedHandler(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RiderCharacterClass = NULL;
 }
 

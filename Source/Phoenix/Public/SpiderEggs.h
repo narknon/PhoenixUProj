@@ -291,7 +291,7 @@ private:
     UNiagaraSystem* mNiagara_DamagedEffect;
     
 public:
-    ASpiderEggs();
+    ASpiderEggs(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnStopPulse();
     

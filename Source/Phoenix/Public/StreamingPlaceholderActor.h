@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftClassPtr<AActor> ActorToSpawn;
     
-    AStreamingPlaceholderActor();
+    AStreamingPlaceholderActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -36,7 +36,7 @@ private:
     FPostProcessSettings PostProcessing;
     
 public:
-    ARenderingCutVolume();
+    ARenderingCutVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetPriority(float NewPriority);
     

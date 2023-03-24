@@ -52,7 +52,7 @@ protected:
     int32 SerializedVersion;
     
 public:
-    ALockable();
+    ALockable(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Unseal(bool ShowLockWhenLocked, bool Locked, bool OpenLockable, bool ThrowLock, bool PlaySoundsAndEffects);
     

@@ -34,7 +34,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 Level;
     
-    ADisillusionmentSpellTool();
+    ADisillusionmentSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnDisillusionmentStart();
     

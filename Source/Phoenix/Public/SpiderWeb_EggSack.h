@@ -87,7 +87,7 @@ protected:
     UEnemy_SpawnSpiders* EnemySpiders;
     
 public:
-    ASpiderWeb_EggSack();
+    ASpiderWeb_EggSack(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void StartAccioTimer(bool i_Start);

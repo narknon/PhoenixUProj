@@ -14,7 +14,7 @@ void ADayNightSky::EditLightRig() const {
 void ADayNightSky::EditBasis() const {
 }
 
-ADayNightSky::ADayNightSky() {
+ADayNightSky::ADayNightSky(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->DayNightMaster = CreateDefaultSubobject<UDayNightMasterComponent>(TEXT("DayNightMaster"));
     this->TrackEyeXYRoot = NULL;
     this->GlobalLightingBlendable = NULL;

@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FOnPauseEvent OnClearPauseGameEvent;
     
-    AAble_GameMode();
+    AAble_GameMode(const FObjectInitializer& ObjectInitializer);
 };
 

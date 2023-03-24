@@ -5,7 +5,7 @@ float AConfringoSpellTool::GetExplosionRadius() const {
 }
 
 
-AConfringoSpellTool::AConfringoSpellTool() {
+AConfringoSpellTool::AConfringoSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CharacterThrowRadius = 750.00f;
     this->TargetPhysicsImpulse = 20000.00f;
     this->BasePhysicsImpulse = 0.00f;

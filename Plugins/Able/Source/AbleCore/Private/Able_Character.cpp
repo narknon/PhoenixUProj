@@ -1,6 +1,7 @@
 #include "Able_Character.h"
 #include "RagdollControlComponent.h"
 #include "AblAbilityComponent.h"
+#include "Able_MovementComponent.h"
 #include "Templates/SubclassOf.h"
 
 class AActor;
@@ -38,7 +39,7 @@ void AAble_Character::CancelAbilityByContext_Implementation(UAblAbilityContext* 
 void AAble_Character::CancelAbilityByChannel_Implementation(FName InAbilityChannelName) {
 }
 
-AAble_Character::AAble_Character() {
+AAble_Character::AAble_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UAble_MovementComponent>(TEXT("CharMoveComp"))) {
     this->AblAbilityComponent = CreateDefaultSubobject<UAblAbilityComponent>(TEXT("AblAbilityComponent"));
     this->RagdollControlComponent = CreateDefaultSubobject<URagdollControlComponent>(TEXT("RagdollControlComponent"));
     this->PhysicalBodyManager = NULL;

@@ -2,6 +2,6 @@
 
 
 
-AWaterfall::AWaterfall() {
+AWaterfall::AWaterfall(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

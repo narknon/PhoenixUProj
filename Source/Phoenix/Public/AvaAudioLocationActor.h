@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AAvaAudioLocationActor : public AActor {
     GENERATED_BODY()
 public:
-    AAvaAudioLocationActor();
+    AAvaAudioLocationActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -14,6 +14,6 @@ protected:
     TArray<UObject*> PreloadedObjects;
     
 public:
-    AWeatherVolumeSortablePreload();
+    AWeatherVolumeSortablePreload(const FObjectInitializer& ObjectInitializer);
 };
 

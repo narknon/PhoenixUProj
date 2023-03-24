@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<AActor*> Objects;
     
-    AObjectGrouper();
+    AObjectGrouper(const FObjectInitializer& ObjectInitializer);
 };
 

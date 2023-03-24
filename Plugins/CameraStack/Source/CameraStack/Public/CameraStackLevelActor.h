@@ -24,7 +24,7 @@ protected:
     TWeakObjectPtr<AActor> RuntimeTarget;
     
 public:
-    ACameraStackLevelActor();
+    ACameraStackLevelActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetRuntimeTarget(AActor* InActor);
     

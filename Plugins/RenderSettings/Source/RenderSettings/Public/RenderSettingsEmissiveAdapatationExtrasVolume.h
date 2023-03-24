@@ -11,6 +11,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FExposureExpressionsExtras EmissiveAdaptationExtras;
     
-    ARenderSettingsEmissiveAdapatationExtrasVolume();
+    ARenderSettingsEmissiveAdapatationExtrasVolume(const FObjectInitializer& ObjectInitializer);
 };
 

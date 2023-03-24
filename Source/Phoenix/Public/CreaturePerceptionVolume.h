@@ -15,7 +15,7 @@ private:
     ECreaturePerceptionVolumeType VolumeType;
     
 public:
-    ACreaturePerceptionVolume();
+    ACreaturePerceptionVolume(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void OnEndOverlap(AActor* SelfActor, AActor* OtherActor);

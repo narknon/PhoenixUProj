@@ -1,5 +1,5 @@
 #include "ObjectGrouper.h"
 
-AObjectGrouper::AObjectGrouper() {
+AObjectGrouper::AObjectGrouper(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

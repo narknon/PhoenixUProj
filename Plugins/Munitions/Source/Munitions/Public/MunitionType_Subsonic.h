@@ -119,7 +119,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UMunitionMovementComponent* ProjectileMovementComponent;
     
-    AMunitionType_Subsonic();
+    AMunitionType_Subsonic(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnHit(const FHitResult& HitResult, bool bDestroyed, bool bHit, bool bBlocked, bool bFailed);
     

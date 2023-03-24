@@ -32,7 +32,7 @@ protected:
     UMaterialPermuterLoadingBundle* LoadingBundle;
     
 public:
-    AMaterialPreLoadKeysActor();
+    AMaterialPreLoadKeysActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void BuildPreLoads();
     

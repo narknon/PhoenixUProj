@@ -42,7 +42,7 @@ protected:
     float PositionalBlendWeight;
     
 public:
-    ABentDirectionalLightVolume();
+    ABentDirectionalLightVolume(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

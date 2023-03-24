@@ -32,7 +32,7 @@ void ACreatureInteractionTool::AddLookAtTarget() {
 void ACreatureInteractionTool::AddFaceTarget() {
 }
 
-ACreatureInteractionTool::ACreatureInteractionTool() {
+ACreatureInteractionTool::ACreatureInteractionTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TargetCreature = NULL;
     this->Player = NULL;
     this->InteractingSpeedMode = ETargetSpeedMode::IsJogging;

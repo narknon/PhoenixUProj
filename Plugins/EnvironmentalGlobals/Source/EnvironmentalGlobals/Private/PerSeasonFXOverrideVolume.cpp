@@ -1,6 +1,6 @@
 #include "PerSeasonFXOverrideVolume.h"
 
-APerSeasonFXOverrideVolume::APerSeasonFXOverrideVolume() {
+APerSeasonFXOverrideVolume::APerSeasonFXOverrideVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FallOverride = ESeasonEnum::Season_Invalid;
     this->FallPhaseOverride = 0;
     this->WinterOverride = ESeasonEnum::Season_Invalid;

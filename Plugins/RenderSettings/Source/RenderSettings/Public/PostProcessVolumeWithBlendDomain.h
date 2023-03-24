@@ -11,7 +11,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FBlendDomain BlendDomain;
     
-    APostProcessVolumeWithBlendDomain();
+    APostProcessVolumeWithBlendDomain(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void CopySettings();
     

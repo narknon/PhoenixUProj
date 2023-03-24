@@ -27,7 +27,7 @@ private:
     AVisibilityMeshActor* VisibilityMesh;
     
 public:
-    ATier4_Actor();
+    ATier4_Actor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     bool TeleportToStation(const AStation* InStation, const int32 InConnectionIndex);
     

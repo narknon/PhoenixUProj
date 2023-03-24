@@ -13,7 +13,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UMaterialInterface* Material;
     
-    AMapFilterRegion();
+    AMapFilterRegion(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetTexture(UTexture2D* inTexture);
     

@@ -31,6 +31,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UAkLateReverbComponent* LateReverbComponent;
     
-    AAkReverbVolume();
+    AAkReverbVolume(const FObjectInitializer& ObjectInitializer);
 };
 

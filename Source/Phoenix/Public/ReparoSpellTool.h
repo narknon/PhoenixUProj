@@ -26,7 +26,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float TargetQueryCapsuleOffsetX;
     
-    AReparoSpellTool();
+    AReparoSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ReparoExpired();
     

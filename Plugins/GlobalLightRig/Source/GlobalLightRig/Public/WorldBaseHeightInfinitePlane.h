@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class GLOBALLIGHTRIG_API AWorldBaseHeightInfinitePlane : public AWorldBaseHeightBase {
     GENERATED_BODY()
 public:
-    AWorldBaseHeightInfinitePlane();
+    AWorldBaseHeightInfinitePlane(const FObjectInitializer& ObjectInitializer);
 };
 

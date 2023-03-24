@@ -83,7 +83,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<UAblAbility> MoveStopAbility;
     
-    ANonCombat_Character();
+    ANonCombat_Character(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UnregisterForInteractionSense(UObject* InObject);
     

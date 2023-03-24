@@ -3,7 +3,7 @@
 void APhoenixPlayerController::MapCaptureStart() {
 }
 
-APhoenixPlayerController::APhoenixPlayerController() {
+APhoenixPlayerController::APhoenixPlayerController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TriggerEffectManager = NULL;
     this->LEDEffects = NULL;
     this->PlayerHouseLEDFadeEffect = NULL;

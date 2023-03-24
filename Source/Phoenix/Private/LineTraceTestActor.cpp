@@ -1,6 +1,6 @@
 #include "LineTraceTestActor.h"
 
-ALineTraceTestActor::ALineTraceTestActor() {
+ALineTraceTestActor::ALineTraceTestActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TraceLength = 100.00f;
     this->bTraceComplex = false;
     this->QueryMobilityType = ELineTraceTestActorQueryMobilityType::Any;

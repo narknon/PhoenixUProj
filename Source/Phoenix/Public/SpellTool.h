@@ -275,7 +275,7 @@ private:
     UAkComponent* ProjectileAkComponent;
     
 public:
-    ASpellTool();
+    ASpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TriggerReleased(bool bForce, bool bFromStop);
     

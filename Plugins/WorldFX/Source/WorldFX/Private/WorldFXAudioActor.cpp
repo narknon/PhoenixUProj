@@ -10,7 +10,7 @@ void AWorldFXAudioActor::GetSpawnAttached(bool& bIsSpawnAttached) {
 void AWorldFXAudioActor::ForceRefreshPreview() {
 }
 
-AWorldFXAudioActor::AWorldFXAudioActor() {
+AWorldFXAudioActor::AWorldFXAudioActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SFXComponent = CreateDefaultSubobject<UWorldFXAudioComponent>(TEXT("WorldFXAudioComponent"));
 }
 

@@ -59,7 +59,7 @@ void AMercunaNavOctree::CheckReachable(FVector Start, FVector End, float Navigat
 void AMercunaNavOctree::Build() {
 }
 
-AMercunaNavOctree::AMercunaNavOctree() {
+AMercunaNavOctree::AMercunaNavOctree(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bUseOverride = false;
     this->SettingsOverride = NULL;
     this->CellSize = 100.00f;

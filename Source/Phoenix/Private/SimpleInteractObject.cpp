@@ -9,7 +9,7 @@ UClass* ASimpleInteractObject::GetAbilityClass_Implementation() {
     return NULL;
 }
 
-ASimpleInteractObject::ASimpleInteractObject() {
+ASimpleInteractObject::ASimpleInteractObject(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CognitionStimuliSource = CreateDefaultSubobject<UCognitionStimuliSourceComponent>(TEXT("CognitionStimuliSource"));
     this->AbilityClass = NULL;
     this->bPartialBody = false;

@@ -20,6 +20,6 @@ void AMasterOverlapThrottlerSingleton::DisablePrimitiveComponentThrottling(UPrim
 void AMasterOverlapThrottlerSingleton::AddManagedPrimitiveComponent(UPrimitiveComponent* Component, const FMasterOverlapThrottlerSettings& Settings) {
 }
 
-AMasterOverlapThrottlerSingleton::AMasterOverlapThrottlerSingleton() {
+AMasterOverlapThrottlerSingleton::AMasterOverlapThrottlerSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

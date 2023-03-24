@@ -21,6 +21,6 @@ protected:
     float ViewpointLerp;
     
 public:
-    ARenderSettingsViewpointInsideOutsideVolume();
+    ARenderSettingsViewpointInsideOutsideVolume(const FObjectInitializer& ObjectInitializer);
 };
 

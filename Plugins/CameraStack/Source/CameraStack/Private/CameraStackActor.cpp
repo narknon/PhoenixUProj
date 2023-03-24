@@ -71,7 +71,7 @@ UCameraStackBehaviorCore* ACameraStackActor::CreateCoreBehavior(TSubclassOf<UCam
 void ACameraStackActor::ClearCameraContext(FName InContextName) {
 }
 
-ACameraStackActor::ACameraStackActor() {
+ACameraStackActor::ACameraStackActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CameraComponent = CreateDefaultSubobject<UCameraStackCineComponent>(TEXT("Camera"));
     this->Target = CreateDefaultSubobject<UCameraStackTarget>(TEXT("Target"));
     this->bDestroyIfSpawnedOnEndViewTarget = false;

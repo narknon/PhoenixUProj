@@ -33,7 +33,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float MaxCrossBlendSpeed;
     
-    ACameraStackVolume();
+    ACameraStackVolume(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AFlightSpline : public AActor {
     GENERATED_BODY()
 public:
-    AFlightSpline();
+    AFlightSpline(const FObjectInitializer& ObjectInitializer);
 };
 

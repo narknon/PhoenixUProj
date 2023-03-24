@@ -1,5 +1,5 @@
 #include "HoverDroneHUD.h"
 
-AHoverDroneHUD::AHoverDroneHUD() {
+AHoverDroneHUD::AHoverDroneHUD(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -7,7 +7,7 @@ void AInventoryObject::SetItemData(FName ItemId, int32 ItemCount, FName InVariat
 void AInventoryObject::AddPickedUpHandler(const AInventoryObject::FOnPickedUpHandler& Handler) {
 }
 
-AInventoryObject::AInventoryObject() {
+AInventoryObject::AInventoryObject(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->UnitCount = 1;
     this->IsStolen = false;
     this->IsUnique = false;

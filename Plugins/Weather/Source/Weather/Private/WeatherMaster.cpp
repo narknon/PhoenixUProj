@@ -5,7 +5,7 @@
 void AWeatherMaster::NextSequence() {
 }
 
-AWeatherMaster::AWeatherMaster() {
+AWeatherMaster::AWeatherMaster(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Component = CreateDefaultSubobject<UWeatherMasterComponent>(TEXT("WeatherMaster"));
     this->DebugWindComponent = NULL;
     this->OvercastVolume = CreateDefaultSubobject<URenderSettingsComponent>(TEXT("OvercastUnbounded"));

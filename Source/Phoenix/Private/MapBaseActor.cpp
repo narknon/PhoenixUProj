@@ -9,7 +9,7 @@ AMapPawn* AMapBaseActor::GetMapPawn() {
     return NULL;
 }
 
-AMapBaseActor::AMapBaseActor() {
+AMapBaseActor::AMapBaseActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ZoomFadeStart = 0.30f;
     this->ZoomFadeEnd = 0.70f;
     this->MinimumAlpha = 0.50f;

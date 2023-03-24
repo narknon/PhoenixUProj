@@ -6,6 +6,6 @@ FName AEnemyBroomRider::OnOverrideCharacterLook_Implementation(AActor* Actor, FN
     return NAME_None;
 }
 
-AEnemyBroomRider::AEnemyBroomRider() {
+AEnemyBroomRider::AEnemyBroomRider(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

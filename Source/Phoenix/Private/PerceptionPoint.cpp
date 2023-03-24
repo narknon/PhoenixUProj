@@ -12,7 +12,7 @@ void APerceptionPoint::Enable(bool bEnable) {
 void APerceptionPoint::AttackDistanceScaleVolume(float InScale, TArray<APerceptionPointArea*> InAreaList) {
 }
 
-APerceptionPoint::APerceptionPoint() {
+APerceptionPoint::APerceptionPoint(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bEnabled = true;
     this->bGameEventEnabled = false;
     this->Priority = 5;

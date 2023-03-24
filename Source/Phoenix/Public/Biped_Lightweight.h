@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UBipedStateComponent* ObjectStateComponent;
     
-    ABiped_Lightweight();
+    ABiped_Lightweight(const FObjectInitializer& ObjectInitializer);
 };
 

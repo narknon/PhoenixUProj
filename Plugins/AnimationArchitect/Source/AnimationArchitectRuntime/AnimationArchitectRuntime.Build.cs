@@ -7,6 +7,7 @@ public class AnimationArchitectRuntime : ModuleRules {
         ShadowVariableWarningLevel = WarningLevel.Warning;
         
         PublicDependencyModuleNames.AddRange(new string[] {
+            "AnimationBudgetAllocator",
             "AnimGraphRuntime",
             "AnimationCore",
             "Chaos",

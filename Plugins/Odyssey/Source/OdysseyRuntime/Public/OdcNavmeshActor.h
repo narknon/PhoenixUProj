@@ -20,6 +20,6 @@ private:
     int8 NavGraphImagesVersion;
     
 public:
-    AOdcNavmeshActor();
+    AOdcNavmeshActor(const FObjectInitializer& ObjectInitializer);
 };
 

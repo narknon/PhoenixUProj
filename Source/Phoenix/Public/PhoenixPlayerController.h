@@ -40,7 +40,7 @@ protected:
     UEncounterTracker* m_pEncounterTracker;
     
 public:
-    APhoenixPlayerController();
+    APhoenixPlayerController(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void MapCaptureStart();
     

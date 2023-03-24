@@ -89,7 +89,7 @@ protected:
     bool bHasCustomAnimation;
     
 public:
-    AInventoryItemTool();
+    AInventoryItemTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void UseItem();
     

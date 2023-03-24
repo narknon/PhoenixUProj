@@ -19,7 +19,7 @@ void AWorldFXPresetActor::ForceRefreshPreview() {
 void AWorldFXPresetActor::ClearSpawnAttachedOverride(bool bNewSpawnAttached) {
 }
 
-AWorldFXPresetActor::AWorldFXPresetActor() {
+AWorldFXPresetActor::AWorldFXPresetActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FXComponent = CreateDefaultSubobject<UWorldFXPresetComponent>(TEXT("WorldFXComponent"));
 }
 

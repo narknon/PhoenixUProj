@@ -84,7 +84,7 @@ protected:
     TArray<ULevelStreaming*> StreamedStages;
     
 public:
-    ASceneRigActor();
+    ASceneRigActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TriggerEvent(FName EventName);
     

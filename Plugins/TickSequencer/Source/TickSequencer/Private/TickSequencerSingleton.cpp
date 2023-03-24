@@ -9,7 +9,7 @@
 void ATickSequencerSingleton::ForceTick() {
 }
 
-ATickSequencerSingleton::ATickSequencerSingleton() {
+ATickSequencerSingleton::ATickSequencerSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PrePhysicsBuckets = CreateDefaultSubobject<UTickSequencerUpdateComponentPrePhysics>(TEXT("PrePhysicsBuckets"));
     this->DuringPhysicsBuckets = CreateDefaultSubobject<UTickSequencerUpdateComponentDuringPhysics>(TEXT("DuringPhysicsBuckets"));
     this->PostPhysicsBuckets = CreateDefaultSubobject<UTickSequencerUpdateComponentPostPhysics>(TEXT("PostPhysicsBuckets"));

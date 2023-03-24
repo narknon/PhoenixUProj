@@ -7,7 +7,7 @@ void ABroomSpline::GetSplinePointWorldPositions(TArray<FVector>& OutSplinePathPo
 void ABroomSpline::CopySelectedSpline() {
 }
 
-ABroomSpline::ABroomSpline() {
+ABroomSpline::ABroomSpline(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Spline = CreateDefaultSubobject<USplineComponent>(TEXT("Spline"));
 }
 

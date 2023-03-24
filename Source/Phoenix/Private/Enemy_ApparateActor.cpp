@@ -12,7 +12,7 @@ void AEnemy_ApparateActor::BroadcastDone(AActor* pActor) {
 void AEnemy_ApparateActor::BroadcastArrived(AActor* pActor, FVector Loc) {
 }
 
-AEnemy_ApparateActor::AEnemy_ApparateActor() {
+AEnemy_ApparateActor::AEnemy_ApparateActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bArrived = false;
 }
 

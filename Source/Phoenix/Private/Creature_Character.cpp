@@ -43,7 +43,7 @@ UCreature_MountComponent* ACreature_Character::GetMountComponent() const {
 
 
 
-ACreature_Character::ACreature_Character() {
+ACreature_Character::ACreature_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AnimationComponent = CreateDefaultSubobject<UAnimationComponent>(TEXT("AnimationComponent"));
     this->EnemyStateComponent = CreateDefaultSubobject<UEnemyStateComponent>(TEXT("EnemyStateComponent"));
     this->FlightMotionTable = NULL;

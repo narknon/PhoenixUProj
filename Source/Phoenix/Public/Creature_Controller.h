@@ -31,7 +31,7 @@ protected:
     UCreatureUtilityContext* CreatureUtilityContext;
     
 public:
-    ACreature_Controller();
+    ACreature_Controller(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

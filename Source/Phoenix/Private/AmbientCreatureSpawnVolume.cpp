@@ -8,7 +8,7 @@ void AAmbientCreatureSpawnVolume::OnEndOverlap(AActor* SelfActor, AActor* OtherA
 void AAmbientCreatureSpawnVolume::OnBeginOverlap(AActor* SelfActor, AActor* OtherActor) {
 }
 
-AAmbientCreatureSpawnVolume::AAmbientCreatureSpawnVolume() {
+AAmbientCreatureSpawnVolume::AAmbientCreatureSpawnVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->VolumeType = EAmbientCreatureSpawnVolumeType::Spawn;
     this->VolumePriority = EAmbientCreatureSpawnVolumePriority::Base;
     this->RangeMultiplier = 1.00f;

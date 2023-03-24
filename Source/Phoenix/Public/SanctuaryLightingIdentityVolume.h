@@ -77,6 +77,6 @@ protected:
     UPostProcessComponent* TransitionPostProcessComponent;
     
 public:
-    ASanctuaryLightingIdentityVolume();
+    ASanctuaryLightingIdentityVolume(const FObjectInitializer& ObjectInitializer);
 };
 

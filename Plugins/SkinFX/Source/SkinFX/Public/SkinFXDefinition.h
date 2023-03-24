@@ -115,6 +115,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bShowSwapErrors;
     
-    ASkinFXDefinition();
+    ASkinFXDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -19,7 +19,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     AEmitter* AvailableEmitter;
     
-    AFlooTarget();
+    AFlooTarget(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetAvailable(bool availableIn);
     

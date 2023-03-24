@@ -92,7 +92,7 @@ private:
     TArray<bool> MovingRotReached;
     
 public:
-    APuzzleTarget();
+    APuzzleTarget(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StartMove(AActor* OtherActor);
     

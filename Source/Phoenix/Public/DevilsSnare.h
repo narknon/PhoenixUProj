@@ -126,7 +126,7 @@ private:
     bool bOverrideBounds;
     
 public:
-    ADevilsSnare();
+    ADevilsSnare(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateMeshMaterial();
     

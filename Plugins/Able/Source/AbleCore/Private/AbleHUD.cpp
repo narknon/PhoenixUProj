@@ -11,6 +11,6 @@ void AAbleHUD::ToggleAbleHUD() {
 void AAbleHUD::SetTarget(AActor* InActor) {
 }
 
-AAbleHUD::AAbleHUD() {
+AAbleHUD::AAbleHUD(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

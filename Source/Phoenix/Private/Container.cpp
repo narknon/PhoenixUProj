@@ -1,7 +1,7 @@
 #include "Container.h"
 #include "PadlockComponent.h"
 
-AContainer::AContainer() {
+AContainer::AContainer(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Open = false;
     this->PropIndex = -1;
     this->Lid_Rot_X = -14.00f;

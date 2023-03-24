@@ -237,7 +237,7 @@ protected:
     ELightUnits PreviousSLUnit;
     
 public:
-    ACandles();
+    ACandles(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void SetUpLights(UPointLightComponent* curPL, USpotLightComponent* curSL);

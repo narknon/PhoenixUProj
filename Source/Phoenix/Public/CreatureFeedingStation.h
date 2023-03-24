@@ -23,7 +23,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<ACreatureFeed> FeedActorClass;
     
-    ACreatureFeedingStation();
+    ACreatureFeedingStation(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UnregisterFeedingStationFromBiome();
     

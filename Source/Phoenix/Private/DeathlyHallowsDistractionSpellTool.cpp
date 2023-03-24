@@ -1,5 +1,5 @@
 #include "DeathlyHallowsDistractionSpellTool.h"
 
-ADeathlyHallowsDistractionSpellTool::ADeathlyHallowsDistractionSpellTool() {
+ADeathlyHallowsDistractionSpellTool::ADeathlyHallowsDistractionSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

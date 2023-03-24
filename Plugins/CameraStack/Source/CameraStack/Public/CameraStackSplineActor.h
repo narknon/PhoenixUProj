@@ -26,6 +26,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USplineComponent* SplineComponent;
     
-    ACameraStackSplineActor();
+    ACameraStackSplineActor(const FObjectInitializer& ObjectInitializer);
 };
 

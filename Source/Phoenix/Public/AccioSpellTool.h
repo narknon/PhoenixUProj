@@ -103,7 +103,7 @@ private:
     AWingardiumBulletTimeSpellTool* WingardiumSpellTool;
     
 public:
-    AAccioSpellTool();
+    AAccioSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void StartAccioBall();
     

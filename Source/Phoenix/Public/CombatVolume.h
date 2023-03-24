@@ -57,7 +57,7 @@ protected:
     TSet<TWeakObjectPtr<AActor>> SendTargets;
     
 public:
-    ACombatVolume();
+    ACombatVolume(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void OnActorSpawnInFinished(AActor* SpawnedActor);

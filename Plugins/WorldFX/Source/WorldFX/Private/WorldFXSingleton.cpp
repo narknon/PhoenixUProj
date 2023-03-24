@@ -57,7 +57,7 @@ void AWorldFXSingleton::AutoManageCascadeComponent(UParticleSystemComponent* Par
 void AWorldFXSingleton::AutoManageAudioComponent(UAkComponent* AudioComponent, float CullDistanceMeters) {
 }
 
-AWorldFXSingleton::AWorldFXSingleton() {
+AWorldFXSingleton::AWorldFXSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bCullingDisabled = false;
     this->AutoCascadeCullingLevel = 0;
     this->AutoNiagaraCullingLevel = 0;

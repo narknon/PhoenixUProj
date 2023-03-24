@@ -4,7 +4,7 @@
 
 
 
-AAmbientGhost_Character::AAmbientGhost_Character() {
+AAmbientGhost_Character::AAmbientGhost_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SplineComponent = NULL;
     this->DistanceAlongSpline = 0.00f;
     this->TravelDirection = 1.00f;

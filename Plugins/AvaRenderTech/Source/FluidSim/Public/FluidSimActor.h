@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UFluidSimEmitterComponent* FluidSimEmitter;
     
-    AFluidSimActor();
+    AFluidSimActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -10,7 +10,7 @@ UCLASS(Blueprintable)
 class SCENERIG_API ASceneRigCameraManager : public AActor, public IConversationAssetTracker {
     GENERATED_BODY()
 public:
-    ASceneRigCameraManager();
+    ASceneRigCameraManager(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure, meta=(WorldContext="WorldContextObject"))
     static AActor* GetActiveSceneRigCamera(const UObject* WorldContextObject);
     

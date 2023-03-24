@@ -114,7 +114,7 @@ protected:
     TArray<FDialogueConversationReference> LoseRaceDialogueEvents;
     
 public:
-    ARace();
+    ARace(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RaceHudDismissed();
     

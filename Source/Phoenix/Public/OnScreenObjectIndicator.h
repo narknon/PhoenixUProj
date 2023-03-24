@@ -29,6 +29,6 @@ protected:
     bool bOffscreen;
     
 public:
-    AOnScreenObjectIndicator();
+    AOnScreenObjectIndicator(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -15,7 +15,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bDisableAll;
     
-    AForceRenderSettings();
+    AForceRenderSettings(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void QueryAll();
     

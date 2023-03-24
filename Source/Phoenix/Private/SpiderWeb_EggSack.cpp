@@ -19,7 +19,7 @@ void ASpiderWeb_EggSack::ExplodeSack_Implementation() {
 }
 
 
-ASpiderWeb_EggSack::ASpiderWeb_EggSack() {
+ASpiderWeb_EggSack::ASpiderWeb_EggSack(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bBroken = false;
     this->bFrozen = false;
     this->bOnFire = false;

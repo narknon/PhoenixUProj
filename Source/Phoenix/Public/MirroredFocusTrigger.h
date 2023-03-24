@@ -32,6 +32,6 @@ protected:
     FVector CalloutOffset;
     
 public:
-    AMirroredFocusTrigger();
+    AMirroredFocusTrigger(const FObjectInitializer& ObjectInitializer);
 };
 

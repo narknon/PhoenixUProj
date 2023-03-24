@@ -7,7 +7,6 @@
 #include "MunitionImpactData.h"
 #include "MunitionType_Base.generated.h"
 
-class AMunitionType_Base;
 class UInteractionArchitectAsset;
 
 UCLASS(Abstract, Blueprintable)
@@ -51,7 +50,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bDOAOnParrySuccess;
     
-    AMunitionType_Base();
+    AMunitionType_Base(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TargetDestroyed();
     

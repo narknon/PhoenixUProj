@@ -1,5 +1,5 @@
 #include "ConjurationStreamingVolume.h"
 
-AConjurationStreamingVolume::AConjurationStreamingVolume() {
+AConjurationStreamingVolume::AConjurationStreamingVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

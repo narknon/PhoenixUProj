@@ -1,4 +1,6 @@
 #include "NonCombat_Character.h"
+
+#include "NonCombat_MovementComponent.h"
 #include "SocialAgentPathFollowerComponent.h"
 #include "NPC_ReactionComponent.h"
 #include "Templates/SubclassOf.h"
@@ -103,7 +105,7 @@ void ANonCombat_Character::ApplySpawnFX_Implementation() {
 void ANonCombat_Character::ApplyReplicaFX_Implementation() {
 }
 
-ANonCombat_Character::ANonCombat_Character() {
+ANonCombat_Character::ANonCombat_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UNonCombat_MovementComponent>(TEXT("CharMoveComp"))) {
     this->SocialAgentComponent = CreateDefaultSubobject<USocialAgentPathFollowerComponent>(TEXT("SocialAgentComponent"));
     this->CCComponent = NULL;
     this->CogSourceComp = NULL;

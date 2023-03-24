@@ -75,7 +75,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float OptimalDistance;
     
-    APortkey();
+    APortkey(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Transport();
     

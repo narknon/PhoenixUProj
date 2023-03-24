@@ -33,7 +33,7 @@ bool ADevilsSnareDynamic::FindClosestLightSourcePos(const FVector& SnarePos, FVe
 void ADevilsSnareDynamic::BeginPlayDelayed() {
 }
 
-ADevilsSnareDynamic::ADevilsSnareDynamic() {
+ADevilsSnareDynamic::ADevilsSnareDynamic(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComponent"));
     this->bPlayerIsUsingLumos = false;
     this->SphereRadius = 1000.00f;

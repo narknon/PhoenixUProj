@@ -11,7 +11,7 @@ void ASanctuaryDesk::BeginWritingPage() {
 void ASanctuaryDesk::ApplyMaterialsToPaper(UPrimitiveComponent* InPaperComponent) {
 }
 
-ASanctuaryDesk::ASanctuaryDesk() {
+ASanctuaryDesk::ASanctuaryDesk(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->InkWritingMaterial = NULL;
     this->InkWritingBackSideMaterial = NULL;
     this->InkWritingCurve = NULL;

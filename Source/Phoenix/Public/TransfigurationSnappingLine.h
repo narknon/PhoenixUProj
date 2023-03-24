@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class ATransfigurationSnappingLine : public AActor {
     GENERATED_BODY()
 public:
-    ATransfigurationSnappingLine();
+    ATransfigurationSnappingLine(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void SetLineLength(float Length);
     

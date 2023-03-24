@@ -1,5 +1,5 @@
 #include "WorldBaseHeightInfinitePlane.h"
 
-AWorldBaseHeightInfinitePlane::AWorldBaseHeightInfinitePlane() {
+AWorldBaseHeightInfinitePlane::AWorldBaseHeightInfinitePlane(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

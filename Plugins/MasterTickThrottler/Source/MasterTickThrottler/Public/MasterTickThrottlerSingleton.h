@@ -26,7 +26,7 @@ protected:
     bool bLastEyeValid;
     
 public:
-    AMasterTickThrottlerSingleton();
+    AMasterTickThrottlerSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void RemoveManagedComponent(UActorComponent* Component);
     

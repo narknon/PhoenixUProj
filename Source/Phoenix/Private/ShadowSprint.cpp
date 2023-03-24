@@ -9,7 +9,7 @@ UCapsuleComponent* AShadowSprint::GetCapsuleComponent() {
     return NULL;
 }
 
-AShadowSprint::AShadowSprint() {
+AShadowSprint::AShadowSprint(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ActiveScale = 1.00f;
     this->bScaleIn = true;
     this->CapsuleComponent = NULL;

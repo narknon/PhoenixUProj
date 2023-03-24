@@ -5,7 +5,7 @@ void AWeatherSurfaceFogBase::RecalculateBounds() {
 
 
 
-AWeatherSurfaceFogBase::AWeatherSurfaceFogBase() {
+AWeatherSurfaceFogBase::AWeatherSurfaceFogBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SupportedFogTypes = 14;
     this->ShowingFogType = ESurfaceFogType::None;
 }

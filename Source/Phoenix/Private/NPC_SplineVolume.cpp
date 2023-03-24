@@ -1,6 +1,6 @@
 #include "NPC_SplineVolume.h"
 
-ANPC_SplineVolume::ANPC_SplineVolume() {
+ANPC_SplineVolume::ANPC_SplineVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bIdle = false;
     this->IdleInterval = -1.00f;
     this->IdleIntervalDeviation = 0.00f;

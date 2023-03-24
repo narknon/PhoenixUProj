@@ -33,7 +33,7 @@ protected:
     UAnimationArchitectComponent* AnimationArcitectComponent;
     
 public:
-    AWorldEventActor();
+    AWorldEventActor(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     bool SetTemporaryAnimationOnCharacter(ANPC_Character* Character, int32 AnimationIndex);

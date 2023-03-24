@@ -30,7 +30,7 @@ void ABrewingSite::CollectPotion(FName CollectorID, bool& bOutCollectedAnything,
 void ABrewingSite::BeginBrewingPotion(const FBrewingRecipe& BrewingRecipe) {
 }
 
-ABrewingSite::ABrewingSite() {
+ABrewingSite::ABrewingSite(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->LeftNeighbor = NULL;
     this->RightNeighbor = NULL;
 }

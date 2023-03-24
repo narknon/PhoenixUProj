@@ -5,7 +5,7 @@
 void ATileableFrameActor::MakeFrame() {
 }
 
-ATileableFrameActor::ATileableFrameActor() {
+ATileableFrameActor::ATileableFrameActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("SceneRoot"));
     this->InstRectTileMid = CreateDefaultSubobject<UInstancedStaticMeshComponent>(TEXT("InstRectTileMid"));
     this->InstRectTileCorner = CreateDefaultSubobject<UInstancedStaticMeshComponent>(TEXT("InstRectTileCorner"));

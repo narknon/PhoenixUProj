@@ -1,6 +1,6 @@
 #include "PetrificusSpellTool.h"
 
-APetrificusSpellTool::APetrificusSpellTool() {
+APetrificusSpellTool::APetrificusSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ChargedEndMunitionDataAsset = NULL;
 }
 

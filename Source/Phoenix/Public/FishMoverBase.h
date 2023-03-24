@@ -23,7 +23,7 @@ private:
     TArray<USkeletalMeshComponent*> FishComponents;
     
 public:
-    AFishMoverBase();
+    AFishMoverBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void MoveFish(float timelineTime);
     

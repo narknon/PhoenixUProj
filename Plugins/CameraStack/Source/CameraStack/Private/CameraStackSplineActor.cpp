@@ -1,7 +1,7 @@
 #include "CameraStackSplineActor.h"
 #include "Components/SplineComponent.h"
 
-ACameraStackSplineActor::ACameraStackSplineActor() {
+ACameraStackSplineActor::ACameraStackSplineActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SplineType = ECameraStackSplineType::LookAheadSpline;
     this->RailPairedSplineActor = NULL;
     this->bUseDifferentSplineWhenStartingAtEnd = false;

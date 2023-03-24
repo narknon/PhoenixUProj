@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     ESeasonOverride SeasonOverride;
     
-    ASeasonChangerDelegate();
+    ASeasonChangerDelegate(const FObjectInitializer& ObjectInitializer);
 };
 

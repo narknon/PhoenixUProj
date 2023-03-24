@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ACompletePolyjuiceItemTool : public AConsumablePotionItemTool {
     GENERATED_BODY()
 public:
-    ACompletePolyjuiceItemTool();
+    ACompletePolyjuiceItemTool(const FObjectInitializer& ObjectInitializer);
 };
 

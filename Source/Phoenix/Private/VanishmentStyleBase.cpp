@@ -3,7 +3,7 @@
 void AVanishmentStyleBase::StartVanishment_Implementation() {
 }
 
-AVanishmentStyleBase::AVanishmentStyleBase() {
+AVanishmentStyleBase::AVanishmentStyleBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PreviewActor = NULL;
 }
 

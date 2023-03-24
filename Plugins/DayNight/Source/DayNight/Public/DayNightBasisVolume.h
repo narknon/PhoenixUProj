@@ -22,7 +22,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bEnabled;
     
-    ADayNightBasisVolume();
+    ADayNightBasisVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetPriority(float NewPriority);
     

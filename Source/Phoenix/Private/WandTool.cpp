@@ -204,7 +204,7 @@ bool AWandTool::ActivateInstantSpellTool(int32 Index) {
     return false;
 }
 
-AWandTool::AWandTool() {
+AWandTool::AWandTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SpellButtonWatcher = NULL;
     this->EquipExecutionClass = NULL;
     this->UnequipExecutionClass = NULL;

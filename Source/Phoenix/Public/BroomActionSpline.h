@@ -61,7 +61,7 @@ private:
     AFlyingBroom* NPCBroom;
     
 public:
-    ABroomActionSpline();
+    ABroomActionSpline(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TriggerEndBehaviour(bool bOverrideEndBehaviour, EActionsCompleteBehaviour EndBehaviourOverride);
     

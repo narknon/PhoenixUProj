@@ -5,7 +5,7 @@ class UStateEffectComponent;
 void AImperiusSpellTool::DoSpellComponentSetup(UStateEffectComponent* StateEffectComponent) {
 }
 
-AImperiusSpellTool::AImperiusSpellTool() {
+AImperiusSpellTool::AImperiusSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Mod = NULL;
 }
 

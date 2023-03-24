@@ -9,6 +9,6 @@ void AWeatherPhasedPresetVolume::IsValidActiveWeatherPhaseCurrentSeason(FName Ph
 void AWeatherPhasedPresetVolume::IsValidActiveWeatherPhase(FName PhaseName, FWeatherSeasonsFilter& ValidSeasons) {
 }
 
-AWeatherPhasedPresetVolume::AWeatherPhasedPresetVolume() {
+AWeatherPhasedPresetVolume::AWeatherPhasedPresetVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

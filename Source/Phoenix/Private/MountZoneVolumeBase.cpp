@@ -31,7 +31,7 @@ AFlyingBroom* AMountZoneVolumeBase::GetBroom(const APawn* InPawn) {
 void AMountZoneVolumeBase::EnableZone(bool Enable) {
 }
 
-AMountZoneVolumeBase::AMountZoneVolumeBase() {
+AMountZoneVolumeBase::AMountZoneVolumeBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bDisableOnHighEndPlatforms = false;
     this->IgnoredMounts = 64;
     this->PrerequisiteType = EPrerequisiteType::None;

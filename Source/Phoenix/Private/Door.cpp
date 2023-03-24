@@ -47,7 +47,7 @@ void ADoor::BlockOrUnblockDoor() {
 void ADoor::BlockNavMesh(bool ShouldBlock, EBlockNavMeshOverride Override) {
 }
 
-ADoor::ADoor() {
+ADoor::ADoor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->EnvInt = 0;
     this->PropIndex = 0;
     this->UseDoorFrame = true;

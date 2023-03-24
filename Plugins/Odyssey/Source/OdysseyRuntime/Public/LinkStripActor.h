@@ -16,6 +16,6 @@ protected:
     FVector LinkEndPos2;
     
 public:
-    ALinkStripActor();
+    ALinkStripActor(const FObjectInitializer& ObjectInitializer);
 };
 

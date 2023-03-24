@@ -21,7 +21,7 @@ void ACombatVolume::EndOverlap(UPrimitiveComponent* OverlappedComponent, AActor*
 void ACombatVolume::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 }
 
-ACombatVolume::ACombatVolume() {
+ACombatVolume::ACombatVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->OwningGroup = CreateDefaultSubobject<UCombatVolumeGroup>(TEXT("Default__CombatVolume_Group"));
     this->bStartEncounterOnEnter = true;
     this->PlayerClearDistance = 1800.00f;

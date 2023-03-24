@@ -51,6 +51,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float ScurryMaxSpeed;
     
-    ANPC_SplineVolume();
+    ANPC_SplineVolume(const FObjectInitializer& ObjectInitializer);
 };
 

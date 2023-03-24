@@ -18,6 +18,6 @@ protected:
     FNPC_JumpSplineData JSData;
     
 public:
-    ANPC_SplineNavLink();
+    ANPC_SplineNavLink(const FObjectInitializer& ObjectInitializer);
 };
 

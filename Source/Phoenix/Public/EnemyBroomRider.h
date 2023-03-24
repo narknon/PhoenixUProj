@@ -13,7 +13,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FSpawnSelectInfo> BroomRiders;
     
-    AEnemyBroomRider();
+    AEnemyBroomRider(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     FName OnOverrideCharacterLook(AActor* Actor, FName Name);
     

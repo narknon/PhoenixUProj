@@ -27,7 +27,7 @@ void ATool::DeactivationComplete() {
 void ATool::ActivateFx_Implementation() {
 }
 
-ATool::ATool() {
+ATool::ATool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bUseEffectsOnTool = false;
     this->EffectsTimeIn = 0.25f;
     this->EffectsTimeOut = 0.20f;

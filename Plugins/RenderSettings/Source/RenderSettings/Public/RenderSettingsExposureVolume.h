@@ -17,7 +17,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bExposureTweak;
     
-    ARenderSettingsExposureVolume();
+    ARenderSettingsExposureVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void EditExposure();
     

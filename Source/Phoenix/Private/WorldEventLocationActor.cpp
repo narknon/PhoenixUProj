@@ -58,7 +58,7 @@ TArray<TSoftObjectPtr<UWorldEventCondition>> AWorldEventLocationActor::GetCondit
     return TArray<TSoftObjectPtr<UWorldEventCondition>>();
 }
 
-AWorldEventLocationActor::AWorldEventLocationActor() {
+AWorldEventLocationActor::AWorldEventLocationActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PercentChanceOfBeingSelected = 100;
     this->StreamInDistance = 10000.00f;
     this->StreamOutDistance = 14000.00f;

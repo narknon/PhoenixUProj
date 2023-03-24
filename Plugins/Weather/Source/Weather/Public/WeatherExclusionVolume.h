@@ -26,7 +26,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bEnabled;
     
-    AWeatherExclusionVolume();
+    AWeatherExclusionVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetPriority(float NewPriority);
     

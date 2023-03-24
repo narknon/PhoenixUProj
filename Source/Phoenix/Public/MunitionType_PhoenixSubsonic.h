@@ -24,7 +24,7 @@ protected:
     ASpellTool* SpellTool;
     
 public:
-    AMunitionType_PhoenixSubsonic();
+    AMunitionType_PhoenixSubsonic(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     ASpellTool* GetSpellTool() const;
     

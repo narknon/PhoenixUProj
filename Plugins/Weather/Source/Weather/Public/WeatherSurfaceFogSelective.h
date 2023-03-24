@@ -15,7 +15,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bOnlyShowHideIncludeChildren;
     
-    AWeatherSurfaceFogSelective();
+    AWeatherSurfaceFogSelective(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetComponentToShowHide(USceneComponent* SceneComponent, bool bIncludeChildren);
     

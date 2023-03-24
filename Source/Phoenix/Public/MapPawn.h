@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UCameraComponent* CameraComponent;
     
-    AMapPawn();
+    AMapPawn(const FObjectInitializer& ObjectInitializer);
 };
 

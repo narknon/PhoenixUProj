@@ -6,7 +6,7 @@ void AAmbientOcclusionVolume::UpdatePostProcessSettings() {
 void AAmbientOcclusionVolume::SetPriority(float NewPriority) {
 }
 
-AAmbientOcclusionVolume::AAmbientOcclusionVolume() {
+AAmbientOcclusionVolume::AAmbientOcclusionVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BlendablePriority = 0.00f;
     this->AmbientOcclusionIntensity = 0.50f;
     this->AmbientOcclusionRadius = 200.00f;

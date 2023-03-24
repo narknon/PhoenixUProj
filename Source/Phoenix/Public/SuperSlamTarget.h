@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UBoxComponent* SceneComponent;
     
-    ASuperSlamTarget();
+    ASuperSlamTarget(const FObjectInitializer& ObjectInitializer);
 };
 

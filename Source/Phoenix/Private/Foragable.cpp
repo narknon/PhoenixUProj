@@ -12,6 +12,6 @@ int32 AForagable::GetItemCount_Implementation() const {
     return 0;
 }
 
-AForagable::AForagable() {
+AForagable::AForagable(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

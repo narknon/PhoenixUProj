@@ -39,6 +39,6 @@ protected:
     FAnimatedFloatPropertyDriver CurrentFocusDistance;
     
 public:
-    ASceneRigCameraStackActor();
+    ASceneRigCameraStackActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -22,7 +22,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     bool bSignalFinished;
     
-    ASkinFXDefinitionGraph();
+    ASkinFXDefinitionGraph(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void WantPerTickUpdateEvent(bool tickMe);
     

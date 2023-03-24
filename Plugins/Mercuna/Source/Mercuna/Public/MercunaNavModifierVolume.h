@@ -28,7 +28,7 @@ private:
     AMercunaNavOctree* NavOctree;
     
 public:
-    AMercunaNavModifierVolume();
+    AMercunaNavModifierVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetUsageTypes(const FMercunaNavUsageTypes& NewUsageTypes);
     

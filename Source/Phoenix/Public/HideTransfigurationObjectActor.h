@@ -14,7 +14,7 @@ protected:
     UBoxComponent* BoxComponent;
     
 public:
-    AHideTransfigurationObjectActor();
+    AHideTransfigurationObjectActor(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnOverlapEnd(AActor* OverlappedActor, AActor* OtherActor);

@@ -13,7 +13,7 @@ bool ACreatureGrowthHandler::IsNewCreatureReady() const {
 void ACreatureGrowthHandler::Finish() {
 }
 
-ACreatureGrowthHandler::ACreatureGrowthHandler() {
+ACreatureGrowthHandler::ACreatureGrowthHandler(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TargetCreatureActor = NULL;
     this->NewCreatureActor = NULL;
     this->NewCreatureScaleVariation = 1.00f;

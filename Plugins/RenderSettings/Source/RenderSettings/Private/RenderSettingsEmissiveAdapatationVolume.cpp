@@ -1,5 +1,5 @@
 #include "RenderSettingsEmissiveAdapatationVolume.h"
 
-ARenderSettingsEmissiveAdapatationVolume::ARenderSettingsEmissiveAdapatationVolume() {
+ARenderSettingsEmissiveAdapatationVolume::ARenderSettingsEmissiveAdapatationVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

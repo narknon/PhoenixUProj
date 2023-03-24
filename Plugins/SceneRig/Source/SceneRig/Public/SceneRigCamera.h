@@ -44,7 +44,7 @@ protected:
     FAnimatedFloatPropertyDriver CurrentFocusDistance;
     
 public:
-    ASceneRigCamera();
+    ASceneRigCamera(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

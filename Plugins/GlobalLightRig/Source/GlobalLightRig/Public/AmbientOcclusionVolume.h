@@ -135,7 +135,7 @@ protected:
     UGlobalLightingBlendableGTAOFromAOVolume* GTAOBlendable;
     
 public:
-    AAmbientOcclusionVolume();
+    AAmbientOcclusionVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdatePostProcessSettings();
     

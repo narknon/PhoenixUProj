@@ -273,7 +273,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FWeapon_AnimEventDelegate Weapon_AnimEventDelegate;
     
-    AEnemyAIWeapon();
+    AEnemyAIWeapon(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void TrackPointsEvent();
     

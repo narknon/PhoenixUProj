@@ -43,6 +43,6 @@ private:
     TArray<FString> DataFiles;
     
 public:
-    AMapDungeonActor();
+    AMapDungeonActor(const FObjectInitializer& ObjectInitializer);
 };
 

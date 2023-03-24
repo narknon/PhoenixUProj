@@ -67,7 +67,7 @@ private:
     UNiagaraComponent* BroomNiagara;
     
 public:
-    ABroomFlightVFXActor();
+    ABroomFlightVFXActor(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     UNiagaraComponent* SpawnNiagaraSystem();

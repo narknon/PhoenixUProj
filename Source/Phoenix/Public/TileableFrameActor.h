@@ -32,7 +32,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 VerticalTileCount;
     
-    ATileableFrameActor();
+    ATileableFrameActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void MakeFrame();
     

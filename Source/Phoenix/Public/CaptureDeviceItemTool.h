@@ -76,7 +76,7 @@ protected:
     FName OutOfRangeTutorial;
     
 public:
-    ACaptureDeviceItemTool();
+    ACaptureDeviceItemTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure=false)
     void PlayCaptureStinger() const;
     

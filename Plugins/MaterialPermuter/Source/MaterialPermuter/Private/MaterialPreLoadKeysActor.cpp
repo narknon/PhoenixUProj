@@ -3,7 +3,7 @@
 void AMaterialPreLoadKeysActor::BuildPreLoads() {
 }
 
-AMaterialPreLoadKeysActor::AMaterialPreLoadKeysActor() {
+AMaterialPreLoadKeysActor::AMaterialPreLoadKeysActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Priority = EMaterialPermuterLoadingPriority::Normal;
     this->bStaticLoad = true;
     this->LoadingBundle = NULL;

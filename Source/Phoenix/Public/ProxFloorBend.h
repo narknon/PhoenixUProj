@@ -124,7 +124,7 @@ private:
     AActor* ComparisonActor;
     
 public:
-    AProxFloorBend();
+    AProxFloorBend(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void UpdateRTPCValues();

@@ -3,7 +3,7 @@
 void AStreamingPlaceholderSanctuaryIdentity::OnIdentityChanged(ESanctuaryIdentity OldIdentity, ESanctuaryIdentity NewIdentity) {
 }
 
-AStreamingPlaceholderSanctuaryIdentity::AStreamingPlaceholderSanctuaryIdentity() {
+AStreamingPlaceholderSanctuaryIdentity::AStreamingPlaceholderSanctuaryIdentity(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bAutoSwapWhenIdentityChanges = true;
 }
 

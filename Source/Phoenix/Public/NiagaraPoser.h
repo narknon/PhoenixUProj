@@ -13,7 +13,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UNiagaraPoserComponent* PoserComponent;
     
-    ANiagaraPoser();
+    ANiagaraPoser(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetNiagaraSystem(UNiagaraSystem* NiagaraSystem, bool pAutoActivate);
     

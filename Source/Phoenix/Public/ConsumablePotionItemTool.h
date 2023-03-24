@@ -38,7 +38,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<APotionBottlePhysics> PotionBottlePhysicsClass;
     
-    AConsumablePotionItemTool();
+    AConsumablePotionItemTool(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void ThrowPotionBottleTimerExpired();

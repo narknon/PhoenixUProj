@@ -47,7 +47,7 @@ void AUMGInputManager::CreateInputAxisBinding(EUMGInputAxis InputAxis) {
 void AUMGInputManager::CreateInputActionBinding(EUMGInputAction InputAction, EInputEvent InputEvent) {
 }
 
-AUMGInputManager::AUMGInputManager() {
+AUMGInputManager::AUMGInputManager(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ReferenceUMGInputAction = EUMGInputAction::UMGConfirm;
     this->ReferenceUMGInputAxis = EUMGInputAxis::UMGMapZoomIn;
 }

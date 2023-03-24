@@ -18,6 +18,6 @@ private:
     UWorldStructureDescGenerator* WorldStructureGenerator;
     
 public:
-    APackagesStatsFetchLevelController();
+    APackagesStatsFetchLevelController(const FObjectInitializer& ObjectInitializer);
 };
 

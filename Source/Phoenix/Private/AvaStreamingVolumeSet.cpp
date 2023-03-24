@@ -14,7 +14,7 @@ UAvaStreamingVolumeComponentBase* AAvaStreamingVolumeSet::GetMaster() {
     return NULL;
 }
 
-AAvaStreamingVolumeSet::AAvaStreamingVolumeSet() {
+AAvaStreamingVolumeSet::AAvaStreamingVolumeSet(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
     this->bHidesWithTiles = false;
     this->bShouldAffectTileStreaming = false;

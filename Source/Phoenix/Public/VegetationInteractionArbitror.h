@@ -24,6 +24,6 @@ protected:
     TSet<TWeakObjectPtr<UVegetationInteractionComponent>> VICs;
     
 public:
-    AVegetationInteractionArbitror();
+    AVegetationInteractionArbitror(const FObjectInitializer& ObjectInitializer);
 };
 

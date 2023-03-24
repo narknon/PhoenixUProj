@@ -179,7 +179,7 @@ private:
     TMap<USpellToolRecord*, ASpellTool*> SpellToolMap;
     
 public:
-    AWandTool();
+    AWandTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void WandCastFailedTimerExpired();
     

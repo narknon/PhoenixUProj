@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AVaultNavLinkStripActor : public ALinkStripActor {
     GENERATED_BODY()
 public:
-    AVaultNavLinkStripActor();
+    AVaultNavLinkStripActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -14,6 +14,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool ForceOverlandArea;
     
-    ANavigationRedirectionVolume();
+    ANavigationRedirectionVolume(const FObjectInitializer& ObjectInitializer);
 };
 

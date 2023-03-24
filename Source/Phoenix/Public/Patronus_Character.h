@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float RootMotionTranslationScale;
     
-    APatronus_Character();
+    APatronus_Character(const FObjectInitializer& ObjectInitializer);
 };
 

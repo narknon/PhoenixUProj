@@ -29,7 +29,7 @@ private:
     bool bSuppressSpawning;
     
 public:
-    AAmbientCreatureSpawnVolume();
+    AAmbientCreatureSpawnVolume(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void OnEndOverlap(AActor* SelfActor, AActor* OtherActor);

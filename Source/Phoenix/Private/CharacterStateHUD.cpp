@@ -3,6 +3,6 @@
 void ACharacterStateHUD::ToggleCharacterStateHUD() {
 }
 
-ACharacterStateHUD::ACharacterStateHUD() {
+ACharacterStateHUD::ACharacterStateHUD(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

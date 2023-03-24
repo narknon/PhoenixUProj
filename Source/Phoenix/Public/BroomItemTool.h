@@ -31,7 +31,7 @@ protected:
     UAnimationArchitectAsset* LoadedAnims;
     
 public:
-    ABroomItemTool();
+    ABroomItemTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SpawnAndMountBroom(bool bUseTransition, bool bInDestroyAfterMount);
     

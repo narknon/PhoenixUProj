@@ -23,6 +23,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bUseInSummer;
     
-    AWeatherCustomSequenceVolume();
+    AWeatherCustomSequenceVolume(const FObjectInitializer& ObjectInitializer);
 };
 

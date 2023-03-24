@@ -32,7 +32,7 @@ void ALumosEmberActor::CacheLerpVolumeLumosVolumetricScatteringIntensity(float V
 void ALumosEmberActor::CacheLerpVolumeLumosEVAdjust(float Value, bool bSuccess) {
 }
 
-ALumosEmberActor::ALumosEmberActor() {
+ALumosEmberActor::ALumosEmberActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ArcHeightMultiplierCurve = NULL;
     this->DistanceInFrontOfPlayer = 25.00f;
     this->HeightAbovePlayer = 110.00f;

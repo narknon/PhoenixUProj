@@ -153,7 +153,7 @@ protected:
     TArray<AActor*> OverlapArray;
     
 public:
-    AMunitionType_SubsonicSpell();
+    AMunitionType_SubsonicSpell(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetOnlyHitActor(AActor* OnlyHit, FName CollisionProfile);
     

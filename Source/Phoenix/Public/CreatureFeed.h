@@ -28,7 +28,7 @@ protected:
     ACreature_Character* SelectedCreature;
     
 public:
-    ACreatureFeed();
+    ACreatureFeed(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void OnStartedVanishing();

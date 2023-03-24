@@ -1,5 +1,5 @@
 #include "FatLadyMirroredFocusTrigger.h"
 
-AFatLadyMirroredFocusTrigger::AFatLadyMirroredFocusTrigger() {
+AFatLadyMirroredFocusTrigger::AFatLadyMirroredFocusTrigger(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -2,6 +2,6 @@
 
 
 
-AFrontendMapScript::AFrontendMapScript() {
+AFrontendMapScript::AFrontendMapScript(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

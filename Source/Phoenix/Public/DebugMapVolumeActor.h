@@ -25,6 +25,6 @@ private:
     UDebugMapVolumeComponent* DebugVolumeComponent;
     
 public:
-    ADebugMapVolumeActor();
+    ADebugMapVolumeActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -1,5 +1,5 @@
 #include "InsideOverrideVolume.h"
 
-AInsideOverrideVolume::AInsideOverrideVolume() {
+AInsideOverrideVolume::AInsideOverrideVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -1,6 +1,6 @@
 #include "MeleeSpellTool.h"
 
-AMeleeSpellTool::AMeleeSpellTool() {
+AMeleeSpellTool::AMeleeSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MeleeRange = 100.00f;
     this->MeleeHalfAngle = 45.00f;
     this->HitMultipleTargets = true;

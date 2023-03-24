@@ -86,7 +86,7 @@ protected:
     USceneComponent* TargetComponent;
     
 public:
-    AFinisherSpellTool();
+    AFinisherSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void SpellStarted(const AActor* WandWielder);
     

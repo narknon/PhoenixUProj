@@ -36,7 +36,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
     uint8 bEnabled: 1;
     
-    ALerpVolume();
+    ALerpVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetPriority(float NewPriority);
     

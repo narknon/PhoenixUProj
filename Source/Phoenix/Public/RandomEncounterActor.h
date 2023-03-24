@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class ARandomEncounterActor : public AActor {
     GENERATED_BODY()
 public:
-    ARandomEncounterActor();
+    ARandomEncounterActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     bool IsActive();
     

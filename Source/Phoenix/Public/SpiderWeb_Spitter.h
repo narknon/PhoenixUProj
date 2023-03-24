@@ -126,7 +126,7 @@ private:
     float PushbackExponent;
     
 public:
-    ASpiderWeb_Spitter();
+    ASpiderWeb_Spitter(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void WebThaw();

@@ -1,5 +1,5 @@
 #include "CompletePolyjuiceItemTool.h"
 
-ACompletePolyjuiceItemTool::ACompletePolyjuiceItemTool() {
+ACompletePolyjuiceItemTool::ACompletePolyjuiceItemTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

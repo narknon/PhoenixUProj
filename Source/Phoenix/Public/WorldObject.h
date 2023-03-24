@@ -8,7 +8,7 @@ UCLASS(Blueprintable)
 class AWorldObject : public AInteractiveObjectActor {
     GENERATED_BODY()
 public:
-    AWorldObject();
+    AWorldObject(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     bool TryCreateBeacon();

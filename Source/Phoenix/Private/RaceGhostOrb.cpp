@@ -1,6 +1,6 @@
 #include "RaceGhostOrb.h"
 
 
-ARaceGhostOrb::ARaceGhostOrb() {
+ARaceGhostOrb::ARaceGhostOrb(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

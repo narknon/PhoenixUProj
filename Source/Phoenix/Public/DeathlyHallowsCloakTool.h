@@ -20,7 +20,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bSlowWalk;
     
-    ADeathlyHallowsCloakTool();
+    ADeathlyHallowsCloakTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnDisillusionmentStart();
     

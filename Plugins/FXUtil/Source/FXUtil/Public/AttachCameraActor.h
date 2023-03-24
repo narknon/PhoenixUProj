@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UAttachCameraComponent* AttachCamera;
     
-    AAttachCameraActor();
+    AAttachCameraActor(const FObjectInitializer& ObjectInitializer);
 };
 

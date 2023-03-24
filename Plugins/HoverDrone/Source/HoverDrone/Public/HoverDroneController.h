@@ -51,7 +51,7 @@ private:
     float JumpToBookmarkCameraHoldBlackTime;
     
 public:
-    AHoverDroneController();
+    AHoverDroneController(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ToggleHUD();
     

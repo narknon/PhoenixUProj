@@ -25,7 +25,7 @@ bool ALockable::GetIsLocked() const {
     return false;
 }
 
-ALockable::ALockable() {
+ALockable::ALockable(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->OpeningCharacter = NULL;
     this->IsLocked = false;
     this->SharedCognitionStimuliSource = NULL;

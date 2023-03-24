@@ -19,7 +19,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USceneComponent* m_CurrentRight;
     
-    AAncientGate();
+    AAncientGate(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void SetAllCollisions(TArray<AActor*> i_RedTarget, TArray<AActor*> i_BlueTarget, TMap<AActor*, bool> i_PassThroughCheck, bool bIsRed);

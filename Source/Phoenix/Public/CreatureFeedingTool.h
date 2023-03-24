@@ -41,7 +41,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FVector PelletsThrowReleaseVelocityMax;
     
-    ACreatureFeedingTool();
+    ACreatureFeedingTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetupDistanceBasedPelletReleaseAnim(ACreature_Character* InCreatureCharacter);
     

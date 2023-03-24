@@ -9,7 +9,7 @@ UCLASS(Blueprintable)
 class PHOENIX_API ANavigationDisruptor : public ATriggerBox {
     GENERATED_BODY()
 public:
-    ANavigationDisruptor();
+    ANavigationDisruptor(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnEndActorOverlap(AActor* SelfActor, AActor* Other);

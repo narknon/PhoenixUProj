@@ -12,7 +12,7 @@ protected:
     float MaxDistance;
     
 public:
-    AThrowableInventoryItemTool();
+    AThrowableInventoryItemTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     float GetMaxDistance();
     

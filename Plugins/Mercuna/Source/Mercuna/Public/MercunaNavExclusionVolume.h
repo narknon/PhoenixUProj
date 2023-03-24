@@ -17,6 +17,6 @@ private:
     TArray<AMercunaNavOctree*> NavOctrees;
     
 public:
-    AMercunaNavExclusionVolume();
+    AMercunaNavExclusionVolume(const FObjectInitializer& ObjectInitializer);
 };
 

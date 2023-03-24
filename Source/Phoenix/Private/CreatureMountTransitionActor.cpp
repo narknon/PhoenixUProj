@@ -8,7 +8,7 @@ void ACreatureMountTransitionActor::OnKnockdownDismountEndCallback() {
 
 
 
-ACreatureMountTransitionActor::ACreatureMountTransitionActor() {
+ACreatureMountTransitionActor::ACreatureMountTransitionActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PlayerMountAbility_Start = NULL;
     this->PlayerMountAbility_Cancel = NULL;
     this->PlayerMountAbility_Standing = NULL;

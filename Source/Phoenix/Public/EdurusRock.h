@@ -25,7 +25,7 @@ protected:
     float m_RockIdleRotationSpeed;
     
 public:
-    AEdurusRock();
+    AEdurusRock(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetRockLaunchDelay(float Time);
     

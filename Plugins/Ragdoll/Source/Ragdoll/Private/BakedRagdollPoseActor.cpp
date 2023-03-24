@@ -6,7 +6,7 @@ class AActor;
 void ABakedRagdollPoseActor::HandleOnActorHit(AActor* SelfActor, AActor* OtherActor, FVector ImpulseNormal, const FHitResult& HitReslt) {
 }
 
-ABakedRagdollPoseActor::ABakedRagdollPoseActor() {
+ABakedRagdollPoseActor::ABakedRagdollPoseActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BakedPoseComponent = CreateDefaultSubobject<UBakedRagdollPoseComponent>(TEXT("BakedPoseComponent"));
     this->ActorConstrainedToUs = NULL;
 }

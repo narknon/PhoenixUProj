@@ -179,7 +179,7 @@ bool ASpiderEggs::_AddActorInRadius(AActor* InActor) {
 void ASpiderEggs::_ActivateObject() {
 }
 
-ASpiderEggs::ASpiderEggs() {
+ASpiderEggs::ASpiderEggs(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SM_SpiderEggs_A_Broken = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("cSM_SpiderEggs_A_Broken"));
     this->SK_SpiderEggs_01 = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("cSK_SpiderEggs_01"));
     this->ActivationRadiusSphere = CreateDefaultSubobject<USphereComponent>(TEXT("cActivationRadiusSphere"));

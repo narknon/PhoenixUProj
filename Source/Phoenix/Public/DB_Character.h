@@ -24,6 +24,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UAnimationComponent* AnimationComponent;
     
-    ADB_Character();
+    ADB_Character(const FObjectInitializer& ObjectInitializer);
 };
 

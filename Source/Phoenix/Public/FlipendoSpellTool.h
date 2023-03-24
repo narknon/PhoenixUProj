@@ -25,7 +25,7 @@ private:
     TSubclassOf<AMunitionType_Base> AOEMunition;
     
 public:
-    AFlipendoSpellTool();
+    AFlipendoSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void FlipTarget(AActor* InTargetActor, UPrimitiveComponent* InTargetComp, const FVector& ImpactLocation);
     

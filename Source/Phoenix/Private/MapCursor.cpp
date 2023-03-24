@@ -60,7 +60,7 @@ FVector4 AMapCursor::GetCursorBounds() {
 void AMapCursor::GamepadSnapToPlayer() {
 }
 
-AMapCursor::AMapCursor() {
+AMapCursor::AMapCursor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CursorSpeedMultiplier = 5000.00f;
     this->CursorSpeedMultiplierDungeon = 2000.00f;
     this->CursorSpeedMultiplierZoomFactor = 1.00f;

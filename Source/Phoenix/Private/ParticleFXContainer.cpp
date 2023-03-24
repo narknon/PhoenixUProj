@@ -16,7 +16,7 @@ void AParticleFXContainer::AddParticleEmitter(UParticleSystem* SystemTemplate) {
 void AParticleFXContainer::AddNiagaraSystem(UNiagaraSystem* SystemTemplate) {
 }
 
-AParticleFXContainer::AParticleFXContainer() {
+AParticleFXContainer::AParticleFXContainer(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SceneComp = CreateDefaultSubobject<USceneComponent>(TEXT("SceneComp"));
 }
 

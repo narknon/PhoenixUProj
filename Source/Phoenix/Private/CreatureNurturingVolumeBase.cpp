@@ -8,6 +8,6 @@ void ACreatureNurturingVolumeBase::OnEndOverlap(AActor* SelfActor, AActor* Other
 void ACreatureNurturingVolumeBase::OnBeginOverlap(AActor* SelfActor, AActor* OtherActor) {
 }
 
-ACreatureNurturingVolumeBase::ACreatureNurturingVolumeBase() {
+ACreatureNurturingVolumeBase::ACreatureNurturingVolumeBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -64,7 +64,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UCurveFloat* Rot4Curve;
     
-    ASelfArrangingBooks();
+    ASelfArrangingBooks(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void UpdateBookTransform(const int32 idx, const float Path, const float Rot);

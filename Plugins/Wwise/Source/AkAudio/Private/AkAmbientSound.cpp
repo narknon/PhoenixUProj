@@ -7,7 +7,7 @@ void AAkAmbientSound::StopAmbientSound() {
 void AAkAmbientSound::StartAmbientSound() {
 }
 
-AAkAmbientSound::AAkAmbientSound() {
+AAkAmbientSound::AAkAmbientSound(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AkAudioEvent = NULL;
     this->AkComponent = CreateDefaultSubobject<UAkComponent>(TEXT("AkAudioComponent0"));
     this->StopWhenOwnerIsDestroyed = true;

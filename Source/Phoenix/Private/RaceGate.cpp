@@ -17,7 +17,7 @@ FVector ARaceGate::GetSplineTrackOffset_Implementation() {
     return FVector{};
 }
 
-ARaceGate::ARaceGate() {
+ARaceGate::ARaceGate(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->OwningRace = NULL;
 }
 

@@ -23,7 +23,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<AActor*> Locators;
     
-    ACompanionTeleportVolume();
+    ACompanionTeleportVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetTemporarilyActive(bool bActive, float Timeout);
     

@@ -29,7 +29,7 @@ private:
     TArray<bool> PreciseDirections;
     
 public:
-    AMercunaNavVolume();
+    AMercunaNavVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetSize(FVector Size);
     

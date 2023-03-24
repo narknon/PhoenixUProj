@@ -23,7 +23,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDoneEvent DoneEvent;
     
-    AEnemy_ApparateActor();
+    AEnemy_ApparateActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool HasArrived() const;
     

@@ -1,5 +1,5 @@
 #include "WaterBarrel.h"
 
-AWaterBarrel::AWaterBarrel() {
+AWaterBarrel::AWaterBarrel(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

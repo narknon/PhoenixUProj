@@ -4,6 +4,6 @@ void ASanctuaryItemGenerator::ShowCallout() {
 }
 
 
-ASanctuaryItemGenerator::ASanctuaryItemGenerator() {
+ASanctuaryItemGenerator::ASanctuaryItemGenerator(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

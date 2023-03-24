@@ -1,5 +1,5 @@
 #include "SanctuaryExpansionAnimationActor.h"
 
-ASanctuaryExpansionAnimationActor::ASanctuaryExpansionAnimationActor() {
+ASanctuaryExpansionAnimationActor::ASanctuaryExpansionAnimationActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

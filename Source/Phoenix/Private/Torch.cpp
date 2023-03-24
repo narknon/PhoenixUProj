@@ -94,7 +94,7 @@ void ATorch::CrossLightTickRange(bool bin) {
 void ATorch::ChangeLightColor(FLinearColor i_Color, float i_temperature) {
 }
 
-ATorch::ATorch() {
+ATorch::ATorch(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bStartLit = true;
     this->bUseMesh = true;
     this->bSimulatePhysics = false;

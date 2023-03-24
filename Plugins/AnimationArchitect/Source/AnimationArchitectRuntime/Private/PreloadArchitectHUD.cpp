@@ -3,6 +3,6 @@
 void APreloadArchitectHUD::TogglePreloadArchitectHUD() {
 }
 
-APreloadArchitectHUD::APreloadArchitectHUD() {
+APreloadArchitectHUD::APreloadArchitectHUD(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

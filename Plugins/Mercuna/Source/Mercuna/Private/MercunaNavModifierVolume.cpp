@@ -23,7 +23,7 @@ void AMercunaNavModifierVolume::SetCostMultiplier(float NewCostMultiplier) {
 void AMercunaNavModifierVolume::AddToOctree(AMercunaNavOctree* NewNavOctree) {
 }
 
-AMercunaNavModifierVolume::AMercunaNavModifierVolume() {
+AMercunaNavModifierVolume::AMercunaNavModifierVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bEnabled = true;
     this->CostMultiplier = 1.00f;
     this->CostMultipler = 1.00f;

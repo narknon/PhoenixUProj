@@ -12,7 +12,7 @@ void AWindTunnel::CloseDoor() {
 void AWindTunnel::ApplyWind() {
 }
 
-AWindTunnel::AWindTunnel() {
+AWindTunnel::AWindTunnel(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->WindStrength_Objects = 4000.00f;
     this->WindStrength_Pawns = 1200.00f;
     this->WindDist = 2000.00f;

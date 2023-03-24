@@ -73,7 +73,7 @@ protected:
     TWeakObjectPtr<ATransfigurationPreviewActor> DependentPreview;
     
 public:
-    ATransfigurationPreviewActor();
+    ATransfigurationPreviewActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool UsesSurfacePlacement() const;
     

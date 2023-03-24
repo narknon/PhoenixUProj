@@ -144,7 +144,7 @@ protected:
     UMaterialInstanceDynamic* PaintingMaterial;
     
 public:
-    APortraitPaintingActor();
+    APortraitPaintingActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetPaintingFrameMask(UTexture* PaintingFrameMask);
     

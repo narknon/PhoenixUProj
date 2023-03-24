@@ -1,5 +1,5 @@
 #include "SocialTravelerController.h"
 
-ASocialTravelerController::ASocialTravelerController() {
+ASocialTravelerController::ASocialTravelerController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

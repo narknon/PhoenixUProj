@@ -18,6 +18,6 @@ float ASocialAIController::GetPathDistanceToGoal() const {
     return 0.0f;
 }
 
-ASocialAIController::ASocialAIController() {
+ASocialAIController::ASocialAIController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

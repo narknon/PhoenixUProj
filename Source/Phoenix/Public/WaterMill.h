@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class AWaterMill : public AActor {
     GENERATED_BODY()
 public:
-    AWaterMill();
+    AWaterMill(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void DeactivateWaterMill();
     

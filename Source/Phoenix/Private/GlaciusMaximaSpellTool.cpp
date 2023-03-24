@@ -1,6 +1,6 @@
 #include "GlaciusMaximaSpellTool.h"
 
-AGlaciusMaximaSpellTool::AGlaciusMaximaSpellTool() {
+AGlaciusMaximaSpellTool::AGlaciusMaximaSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->GlaciusActorClass = NULL;
     this->GlaciusImpactComponent = NULL;
     this->GlaciusTerrainImpactComponent = NULL;

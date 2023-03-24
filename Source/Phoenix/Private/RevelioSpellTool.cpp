@@ -24,7 +24,7 @@ float ARevelioSpellTool::GetCurrentInnerRadius() const {
 void ARevelioSpellTool::BeginRevealFade() {
 }
 
-ARevelioSpellTool::ARevelioSpellTool() {
+ARevelioSpellTool::ARevelioSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FadeTime = 1.00f;
     this->MaxRevealsPerFrame = 5;
     this->bRevealHiddenOnCastOnly = true;

@@ -7,6 +7,6 @@ UCLASS(Blueprintable, NotPlaceable, Transient)
 class LIGHTCULLING_API ALightStatsSingleton : public AActor {
     GENERATED_BODY()
 public:
-    ALightStatsSingleton();
+    ALightStatsSingleton(const FObjectInitializer& ObjectInitializer);
 };
 

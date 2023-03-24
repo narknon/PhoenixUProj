@@ -11,7 +11,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDbSingleColumnInfo TargetFastTravelLocation;
     
-    APortkeyInventoryItemTool();
+    APortkeyInventoryItemTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Transport();
     

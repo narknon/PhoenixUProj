@@ -50,7 +50,7 @@ protected:
     float StateAlpha;
     
 public:
-    APerWorldAccessibilitySettings();
+    APerWorldAccessibilitySettings(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void RemovePrimitiveFromHighContrastGameplayBuckets(UPrimitiveComponent* PrimitiveComponent);
     

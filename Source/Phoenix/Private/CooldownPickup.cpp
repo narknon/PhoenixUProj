@@ -19,7 +19,7 @@ bool ACooldownPickup::CanPickup() {
     return false;
 }
 
-ACooldownPickup::ACooldownPickup() {
+ACooldownPickup::ACooldownPickup(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Prim = NULL;
 }
 

@@ -78,7 +78,7 @@ void AWandLinkObject::Event_TeleportLocation2(const UObject* Caller) {
 void AWandLinkObject::Event_TeleportLocation1(const UObject* Caller) {
 }
 
-AWandLinkObject::AWandLinkObject() {
+AWandLinkObject::AWandLinkObject(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ProtagonistProvider = NULL;
     this->AntagonistProvider = NULL;
     this->TeleportLocation1 = NULL;

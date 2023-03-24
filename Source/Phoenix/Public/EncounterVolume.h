@@ -150,7 +150,7 @@ private:
     AEnemy_PerceptionPoint* pEnemyPerception;
     
 public:
-    AEncounterVolume();
+    AEncounterVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetEncounterActor(ADynamicObjectVolume* InActor);
     

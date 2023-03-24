@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FWeatherStormTypeFXSettingsState State;
     
-    AWeatherStormFXSimple();
+    AWeatherStormFXSimple(const FObjectInitializer& ObjectInitializer);
 };
 

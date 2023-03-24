@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class GLOBALLIGHTRIG_API AWorldBaseHeightRect : public AWorldBaseHeightShape {
     GENERATED_BODY()
 public:
-    AWorldBaseHeightRect();
+    AWorldBaseHeightRect(const FObjectInitializer& ObjectInitializer);
 };
 

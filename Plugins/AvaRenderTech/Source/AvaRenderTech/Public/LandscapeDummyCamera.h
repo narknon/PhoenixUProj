@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ALandscapeDummyCamera : public AActor {
     GENERATED_BODY()
 public:
-    ALandscapeDummyCamera();
+    ALandscapeDummyCamera(const FObjectInitializer& ObjectInitializer);
 };
 

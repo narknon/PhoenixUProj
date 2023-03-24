@@ -20,7 +20,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     APortkey_Base* PortkeyBase;
     
-    APortkey_Object();
+    APortkey_Object(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void EndTeleport();
     

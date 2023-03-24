@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class AHippogriffStatue : public AActor {
     GENERATED_BODY()
 public:
-    AHippogriffStatue();
+    AHippogriffStatue(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void RepairAll();
     

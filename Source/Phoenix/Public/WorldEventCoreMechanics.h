@@ -25,7 +25,7 @@ protected:
     int32 ProductionStatusMask;
     
 public:
-    AWorldEventCoreMechanics();
+    AWorldEventCoreMechanics(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void ToggleMaskValue(EProductionStatus Status);

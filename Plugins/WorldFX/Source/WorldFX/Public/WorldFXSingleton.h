@@ -70,7 +70,7 @@ protected:
     bool bLastEyeValid;
     
 public:
-    AWorldFXSingleton();
+    AWorldFXSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static bool UnregisterWorldFXInterface(TScriptInterface<IWorldFXInterface> WorldFXInterface);
     

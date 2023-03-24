@@ -16,7 +16,7 @@ protected:
     TMap<TWeakObjectPtr<UPrimitiveComponent>, FMasterOverlapThrottlerTracker> ThrottlePrimitiveComponents;
     
 public:
-    AMasterOverlapThrottlerSingleton();
+    AMasterOverlapThrottlerSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void RemoveManagedPrimitiveComponent(UPrimitiveComponent* Component);
     

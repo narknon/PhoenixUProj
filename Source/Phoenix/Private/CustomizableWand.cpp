@@ -6,6 +6,6 @@ bool ACustomizableWand::AsyncLoadTexture(const TSoftObjectPtr<UTexture> SoftText
     return false;
 }
 
-ACustomizableWand::ACustomizableWand() {
+ACustomizableWand::ACustomizableWand(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

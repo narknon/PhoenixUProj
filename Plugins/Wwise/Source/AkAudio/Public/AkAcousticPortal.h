@@ -21,7 +21,7 @@ private:
     bool bRequiresStateMigration;
     
 public:
-    AAkAcousticPortal();
+    AAkAcousticPortal(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void OpenPortal();
     

@@ -39,7 +39,7 @@ private:
     TArray<FSpawnedStudent> SpawnedBroomStudents;
     
 public:
-    ABroomRiderSpawner();
+    ABroomRiderSpawner(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     bool RequestBroomNPC(const EHoboType HoboType, const TEnumAsByte<HouseIds> InHouse, const EGenderEnum InGender, const TArray<FString>& ValidVoiceIDs, TSubclassOf<AFlyingBroom> FlyingBroom, TEnumAsByte<EBroomEnemyState::Type> StudentAISpawnState, float MaxSpeed);
     

@@ -1,5 +1,5 @@
 #include "CreatureNurturingVolume.h"
 
-ACreatureNurturingVolume::ACreatureNurturingVolume() {
+ACreatureNurturingVolume::ACreatureNurturingVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

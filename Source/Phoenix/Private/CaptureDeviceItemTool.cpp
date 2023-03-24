@@ -58,7 +58,7 @@ void ACaptureDeviceItemTool::FinishCancelling() {
 void ACaptureDeviceItemTool::BeginCapturing() {
 }
 
-ACaptureDeviceItemTool::ACaptureDeviceItemTool() {
+ACaptureDeviceItemTool::ACaptureDeviceItemTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->WidgetClass = NULL;
     this->PerceptionNoiseEventLoudness = 1.00f;
     this->PerceptionNoiseEventMaxRange = 0.00f;

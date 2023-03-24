@@ -1,5 +1,5 @@
 #include "EmissiveAdaptation.h"
 
-AEmissiveAdaptation::AEmissiveAdaptation() {
+AEmissiveAdaptation::AEmissiveAdaptation(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

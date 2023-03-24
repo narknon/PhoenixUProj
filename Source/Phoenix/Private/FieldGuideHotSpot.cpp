@@ -46,7 +46,7 @@ void AFieldGuideHotSpot::ClearRevealed() {
 }
 
 
-AFieldGuideHotSpot::AFieldGuideHotSpot() {
+AFieldGuideHotSpot::AFieldGuideHotSpot(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bDebugDraw = false;
     this->HotSpotHeightAllowed = 100.00f;
     this->OuterRadius = 9000.00f;

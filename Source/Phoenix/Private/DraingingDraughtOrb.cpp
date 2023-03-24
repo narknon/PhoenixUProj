@@ -3,7 +3,7 @@
 void ADraingingDraughtOrb::Attack() {
 }
 
-ADraingingDraughtOrb::ADraingingDraughtOrb() {
+ADraingingDraughtOrb::ADraingingDraughtOrb(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_CurActiveRotation = 0.00f;
     this->m_AttackingDistance = 30.00f;
     this->m_AttackingAcceleration = 15000.00f;

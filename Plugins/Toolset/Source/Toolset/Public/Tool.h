@@ -40,7 +40,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FBTCustomAction ToolEquipAction;
     
-    ATool();
+    ATool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     AActor* GetUltimateOwner();
     

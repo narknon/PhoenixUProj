@@ -1,7 +1,7 @@
 #include "RiverSectionAudio.h"
 #include "AkComponent.h"
 
-ARiverSectionAudio::ARiverSectionAudio() {
+ARiverSectionAudio::ARiverSectionAudio(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bRelativeLocations = false;
     this->AkComponent = CreateDefaultSubobject<UAkComponent>(TEXT("AkAudioComponent"));
     this->ClosestIndex = 0;

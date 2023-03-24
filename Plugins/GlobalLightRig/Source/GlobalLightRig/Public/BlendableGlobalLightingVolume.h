@@ -39,7 +39,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
     EGlobalLightingFogZMode FogZMode;
     
-    ABlendableGlobalLightingVolume();
+    ABlendableGlobalLightingVolume(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

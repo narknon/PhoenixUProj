@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class PHOENIX_API AEditorAwareActor : public AActor {
     GENERATED_BODY()
 public:
-    AEditorAwareActor();
+    AEditorAwareActor(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void PreEditorChangeProperty(const FName& PropertyName);

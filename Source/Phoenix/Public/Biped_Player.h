@@ -589,7 +589,7 @@ protected:
     AActor* DamageDirectionActor;
     
 public:
-    ABiped_Player();
+    ABiped_Player(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool UseNewConversations() const;
     

@@ -47,6 +47,6 @@ private:
     AActor* SpawnedActor;
     
 public:
-    ATransfigurationPlaceholder();
+    ATransfigurationPlaceholder(const FObjectInitializer& ObjectInitializer);
 };
 

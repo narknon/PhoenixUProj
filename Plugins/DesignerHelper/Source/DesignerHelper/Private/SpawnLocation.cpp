@@ -22,7 +22,7 @@ void ASpawnLocation::InitScatterGrid() {
 void ASpawnLocation::CacheVolumeBounds() {
 }
 
-ASpawnLocation::ASpawnLocation() {
+ASpawnLocation::ASpawnLocation(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SpawnVolumeType = ESpawnVolumeType::Point;
     this->SpawnVolume = NULL;
     this->bEnableScatterSampling = false;

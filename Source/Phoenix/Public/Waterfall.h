@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class AWaterfall : public AActor {
     GENERATED_BODY()
 public:
-    AWaterfall();
+    AWaterfall(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void StopWater();
     

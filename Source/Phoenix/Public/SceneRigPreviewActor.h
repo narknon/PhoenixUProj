@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ASceneRigPreviewActor : public ASceneRigActor {
     GENERATED_BODY()
 public:
-    ASceneRigPreviewActor();
+    ASceneRigPreviewActor(const FObjectInitializer& ObjectInitializer);
 };
 

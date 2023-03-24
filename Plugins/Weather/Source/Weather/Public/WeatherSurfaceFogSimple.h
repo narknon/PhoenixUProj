@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class WEATHER_API AWeatherSurfaceFogSimple : public AWeatherSurfaceFogBase {
     GENERATED_BODY()
 public:
-    AWeatherSurfaceFogSimple();
+    AWeatherSurfaceFogSimple(const FObjectInitializer& ObjectInitializer);
 };
 

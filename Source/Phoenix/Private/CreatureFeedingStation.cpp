@@ -57,7 +57,7 @@ void ACreatureFeedingStation::ConvertAvailableFeederSlot() {
 void ACreatureFeedingStation::AssignToSlot(ACreature_Character* Creature) {
 }
 
-ACreatureFeedingStation::ACreatureFeedingStation() {
+ACreatureFeedingStation::ACreatureFeedingStation(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FeedActorClass = NULL;
 }
 

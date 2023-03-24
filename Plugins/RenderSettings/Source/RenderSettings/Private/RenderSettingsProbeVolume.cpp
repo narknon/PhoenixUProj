@@ -3,6 +3,6 @@
 void ARenderSettingsProbeVolume::EditProbes() {
 }
 
-ARenderSettingsProbeVolume::ARenderSettingsProbeVolume() {
+ARenderSettingsProbeVolume::ARenderSettingsProbeVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

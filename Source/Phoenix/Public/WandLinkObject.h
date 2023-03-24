@@ -220,7 +220,7 @@ private:
     TArray<UWandLinkKillBystander*> KillBystanderArray;
     
 public:
-    AWandLinkObject();
+    AWandLinkObject(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void WandLinkStarted();
     

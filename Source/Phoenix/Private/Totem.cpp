@@ -1,5 +1,5 @@
 #include "Totem.h"
 
-ATotem::ATotem() {
+ATotem::ATotem(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

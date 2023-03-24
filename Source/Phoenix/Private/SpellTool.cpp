@@ -197,7 +197,7 @@ bool ASpellTool::BreaksShield(const AActor* Target, const FGameplayTagContainer&
 void ASpellTool::Abort() {
 }
 
-ASpellTool::ASpellTool() {
+ASpellTool::ASpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bHeavyCast = true;
     this->LeftArmState = ELeftArmState::PlayHandOnlyMotion;
     this->RightArmState = ERightArmState::StopMotionOnly;

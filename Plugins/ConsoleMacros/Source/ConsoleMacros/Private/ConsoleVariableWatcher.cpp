@@ -44,6 +44,6 @@ void AConsoleVariableWatcher::CreateConsoleVariableAsBool(const FString& Console
 void AConsoleVariableWatcher::ConsoleVariableExists(const FString& ConsoleVariable, bool& bExists) {
 }
 
-AConsoleVariableWatcher::AConsoleVariableWatcher() {
+AConsoleVariableWatcher::AConsoleVariableWatcher(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

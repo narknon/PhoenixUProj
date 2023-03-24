@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     TArray<USceneRigPlayer*> ActivePlayersWantingToPlayThisTick;
     
-    ASceneRigPlayerManager();
+    ASceneRigPlayerManager(const FObjectInitializer& ObjectInitializer);
 };
 

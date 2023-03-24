@@ -26,7 +26,7 @@ void AEnvironmentalGlobalsSingleton::EnvironmentalGlobalsGetExtraScalar(UObject*
 void AEnvironmentalGlobalsSingleton::EnvironmentalGlobalsGetExtraColor(UObject* WorldContextObject, FName Name, FLinearColor& Value, bool& bExists) {
 }
 
-AEnvironmentalGlobalsSingleton::AEnvironmentalGlobalsSingleton() {
+AEnvironmentalGlobalsSingleton::AEnvironmentalGlobalsSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bDirty = false;
     this->bDiscontinuity = true;
 }

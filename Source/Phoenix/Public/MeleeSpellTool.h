@@ -22,6 +22,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool CastAtTarget;
     
-    AMeleeSpellTool();
+    AMeleeSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

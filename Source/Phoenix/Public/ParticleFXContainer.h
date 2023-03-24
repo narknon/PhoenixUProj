@@ -16,7 +16,7 @@ protected:
     USceneComponent* SceneComp;
     
 public:
-    AParticleFXContainer();
+    AParticleFXContainer(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void DestroySelf();
     

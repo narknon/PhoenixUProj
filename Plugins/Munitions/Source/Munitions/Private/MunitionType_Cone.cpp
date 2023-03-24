@@ -1,6 +1,6 @@
 #include "MunitionType_Cone.h"
 
-AMunitionType_Cone::AMunitionType_Cone() {
+AMunitionType_Cone::AMunitionType_Cone(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_Range = 1000.00f;
     this->m_endRadius = 100.00f;
     this->m_damageType = NULL;

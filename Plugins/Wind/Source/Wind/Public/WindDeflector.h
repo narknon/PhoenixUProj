@@ -14,6 +14,6 @@ private:
     UWindDeflectorComponent* Component;
     
 public:
-    AWindDeflector();
+    AWindDeflector(const FObjectInitializer& ObjectInitializer);
 };
 

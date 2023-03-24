@@ -14,6 +14,6 @@ private:
     UWindPointSourceWithEnvelopeComponent* Component;
     
 public:
-    AWindPointSourceWithEnvelope();
+    AWindPointSourceWithEnvelope(const FObjectInitializer& ObjectInitializer);
 };
 

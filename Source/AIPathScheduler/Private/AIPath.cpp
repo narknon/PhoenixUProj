@@ -10,7 +10,7 @@ void AAIPath::Deactivate() {
 void AAIPath::Activate() {
 }
 
-AAIPath::AAIPath() {
+AAIPath::AAIPath(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BlendScale = 1.00f;
     this->UseAsEscapePath = true;
     this->BranchOnly = false;

@@ -14,6 +14,6 @@ private:
     USphereComponent* SphereComponent;
     
 public:
-    ASceneRigMayaExportSphere();
+    ASceneRigMayaExportSphere(const FObjectInitializer& ObjectInitializer);
 };
 

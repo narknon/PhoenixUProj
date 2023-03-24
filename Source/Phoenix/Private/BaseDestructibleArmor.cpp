@@ -5,6 +5,6 @@ class AActor;
 void ABaseDestructibleArmor::HandlePeeves(AActor* Other) {
 }
 
-ABaseDestructibleArmor::ABaseDestructibleArmor() {
+ABaseDestructibleArmor::ABaseDestructibleArmor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

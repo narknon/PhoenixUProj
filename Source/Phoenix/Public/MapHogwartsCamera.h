@@ -68,7 +68,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector FocusLocation;
     
-    AMapHogwartsCamera();
+    AMapHogwartsCamera(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateCamera();
     

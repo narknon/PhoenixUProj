@@ -76,7 +76,7 @@ protected:
     TArray<ADraingingDraughtOrb*> m_ActiveOrbs;
     
 public:
-    ADrainingDraughtEffect();
+    ADrainingDraughtEffect(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Tick(float DeltaSeconds);
     

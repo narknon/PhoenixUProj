@@ -1,5 +1,5 @@
 #include "SceneRigAIController.h"
 
-ASceneRigAIController::ASceneRigAIController() {
+ASceneRigAIController::ASceneRigAIController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

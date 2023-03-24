@@ -13,7 +13,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UCognitionComponent* CognitionComponent;
     
-    ANPC_Controller();
+    ANPC_Controller(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     UBlackboardComponent* GetBlackboard();
     

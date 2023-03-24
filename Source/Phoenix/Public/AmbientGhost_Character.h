@@ -52,7 +52,7 @@ public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     TWeakObjectPtr<UAmbientGhost_AnimInstance> AmbientGhostAnimInstance;
     
-    AAmbientGhost_Character();
+    AAmbientGhost_Character(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void ExitedOuterRadius();
     

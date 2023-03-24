@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     UAnimatedLightWorldData* WorldData;
     
-    AAnimatedLightsSingleton();
+    AAnimatedLightsSingleton(const FObjectInitializer& ObjectInitializer);
 };
 

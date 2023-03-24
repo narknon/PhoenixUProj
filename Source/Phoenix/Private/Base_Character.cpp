@@ -87,7 +87,7 @@ void ABase_Character::Chat_Implementation() {
 void ABase_Character::CaptureFocusForScriptedBehavior(FName InIdentifyingName) {
 }
 
-ABase_Character::ABase_Character() {
+ABase_Character::ABase_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ManagedCharacter = CreateDefaultSubobject<UPhoenixManagedCharacter>(TEXT("ManagedCharacter"));
     this->TraversalSettings = NULL;
     this->ShoulderFixupAlpha = 0.00f;

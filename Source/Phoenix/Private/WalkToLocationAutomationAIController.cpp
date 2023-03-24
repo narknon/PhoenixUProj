@@ -1,5 +1,5 @@
 #include "WalkToLocationAutomationAIController.h"
 
-AWalkToLocationAutomationAIController::AWalkToLocationAutomationAIController() {
+AWalkToLocationAutomationAIController::AWalkToLocationAutomationAIController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -1,5 +1,5 @@
 #include "LightStatsSingleton.h"
 
-ALightStatsSingleton::ALightStatsSingleton() {
+ALightStatsSingleton::ALightStatsSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

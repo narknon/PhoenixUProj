@@ -1,6 +1,6 @@
 #include "WandLinkProjectile.h"
 
-AWandLinkProjectile::AWandLinkProjectile() {
+AWandLinkProjectile::AWandLinkProjectile(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->VFXComponent = NULL;
 }
 

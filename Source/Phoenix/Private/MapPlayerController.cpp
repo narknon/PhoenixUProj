@@ -1,6 +1,6 @@
 #include "MapPlayerController.h"
 
-AMapPlayerController::AMapPlayerController() {
+AMapPlayerController::AMapPlayerController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->UMGInputManager = NULL;
 }
 

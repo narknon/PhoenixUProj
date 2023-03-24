@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ATombProtectorStatue : public AActor {
     GENERATED_BODY()
 public:
-    ATombProtectorStatue();
+    ATombProtectorStatue(const FObjectInitializer& ObjectInitializer);
 };
 

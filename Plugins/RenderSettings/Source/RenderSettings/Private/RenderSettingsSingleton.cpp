@@ -109,7 +109,7 @@ void ARenderSettingsSingleton::ComputeIsInside(UObject* WorldContextObject, FVec
 void ARenderSettingsSingleton::ComputeBlendDomain(UObject* WorldContextObject, FVector Position, FBlendDomainState& BlendDomainState, bool bHighQuality) {
 }
 
-ARenderSettingsSingleton::ARenderSettingsSingleton() {
+ARenderSettingsSingleton::ARenderSettingsSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bCreatedInInactiveWorld = false;
     this->PlayerCentricPostProcessing = CreateDefaultSubobject<UPlayerCentricPostProcessingComponent>(TEXT("PlayerCentricPP"));
     this->ViewpointEye0Player1Lerp = 0.00f;

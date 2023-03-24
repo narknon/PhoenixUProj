@@ -17,7 +17,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     AActor* AssetOwner;
     
-    AAvaAssetStreamingVolumeSet();
+    AAvaAssetStreamingVolumeSet(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetAssetOwner(AActor* NewOwner);
     

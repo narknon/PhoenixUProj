@@ -3,6 +3,6 @@
 void ABlendableGlobalLightingVolumeFog::ReloadDefaults() {
 }
 
-ABlendableGlobalLightingVolumeFog::ABlendableGlobalLightingVolumeFog() {
+ABlendableGlobalLightingVolumeFog::ABlendableGlobalLightingVolumeFog(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -3,7 +3,7 @@
 void ARenderSettingsExposureVolume::EditExposure() {
 }
 
-ARenderSettingsExposureVolume::ARenderSettingsExposureVolume() {
+ARenderSettingsExposureVolume::ARenderSettingsExposureVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ExposureTweak = 0.00f;
     this->bExposureTweak = false;
 }

@@ -7,7 +7,7 @@ void AMercunaNavTestingActor::OnSplineUpdate(EMercunaSplineEvent::Type SplineEve
 void AMercunaNavTestingActor::OnOctreeBuildComplete() {
 }
 
-AMercunaNavTestingActor::AMercunaNavTestingActor() {
+AMercunaNavTestingActor::AMercunaNavTestingActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Radius = 50.00f;
     this->bSearchStart = false;
     this->OtherActor = NULL;

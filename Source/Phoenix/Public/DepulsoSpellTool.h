@@ -109,6 +109,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<AMunitionType_Base> AOEMunition;
     
-    ADepulsoSpellTool();
+    ADepulsoSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

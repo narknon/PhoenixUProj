@@ -11,7 +11,7 @@ ELockDifficulty APadlockDoor::GetLockDifficulty() const {
     return ELockDifficulty::Level_1;
 }
 
-APadlockDoor::APadlockDoor() {
+APadlockDoor::APadlockDoor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->LockableComponent = CreateDefaultSubobject<UPadlockComponent>(TEXT("LockableComponent"));
 }
 

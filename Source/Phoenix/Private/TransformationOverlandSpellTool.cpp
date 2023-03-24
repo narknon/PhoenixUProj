@@ -1,6 +1,6 @@
 #include "TransformationOverlandSpellTool.h"
 
-ATransformationOverlandSpellTool::ATransformationOverlandSpellTool() {
+ATransformationOverlandSpellTool::ATransformationOverlandSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SpawnDelay = 0.25f;
     this->SpawnUpdateCount = 5;
     this->StartEffectDelay = 0.01f;

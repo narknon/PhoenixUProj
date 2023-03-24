@@ -94,7 +94,7 @@ protected:
     UPostProcessComponent* DebugPostProcessComponent;
     
 public:
-    ARenderSettingsSingleton();
+    ARenderSettingsSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure, meta=(WorldContext="WorldContextObject"))
     static float RenderSettingsGetOvercast(UObject* WorldContextObject);
     

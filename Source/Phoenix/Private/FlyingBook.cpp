@@ -7,7 +7,7 @@ void AFlyingBook::RandomizeDistanceAlongSpline() {
 }
 
 
-AFlyingBook::AFlyingBook() {
+AFlyingBook::AFlyingBook(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BookSpeed = 300.00f;
     this->BookSpeedMod = 1.00f;
     this->MainSplineReference = NULL;

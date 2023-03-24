@@ -3,6 +3,7 @@
 #include "CognitionComponent.h"
 #include "SocialAgentPathFollowerComponent.h"
 #include "NPC_BTComponent.h"
+#include "NPC_MovementComponent.h"
 #include "NPC_ReactionComponent.h"
 #include "Templates/SubclassOf.h"
 
@@ -418,7 +419,7 @@ void ANPC_Character::AddQBUpdateSupported(ENPC_QBUpdate InQBUpdate) {
 void ANPC_Character::AddPerceptionUpdateSupported(ENPC_PerceptionUpdate InPerceptionUpdate) {
 }
 
-ANPC_Character::ANPC_Character() {
+ANPC_Character::ANPC_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UNPC_MovementComponent>(TEXT("CharMoveComp"))) {
     this->NPCType = ENPC_Type::Enemy;
     this->BehaviorTreePtr = NULL;
     this->BehaviorTreeDataTable = NULL;

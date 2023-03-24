@@ -100,7 +100,7 @@ protected:
     UDayNightCompass* Compass;
     
 public:
-    ADayNightSky();
+    ADayNightSky(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject"))
     static void GetDayNightSky(UObject* WorldContextObject, ADayNightSky*& DayNightSkyActor);
     

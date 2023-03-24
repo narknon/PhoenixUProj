@@ -92,7 +92,7 @@ bool ALerpVolumesSingleton::LerpVolumesGetColorAtPosition(UObject* WorldContextO
     return false;
 }
 
-ALerpVolumesSingleton::ALerpVolumesSingleton() {
+ALerpVolumesSingleton::ALerpVolumesSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Priority = 0.00f;
     this->bLastLocalStateValid = false;
 }

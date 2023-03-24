@@ -12,6 +12,6 @@ protected:
     bool bIsBidirectional;
     
 public:
-    ACreaturePerch();
+    ACreaturePerch(const FObjectInitializer& ObjectInitializer);
 };
 

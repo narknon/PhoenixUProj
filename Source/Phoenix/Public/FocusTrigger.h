@@ -54,7 +54,7 @@ protected:
     FDbSingleColumnInfo TheEmotion;
     
 public:
-    AFocusTrigger();
+    AFocusTrigger(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetTheReaction(SocialActionTypes InSocialAction);
     

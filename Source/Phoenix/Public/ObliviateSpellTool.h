@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float DazeTime;
     
-    AObliviateSpellTool();
+    AObliviateSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -52,7 +52,7 @@ private:
     TSoftObjectPtr<USplineComponent> Spline;
     
 public:
-    ACartMoverBase();
+    ACartMoverBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetMaxSpeed(const float InMaxSpeed);
     

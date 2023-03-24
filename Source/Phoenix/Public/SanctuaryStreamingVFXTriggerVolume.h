@@ -72,7 +72,7 @@ protected:
     bool IsActivated;
     
 public:
-    ASanctuaryStreamingVFXTriggerVolume();
+    ASanctuaryStreamingVFXTriggerVolume(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnParticleSystemFinished(UParticleSystemComponent* PSystem);

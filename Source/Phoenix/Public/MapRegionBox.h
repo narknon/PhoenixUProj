@@ -24,6 +24,6 @@ protected:
     UBoxComponent* Region;
     
 public:
-    AMapRegionBox();
+    AMapRegionBox(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -1,6 +1,6 @@
 #include "MunitionType_AOE.h"
 
-AMunitionType_AOE::AMunitionType_AOE() {
+AMunitionType_AOE::AMunitionType_AOE(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MinDamage = 0.00f;
     this->m_radiusStart = 100.00f;
     this->m_radiusEnd = 1000.00f;

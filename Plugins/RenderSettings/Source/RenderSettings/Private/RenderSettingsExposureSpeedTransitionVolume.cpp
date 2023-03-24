@@ -1,6 +1,6 @@
 #include "RenderSettingsExposureSpeedTransitionVolume.h"
 
-ARenderSettingsExposureSpeedTransitionVolume::ARenderSettingsExposureSpeedTransitionVolume() {
+ARenderSettingsExposureSpeedTransitionVolume::ARenderSettingsExposureSpeedTransitionVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SpeedUp = 12.00f;
     this->SpeedDown = 12.00f;
     this->bUseFilteredIndoors = false;

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AConjurationStreamingVolume : public AVolume {
     GENERATED_BODY()
 public:
-    AConjurationStreamingVolume();
+    AConjurationStreamingVolume(const FObjectInitializer& ObjectInitializer);
 };
 

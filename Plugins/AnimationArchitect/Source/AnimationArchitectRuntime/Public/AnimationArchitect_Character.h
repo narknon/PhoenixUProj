@@ -19,7 +19,7 @@ protected:
     UAnimationArchitectComponent* AnimationArchitectComponent;
     
 public:
-    AAnimationArchitect_Character();
+    AAnimationArchitect_Character(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
     UAnimationArchitectComponent* GetAnimationArchitectComponent() const;
     

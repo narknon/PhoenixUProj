@@ -82,7 +82,7 @@ private:
     FVector WebEndLoc;
     
 public:
-    ASpiderWeb_HangingBase();
+    ASpiderWeb_HangingBase(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void WingardiumStart(bool i_Start);

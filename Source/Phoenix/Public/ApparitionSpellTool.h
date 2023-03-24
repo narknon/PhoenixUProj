@@ -51,7 +51,7 @@ private:
     AActor* ApparitionActor;
     
 public:
-    AApparitionSpellTool();
+    AApparitionSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TeleportNow();
     

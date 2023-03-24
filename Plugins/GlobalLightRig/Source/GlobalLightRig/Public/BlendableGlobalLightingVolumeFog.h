@@ -42,7 +42,7 @@ protected:
     UBlendableGlobalLightingVolumeFogDefaults* Defaults;
     
 public:
-    ABlendableGlobalLightingVolumeFog();
+    ABlendableGlobalLightingVolumeFog(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ReloadDefaults();
     

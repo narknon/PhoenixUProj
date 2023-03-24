@@ -22,7 +22,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FString customWorldID;
     
-    AEncounterLocationCreator();
+    AEncounterLocationCreator(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void AttachObjectsToCreator(bool bInAttachObjects);
     

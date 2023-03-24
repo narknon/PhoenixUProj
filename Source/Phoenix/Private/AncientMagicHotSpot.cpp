@@ -83,7 +83,7 @@ void AAncientMagicHotSpot::DestroyVFX() {
 
 
 
-AAncientMagicHotSpot::AAncientMagicHotSpot() {
+AAncientMagicHotSpot::AAncientMagicHotSpot(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bDebugDraw = false;
     this->HotSpotHeightAllowed = 100.00f;
     this->OuterRadiusMaxAngle = 30.00f;

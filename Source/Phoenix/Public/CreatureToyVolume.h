@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ACreatureToyVolume : public AVolume {
     GENERATED_BODY()
 public:
-    ACreatureToyVolume();
+    ACreatureToyVolume(const FObjectInitializer& ObjectInitializer);
 };
 

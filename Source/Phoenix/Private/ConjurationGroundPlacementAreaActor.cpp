@@ -4,7 +4,7 @@
 void AConjurationGroundPlacementAreaActor::BuildMesh() {
 }
 
-AConjurationGroundPlacementAreaActor::AConjurationGroundPlacementAreaActor() {
+AConjurationGroundPlacementAreaActor::AConjurationGroundPlacementAreaActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->GroundPlacementAreaComponent = CreateDefaultSubobject<UConjurationGroundPlacementAreaComponent>(TEXT("GroundPlacementAreaComponent"));
 }
 

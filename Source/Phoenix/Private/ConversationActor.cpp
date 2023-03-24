@@ -1,5 +1,5 @@
 #include "ConversationActor.h"
 
-AConversationActor::AConversationActor() {
+AConversationActor::AConversationActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

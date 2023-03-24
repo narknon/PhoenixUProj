@@ -71,7 +71,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     AActor* BeamTargetActor;
     
-    AChannelingSpellTool();
+    AChannelingSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnCharged();
     

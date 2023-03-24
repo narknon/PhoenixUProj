@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FString MapName;
     
-    AWorldMapBoundsVolume();
+    AWorldMapBoundsVolume(const FObjectInitializer& ObjectInitializer);
 };
 

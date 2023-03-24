@@ -26,7 +26,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bDisableWhenPlayerMounted;
     
-    AGlassWaller();
+    AGlassWaller(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool WithEditor();

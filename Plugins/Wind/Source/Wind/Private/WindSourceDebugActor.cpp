@@ -2,7 +2,7 @@
 #include "Components/InstancedStaticMeshComponent.h"
 #include "WindSourceDebugUpdateComponent.h"
 
-AWindSourceDebugActor::AWindSourceDebugActor() {
+AWindSourceDebugActor::AWindSourceDebugActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PointsXY = 8;
     this->PointsZ = 1;
     this->SpacingXY = 100.00f;

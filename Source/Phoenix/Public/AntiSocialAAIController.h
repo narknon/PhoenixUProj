@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AAntiSocialAAIController : public ASocialAIController {
     GENERATED_BODY()
 public:
-    AAntiSocialAAIController();
+    AAntiSocialAAIController(const FObjectInitializer& ObjectInitializer);
 };
 

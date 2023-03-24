@@ -1,6 +1,6 @@
 #include "EdurusPotionItemTool.h"
 
-AEdurusPotionItemTool::AEdurusPotionItemTool() {
+AEdurusPotionItemTool::AEdurusPotionItemTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_RelativeSpawnBoneName = TEXT("Spine3");
     this->m_MinRockDamage = 100.00f;
     this->m_MaxRockDamage = 200.00f;

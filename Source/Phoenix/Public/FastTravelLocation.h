@@ -25,7 +25,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDbEditorButtonWidget AddButton;
     
-    AFastTravelLocation();
+    AFastTravelLocation(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Unlock();
     

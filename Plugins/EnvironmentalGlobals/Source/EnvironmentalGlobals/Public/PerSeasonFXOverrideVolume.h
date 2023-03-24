@@ -33,6 +33,6 @@ public:
     UPROPERTY(AdvancedDisplay, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 SummerPhaseOverride;
     
-    APerSeasonFXOverrideVolume();
+    APerSeasonFXOverrideVolume(const FObjectInitializer& ObjectInitializer);
 };
 

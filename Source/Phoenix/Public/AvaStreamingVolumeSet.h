@@ -38,7 +38,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     EVolumeLoadIdentifier VolumeLoadIdentifier;
     
-    AAvaStreamingVolumeSet();
+    AAvaStreamingVolumeSet(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetForcedStateStatus(bool bForced);
     

@@ -62,7 +62,7 @@ protected:
     AFlockingActor* StartButterflies;
     
 public:
-    AWEFollowButterflies();
+    AWEFollowButterflies(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void StartMovement();

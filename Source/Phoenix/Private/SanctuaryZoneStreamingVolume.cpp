@@ -1,5 +1,5 @@
 #include "SanctuaryZoneStreamingVolume.h"
 
-ASanctuaryZoneStreamingVolume::ASanctuaryZoneStreamingVolume() {
+ASanctuaryZoneStreamingVolume::ASanctuaryZoneStreamingVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

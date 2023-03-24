@@ -1,6 +1,6 @@
 #include "OdcNavmeshActor.h"
 
-AOdcNavmeshActor::AOdcNavmeshActor() {
+AOdcNavmeshActor::AOdcNavmeshActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->NavGraphImagesVersion = 0;
 }
 

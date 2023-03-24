@@ -61,6 +61,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float NonMovableAdditionalForce;
     
-    ADepulsoMaximaSpellTool();
+    ADepulsoMaximaSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

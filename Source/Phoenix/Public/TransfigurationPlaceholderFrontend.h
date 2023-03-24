@@ -21,6 +21,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FString OnlySpawnIfKeyNotPresent;
     
-    ATransfigurationPlaceholderFrontend();
+    ATransfigurationPlaceholderFrontend(const FObjectInitializer& ObjectInitializer);
 };
 

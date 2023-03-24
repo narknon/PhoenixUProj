@@ -95,7 +95,7 @@ protected:
     TArray<AActor*> ExplosionIgnoreActors;
     
 public:
-    AExplosiveBarrel();
+    AExplosiveBarrel(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     bool SphereOverlap(TArray<AActor*>& OutActors);

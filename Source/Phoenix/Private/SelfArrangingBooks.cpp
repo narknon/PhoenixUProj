@@ -9,7 +9,7 @@ void ASelfArrangingBooks::OnTimelineUpdate(float Value) {
 void ASelfArrangingBooks::OnTimelineFinished() {
 }
 
-ASelfArrangingBooks::ASelfArrangingBooks() {
+ASelfArrangingBooks::ASelfArrangingBooks(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RandomSelection = 0;
     this->bCanPlay = true;
     this->bPlayReverse = false;

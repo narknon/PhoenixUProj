@@ -65,7 +65,7 @@ bool ASanctuaryStreamingController::DoesZoneExist(FName ZoneName) const {
 void ASanctuaryStreamingController::BlockingMinimalZoneLoad(FName ZoneName, bool bMakeVisible) {
 }
 
-ASanctuaryStreamingController::ASanctuaryStreamingController() {
+ASanctuaryStreamingController::ASanctuaryStreamingController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bTreatLightingLevelsAsMinimalLoad = false;
     this->bTeleportLockActive = false;
 }

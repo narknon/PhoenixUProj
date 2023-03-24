@@ -39,7 +39,7 @@ void ADrainingDraughtEffect::DoAOECloudDamageCallback() {
 void ADrainingDraughtEffect::BeginPlay() {
 }
 
-ADrainingDraughtEffect::ADrainingDraughtEffect() {
+ADrainingDraughtEffect::ADrainingDraughtEffect(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_CloudRadius = 500.00f;
     this->m_AOEDamage = 30.00f;
     this->m_AOEDamageRate = 0.50f;

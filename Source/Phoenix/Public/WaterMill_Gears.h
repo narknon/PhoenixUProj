@@ -10,7 +10,7 @@ UCLASS(Blueprintable)
 class PHOENIX_API AWaterMill_Gears : public AActor {
     GENERATED_BODY()
 public:
-    AWaterMill_Gears();
+    AWaterMill_Gears(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void UpdateWaterWheelMaterialValues();
     

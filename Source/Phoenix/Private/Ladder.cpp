@@ -32,7 +32,7 @@ bool ALadder::CanPlayerClimbLadder_Implementation() const {
     return false;
 }
 
-ALadder::ALadder() {
+ALadder::ALadder(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bPlayerClimbingEnabled = true;
     this->bPlayerMountTopEnabled = true;
 }

@@ -7,6 +7,6 @@ UCLASS(Blueprintable, MinimalAPI)
 class AMercunaNavSeed : public AActor {
     GENERATED_BODY()
 public:
-    AMercunaNavSeed();
+    AMercunaNavSeed(const FObjectInitializer& ObjectInitializer);
 };
 

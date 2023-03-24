@@ -9,7 +9,7 @@ UCLASS(Blueprintable)
 class AGuideSuppressionVolume : public ATriggerBox {
     GENERATED_BODY()
 public:
-    AGuideSuppressionVolume();
+    AGuideSuppressionVolume(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void OnEndOverlap(AActor* SelfActor, AActor* OtherActor);

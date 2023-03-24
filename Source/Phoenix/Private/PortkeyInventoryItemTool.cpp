@@ -3,6 +3,6 @@
 void APortkeyInventoryItemTool::Transport() {
 }
 
-APortkeyInventoryItemTool::APortkeyInventoryItemTool() {
+APortkeyInventoryItemTool::APortkeyInventoryItemTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

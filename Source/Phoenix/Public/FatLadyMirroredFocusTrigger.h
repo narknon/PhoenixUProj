@@ -17,6 +17,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDialogueConversationReference CalloutEventNonGryffindor;
     
-    AFatLadyMirroredFocusTrigger();
+    AFatLadyMirroredFocusTrigger(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -18,6 +18,6 @@ private:
     bool bRemoveBuffs;
     
 public:
-    AFiniteSpellTool();
+    AFiniteSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

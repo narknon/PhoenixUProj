@@ -6,6 +6,6 @@ void ACreaturePettingTool::RemoveAimAtTarget() {
 void ACreaturePettingTool::AddAimAtTarget() {
 }
 
-ACreaturePettingTool::ACreaturePettingTool() {
+ACreaturePettingTool::ACreaturePettingTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

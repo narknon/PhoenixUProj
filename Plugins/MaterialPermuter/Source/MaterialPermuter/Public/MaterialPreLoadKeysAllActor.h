@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AMaterialPreLoadKeysAllActor : public AMaterialPreLoadKeysActor {
     GENERATED_BODY()
 public:
-    AMaterialPreLoadKeysAllActor();
+    AMaterialPreLoadKeysAllActor(const FObjectInitializer& ObjectInitializer);
 };
 

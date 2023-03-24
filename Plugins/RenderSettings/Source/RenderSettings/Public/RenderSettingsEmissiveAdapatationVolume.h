@@ -11,6 +11,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FRenderSettingsEmissiveAdaptation EmissiveAdaptation;
     
-    ARenderSettingsEmissiveAdapatationVolume();
+    ARenderSettingsEmissiveAdapatationVolume(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class ARaceGhostOrb : public AActor {
     GENERATED_BODY()
 public:
-    ARaceGhostOrb();
+    ARaceGhostOrb(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnFinishedCourse();
     

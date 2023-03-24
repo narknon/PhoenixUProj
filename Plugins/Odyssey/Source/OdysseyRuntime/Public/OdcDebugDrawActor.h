@@ -20,6 +20,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
     UDebugPanelComponent* DebugPanel;
     
-    AOdcDebugDrawActor();
+    AOdcDebugDrawActor(const FObjectInitializer& ObjectInitializer);
 };
 

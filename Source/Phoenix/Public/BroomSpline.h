@@ -16,7 +16,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     TSoftObjectPtr<AActor> SplineToCopy;
     
-    ABroomSpline();
+    ABroomSpline(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void GetSplinePointWorldPositions(TArray<FVector>& OutSplinePathPoints);
     

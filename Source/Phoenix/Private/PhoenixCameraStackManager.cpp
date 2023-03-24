@@ -15,7 +15,7 @@ void APhoenixCameraStackManager::EnableForceFadeAll() {
 void APhoenixCameraStackManager::DisableForceFadeAll() {
 }
 
-APhoenixCameraStackManager::APhoenixCameraStackManager() {
+APhoenixCameraStackManager::APhoenixCameraStackManager(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bEnableObjectFading = true;
     this->ObjectFadeDuration = 0.40f;
     this->MinObjectFadeOpacity = 0.17f;

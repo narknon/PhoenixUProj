@@ -24,7 +24,7 @@ void APSOCachingPreviewActor::ActivateStaticMeshPreview(UPrimitiveComponent* Pri
 void APSOCachingPreviewActor::ActivateNiagaraSystemPreview(UPrimitiveComponent* Primitive, UObject* Asset) {
 }
 
-APSOCachingPreviewActor::APSOCachingPreviewActor() {
+APSOCachingPreviewActor::APSOCachingPreviewActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PreviewMode = EPSOCachePreviewMode::FrameCount;
     this->PreviewFramesCount = 0;
     this->PreviewTime = 0.00f;

@@ -8,7 +8,7 @@ void AMountedAI_Controller::StartMovingToPathNode(APathNode* InPathNode) {
 void AMountedAI_Controller::StartMoving() {
 }
 
-AMountedAI_Controller::AMountedAI_Controller() {
+AMountedAI_Controller::AMountedAI_Controller(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->DistanceFromGroundPathNodeThreshold = 200.00f;
     this->DistanceFromAirPathNodeThreshold = 500.00f;
     this->DistanceFromSplineThreshold = 200.00f;

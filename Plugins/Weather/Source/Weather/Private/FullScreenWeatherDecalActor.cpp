@@ -1,5 +1,5 @@
 #include "FullScreenWeatherDecalActor.h"
 
-AFullScreenWeatherDecalActor::AFullScreenWeatherDecalActor() {
+AFullScreenWeatherDecalActor::AFullScreenWeatherDecalActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

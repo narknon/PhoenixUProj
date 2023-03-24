@@ -35,7 +35,7 @@ void AProxFloorBend::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* O
 void AProxFloorBend::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Other, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 }
 
-AProxFloorBend::AProxFloorBend() {
+AProxFloorBend::AProxFloorBend(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Radius = 1000.00f;
     this->InnerRadius = 0.00f;
     this->Offset = 100.00f;

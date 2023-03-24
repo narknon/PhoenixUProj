@@ -29,6 +29,6 @@ protected:
     FColor DebugColor;
     
 public:
-    ADynamicTrackedLocation();
+    ADynamicTrackedLocation(const FObjectInitializer& ObjectInitializer);
 };
 

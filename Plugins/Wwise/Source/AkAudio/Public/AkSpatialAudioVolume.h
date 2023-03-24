@@ -20,6 +20,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UAkRoomComponent* Room;
     
-    AAkSpatialAudioVolume();
+    AAkSpatialAudioVolume(const FObjectInitializer& ObjectInitializer);
 };
 

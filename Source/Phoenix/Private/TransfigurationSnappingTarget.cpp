@@ -14,7 +14,7 @@ void ATransfigurationSnappingTarget::FadeOutAndDestroy_Implementation() {
 void ATransfigurationSnappingTarget::ClearLitBeams_Implementation() {
 }
 
-ATransfigurationSnappingTarget::ATransfigurationSnappingTarget() {
+ATransfigurationSnappingTarget::ATransfigurationSnappingTarget(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TargetObject = NULL;
 }
 

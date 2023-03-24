@@ -1,5 +1,5 @@
 #include "BiomeCreatureSpawner.h"
 
-ABiomeCreatureSpawner::ABiomeCreatureSpawner() {
+ABiomeCreatureSpawner::ABiomeCreatureSpawner(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

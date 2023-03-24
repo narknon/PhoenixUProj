@@ -42,7 +42,7 @@ protected:
     TArray<APerceptionPointArea*> AttackDistanceScaleAreaList;
     
 public:
-    APerceptionPoint();
+    APerceptionPoint(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void EnablePerception(bool bEnable, TArray<APerceptionPoint*> PerceptionPointList);
     

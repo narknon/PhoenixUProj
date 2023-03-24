@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USceneComponent* SceneComponent;
     
-    APlaceholder();
+    APlaceholder(const FObjectInitializer& ObjectInitializer);
 };
 

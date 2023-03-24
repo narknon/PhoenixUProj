@@ -15,6 +15,6 @@ protected:
     TArray<TSubclassOf<AVanishmentStyleBase>> VanishmentStyles;
     
 public:
-    AVanishmentSpellTool();
+    AVanishmentSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

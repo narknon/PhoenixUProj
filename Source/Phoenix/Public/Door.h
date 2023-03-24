@@ -193,7 +193,7 @@ protected:
     UFastTravelForDoorsComponent* FastTravelComponent;
     
 public:
-    ADoor();
+    ADoor(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void SwingDoorFinished();

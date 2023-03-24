@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     AActor* Player;
     
-    ATombProtectorSwordCharacter();
+    ATombProtectorSwordCharacter(const FObjectInitializer& ObjectInitializer);
 };
 

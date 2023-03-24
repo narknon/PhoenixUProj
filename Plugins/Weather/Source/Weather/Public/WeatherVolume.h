@@ -7,6 +7,6 @@ UCLASS(Abstract, Blueprintable)
 class WEATHER_API AWeatherVolume : public AVolume {
     GENERATED_BODY()
 public:
-    AWeatherVolume();
+    AWeatherVolume(const FObjectInitializer& ObjectInitializer);
 };
 

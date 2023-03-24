@@ -15,7 +15,7 @@ public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     TWeakObjectPtr<ABiped_Player> BipedPlayer;
     
-    AAncientMagicWaypoint();
+    AAncientMagicWaypoint(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TrackFootPlants();
     

@@ -2,7 +2,7 @@
 #include "Components/SceneComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 
-ATrain::ATrain() {
+ATrain::ATrain(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TrainType = ETrainType::TRAIN_ENGINE;
     this->DockedFront = NULL;
     this->DesiredSpeed = 20.00f;

@@ -18,7 +18,7 @@ UMaterialInstanceDynamic* ANavigationArrow::GetMaterial() {
     return NULL;
 }
 
-ANavigationArrow::ANavigationArrow() {
+ANavigationArrow::ANavigationArrow(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PathActivationRadius = 300.00f;
     this->NearFadeDistanceOutterRadius = 300.00f;
     this->NearFadeDistanceInnerRadius = 100.00f;

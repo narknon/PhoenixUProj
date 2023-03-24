@@ -8,7 +8,7 @@ UCLASS(Blueprintable)
 class APlayerCartPlatform : public AActor {
     GENERATED_BODY()
 public:
-    APlayerCartPlatform();
+    APlayerCartPlatform(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void SetDismountLocation(AActor* Target, FTransform DismountLocation, FTransform CompanionDismountLocation);

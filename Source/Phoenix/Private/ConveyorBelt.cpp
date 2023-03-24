@@ -1,5 +1,5 @@
 #include "ConveyorBelt.h"
 
-AConveyorBelt::AConveyorBelt() {
+AConveyorBelt::AConveyorBelt(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

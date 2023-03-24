@@ -72,7 +72,7 @@ TArray<FRacerTime> ARace::GetAllRacerTimes(bool bMissionRelevant) {
     return TArray<FRacerTime>();
 }
 
-ARace::ARace() {
+ARace::ARace(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SplineComponent = CreateDefaultSubobject<USplineComponent>(TEXT("TrackSpline"));
     this->TrackGatesParent = NULL;
     this->EndGateParent = NULL;

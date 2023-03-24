@@ -1,6 +1,6 @@
 #include "MirroredFocusTrigger.h"
 
-AMirroredFocusTrigger::AMirroredFocusTrigger() {
+AMirroredFocusTrigger::AMirroredFocusTrigger(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MirroredFocusProbablity = 1.00f;
     this->MirroredCalloutProbablity = 0.60f;
     this->MirroredPlayerFocusProbablity = 1.00f;

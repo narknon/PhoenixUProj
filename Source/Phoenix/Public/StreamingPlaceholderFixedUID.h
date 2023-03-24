@@ -21,7 +21,7 @@ protected:
     AActor* SpawnedActor;
     
 public:
-    AStreamingPlaceholderFixedUID();
+    AStreamingPlaceholderFixedUID(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     AActor* GetSpawnedActor();
     

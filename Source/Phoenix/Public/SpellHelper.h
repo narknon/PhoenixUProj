@@ -44,7 +44,7 @@ private:
     TArray<FCastSpellData> SpellCastArray;
     
 public:
-    ASpellHelper();
+    ASpellHelper(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void UpdateSpellCast();

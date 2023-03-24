@@ -21,7 +21,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USpringFollowComponent* SpringFollow;
     
-    ASpringFollowActor();
+    ASpringFollowActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ResetPhysics();
     

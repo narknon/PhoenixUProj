@@ -18,7 +18,7 @@ void AForbiddenAreaVolume::Deactivate() {
 void AForbiddenAreaVolume::Activate() {
 }
 
-AForbiddenAreaVolume::AForbiddenAreaVolume() {
+AForbiddenAreaVolume::AForbiddenAreaVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CollisionComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionComp"));
     this->bIsActive = true;
     this->bDisableCompanion = false;

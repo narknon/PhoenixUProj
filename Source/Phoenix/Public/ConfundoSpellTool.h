@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float DazeTime;
     
-    AConfundoSpellTool();
+    AConfundoSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

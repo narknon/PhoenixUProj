@@ -92,7 +92,7 @@ void AMapHogwartsBPActor::DoBack() {
 void AMapHogwartsBPActor::ClearMapTarget() {
 }
 
-AMapHogwartsBPActor::AMapHogwartsBPActor() {
+AMapHogwartsBPActor::AMapHogwartsBPActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PathMaterial = NULL;
     this->PostProcessMaterial = NULL;
     this->PostProcessMaterialInstance = NULL;

@@ -18,7 +18,7 @@ TArray<FVector> AGuideSpline::GetTrajectoryPoints() const {
 void AGuideSpline::CompletePathRemoval() {
 }
 
-AGuideSpline::AGuideSpline() {
+AGuideSpline::AGuideSpline(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TimeOutPeriod = 0.00f;
     this->MaximumDistanceFromPlayer = 1500.00f;
     this->MaximumDistanceFromPlayerMounted = 5000.00f;

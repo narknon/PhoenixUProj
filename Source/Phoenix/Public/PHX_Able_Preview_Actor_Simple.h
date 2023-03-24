@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class APHX_Able_Preview_Actor_Simple : public AAble_Character {
     GENERATED_BODY()
 public:
-    APHX_Able_Preview_Actor_Simple();
+    APHX_Able_Preview_Actor_Simple(const FObjectInitializer& ObjectInitializer);
 };
 

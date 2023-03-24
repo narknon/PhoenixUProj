@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AMapPathSpline : public AActor {
     GENERATED_BODY()
 public:
-    AMapPathSpline();
+    AMapPathSpline(const FObjectInitializer& ObjectInitializer);
 };
 

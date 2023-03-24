@@ -38,7 +38,7 @@ protected:
     bool HasPositionUpdated;
     
 public:
-    ASplineMover();
+    ASplineMover(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void DeactivateSplineMover();
     

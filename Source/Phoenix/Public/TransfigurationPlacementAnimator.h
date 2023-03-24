@@ -14,7 +14,7 @@ protected:
     TWeakObjectPtr<ATransfigurationPreviewActor> PreviewActor;
     
 public:
-    ATransfigurationPlacementAnimator();
+    ATransfigurationPlacementAnimator(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SelectAnimationIndex();
     

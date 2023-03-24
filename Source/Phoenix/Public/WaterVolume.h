@@ -23,7 +23,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     ULakeAudioComponent* LakeAudioComponent;
     
-    AWaterVolume();
+    AWaterVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetupWater(FBoxSphereBounds i_Bounds, UStaticMesh* i_DeepCollision, const FVector& i_DeepLocation, UStaticMesh* i_ShallowCollision, const FVector& i_ShallowLocation);
     

@@ -24,6 +24,6 @@ private:
     uint32 m_arrivedCount;
     
 public:
-    ACrowdTest();
+    ACrowdTest(const FObjectInitializer& ObjectInitializer);
 };
 

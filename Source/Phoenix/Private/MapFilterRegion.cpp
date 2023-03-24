@@ -9,7 +9,7 @@ FString AMapFilterRegion::GetName() {
     return TEXT("");
 }
 
-AMapFilterRegion::AMapFilterRegion() {
+AMapFilterRegion::AMapFilterRegion(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Material = NULL;
 }
 

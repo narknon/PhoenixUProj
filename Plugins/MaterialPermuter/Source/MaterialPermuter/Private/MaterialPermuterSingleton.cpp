@@ -33,7 +33,7 @@ FName AMaterialPermuterSingleton::GetTriggerPropertyName(FMaterialPermuterLoadTr
 void AMaterialPermuterSingleton::ClearLoadingTrigger(UObject* TriggerOwner, FName Trigger) {
 }
 
-AMaterialPermuterSingleton::AMaterialPermuterSingleton() {
+AMaterialPermuterSingleton::AMaterialPermuterSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Library = NULL;
     this->LiveMaterials = NULL;
 }

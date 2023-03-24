@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float UsageDistance;
     
-    AIncompletePolyjuiceItemTool();
+    AIncompletePolyjuiceItemTool(const FObjectInitializer& ObjectInitializer);
 };
 

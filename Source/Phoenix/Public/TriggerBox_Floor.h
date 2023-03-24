@@ -11,7 +11,7 @@ UCLASS(Blueprintable)
 class PHOENIX_API ATriggerBox_Floor : public ATriggerBox {
     GENERATED_BODY()
 public:
-    ATriggerBox_Floor();
+    ATriggerBox_Floor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
     

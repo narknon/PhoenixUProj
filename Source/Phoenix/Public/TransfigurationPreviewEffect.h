@@ -25,7 +25,7 @@ protected:
     FVector ObjectCenter;
     
 public:
-    ATransfigurationPreviewEffect();
+    ATransfigurationPreviewEffect(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void TickVFX(float DeltaSeconds);

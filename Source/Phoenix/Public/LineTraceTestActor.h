@@ -32,6 +32,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName SelectedProfileName;
     
-    ALineTraceTestActor();
+    ALineTraceTestActor(const FObjectInitializer& ObjectInitializer);
 };
 

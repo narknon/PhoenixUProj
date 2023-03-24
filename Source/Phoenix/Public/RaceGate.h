@@ -15,7 +15,7 @@ private:
     ARace* OwningRace;
     
 public:
-    ARaceGate();
+    ARaceGate(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnRaceFinished(bool bNewBestTime);
     

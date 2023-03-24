@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     TArray<UMultiFX2_Base*> KillCursedFX2;
     
-    AAvadaKedavraSpellTool();
+    AAvadaKedavraSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

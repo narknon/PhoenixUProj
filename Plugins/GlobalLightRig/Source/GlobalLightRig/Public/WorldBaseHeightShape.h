@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
     float BlendRadiusPercentage;
     
-    AWorldBaseHeightShape();
+    AWorldBaseHeightShape(const FObjectInitializer& ObjectInitializer);
 };
 

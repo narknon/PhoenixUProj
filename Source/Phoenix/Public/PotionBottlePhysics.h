@@ -25,6 +25,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float FadeDuration;
     
-    APotionBottlePhysics();
+    APotionBottlePhysics(const FObjectInitializer& ObjectInitializer);
 };
 

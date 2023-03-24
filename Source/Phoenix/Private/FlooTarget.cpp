@@ -8,7 +8,7 @@ bool AFlooTarget::GetAvailable() {
     return false;
 }
 
-AFlooTarget::AFlooTarget() {
+AFlooTarget::AFlooTarget(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AvailableEmitter = NULL;
 }
 

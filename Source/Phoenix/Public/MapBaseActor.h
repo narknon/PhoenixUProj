@@ -33,7 +33,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UMapCameraParameters* CameraParameters;
     
-    AMapBaseActor();
+    AMapBaseActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetMapPawn(AMapPawn* Pawn);
     

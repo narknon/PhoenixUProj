@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bCanBeAutoDetected;
     
-    ACreatureTetherVolume();
+    ACreatureTetherVolume(const FObjectInitializer& ObjectInitializer);
 };
 

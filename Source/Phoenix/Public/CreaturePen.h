@@ -14,7 +14,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     ATriggerBase* CachedWalkOutTrigger;
     
-    ACreaturePen();
+    ACreaturePen(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateCallout();
     

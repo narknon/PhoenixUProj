@@ -131,7 +131,7 @@ protected:
     TArray<UPrimitiveComponent*> RestorePullCollisionPrim;
     
 public:
-    AOppugnoSpellTool();
+    AOppugnoSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TriggerOnOppugnoImpact(AActor* InSrcActor, AActor* InTargetActor);
     

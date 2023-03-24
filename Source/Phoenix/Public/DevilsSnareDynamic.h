@@ -27,7 +27,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float OnFireRadiusExtension;
     
-    ADevilsSnareDynamic();
+    ADevilsSnareDynamic(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     bool UnslowPlayer();
     

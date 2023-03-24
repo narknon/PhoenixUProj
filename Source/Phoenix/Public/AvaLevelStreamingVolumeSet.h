@@ -68,7 +68,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<ULevelStreamingDynamic*> LoadedDependentLevels;
     
-    AAvaLevelStreamingVolumeSet();
+    AAvaLevelStreamingVolumeSet(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetShouldBeVisible(bool InShouldBeVisible);
     

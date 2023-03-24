@@ -1,5 +1,5 @@
 #include "WorldBaseHeightRect.h"
 
-AWorldBaseHeightRect::AWorldBaseHeightRect() {
+AWorldBaseHeightRect::AWorldBaseHeightRect(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

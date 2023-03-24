@@ -18,6 +18,6 @@ void AWorldFXPresetListActor::ForceRefreshPreviews() {
 void AWorldFXPresetListActor::ClearSpawnAttachedOverride() {
 }
 
-AWorldFXPresetListActor::AWorldFXPresetListActor() {
+AWorldFXPresetListActor::AWorldFXPresetListActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -9,7 +9,7 @@ void AMountSpeedLimitVolume::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, A
 void AMountSpeedLimitVolume::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 }
 
-AMountSpeedLimitVolume::AMountSpeedLimitVolume() {
+AMountSpeedLimitVolume::AMountSpeedLimitVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bEnforceGroundGait = false;
     this->GroundGaitLimit = EMountGroundSpeedLimit::Walk;
     this->EnforcedGroundGait = ECreatureMovementSpeed::Num;

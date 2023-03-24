@@ -303,7 +303,7 @@ private:
     ASpellTool* SpellTool;
     
 public:
-    AMunitionType_AOE_MultiFX();
+    AMunitionType_AOE_MultiFX(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TriggerWarningStart();
     

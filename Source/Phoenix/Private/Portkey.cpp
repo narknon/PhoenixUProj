@@ -35,7 +35,7 @@ void APortkey::ActivateExitCamera() {
 void APortkey::ActivateEnterCamera() {
 }
 
-APortkey::APortkey() {
+APortkey::APortkey(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ParticleSystemComponent = NULL;
     this->ActorToTeleport = NULL;
     this->ExitEmitter = NULL;

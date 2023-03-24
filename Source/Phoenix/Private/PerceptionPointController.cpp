@@ -1,5 +1,5 @@
 #include "PerceptionPointController.h"
 
-APerceptionPointController::APerceptionPointController() {
+APerceptionPointController::APerceptionPointController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

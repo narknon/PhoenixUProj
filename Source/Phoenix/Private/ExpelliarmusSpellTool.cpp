@@ -1,6 +1,6 @@
 #include "ExpelliarmusSpellTool.h"
 
-AExpelliarmusSpellTool::AExpelliarmusSpellTool() {
+AExpelliarmusSpellTool::AExpelliarmusSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ScaleDisarmForce = 0.30f;
     this->TalentProjectileDistance = 1000.00f;
     this->TalentProjectileIgnoreNearDistance = 100.00f;

@@ -13,7 +13,7 @@ USkinFXComponent* AFinisherSpellTool::GetSkinFxComponent() {
 void AFinisherSpellTool::FinisherFail() {
 }
 
-AFinisherSpellTool::AFinisherSpellTool() {
+AFinisherSpellTool::AFinisherSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->InitialWorldTimeDilation = 1.00f;
     this->InitialPlayerTimeDilation = 1.00f;
     this->FinishWorldTimeDilation = 1.00f;

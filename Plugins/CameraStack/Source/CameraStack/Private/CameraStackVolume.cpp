@@ -1,6 +1,6 @@
 #include "CameraStackVolume.h"
 
-ACameraStackVolume::ACameraStackVolume() {
+ACameraStackVolume::ACameraStackVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->VolumeComponent = NULL;
     this->VolumePreset = NULL;
     this->Priority = 0;

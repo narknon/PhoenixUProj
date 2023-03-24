@@ -17,7 +17,7 @@ void AForceRenderSettings::ApplyNow() {
 void AForceRenderSettings::Apply(EForceRenderSettingsPhase Phase) {
 }
 
-AForceRenderSettings::AForceRenderSettings() {
+AForceRenderSettings::AForceRenderSettings(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bDisableAll = false;
 }
 

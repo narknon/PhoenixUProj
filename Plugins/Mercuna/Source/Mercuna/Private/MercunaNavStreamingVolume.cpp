@@ -1,5 +1,5 @@
 #include "MercunaNavStreamingVolume.h"
 
-AMercunaNavStreamingVolume::AMercunaNavStreamingVolume() {
+AMercunaNavStreamingVolume::AMercunaNavStreamingVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

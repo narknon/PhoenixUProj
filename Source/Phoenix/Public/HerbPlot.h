@@ -41,7 +41,7 @@ private:
     AHerbPlot* RightNeighbor;
     
 public:
-    AHerbPlot();
+    AHerbPlot(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void SetPlotNeighborsFromChildComponents(const TArray<UChildActorComponent*>& ChildComponents, bool bLoopNeighbors);
     

@@ -7,7 +7,7 @@ void AInstancedTrailActor::Reset() {
 void AInstancedTrailActor::Regenerate() {
 }
 
-AInstancedTrailActor::AInstancedTrailActor() {
+AInstancedTrailActor::AInstancedTrailActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MaxMeshes = 256;
     this->TrailMemberMesh = NULL;
     this->spacing = 25.00f;

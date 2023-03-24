@@ -1,5 +1,5 @@
 #include "PerceptionPointSphere.h"
 
-APerceptionPointSphere::APerceptionPointSphere() {
+APerceptionPointSphere::APerceptionPointSphere(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

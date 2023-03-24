@@ -12,6 +12,6 @@ void ALightGroupActorBase::GetLightGroupIndex(int32& GroupNumber) {
 void ALightGroupActorBase::GetLightGroup(FName& Group) {
 }
 
-ALightGroupActorBase::ALightGroupActorBase() {
+ALightGroupActorBase::ALightGroupActorBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class SOCIALDISPLAY_API ASocialSplineController : public ASocialTravelerController {
     GENERATED_BODY()
 public:
-    ASocialSplineController();
+    ASocialSplineController(const FObjectInitializer& ObjectInitializer);
 };
 

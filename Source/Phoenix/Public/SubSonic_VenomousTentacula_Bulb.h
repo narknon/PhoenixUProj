@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class ASubSonic_VenomousTentacula_Bulb : public AMunitionType_SubsonicSpell {
     GENERATED_BODY()
 public:
-    ASubSonic_VenomousTentacula_Bulb();
+    ASubSonic_VenomousTentacula_Bulb(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetupProjectile();
     

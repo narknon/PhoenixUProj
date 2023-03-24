@@ -60,7 +60,7 @@ void AMunitionType_AOE_MultiFX::EndArresto() {
 void AMunitionType_AOE_MultiFX::Cancel() {
 }
 
-AMunitionType_AOE_MultiFX::AMunitionType_AOE_MultiFX() {
+AMunitionType_AOE_MultiFX::AMunitionType_AOE_MultiFX(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MinDamage = 0.00f;
     this->CharacterDamage = -1.00f;
     this->m_radiusStart = 100.00f;

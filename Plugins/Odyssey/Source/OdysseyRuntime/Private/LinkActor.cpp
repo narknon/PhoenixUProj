@@ -1,6 +1,6 @@
 #include "LinkActor.h"
 
-ALinkActor::ALinkActor() {
+ALinkActor::ALinkActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->LinkType = ELinkType::JUMP_LINK;
     this->NavLayers = 1;
     this->Bidirectional = true;

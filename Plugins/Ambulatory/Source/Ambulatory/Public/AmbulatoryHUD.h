@@ -7,7 +7,7 @@ UCLASS(Blueprintable, NonTransient)
 class AMBULATORY_API AAmbulatoryHUD : public AAbleHUD {
     GENERATED_BODY()
 public:
-    AAmbulatoryHUD();
+    AAmbulatoryHUD(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ToggleAmbulatoryHUD();
     

@@ -7,7 +7,7 @@ void ATransfigurationPreviewEffect::OnTargetActorDestroyed(AActor* InDestroyedAc
 }
 
 
-ATransfigurationPreviewEffect::ATransfigurationPreviewEffect() {
+ATransfigurationPreviewEffect::ATransfigurationPreviewEffect(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CanPlaceObject = false;
     this->TargetActor = NULL;
     this->TargetActorCopy = NULL;

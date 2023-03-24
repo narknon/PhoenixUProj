@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float MaxDistance;
     
-    ACameraStackPointOfInterestActor();
+    ACameraStackPointOfInterestActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -69,7 +69,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bPageCollected;
     
-    AFieldGuideHotSpot();
+    AFieldGuideHotSpot(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateVFX(float AngleRatio, float DistanceRatio);
     

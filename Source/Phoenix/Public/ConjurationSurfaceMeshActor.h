@@ -30,7 +30,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDbSingleColumnInfo ProhibitedLockID;
     
-    AConjurationSurfaceMeshActor();
+    AConjurationSurfaceMeshActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void BuildMesh();
     

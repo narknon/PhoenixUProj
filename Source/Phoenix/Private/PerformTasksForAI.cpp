@@ -50,7 +50,7 @@ void APerformTasksForAI::CleanUpAndStartNextPerformTask(UScheduledEntity* Schedu
 
 
 
-APerformTasksForAI::APerformTasksForAI() {
+APerformTasksForAI::APerformTasksForAI(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PerformTaskContainerType = EPerformTaskContainerType::LeadingPlayer;
     this->bStartOff = false;
     this->bAutoActivate = false;

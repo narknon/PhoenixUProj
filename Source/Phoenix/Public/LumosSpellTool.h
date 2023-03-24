@@ -55,7 +55,7 @@ private:
     ALumosEmberActor* LastLumosActor;
     
 public:
-    ALumosSpellTool();
+    ALumosSpellTool(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void TurnOffLumos(const UObject* i_caller);

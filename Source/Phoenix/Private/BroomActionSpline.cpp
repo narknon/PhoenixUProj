@@ -13,7 +13,7 @@ void ABroomActionSpline::OnSaveGameLoaded() {
 void ABroomActionSpline::OnGameToBeSaved() {
 }
 
-ABroomActionSpline::ABroomActionSpline() {
+ABroomActionSpline::ABroomActionSpline(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SplineComponent = CreateDefaultSubobject<USplineComponent>(TEXT("TrackSpline"));
     this->bForceHighLOD = false;
     this->bMountIfNotAlready = true;

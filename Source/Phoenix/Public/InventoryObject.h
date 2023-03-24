@@ -38,7 +38,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName BeaconableObjectID;
     
-    AInventoryObject();
+    AInventoryObject(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetItemData(FName ItemId, int32 ItemCount, FName InVariation, bool InIsStolen, bool InIsUnique);
     

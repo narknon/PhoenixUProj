@@ -83,7 +83,7 @@ protected:
     UMaterialInstanceDynamic* FlockFadeMaterial;
     
 public:
-    AInstancedFlockingActor();
+    AInstancedFlockingActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StartFade();
     

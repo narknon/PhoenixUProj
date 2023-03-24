@@ -11,7 +11,7 @@ void AStencilManagerSingleton::SetStencilBlend(UObject* WorldContextObject, floa
 void AStencilManagerSingleton::SetOutdoorsDaytimeBoost(UObject* WorldContextObject, float boostVal) {
 }
 
-AStencilManagerSingleton::AStencilManagerSingleton() {
+AStencilManagerSingleton::AStencilManagerSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Settings = NULL;
     this->ExternalControls = NULL;
     this->StencilBlend = 1.00f;

@@ -30,7 +30,7 @@ protected:
     ACameraStackActor* CameraStackActor;
     
 public:
-    ACameraStackTransitionController();
+    ACameraStackTransitionController(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TransitionToCameraAndTargetLocation(AActor* InCameraActor, FVector InTargetLocation, float InTransitionDuration, float InDelay);
     

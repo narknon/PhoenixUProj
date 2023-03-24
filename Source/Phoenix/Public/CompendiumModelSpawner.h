@@ -9,7 +9,7 @@ UCLASS(Blueprintable)
 class ACompendiumModelSpawner : public AActor {
     GENERATED_BODY()
 public:
-    ACompendiumModelSpawner();
+    ACompendiumModelSpawner(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void UnloadModelClass();

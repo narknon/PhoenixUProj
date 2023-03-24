@@ -13,7 +13,7 @@ UCustomizableCharacterComponent* ACustomizableActor::GetCCC() const {
     return NULL;
 }
 
-ACustomizableActor::ACustomizableActor() {
+ACustomizableActor::ACustomizableActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CCC = CreateDefaultSubobject<UCustomizableCharacterComponent>(TEXT("CCC"));
     this->Mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("T4Mesh0"));
 }

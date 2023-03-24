@@ -14,6 +14,6 @@ private:
     UWindAlignComponent* Component;
     
 public:
-    AWindAlign();
+    AWindAlign(const FObjectInitializer& ObjectInitializer);
 };
 

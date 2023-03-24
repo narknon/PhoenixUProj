@@ -24,6 +24,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FString OnlySpawnIfKeyNotPresent;
     
-    AStreamingPlaceholderFrontend();
+    AStreamingPlaceholderFrontend(const FObjectInitializer& ObjectInitializer);
 };
 

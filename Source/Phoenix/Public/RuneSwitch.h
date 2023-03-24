@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ARuneSwitch : public AActor {
     GENERATED_BODY()
 public:
-    ARuneSwitch();
+    ARuneSwitch(const FObjectInitializer& ObjectInitializer);
 };
 

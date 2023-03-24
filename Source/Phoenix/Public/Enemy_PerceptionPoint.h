@@ -9,7 +9,7 @@ UCLASS(Blueprintable)
 class AEnemy_PerceptionPoint : public APerceptionPoint {
     GENERATED_BODY()
 public:
-    AEnemy_PerceptionPoint();
+    AEnemy_PerceptionPoint(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RemovePerceiveVolume(APerceptionPointArea* InAreaPtr);
     

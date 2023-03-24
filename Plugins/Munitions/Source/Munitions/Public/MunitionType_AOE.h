@@ -72,6 +72,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UAkAudioEvent* m_hitBlockedSfx;
     
-    AMunitionType_AOE();
+    AMunitionType_AOE(const FObjectInitializer& ObjectInitializer);
 };
 

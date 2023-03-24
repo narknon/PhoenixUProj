@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UObjectStateComponent* ObjectState;
     
-    ASimpleBreakable();
+    ASimpleBreakable(const FObjectInitializer& ObjectInitializer);
 };
 

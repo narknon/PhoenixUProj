@@ -1,5 +1,5 @@
 #include "MapPathSpline.h"
 
-AMapPathSpline::AMapPathSpline() {
+AMapPathSpline::AMapPathSpline(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

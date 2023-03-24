@@ -9,7 +9,7 @@ FVector ACreatureFeedingTool::CalculateDynamicPelletReleaseVeloctiy(ACreature_Ch
     return FVector{};
 }
 
-ACreatureFeedingTool::ACreatureFeedingTool() {
+ACreatureFeedingTool::ACreatureFeedingTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PelletsMediumReleaseRange = 100.00f;
     this->PelletsThrowReleaseRange = 250.00f;
 }

@@ -1,5 +1,5 @@
 #include "CreatureGiveBirthHandler.h"
 
-ACreatureGiveBirthHandler::ACreatureGiveBirthHandler() {
+ACreatureGiveBirthHandler::ACreatureGiveBirthHandler(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

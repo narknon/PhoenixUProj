@@ -260,7 +260,7 @@ void ABiped_PlayerController::ActivateClimbSense(bool bFlag, bool bForce) {
 void ABiped_PlayerController::ActivateAutoTargetSense(bool bFlag, bool bForce) {
 }
 
-ABiped_PlayerController::ABiped_PlayerController() {
+ABiped_PlayerController::ABiped_PlayerController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->UseAutoTargetCameraModes = false;
     this->AimModeFarDistanceRadius = 110.00f;
     this->AimModeNarrowRadius = 5.00f;

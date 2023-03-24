@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
     TArray<UMultiFX2PostProcessComponent*> PostProcessComponents;
     
-    AMultiFX2PostProcessSingleton();
+    AMultiFX2PostProcessSingleton(const FObjectInitializer& ObjectInitializer);
 };
 

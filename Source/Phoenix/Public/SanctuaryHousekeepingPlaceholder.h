@@ -43,7 +43,7 @@ protected:
     bool bIsSpawnedInAsOwnActor;
     
 public:
-    ASanctuaryHousekeepingPlaceholder();
+    ASanctuaryHousekeepingPlaceholder(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void OnForagableCollected(AForagable* Actor);
     

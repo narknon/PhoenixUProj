@@ -12,7 +12,7 @@ void AConsumablePotionItemTool::ThrowPotionBottle() {
 void AConsumablePotionItemTool::DrinkPotion() {
 }
 
-AConsumablePotionItemTool::AConsumablePotionItemTool() {
+AConsumablePotionItemTool::AConsumablePotionItemTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PotionMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PotionStaticMesh"));
     this->LiquidParticleSystem = CreateDefaultSubobject<UNiagaraComponent>(TEXT("LiquidParticleSystem"));
     this->LiquidDrainTime = 0.25f;

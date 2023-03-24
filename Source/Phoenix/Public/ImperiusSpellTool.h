@@ -17,7 +17,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UGameplayPropertyMod* Mod;
     
-    AImperiusSpellTool();
+    AImperiusSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void DoSpellComponentSetup(UStateEffectComponent* StateEffectComponent);
     

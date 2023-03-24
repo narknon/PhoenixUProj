@@ -18,6 +18,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bComponentChildren;
     
-    AMaterialPreLoadKeysActorListActor();
+    AMaterialPreLoadKeysActorListActor(const FObjectInitializer& ObjectInitializer);
 };
 

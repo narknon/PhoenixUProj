@@ -20,6 +20,6 @@ protected:
     EPointOfInterestState State;
     
 public:
-    APointOfInterestMarkup();
+    APointOfInterestMarkup(const FObjectInitializer& ObjectInitializer);
 };
 

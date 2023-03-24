@@ -54,7 +54,7 @@ void AConjurationSpellTool::CannotHoldConjuring() {
 void AConjurationSpellTool::CancelHoldConjuring(float TimeRatio) {
 }
 
-AConjurationSpellTool::AConjurationSpellTool() {
+AConjurationSpellTool::AConjurationSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SelectedCategory = 0;
     this->SelectedSubcategory = 0;
     this->SelectedIcon = 0;

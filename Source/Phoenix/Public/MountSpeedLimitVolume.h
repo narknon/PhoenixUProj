@@ -35,7 +35,7 @@ protected:
     EMountFlyingGait EnforcedFlyingGait;
     
 public:
-    AMountSpeedLimitVolume();
+    AMountSpeedLimitVolume(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);

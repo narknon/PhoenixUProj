@@ -12,6 +12,6 @@ void AStreamingPlaceholderBase::SpawnObject(const bool bBlockingLoadIfNotLoaded)
 void AStreamingPlaceholderBase::ReleaseObject() {
 }
 
-AStreamingPlaceholderBase::AStreamingPlaceholderBase() {
+AStreamingPlaceholderBase::AStreamingPlaceholderBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

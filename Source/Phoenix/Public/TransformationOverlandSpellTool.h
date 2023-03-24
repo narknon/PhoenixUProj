@@ -81,6 +81,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UInteractionArchitectAsset* RestoreMunitionDataAsset;
     
-    ATransformationOverlandSpellTool();
+    ATransformationOverlandSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

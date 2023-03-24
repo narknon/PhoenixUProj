@@ -14,6 +14,6 @@ private:
     UWindMapComponent* Component;
     
 public:
-    AWindMapActor();
+    AWindMapActor(const FObjectInitializer& ObjectInitializer);
 };
 

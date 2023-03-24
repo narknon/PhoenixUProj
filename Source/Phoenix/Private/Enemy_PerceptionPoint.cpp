@@ -26,6 +26,6 @@ void AEnemy_PerceptionPoint::AddForceVolume(APerceptionPointArea* InAreaPtr) {
 void AEnemy_PerceptionPoint::AddExcludeVolume(APerceptionPointArea* InAreaPtr) {
 }
 
-AEnemy_PerceptionPoint::AEnemy_PerceptionPoint() {
+AEnemy_PerceptionPoint::AEnemy_PerceptionPoint(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

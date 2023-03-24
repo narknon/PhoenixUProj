@@ -3,7 +3,7 @@
 
 
 
-APlayer_AttackIndicator::APlayer_AttackIndicator() {
+APlayer_AttackIndicator::APlayer_AttackIndicator(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bBeamGoesAttackerToTarget = false;
 }
 

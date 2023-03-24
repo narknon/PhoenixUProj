@@ -16,7 +16,7 @@ void ASimpleSplineFollowerForAI::MoveOnSplineFleshLoad(AActor* FleshActor) {
 void ASimpleSplineFollowerForAI::CreateSplineFromGivenPoints() {
 }
 
-ASimpleSplineFollowerForAI::ASimpleSplineFollowerForAI() {
+ASimpleSplineFollowerForAI::ASimpleSplineFollowerForAI(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PathComponent = CreateDefaultSubobject<UPathComponent>(TEXT("Spline"));
     this->bDebugSpline = false;
     this->SplineType = EPerformTaskSplineTypes::Jog;

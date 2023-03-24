@@ -56,7 +56,7 @@ protected:
     ANavigationDisruptor* NavigationDisruptor;
     
 public:
-    AHideTrigger();
+    AHideTrigger(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnEndAggroActorOverlap(AActor* SelfActor, AActor* OtherActor);

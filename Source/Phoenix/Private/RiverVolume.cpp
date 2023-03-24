@@ -18,7 +18,7 @@ FVector2D ARiverVolume::GetForceVector(UPrimitiveComponent* PrimComp, bool bUseD
     return FVector2D{};
 }
 
-ARiverVolume::ARiverVolume() {
+ARiverVolume::ARiverVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RiverMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RiverMesh"));
     this->RiverFlowSpeed = 2000.00f;
     this->bDebugFlowView = false;

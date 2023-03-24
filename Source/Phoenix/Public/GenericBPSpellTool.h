@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<AActor> BPActorClass;
     
-    AGenericBPSpellTool();
+    AGenericBPSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

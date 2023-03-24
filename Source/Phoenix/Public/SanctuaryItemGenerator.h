@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class ASanctuaryItemGenerator : public ATransfigurationObjectBase {
     GENERATED_BODY()
 public:
-    ASanctuaryItemGenerator();
+    ASanctuaryItemGenerator(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ShowCallout();
     

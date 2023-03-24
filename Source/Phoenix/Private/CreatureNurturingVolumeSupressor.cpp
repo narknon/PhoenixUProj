@@ -1,5 +1,5 @@
 #include "CreatureNurturingVolumeSupressor.h"
 
-ACreatureNurturingVolumeSupressor::ACreatureNurturingVolumeSupressor() {
+ACreatureNurturingVolumeSupressor::ACreatureNurturingVolumeSupressor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -32,7 +32,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     URootMotionModProperties_Interact* InteractProperties;
     
-    AWorldInteractObject();
+    AWorldInteractObject(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void InteractionInitiated();
     

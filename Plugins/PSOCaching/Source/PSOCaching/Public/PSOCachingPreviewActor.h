@@ -21,7 +21,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float PreviewTime;
     
-    APSOCachingPreviewActor();
+    APSOCachingPreviewActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetupManagedPrimitiveComponent(UPrimitiveComponent* InComponent);
     

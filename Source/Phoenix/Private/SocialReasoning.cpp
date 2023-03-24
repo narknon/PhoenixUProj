@@ -110,7 +110,7 @@ bool ASocialReasoning::AvailableToTellAGhostStory() {
 void ASocialReasoning::AbandonTheGhostStory() {
 }
 
-ASocialReasoning::ASocialReasoning() {
+ASocialReasoning::ASocialReasoning(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Mind = CreateDefaultSubobject<UBTCustomComponent>(TEXT("Mind"));
     this->Memory = CreateDefaultSubobject<UBlackboardComponent>(TEXT("Memory"));
     this->StoryTeller = NULL;

@@ -50,7 +50,7 @@ void ALumosSpellTool::DeactivateLumos(EStandardManagedPriority Priority, UObject
 void ALumosSpellTool::ActivateLumos(EStandardManagedPriority Priority, UObject* InInstigator) {
 }
 
-ALumosSpellTool::ALumosSpellTool() {
+ALumosSpellTool::ALumosSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->LumosActorClass = NULL;
     this->ObjectNearVolume = 100.00f;
     this->ObjectNearTime = 2.00f;

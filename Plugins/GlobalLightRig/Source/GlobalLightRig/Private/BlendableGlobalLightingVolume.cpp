@@ -1,6 +1,6 @@
 #include "BlendableGlobalLightingVolume.h"
 
-ABlendableGlobalLightingVolume::ABlendableGlobalLightingVolume() {
+ABlendableGlobalLightingVolume::ABlendableGlobalLightingVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->GlobalLightingBlendable = NULL;
     this->Priority = 0.00f;
     this->BlendRadius = 100.00f;

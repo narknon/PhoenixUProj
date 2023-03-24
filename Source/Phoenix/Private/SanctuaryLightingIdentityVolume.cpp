@@ -4,7 +4,7 @@
 #include "BlendableGlobalLightingComponent.h"
 #include "RenderSettingsComponent.h"
 
-ASanctuaryLightingIdentityVolume::ASanctuaryLightingIdentityVolume() {
+ASanctuaryLightingIdentityVolume::ASanctuaryLightingIdentityVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Priority = 10.00f;
     this->BlendRadius = 100.00f;
     this->BlendWeight = 1.00f;

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AWaterBarrel : public AExplosiveBarrel {
     GENERATED_BODY()
 public:
-    AWaterBarrel();
+    AWaterBarrel(const FObjectInitializer& ObjectInitializer);
 };
 

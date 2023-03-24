@@ -5,6 +5,6 @@ class AActor;
 void ACrumblePiecesManager::TryToRepairAll(AActor* TargetActor) {
 }
 
-ACrumblePiecesManager::ACrumblePiecesManager() {
+ACrumblePiecesManager::ACrumblePiecesManager(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

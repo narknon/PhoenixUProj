@@ -34,7 +34,7 @@ void AInstancedGroundSwarmingActor::Generate() {
 void AInstancedGroundSwarmingActor::BeginExiting(EGroundSwarmingExitType Type, bool disableTargets) {
 }
 
-AInstancedGroundSwarmingActor::AInstancedGroundSwarmingActor() {
+AInstancedGroundSwarmingActor::AInstancedGroundSwarmingActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->GroundSwarmMeshes = CreateDefaultSubobject<UInstancedStaticMeshComponent>(TEXT("GroundSwarmMeshes"));
     this->FollowForceModifier = 1.00f;
     this->InitialSpawnHiddenPercent = 50.00f;

@@ -3,7 +3,7 @@
 void ADayNightVolume::SetPriority(float NewPriority) {
 }
 
-ADayNightVolume::ADayNightVolume() {
+ADayNightVolume::ADayNightVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->OverrideBasis = NULL;
     this->Priority = 0.00f;
     this->BlendRadius = 100.00f;

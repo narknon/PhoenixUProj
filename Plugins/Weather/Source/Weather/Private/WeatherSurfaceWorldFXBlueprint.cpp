@@ -1,5 +1,5 @@
 #include "WeatherSurfaceWorldFXBlueprint.h"
 
-AWeatherSurfaceWorldFXBlueprint::AWeatherSurfaceWorldFXBlueprint() {
+AWeatherSurfaceWorldFXBlueprint::AWeatherSurfaceWorldFXBlueprint(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -75,7 +75,7 @@ protected:
     ANPC_Spline* Spline;
     
 public:
-    AMountedAI_Controller();
+    AMountedAI_Controller(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StartMovingToPathNode(APathNode* InPathNode);
     

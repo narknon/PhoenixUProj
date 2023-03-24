@@ -1,6 +1,6 @@
 #include "AOESpellTool.h"
 
-AAOESpellTool::AAOESpellTool() {
+AAOESpellTool::AAOESpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bTargetCharacter = true;
     this->bTargetObject = true;
     this->bPlayOnGround = true;

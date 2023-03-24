@@ -6,7 +6,7 @@ void ASpringFollowSwarmActor::Reset() {
 void ASpringFollowSwarmActor::Generate() {
 }
 
-ASpringFollowSwarmActor::ASpringFollowSwarmActor() {
+ASpringFollowSwarmActor::ASpringFollowSwarmActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RandomizeK = 0.20f;
     this->SwarmRepulse = 1000.00f;
     this->SwarmDistancePower = 1.00f;

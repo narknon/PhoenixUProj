@@ -45,6 +45,6 @@ protected:
     FVector LinkEndPos;
     
 public:
-    ALinkActor();
+    ALinkActor(const FObjectInitializer& ObjectInitializer);
 };
 

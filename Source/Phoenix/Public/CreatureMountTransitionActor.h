@@ -84,7 +84,7 @@ protected:
     UMaterialPermuterLoadingBundle* SkinFXLoadingBundle;
     
 public:
-    ACreatureMountTransitionActor();
+    ACreatureMountTransitionActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnKnockdownDismountStart();
     

@@ -125,7 +125,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UNiagaraComponent* VFXPulseComponent;
     
-    AAncientMagicHotSpot();
+    AAncientMagicHotSpot(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateVFX(float AngleRatio, float DistanceRatio);
     

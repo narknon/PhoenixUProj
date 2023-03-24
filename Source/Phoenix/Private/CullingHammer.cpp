@@ -8,7 +8,7 @@ void ACullingHammer::RebuildBlocker() {
 void ACullingHammer::EnableCrackFillerPostProcess(bool bEnable) {
 }
 
-ACullingHammer::ACullingHammer() {
+ACullingHammer::ACullingHammer(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->WorldBoundsScale = 1.00f;
     this->BlockerTranslucentSortPriority = 0;
     this->bUseRadius = false;

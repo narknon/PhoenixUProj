@@ -3,6 +3,7 @@
 #include "ToolSetComponent.h"
 #include "EnemyStateComponent.h"
 #include "Enemy_AttackComponent.h"
+#include "Enemy_MovementComponent.h"
 #include "Enemy_WeaponComponent.h"
 
 class AActor;
@@ -99,7 +100,7 @@ void AEnemy_Character::AttackWindowStop_Implementation() {
 void AEnemy_Character::AttackWindowStart_Implementation() {
 }
 
-AEnemy_Character::AEnemy_Character() {
+AEnemy_Character::AEnemy_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UEnemy_MovementComponent>(TEXT("CharMoveComp"))) {
     this->bRegisterPerceptionAfterSpawn = true;
     this->Level = 1;
     this->FinisherHealthPercentage = 0.30f;

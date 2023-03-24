@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UObjectStateComponent* ObjectStateComponent;
     
-    ACreatureEgg();
+    ACreatureEgg(const FObjectInitializer& ObjectInitializer);
 };
 

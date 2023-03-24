@@ -11,7 +11,7 @@ AkAcousticPortalState AAkAcousticPortal::GetCurrentState() const {
 void AAkAcousticPortal::ClosePortal() {
 }
 
-AAkAcousticPortal::AAkAcousticPortal() {
+AAkAcousticPortal::AAkAcousticPortal(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Portal = CreateDefaultSubobject<UAkPortalComponent>(TEXT("PortalComponent"));
     this->InitialState = AkAcousticPortalState::Open;
     this->bRequiresStateMigration = false;

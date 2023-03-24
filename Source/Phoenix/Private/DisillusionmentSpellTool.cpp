@@ -16,7 +16,7 @@ bool ADisillusionmentSpellTool::ActivateDisillusionment(EStandardManagedPriority
     return false;
 }
 
-ADisillusionmentSpellTool::ADisillusionmentSpellTool() {
+ADisillusionmentSpellTool::ADisillusionmentSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->DisillusionmentMat = NULL;
     this->bSlowWalk = true;
     this->Level = 0;

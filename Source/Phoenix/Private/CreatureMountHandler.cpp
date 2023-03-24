@@ -31,7 +31,7 @@ bool ACreatureMountHandler::IsMountType(EMountTypes InType) const {
 void ACreatureMountHandler::DismountCreature(bool bInUseTransition) {
 }
 
-ACreatureMountHandler::ACreatureMountHandler() {
+ACreatureMountHandler::ACreatureMountHandler(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CreatureClass = NULL;
     this->CreatureSkeletalMeshPreload = NULL;
     this->PlayerMountAbility = NULL;

@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UDayNightMasterComponent* DayNightMaster;
     
-    ADayNightMasterComputeOnly();
+    ADayNightMasterComputeOnly(const FObjectInitializer& ObjectInitializer);
 };
 

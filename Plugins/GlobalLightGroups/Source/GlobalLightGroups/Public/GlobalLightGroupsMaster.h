@@ -32,6 +32,6 @@ protected:
     FName ActiveRegion;
     
 public:
-    AGlobalLightGroupsMaster();
+    AGlobalLightGroupsMaster(const FObjectInitializer& ObjectInitializer);
 };
 

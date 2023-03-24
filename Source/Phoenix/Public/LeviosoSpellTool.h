@@ -76,6 +76,6 @@ protected:
     TArray<AActor*> IgnoreActors;
     
 public:
-    ALeviosoSpellTool();
+    ALeviosoSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

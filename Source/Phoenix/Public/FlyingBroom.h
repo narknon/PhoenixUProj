@@ -174,7 +174,7 @@ protected:
     UFlyingBroomPhysics* StudentDefaultFlightData;
     
 public:
-    AFlyingBroom();
+    AFlyingBroom(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintPure=false)
     void UpdateRTPCValue(float InRTPCValue, const FString& RTPC, FVector2D ValueRange, FVector2D AudioValueRange) const;

@@ -47,7 +47,7 @@ private:
     bool bDataTransfered;
     
 public:
-    AAIPath();
+    AAIPath(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void EnableApparate(bool InEnable);
     

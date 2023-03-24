@@ -14,7 +14,7 @@ void AAccioSpellTool::OnActorHit(AActor* SelfActor, AActor* OtherActor, FVector 
 void AAccioSpellTool::EndAccioBall() {
 }
 
-AAccioSpellTool::AAccioSpellTool() {
+AAccioSpellTool::AAccioSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AccioEndThreshold = 100.00f;
     this->AccioHoverDistance = 200.00f;
     this->AccioHoverHeight = 100.00f;

@@ -35,7 +35,7 @@ private:
     FStairStatusChangedDelegate OnStairDemolishing;
     
 public:
-    AFlyingStairs();
+    AFlyingStairs(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void DestroyRandomStairChain();

@@ -51,7 +51,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FArrivedDelegate m_arrivedDelegate;
     
-    APathNode();
+    APathNode(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     float GetArrivalTimeout() const;
     

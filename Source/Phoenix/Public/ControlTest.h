@@ -18,7 +18,7 @@ private:
     float m_maxDisplacement;
     
 public:
-    AControlTest();
+    AControlTest(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetLogWidget(UUserWidget* i_logWidget);
     

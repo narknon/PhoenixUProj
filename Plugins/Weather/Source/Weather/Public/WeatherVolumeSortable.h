@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bEnabled;
     
-    AWeatherVolumeSortable();
+    AWeatherVolumeSortable(const FObjectInitializer& ObjectInitializer);
 };
 

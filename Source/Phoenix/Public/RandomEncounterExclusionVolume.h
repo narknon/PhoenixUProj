@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ARandomEncounterExclusionVolume : public APhoenixTrackingVolume {
     GENERATED_BODY()
 public:
-    ARandomEncounterExclusionVolume();
+    ARandomEncounterExclusionVolume(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -333,7 +333,7 @@ private:
     bool bFromNamedEncounter;
     
 public:
-    ADynamicObjectVolume();
+    ADynamicObjectVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TerminateContinuousSpawning();
     

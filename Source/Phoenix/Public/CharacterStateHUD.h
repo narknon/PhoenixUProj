@@ -7,7 +7,7 @@ UCLASS(Blueprintable, NonTransient)
 class PHOENIX_API ACharacterStateHUD : public AAmbulatoryHUD {
     GENERATED_BODY()
 public:
-    ACharacterStateHUD();
+    ACharacterStateHUD(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ToggleCharacterStateHUD();
     

@@ -1,5 +1,5 @@
 #include "TransfigurationStructureBase.h"
 
-ATransfigurationStructureBase::ATransfigurationStructureBase() {
+ATransfigurationStructureBase::ATransfigurationStructureBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

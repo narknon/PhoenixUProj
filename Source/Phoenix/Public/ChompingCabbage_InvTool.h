@@ -20,7 +20,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FVector ThrowVelocity;
     
-    AChompingCabbage_InvTool();
+    AChompingCabbage_InvTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SpawnChompingCabbageEnemy();
     

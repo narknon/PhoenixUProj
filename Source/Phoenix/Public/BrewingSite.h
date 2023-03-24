@@ -31,7 +31,7 @@ private:
     ABrewingSite* RightNeighbor;
     
 public:
-    ABrewingSite();
+    ABrewingSite(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void SetBrewingNeighborsFromChildComponents(const TArray<UChildActorComponent*>& ChildComponents, bool bLoopNeighbors);
     

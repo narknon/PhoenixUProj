@@ -1,5 +1,5 @@
 #include "WeatherStormFXSimple.h"
 
-AWeatherStormFXSimple::AWeatherStormFXSimple() {
+AWeatherStormFXSimple::AWeatherStormFXSimple(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

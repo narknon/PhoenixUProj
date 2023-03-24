@@ -27,6 +27,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint8 bOverride_SpeedDown: 1;
     
-    ARenderSettingsExposureSpeedTransitionVolume();
+    ARenderSettingsExposureSpeedTransitionVolume(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -4,7 +4,7 @@
 void ARectLightWithCullingSettings::Copy() {
 }
 
-ARectLightWithCullingSettings::ARectLightWithCullingSettings() {
+ARectLightWithCullingSettings::ARectLightWithCullingSettings(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RectLightComponent = CreateDefaultSubobject<URectLightComponentWithCullingSettings>(TEXT("LightComponent0"));
 }
 

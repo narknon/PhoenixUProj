@@ -1,5 +1,5 @@
 #include "WeatherAnimationBlueprint.h"
 
-AWeatherAnimationBlueprint::AWeatherAnimationBlueprint() {
+AWeatherAnimationBlueprint::AWeatherAnimationBlueprint(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

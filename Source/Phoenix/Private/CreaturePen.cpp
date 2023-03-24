@@ -17,7 +17,7 @@ bool ACreaturePen::IsOccupied() const {
     return false;
 }
 
-ACreaturePen::ACreaturePen() {
+ACreaturePen::ACreaturePen(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CachedWalkOutTrigger = NULL;
 }
 

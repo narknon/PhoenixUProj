@@ -15,7 +15,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     ATransfigurationPreviewActor* NewPreviewActor;
     
-    ATransformationStyleBase();
+    ATransformationStyleBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void StartTransformation();
     

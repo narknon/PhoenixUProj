@@ -120,7 +120,7 @@ void ALightCullingSingleton::DisableEnd(UObject* WorldContextObject) {
 void ALightCullingSingleton::ClearOverrideCharacterLightingFeatures(UObject* WorldContextObject, UObject* OverrideOwner) {
 }
 
-ALightCullingSingleton::ALightCullingSingleton() {
+ALightCullingSingleton::ALightCullingSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BaseSettings = NULL;
     this->bExternalConsoleDisable = false;
     this->OverrideSettings = NULL;

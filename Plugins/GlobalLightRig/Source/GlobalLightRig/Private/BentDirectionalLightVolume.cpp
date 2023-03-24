@@ -1,7 +1,7 @@
 #include "BentDirectionalLightVolume.h"
 #include "Components/BoxComponent.h"
 
-ABentDirectionalLightVolume::ABentDirectionalLightVolume() {
+ABentDirectionalLightVolume::ABentDirectionalLightVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->GlobalLightingBlendable = NULL;
     this->BoundingBox = CreateDefaultSubobject<UBoxComponent>(TEXT("BoundingBox"));
     this->Priority = 0.00f;

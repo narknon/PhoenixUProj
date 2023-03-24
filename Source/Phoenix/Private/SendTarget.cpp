@@ -21,7 +21,7 @@ uint8 ASendTarget::GetSendTargetPriority() const {
 void ASendTarget::BeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 }
 
-ASendTarget::ASendTarget() {
+ASendTarget::ASendTarget(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("Collision"));
     this->Priority = 5;
     this->bEnabled = true;

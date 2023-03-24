@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AMunitionType_AccioSubsonicSpell : public AMunitionType_SubsonicSpell {
     GENERATED_BODY()
 public:
-    AMunitionType_AccioSubsonicSpell();
+    AMunitionType_AccioSubsonicSpell(const FObjectInitializer& ObjectInitializer);
 };
 

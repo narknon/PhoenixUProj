@@ -7,6 +7,7 @@
 #include "ContextFilterComponent.h"
 #include "ToolSetComponent.h"
 #include "BipedStateComponent.h"
+#include "Biped_MovementComponent.h"
 
 class AActor;
 class APickupTool;
@@ -282,7 +283,7 @@ bool ABiped_Character::AdjustHealth(float change, bool bDontKill) {
     return false;
 }
 
-ABiped_Character::ABiped_Character() {
+ABiped_Character::ABiped_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UBiped_MovementComponent>(TEXT("CharMoveComp"))) {
     this->ToolSetComponent = CreateDefaultSubobject<UToolSetComponent>(TEXT("ToolSetComponent"));
     this->CognitionStimuliSourceComponent = CreateDefaultSubobject<UCognitionStimuliSourceComponent>(TEXT("CognitionStimuliSourceComponent"));
     this->BehaviorComp_Primary = CreateDefaultSubobject<UBTCustomComponent>(TEXT("BehaviorCompPrimary"));

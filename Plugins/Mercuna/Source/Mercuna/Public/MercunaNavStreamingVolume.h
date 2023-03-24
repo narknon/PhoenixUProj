@@ -27,6 +27,6 @@ private:
     TWeakObjectPtr<ULevelStreaming> StreamingLevel;
     
 public:
-    AMercunaNavStreamingVolume();
+    AMercunaNavStreamingVolume(const FObjectInitializer& ObjectInitializer);
 };
 

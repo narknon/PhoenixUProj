@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AMunitionType_AttackHitbox : public AMunitionType_Hitbox {
     GENERATED_BODY()
 public:
-    AMunitionType_AttackHitbox();
+    AMunitionType_AttackHitbox(const FObjectInitializer& ObjectInitializer);
 };
 

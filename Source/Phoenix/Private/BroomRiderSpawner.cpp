@@ -14,7 +14,7 @@ void ABroomRiderSpawner::OnFleshLoadComplete(AActor* ScheduledEntityActor) {
 void ABroomRiderSpawner::DestroyAllRiders_Implementation() {
 }
 
-ABroomRiderSpawner::ABroomRiderSpawner() {
+ABroomRiderSpawner::ABroomRiderSpawner(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BroomSpline = NULL;
     this->FlyingBroomPhysics = NULL;
 }

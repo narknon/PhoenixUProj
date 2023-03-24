@@ -18,7 +18,7 @@ void ATier4_Actor::OnCharacterLoadComplete(AActor* inTheActor) {
 void ATier4_Actor::OnBeginActorOverlap(AActor* SelfActor, AActor* OtherActor) {
 }
 
-ATier4_Actor::ATier4_Actor() {
+ATier4_Actor::ATier4_Actor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AnimSharingSetup = NULL;
     this->Collision = CreateDefaultSubobject<UCapsuleComponent>(TEXT("T4Collision"));
     this->VisibilityMesh = NULL;

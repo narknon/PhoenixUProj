@@ -5,7 +5,7 @@ class USplineComponent;
 void ARailTravelStatue::InitializeForTravel(USplineComponent* InSplineComponent, float InTravelDirection) {
 }
 
-ARailTravelStatue::ARailTravelStatue() {
+ARailTravelStatue::ARailTravelStatue(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SplineComponent = NULL;
     this->SpawnActorClass = NULL;
     this->StartSpeed = 450.00f;

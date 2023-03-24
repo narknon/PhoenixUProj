@@ -7,6 +7,6 @@ UCLASS(Blueprintable, NonTransient)
 class HOVERDRONE_API AHoverDroneHUD : public AHUD {
     GENERATED_BODY()
 public:
-    AHoverDroneHUD();
+    AHoverDroneHUD(const FObjectInitializer& ObjectInitializer);
 };
 

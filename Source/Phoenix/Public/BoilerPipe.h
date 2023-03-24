@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ABoilerPipe : public AActor {
     GENERATED_BODY()
 public:
-    ABoilerPipe();
+    ABoilerPipe(const FObjectInitializer& ObjectInitializer);
 };
 

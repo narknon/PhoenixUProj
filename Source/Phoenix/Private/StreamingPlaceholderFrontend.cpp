@@ -1,6 +1,6 @@
 #include "StreamingPlaceholderFrontend.h"
 
-AStreamingPlaceholderFrontend::AStreamingPlaceholderFrontend() {
+AStreamingPlaceholderFrontend::AStreamingPlaceholderFrontend(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bShowInEditor = true;
 }
 

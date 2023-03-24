@@ -1,4 +1,6 @@
 #include "Ambulatory_Character.h"
+
+#include "Ambulatory_MovementComponent.h"
 #include "TargetTracker.h"
 
 class UAnimInstance;
@@ -240,7 +242,7 @@ bool AAmbulatory_Character::AmIGoingDownStairs() const {
 void AAmbulatory_Character::AddWadingComponent(UPrimitiveComponent* InWaterComponent) {
 }
 
-AAmbulatory_Character::AAmbulatory_Character() {
+AAmbulatory_Character::AAmbulatory_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<UAmbulatory_MovementComponent>(TEXT("CharMoveComp"))) {
     this->AkEvent = NULL;
     this->FootPlantEffects = NULL;
     this->bIsBiped = true;

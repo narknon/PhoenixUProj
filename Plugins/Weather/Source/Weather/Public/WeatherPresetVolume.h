@@ -17,6 +17,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bInstantChange;
     
-    AWeatherPresetVolume();
+    AWeatherPresetVolume(const FObjectInitializer& ObjectInitializer);
 };
 

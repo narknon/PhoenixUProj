@@ -4,6 +4,6 @@ FName AMarker::GenerateUniqueName(FName InBaseName) {
     return NAME_None;
 }
 
-AMarker::AMarker() {
+AMarker::AMarker(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -63,7 +63,7 @@ protected:
     UTextRenderComponent* DebugTextVisualizer;
     
 public:
-    ASpawnLocation();
+    ASpawnLocation(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StopSpawning(const FName& GroupIn);
     

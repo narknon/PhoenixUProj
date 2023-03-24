@@ -46,7 +46,7 @@ protected:
     bool bWaitForCharacterAnimations;
     
 public:
-    ATransfigurationSpellToolBase();
+    ATransfigurationSpellToolBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TransformObject_FromMotion();
     

@@ -17,7 +17,7 @@ protected:
     int32 CurrentStage;
     
 public:
-    AHerb();
+    AHerb(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     bool TryCreateBeacon();

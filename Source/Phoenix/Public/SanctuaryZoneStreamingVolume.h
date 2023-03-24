@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName ZoneName;
     
-    ASanctuaryZoneStreamingVolume();
+    ASanctuaryZoneStreamingVolume(const FObjectInitializer& ObjectInitializer);
 };
 

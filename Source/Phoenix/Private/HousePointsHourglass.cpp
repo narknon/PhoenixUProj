@@ -8,6 +8,6 @@ void AHousePointsHourglass::UpdateFinalHouseScore(TMap<FString, UStaticMeshCompo
 void AHousePointsHourglass::CheckHousesScore(TMap<FString, UStaticMeshComponent*> Houses) {
 }
 
-AHousePointsHourglass::AHousePointsHourglass() {
+AHousePointsHourglass::AHousePointsHourglass(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

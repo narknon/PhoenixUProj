@@ -42,7 +42,7 @@ protected:
     UGlobalLightingBlendableExpHeightFogVolume* GlobalLightingBlendable;
     
 public:
-    ABlendableGlobalLightingVolumeFogBase();
+    ABlendableGlobalLightingVolumeFogBase(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

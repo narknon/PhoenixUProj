@@ -12,6 +12,6 @@ private:
     uint32 Layer;
     
 public:
-    AOdcNavData();
+    AOdcNavData(const FObjectInitializer& ObjectInitializer);
 };
 

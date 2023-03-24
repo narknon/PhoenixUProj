@@ -13,7 +13,7 @@ UNiagaraSystem* ANiagaraPoser::GetNiagaraSystem() {
     return NULL;
 }
 
-ANiagaraPoser::ANiagaraPoser() {
+ANiagaraPoser::ANiagaraPoser(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PoserComponent = CreateDefaultSubobject<UNiagaraPoserComponent>(TEXT("NiagaraPoser"));
 }
 

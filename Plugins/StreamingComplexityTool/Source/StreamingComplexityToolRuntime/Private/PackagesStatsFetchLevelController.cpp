@@ -1,6 +1,6 @@
 #include "PackagesStatsFetchLevelController.h"
 
-APackagesStatsFetchLevelController::APackagesStatsFetchLevelController() {
+APackagesStatsFetchLevelController::APackagesStatsFetchLevelController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PackageStatsCaptureSettings = NULL;
     this->WorldStructureGenerator = NULL;
 }

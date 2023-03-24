@@ -28,6 +28,6 @@ protected:
     TWeakObjectPtr<USkyAtmosphereComponent> CachedVisibleSkyAtmosphere;
     
 public:
-    ASkyOnly();
+    ASkyOnly(const FObjectInitializer& ObjectInitializer);
 };
 

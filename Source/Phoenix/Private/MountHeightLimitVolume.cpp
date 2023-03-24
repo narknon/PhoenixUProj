@@ -9,7 +9,7 @@ void AMountHeightLimitVolume::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, 
 void AMountHeightLimitVolume::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 }
 
-AMountHeightLimitVolume::AMountHeightLimitVolume() {
+AMountHeightLimitVolume::AMountHeightLimitVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FlyHeightOverride = 0.00f;
 }
 

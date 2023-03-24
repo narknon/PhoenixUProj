@@ -9,7 +9,7 @@ void ADragonEscapeScene::PlaySceneRig() {
 void ADragonEscapeScene::PlayQueuedFinalRelease() {
 }
 
-ADragonEscapeScene::ADragonEscapeScene() {
+ADragonEscapeScene::ADragonEscapeScene(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_SceneRigPlayer = NULL;
     this->m_DragonEscapeSceneRig = NULL;
     this->ParameterBlock = NULL;

@@ -1,5 +1,5 @@
 #include "AutomatedCapturePointOfInterest.h"
 
-AAutomatedCapturePointOfInterest::AAutomatedCapturePointOfInterest() {
+AAutomatedCapturePointOfInterest::AAutomatedCapturePointOfInterest(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

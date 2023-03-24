@@ -22,6 +22,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<AStation*> StationLocations;
     
-    AStationLocationCreator();
+    AStationLocationCreator(const FObjectInitializer& ObjectInitializer);
 };
 

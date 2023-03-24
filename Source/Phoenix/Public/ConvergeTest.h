@@ -27,6 +27,6 @@ private:
     bool m_opposing;
     
 public:
-    AConvergeTest();
+    AConvergeTest(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -9,7 +9,7 @@ void ABroomItemTool::OnAnimsLoaded(bool bUseTransition) {
 void ABroomItemTool::MountBroom(bool bUseTransition) {
 }
 
-ABroomItemTool::ABroomItemTool() {
+ABroomItemTool::ABroomItemTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FlyingBroomClass = NULL;
     this->FlyingBroomProp = NULL;
     this->SpeedBoostUnavailableMessageTimeout = 1.50f;

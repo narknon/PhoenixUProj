@@ -11,7 +11,7 @@ UCLASS(Blueprintable)
 class ABoneClusterActor : public AActor {
     GENERATED_BODY()
 public:
-    ABoneClusterActor();
+    ABoneClusterActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RemoveStencilFromBones(TArray<UStaticMeshComponent*> Bones);
     

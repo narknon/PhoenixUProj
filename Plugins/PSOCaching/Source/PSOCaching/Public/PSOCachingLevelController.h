@@ -27,6 +27,6 @@ public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     EPSOCachingLevelMode Mode;
     
-    APSOCachingLevelController();
+    APSOCachingLevelController(const FObjectInitializer& ObjectInitializer);
 };
 

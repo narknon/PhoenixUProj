@@ -31,7 +31,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<AActor*> Locators;
     
-    AForbiddenAreaVolume();
+    AForbiddenAreaVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetActive(bool bActive);
     

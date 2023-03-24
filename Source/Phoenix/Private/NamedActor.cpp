@@ -1,5 +1,5 @@
 #include "NamedActor.h"
 
-ANamedActor::ANamedActor() {
+ANamedActor::ANamedActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

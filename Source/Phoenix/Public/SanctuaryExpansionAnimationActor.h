@@ -11,6 +11,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDbSingleColumnInfo ExpansionID;
     
-    ASanctuaryExpansionAnimationActor();
+    ASanctuaryExpansionAnimationActor(const FObjectInitializer& ObjectInitializer);
 };
 

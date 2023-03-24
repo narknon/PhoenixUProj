@@ -1,6 +1,6 @@
 #include "StupefySpellTool.h"
 
-AStupefySpellTool::AStupefySpellTool() {
+AStupefySpellTool::AStupefySpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AOEMunition = NULL;
     this->CharacterDurationScaleTalent = 2.00f;
     this->CharacterDamageTalent = 10.00f;

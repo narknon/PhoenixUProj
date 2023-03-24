@@ -6,7 +6,7 @@ class UObject;
 void APearDoor::TickleThePear(const UObject* Caller) {
 }
 
-APearDoor::APearDoor() {
+APearDoor::APearDoor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->LockableComponent = CreateDefaultSubobject<UPearLockComponent>(TEXT("LockableComponent"));
 }
 

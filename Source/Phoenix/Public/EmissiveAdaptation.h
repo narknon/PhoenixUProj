@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AEmissiveAdaptation : public AActor {
     GENERATED_BODY()
 public:
-    AEmissiveAdaptation();
+    AEmissiveAdaptation(const FObjectInitializer& ObjectInitializer);
 };
 

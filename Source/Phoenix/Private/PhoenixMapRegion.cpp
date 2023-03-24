@@ -1,6 +1,6 @@
 #include "PhoenixMapRegion.h"
 
-APhoenixMapRegion::APhoenixMapRegion() {
+APhoenixMapRegion::APhoenixMapRegion(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RegionMaterialDynamic = NULL;
     this->Region = ERegionType::HogwartsRegion;
     this->SubRegion = ERegionType::HogwartsInitialRegion;

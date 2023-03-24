@@ -15,7 +15,7 @@ void ACompanionTeleportVolume::OnEndOverlap(AActor* SelfActor, AActor* OtherActo
 void ACompanionTeleportVolume::OnBeginOverlap(AActor* SelfActor, AActor* OtherActor) {
 }
 
-ACompanionTeleportVolume::ACompanionTeleportVolume() {
+ACompanionTeleportVolume::ACompanionTeleportVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CollisionComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionComp"));
     this->bIsAlwaysActive = false;
     this->bTriggerOnEnter = true;

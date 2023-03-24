@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ABroomPreviewLocator : public AActor {
     GENERATED_BODY()
 public:
-    ABroomPreviewLocator();
+    ABroomPreviewLocator(const FObjectInitializer& ObjectInitializer);
 };
 

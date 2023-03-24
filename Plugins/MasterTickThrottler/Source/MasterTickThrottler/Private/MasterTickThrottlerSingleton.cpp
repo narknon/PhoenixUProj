@@ -39,7 +39,7 @@ void AMasterTickThrottlerSingleton::AddManagedComponent(UActorComponent* Compone
 void AMasterTickThrottlerSingleton::AddManagedActor(AActor* Actor, const FMasterTickThrottlerSettings& Settings) {
 }
 
-AMasterTickThrottlerSingleton::AMasterTickThrottlerSingleton() {
+AMasterTickThrottlerSingleton::AMasterTickThrottlerSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bLastEyeValid = false;
 }
 

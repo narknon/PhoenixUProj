@@ -1,5 +1,5 @@
 #include "NiagaraBasketActor.h"
 
-ANiagaraBasketActor::ANiagaraBasketActor() {
+ANiagaraBasketActor::ANiagaraBasketActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

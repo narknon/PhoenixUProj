@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UHighContrastGameplayMarkupOtherActorComponent* Component;
     
-    AHighContrastGameplayMarkupOtherActor();
+    AHighContrastGameplayMarkupOtherActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -158,7 +158,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float m_traceLedgeDownCast;
     
-    AAmbulatory_Character();
+    AAmbulatory_Character(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void StopWorldTurnInPlace();
     

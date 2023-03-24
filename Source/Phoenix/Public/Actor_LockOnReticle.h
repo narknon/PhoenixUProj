@@ -88,7 +88,7 @@ protected:
     ABiped_PlayerController* BipedPlayerController;
     
 public:
-    AActor_LockOnReticle();
+    AActor_LockOnReticle(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StickY(float AxisVal);
     

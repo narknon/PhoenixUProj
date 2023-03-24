@@ -1,5 +1,5 @@
 #include "BroomPreviewLocator.h"
 
-ABroomPreviewLocator::ABroomPreviewLocator() {
+ABroomPreviewLocator::ABroomPreviewLocator(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

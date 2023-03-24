@@ -85,7 +85,7 @@ void AInventoryItemTool::CancelUnequipTimer() {
 void AInventoryItemTool::BeginItemUsage_Implementation() {
 }
 
-AInventoryItemTool::AInventoryItemTool() {
+AInventoryItemTool::AInventoryItemTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bTriggerAbilityOnConsume = false;
     this->UseItemAbility = NULL;
     this->EquipItemAbility = NULL;

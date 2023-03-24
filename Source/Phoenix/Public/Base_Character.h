@@ -60,7 +60,7 @@ private:
     float DefaultMaxHeight;
     
 public:
-    ABase_Character();
+    ABase_Character(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StartSettingTargetableByAiState(bool bTargetable, EStandardManagedPriority Priority, const UObject* Provider);
     

@@ -14,6 +14,6 @@ private:
     UWindTrueNorthComponent* Component;
     
 public:
-    AWindTrueNorth();
+    AWindTrueNorth(const FObjectInitializer& ObjectInitializer);
 };
 

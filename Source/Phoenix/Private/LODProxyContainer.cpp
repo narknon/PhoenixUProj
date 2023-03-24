@@ -1,6 +1,6 @@
 #include "LODProxyContainer.h"
 
-ALODProxyContainer::ALODProxyContainer() {
+ALODProxyContainer::ALODProxyContainer(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BaseProxyMesh = NULL;
     this->AlphaMesh = NULL;
     this->LandscapeMeshProxyActor = NULL;

@@ -59,7 +59,7 @@ protected:
     USceneRigPlayer* AmbientPlayer;
     
 public:
-    AStoryGraphActor();
+    AStoryGraphActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     bool TriggerEventOnActiveSceneRigs(FName Event);
     

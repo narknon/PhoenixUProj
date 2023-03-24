@@ -1,5 +1,5 @@
 #include "VaultNavLinkStripActor.h"
 
-AVaultNavLinkStripActor::AVaultNavLinkStripActor() {
+AVaultNavLinkStripActor::AVaultNavLinkStripActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -30,6 +30,6 @@ protected:
     TArray<AActor*> AOEIgnoreList;
     
 public:
-    AIncendioSpellTool();
+    AIncendioSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

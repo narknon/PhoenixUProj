@@ -23,7 +23,7 @@ void AFlyingStairsChain::DemolishNext() {
 void AFlyingStairsChain::BuildNext() {
 }
 
-AFlyingStairsChain::AFlyingStairsChain() {
+AFlyingStairsChain::AFlyingStairsChain(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FlyingStairsChainArea = CreateDefaultSubobject<UCapsuleComponent>(TEXT("FlyingStairsChainArea"));
     this->TimeBetweenAutomaticSequentialBuilding = 1.00f;
     this->SpeedOfStairsFromCloud = 3;

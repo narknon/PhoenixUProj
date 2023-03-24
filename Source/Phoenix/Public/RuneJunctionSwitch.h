@@ -12,7 +12,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bIsUnderHeat;
     
-    ARuneJunctionSwitch();
+    ARuneJunctionSwitch(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void RuneHitBySpell(ARuneSwitch* RuneSwitch);
     

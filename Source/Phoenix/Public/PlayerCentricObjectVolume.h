@@ -83,7 +83,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FSpawnerFinishedSpawningSignature OnFinishedSpawningEvent;
     
-    APlayerCentricObjectVolume();
+    APlayerCentricObjectVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetSpawnBoundsFromVectors(const FVector& Min, const FVector& Max);
     

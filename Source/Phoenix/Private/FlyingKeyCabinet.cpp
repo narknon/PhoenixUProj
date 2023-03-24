@@ -1,5 +1,5 @@
 #include "FlyingKeyCabinet.h"
 
-AFlyingKeyCabinet::AFlyingKeyCabinet() {
+AFlyingKeyCabinet::AFlyingKeyCabinet(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

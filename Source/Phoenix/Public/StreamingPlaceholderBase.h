@@ -7,7 +7,7 @@ UCLASS(Abstract, Blueprintable)
 class AStreamingPlaceholderBase : public AActor {
     GENERATED_BODY()
 public:
-    AStreamingPlaceholderBase();
+    AStreamingPlaceholderBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void WaitUntilLoadIsComplete();
     

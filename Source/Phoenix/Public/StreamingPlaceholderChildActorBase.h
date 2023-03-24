@@ -24,6 +24,6 @@ protected:
     UStreamingPreviewChildActorComponent* ChildActorComponent;
     
 public:
-    AStreamingPlaceholderChildActorBase();
+    AStreamingPlaceholderChildActorBase(const FObjectInitializer& ObjectInitializer);
 };
 

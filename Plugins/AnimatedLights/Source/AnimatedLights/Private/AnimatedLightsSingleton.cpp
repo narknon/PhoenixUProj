@@ -1,6 +1,6 @@
 #include "AnimatedLightsSingleton.h"
 
-AAnimatedLightsSingleton::AAnimatedLightsSingleton() {
+AAnimatedLightsSingleton::AAnimatedLightsSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->WorldData = NULL;
 }
 

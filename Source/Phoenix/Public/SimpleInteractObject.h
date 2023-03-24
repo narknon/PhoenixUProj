@@ -42,7 +42,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDialogueConversationReference DialogueEventName;
     
-    ASimpleInteractObject();
+    ASimpleInteractObject(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void PlayDialogue();
     

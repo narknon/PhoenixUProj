@@ -1,5 +1,5 @@
 #include "VanishmentSpellTool.h"
 
-AVanishmentSpellTool::AVanishmentSpellTool() {
+AVanishmentSpellTool::AVanishmentSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

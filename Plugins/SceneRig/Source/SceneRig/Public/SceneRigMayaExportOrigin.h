@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class SCENERIG_API ASceneRigMayaExportOrigin : public AActor {
     GENERATED_BODY()
 public:
-    ASceneRigMayaExportOrigin();
+    ASceneRigMayaExportOrigin(const FObjectInitializer& ObjectInitializer);
 };
 

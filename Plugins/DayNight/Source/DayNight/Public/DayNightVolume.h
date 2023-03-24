@@ -58,7 +58,7 @@ protected:
     TArray<UEphemerisSubroutine*> AppendedEphemerisProgram;
     
 public:
-    ADayNightVolume();
+    ADayNightVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetPriority(float NewPriority);
     

@@ -13,7 +13,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UConjurationSnappingComponentBase* TargetObject;
     
-    ATransfigurationSnappingTarget();
+    ATransfigurationSnappingTarget(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void ShowBeamAtLocalLocation(const FVector& InLocationLocal);
     

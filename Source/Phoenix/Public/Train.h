@@ -81,6 +81,6 @@ protected:
     float SpeedToAnimationRatio;
     
 public:
-    ATrain();
+    ATrain(const FObjectInitializer& ObjectInitializer);
 };
 

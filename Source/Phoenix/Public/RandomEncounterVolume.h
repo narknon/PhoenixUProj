@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float SearchRadius;
     
-    ARandomEncounterVolume();
+    ARandomEncounterVolume(const FObjectInitializer& ObjectInitializer);
 };
 

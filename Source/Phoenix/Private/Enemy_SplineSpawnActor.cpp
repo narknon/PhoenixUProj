@@ -27,7 +27,7 @@ void AEnemy_SplineSpawnActor::ApplyStopFX_Implementation() {
 void AEnemy_SplineSpawnActor::ApplyStartFX_Implementation() {
 }
 
-AEnemy_SplineSpawnActor::AEnemy_SplineSpawnActor() {
+AEnemy_SplineSpawnActor::AEnemy_SplineSpawnActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bAutoStart = false;
     this->DestroyDelayTime = 3.00f;
 }

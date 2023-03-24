@@ -180,7 +180,7 @@ protected:
     TSubclassOf<AMunitionType_Base> OpportunityWindowAOEMunition;
     
 public:
-    AConfringoSpellTool();
+    AConfringoSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     float GetExplosionRadius() const;
     

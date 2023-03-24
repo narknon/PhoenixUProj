@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UVolumetricCloudsCoverageComponent* CoverageComponent;
     
-    AVolumetricCloudsCoverageActor();
+    AVolumetricCloudsCoverageActor(const FObjectInitializer& ObjectInitializer);
 };
 

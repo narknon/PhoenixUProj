@@ -1,6 +1,6 @@
 #include "Creature_Controller.h"
 
-ACreature_Controller::ACreature_Controller() {
+ACreature_Controller::ACreature_Controller(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->NavmeshQueryHorizontalRadius = 200.00f;
     this->NavmeshQueryVerticalUpRadius = 1000.00f;
     this->NavmeshQueryVerticalDownRadius = 1000.00f;

@@ -15,7 +15,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FRenderSettingsPPProbesToneMapping ToneMappingOverride;
     
-    ARenderSettingsProbeVolume();
+    ARenderSettingsProbeVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void EditProbes();
     

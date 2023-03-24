@@ -11,6 +11,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FAdditionalProjectiles> AdditionalProjectiles;
     
-    AFireOnceSpellTool();
+    AFireOnceSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

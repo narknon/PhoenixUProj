@@ -45,7 +45,7 @@ void ADevilsSnare::DodgeStop(AActor* InPlayer) {
 void ADevilsSnare::DelayedSetup() {
 }
 
-ADevilsSnare::ADevilsSnare() {
+ADevilsSnare::ADevilsSnare(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
     this->TypeIndex = -1;
     this->bCanAffectPlayer = true;

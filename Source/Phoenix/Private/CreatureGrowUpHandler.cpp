@@ -1,5 +1,5 @@
 #include "CreatureGrowUpHandler.h"
 
-ACreatureGrowUpHandler::ACreatureGrowUpHandler() {
+ACreatureGrowUpHandler::ACreatureGrowUpHandler(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

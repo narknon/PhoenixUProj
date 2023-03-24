@@ -1,5 +1,5 @@
 #include "SceneRigPreviewActor.h"
 
-ASceneRigPreviewActor::ASceneRigPreviewActor() {
+ASceneRigPreviewActor::ASceneRigPreviewActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

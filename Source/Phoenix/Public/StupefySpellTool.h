@@ -25,6 +25,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<AMunitionType_Base> UpgradedMunitionActor;
     
-    AStupefySpellTool();
+    AStupefySpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -3,6 +3,6 @@
 void ASubSonic_VenomousTentacula_Bulb::SetupProjectile() {
 }
 
-ASubSonic_VenomousTentacula_Bulb::ASubSonic_VenomousTentacula_Bulb() {
+ASubSonic_VenomousTentacula_Bulb::ASubSonic_VenomousTentacula_Bulb(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

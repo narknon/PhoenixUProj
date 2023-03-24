@@ -1,6 +1,6 @@
 #include "RenderSettingsViewpointVolume.h"
 
-ARenderSettingsViewpointVolume::ARenderSettingsViewpointVolume() {
+ARenderSettingsViewpointVolume::ARenderSettingsViewpointVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ViewpointLerp = 0.00f;
 }
 

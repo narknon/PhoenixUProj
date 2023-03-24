@@ -12,6 +12,6 @@ protected:
     UClass* RiderCharacterClass;
     
 public:
-    ACreatureTransformedHandler();
+    ACreatureTransformedHandler(const FObjectInitializer& ObjectInitializer);
 };
 

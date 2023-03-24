@@ -55,7 +55,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FSwarmer> Swarmers;
     
-    ASpringFollowSwarmActor();
+    ASpringFollowSwarmActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Reset();
     

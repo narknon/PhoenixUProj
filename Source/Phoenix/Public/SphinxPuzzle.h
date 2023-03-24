@@ -20,7 +20,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FString PuzzleTypeName;
     
-    ASphinxPuzzle();
+    ASphinxPuzzle(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void NotifyBeginPuzzle(EInteractiveState State);
     

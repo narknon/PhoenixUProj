@@ -2,6 +2,6 @@
 
 
 
-AWaterMill::AWaterMill() {
+AWaterMill::AWaterMill(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

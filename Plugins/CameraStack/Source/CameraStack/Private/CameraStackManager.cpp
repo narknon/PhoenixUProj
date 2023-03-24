@@ -36,7 +36,7 @@ ACameraStackActor* ACameraStackManager::GetActorsCameraActor(const AActor* InAct
     return NULL;
 }
 
-ACameraStackManager::ACameraStackManager() {
+ACameraStackManager::ACameraStackManager(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->DefaultCameraStyle = TEXT("Sony");
     this->DefaultActorClass = ACameraStackActor::StaticClass();
     this->PostProcessHandler = NULL;

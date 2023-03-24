@@ -9,7 +9,7 @@ UCLASS(Abstract, Blueprintable)
 class ACreatureNurturingVolumeBase : public ATriggerBox {
     GENERATED_BODY()
 public:
-    ACreatureNurturingVolumeBase();
+    ACreatureNurturingVolumeBase(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void OnEndOverlap(AActor* SelfActor, AActor* OtherActor);

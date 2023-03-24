@@ -51,6 +51,6 @@ void AObjectFadeMaster::ActorIsFadingOut(AActor* Actor, bool& isFading, bool& is
 void AObjectFadeMaster::ActorIsFadingIn(AActor* Actor, bool& isFading, bool& isDone) {
 }
 
-AObjectFadeMaster::AObjectFadeMaster() {
+AObjectFadeMaster::AObjectFadeMaster(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -27,7 +27,7 @@ protected:
     TMap<EUMGInputAxis, FUMGInputListenerStack> UMGInputAxisListeners;
     
 public:
-    AUMGInputManager();
+    AUMGInputManager(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UnregisterUMGInputListener(FUMGInputListener& InputListener);
     

@@ -1,5 +1,6 @@
 #include "AnimationArchitect_Character.h"
 #include "AnimationArchitectComponent.h"
+#include "SkeletalMeshComponentBudgeted.h"
 
 class UObject;
 
@@ -23,7 +24,7 @@ void AAnimationArchitect_Character::AddInteractionArchitectGameplayTag_Implement
 void AAnimationArchitect_Character::AddAnimationArchitectGameplayTag_Implementation(const FGameplayTag& InGameplayTag) {
 }
 
-AAnimationArchitect_Character::AAnimationArchitect_Character() {
+AAnimationArchitect_Character::AAnimationArchitect_Character(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer.SetDefaultSubobjectClass<USkeletalMeshComponentBudgeted>(TEXT("CharacterMesh0"))) {
     this->AnimationArchitectComponent = CreateDefaultSubobject<UAnimationArchitectComponent>(TEXT("AnimationArchitectComponent"));
 }
 

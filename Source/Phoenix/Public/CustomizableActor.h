@@ -26,7 +26,7 @@ private:
     USkeletalMeshComponent* Mesh;
     
 public:
-    ACustomizableActor();
+    ACustomizableActor(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void SetLODOverride(int32 InLODOverride);

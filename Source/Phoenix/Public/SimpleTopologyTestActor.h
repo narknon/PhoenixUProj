@@ -15,7 +15,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FSimpleTopologyVoxelArray VoxelArray;
     
-    ASimpleTopologyTestActor();
+    ASimpleTopologyTestActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Precompute();
     

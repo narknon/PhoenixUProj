@@ -79,7 +79,7 @@ protected:
     UPostProcessComponent* CrackFillerPostProcess;
     
 public:
-    ACullingHammer();
+    ACullingHammer(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RebuildBlocker();
     

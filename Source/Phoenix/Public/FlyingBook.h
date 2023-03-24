@@ -30,7 +30,7 @@ private:
     float DistanceAlongSpline;
     
 public:
-    AFlyingBook();
+    AFlyingBook(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Update(float DeltaTime);
     

@@ -43,7 +43,7 @@ protected:
     bool bDiscontinuity;
     
 public:
-    AEnvironmentalGlobalsSingleton();
+    AEnvironmentalGlobalsSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure, meta=(WorldContext="WorldContextObject"))
     static void GetEnvironmentalGlobals(UObject* WorldContextObject, FEnvironmentalGlobals& EnvironmentalGlobals);
     

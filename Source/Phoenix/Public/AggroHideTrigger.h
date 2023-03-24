@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class PHOENIX_API AAggroHideTrigger : public AHideTrigger {
     GENERATED_BODY()
 public:
-    AAggroHideTrigger();
+    AAggroHideTrigger(const FObjectInitializer& ObjectInitializer);
 };
 

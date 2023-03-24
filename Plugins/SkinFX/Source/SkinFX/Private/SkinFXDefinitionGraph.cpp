@@ -62,7 +62,7 @@ bool ASkinFXDefinitionGraph::SkinFXApplyParameters() {
     return false;
 }
 
-ASkinFXDefinitionGraph::ASkinFXDefinitionGraph() {
+ASkinFXDefinitionGraph::ASkinFXDefinitionGraph(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bWantPerTickUpdateEvent = false;
     this->bSignalFinished = true;
 }

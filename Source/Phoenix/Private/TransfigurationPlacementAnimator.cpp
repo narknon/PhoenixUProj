@@ -15,6 +15,6 @@ void ATransfigurationPlacementAnimator::DetachPreviewObject_Implementation() {
 void ATransfigurationPlacementAnimator::AttachPreviewObject_Implementation(ATransfigurationPreviewActor* InPreviewActor) {
 }
 
-ATransfigurationPlacementAnimator::ATransfigurationPlacementAnimator() {
+ATransfigurationPlacementAnimator::ATransfigurationPlacementAnimator(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

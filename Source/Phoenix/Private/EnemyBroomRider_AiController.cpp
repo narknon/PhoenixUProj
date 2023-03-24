@@ -28,7 +28,7 @@ void AEnemyBroomRider_AiController::BarrelRollRight() {
 void AEnemyBroomRider_AiController::BarrelRollLeft() {
 }
 
-AEnemyBroomRider_AiController::AEnemyBroomRider_AiController() {
+AEnemyBroomRider_AiController::AEnemyBroomRider_AiController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BroomPhysics = NULL;
     this->BroomEnemyState = EBroomEnemyState::None;
     this->OverrideYaw = false;

@@ -23,7 +23,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UMaterialInstanceDynamic* PlaneDynamicMaterial;
     
-    ATesselatedPlane();
+    ATesselatedPlane(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Construct();
     

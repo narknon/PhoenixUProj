@@ -62,7 +62,7 @@ bool APlayerCentricObjectVolume::DoneSpawning() {
     return false;
 }
 
-APlayerCentricObjectVolume::APlayerCentricObjectVolume() {
+APlayerCentricObjectVolume::APlayerCentricObjectVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bShowActivationDistances = false;
     this->bEnableAutoActivation = true;
     this->TriggerDistance = 1000.00f;

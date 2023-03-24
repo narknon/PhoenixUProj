@@ -36,7 +36,7 @@ protected:
     FMaterialSwapActorFadeStates ActorFadeStates;
     
 public:
-    AMaterialPermuterSingleton();
+    AMaterialPermuterSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void SetLoadingTrigger(UObject* TriggerOwner, FName Trigger);
     

@@ -137,7 +137,7 @@ protected:
     UPostProcessComponent* PostProcessComponent;
     
 public:
-    AGlobalLightingMaster();
+    AGlobalLightingMaster(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject"))
     static void SetCinematicDefaults(UObject* WorldContextObject, UGlobalLightingDefaults* CinematicDefaults);
     

@@ -12,6 +12,6 @@ public:
     UPROPERTY(EditAnywhere, Export, meta=(AllowPrivateAccess=true))
     TArray<TWeakObjectPtr<UNiagaraComponent>> Components;
     
-    ANiagaraBasketActor();
+    ANiagaraBasketActor(const FObjectInitializer& ObjectInitializer);
 };
 

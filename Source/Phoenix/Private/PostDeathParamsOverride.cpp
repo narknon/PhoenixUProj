@@ -1,6 +1,6 @@
 #include "PostDeathParamsOverride.h"
 
-APostDeathParamsOverride::APostDeathParamsOverride() {
+APostDeathParamsOverride::APostDeathParamsOverride(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bUseCustomPreset = false;
 }
 

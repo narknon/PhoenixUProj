@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AFlyingKeyCabinet : public AActor {
     GENERATED_BODY()
 public:
-    AFlyingKeyCabinet();
+    AFlyingKeyCabinet(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -152,7 +152,7 @@ void ASpellHelper::AddDeflectionComponent(AActor* InTarget) {
 void ASpellHelper::AddCombatCursed(AActor* InTarget, AActor* InInstigator) {
 }
 
-ASpellHelper::ASpellHelper() {
+ASpellHelper::ASpellHelper(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ToolSetComponent = CreateDefaultSubobject<UToolSetComponent>(TEXT("ToolSetComponent"));
     this->DummyRoot = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
 }

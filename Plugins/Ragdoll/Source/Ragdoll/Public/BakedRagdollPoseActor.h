@@ -23,7 +23,7 @@ protected:
     AActor* ActorConstrainedToUs;
     
 public:
-    ABakedRagdollPoseActor();
+    ABakedRagdollPoseActor(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void HandleOnActorHit(AActor* SelfActor, AActor* OtherActor, FVector ImpulseNormal, const FHitResult& HitReslt);

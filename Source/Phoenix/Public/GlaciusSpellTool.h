@@ -50,6 +50,6 @@ protected:
     TArray<AActor*> GlaciusPlatforms;
     
 public:
-    AGlaciusSpellTool();
+    AGlaciusSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

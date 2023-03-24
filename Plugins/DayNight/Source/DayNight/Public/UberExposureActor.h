@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UUberExposureComponent* Component;
     
-    AUberExposureActor();
+    AUberExposureActor(const FObjectInitializer& ObjectInitializer);
 };
 

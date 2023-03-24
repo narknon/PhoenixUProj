@@ -40,7 +40,7 @@ FTransform ASpiderWeb_Spawner::GetRelativeTransform(UStaticMeshComponent* Static
     return FTransform{};
 }
 
-ASpiderWeb_Spawner::ASpiderWeb_Spawner() {
+ASpiderWeb_Spawner::ASpiderWeb_Spawner(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SpawnerVolume = NULL;
     this->SpawnTime = 5.00f;
     this->bDestroyOnSpawn = true;

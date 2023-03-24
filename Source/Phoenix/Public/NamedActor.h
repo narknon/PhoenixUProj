@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName ActorName;
     
-    ANamedActor();
+    ANamedActor(const FObjectInitializer& ObjectInitializer);
 };
 

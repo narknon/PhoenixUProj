@@ -49,7 +49,7 @@ bool ACartMoverBase::HasReachedEndOfSpline() const {
 void ACartMoverBase::BeginMovement(FCartSetup& InCartSetup, bool bStartFromBeginning) {
 }
 
-ACartMoverBase::ACartMoverBase() {
+ACartMoverBase::ACartMoverBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bCartStopping = false;
     this->TargetSpeed = 0.00f;
     this->InterpSpeed = 0.00f;

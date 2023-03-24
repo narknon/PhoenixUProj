@@ -29,7 +29,7 @@ private:
     TArray<AActor*> InterestPointActors;
     
 public:
-    APhoenixGameMode();
+    APhoenixGameMode(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, Exec)
     void YeeTest();
     

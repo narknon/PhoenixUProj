@@ -63,7 +63,7 @@ protected:
     bool bDisperseNPCs;
     
 public:
-    ATransfigurationMovementStyleBase();
+    ATransfigurationMovementStyleBase(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void UpdateFootprintRegionSizes(const FVector& PlacementFootprintSize);

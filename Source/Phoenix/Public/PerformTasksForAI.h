@@ -122,7 +122,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<USpellToolRecord*> SpellToolRecords;
     
-    APerformTasksForAI();
+    APerformTasksForAI(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SwitchOnBPImplementation();
     

@@ -1,6 +1,6 @@
 #include "MapDungeonActor.h"
 
-AMapDungeonActor::AMapDungeonActor() {
+AMapDungeonActor::AMapDungeonActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->DungeonMaterialDynamic = NULL;
     this->DungeonMaterial = NULL;
     this->MapDungeonComponent = NULL;

@@ -1,5 +1,5 @@
 #include "StreamingPlaceholderActor.h"
 
-AStreamingPlaceholderActor::AStreamingPlaceholderActor() {
+AStreamingPlaceholderActor::AStreamingPlaceholderActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

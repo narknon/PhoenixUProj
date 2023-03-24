@@ -1,5 +1,5 @@
 #include "BlinkGate.h"
 
-ABlinkGate::ABlinkGate() {
+ABlinkGate::ABlinkGate(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

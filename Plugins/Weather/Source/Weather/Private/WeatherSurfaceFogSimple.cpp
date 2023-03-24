@@ -1,5 +1,5 @@
 #include "WeatherSurfaceFogSimple.h"
 
-AWeatherSurfaceFogSimple::AWeatherSurfaceFogSimple() {
+AWeatherSurfaceFogSimple::AWeatherSurfaceFogSimple(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

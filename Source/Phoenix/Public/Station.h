@@ -30,7 +30,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 MissionUID;
     
-    AStation();
+    AStation(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void TriggerSoloActionOnParticipants(AStation* InTargetStation, TEnumAsByte<SocialActionTypes> Story, TEnumAsByte<SocialSemanticIDs> Emotion, AActor* FocusActor);
     

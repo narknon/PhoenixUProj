@@ -6,7 +6,7 @@ void ASplineMover::DeactivateSplineMover_Implementation() {
 void ASplineMover::ActivateSplineMover_Implementation() {
 }
 
-ASplineMover::ASplineMover() {
+ASplineMover::ASplineMover(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bIsVisibleBeforeActive = false;
     this->Offset = 0.00f;
     this->MaxVelocity = 0.00f;

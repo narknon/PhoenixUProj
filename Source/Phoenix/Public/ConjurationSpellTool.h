@@ -58,7 +58,7 @@ private:
     TArray<TSubclassOf<ATransformationStyleBase>> TransformationStyles;
     
 public:
-    AConjurationSpellTool();
+    AConjurationSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdatePreviewResourceRequirementsMet();
     

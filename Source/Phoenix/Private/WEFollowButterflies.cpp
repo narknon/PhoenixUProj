@@ -13,7 +13,7 @@ void AWEFollowButterflies::OnOverlapBegin(UPrimitiveComponent* OverlappedCompone
 
 
 
-AWEFollowButterflies::AWEFollowButterflies() {
+AWEFollowButterflies::AWEFollowButterflies(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ButterflySpline = CreateDefaultSubobject<USplineComponent>(TEXT("SplineComponent"));
     this->OverlapSphere = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere"));
     this->Billboard = NULL;

@@ -10,6 +10,6 @@ void ARandomEncounterActor::ForceDeactivate() {
 void ARandomEncounterActor::ForceActivate() {
 }
 
-ARandomEncounterActor::ARandomEncounterActor() {
+ARandomEncounterActor::ARandomEncounterActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bAutoSwapWhenLockChanges;
     
-    AStreamingPlaceholderUnlocked();
+    AStreamingPlaceholderUnlocked(const FObjectInitializer& ObjectInitializer);
 };
 

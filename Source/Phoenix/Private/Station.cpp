@@ -22,7 +22,7 @@ USkeletalMeshComponent* AStation::CreateAndAttachSkeletalMeshComponent(UAnimSequ
     return NULL;
 }
 
-AStation::AStation() {
+AStation::AStation(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->StationComponent = CreateDefaultSubobject<UStationComponent>(TEXT("StationData"));
     this->MissionUID = 0;
 }

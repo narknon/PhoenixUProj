@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bIsPreviewActor;
     
-    ATransfigurationObjectBase();
+    ATransfigurationObjectBase(const FObjectInitializer& ObjectInitializer);
 };
 

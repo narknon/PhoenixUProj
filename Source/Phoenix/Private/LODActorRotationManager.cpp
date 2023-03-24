@@ -12,6 +12,6 @@ void ALODActorRotationManager::CheckLOD0ActorRefValid(TSoftObjectPtr<AActor> Act
 void ALODActorRotationManager::CheckAnyActorRefValid(TArray<TSoftObjectPtr<AActor>> ActorRefList, bool& bTrue) {
 }
 
-ALODActorRotationManager::ALODActorRotationManager() {
+ALODActorRotationManager::ALODActorRotationManager(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

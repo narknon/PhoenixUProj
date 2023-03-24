@@ -38,7 +38,7 @@ void AMunitionType_SubsonicSpell::BeginOverlap(UPrimitiveComponent* OverlappedCo
 }
 
 
-AMunitionType_SubsonicSpell::AMunitionType_SubsonicSpell() {
+AMunitionType_SubsonicSpell::AMunitionType_SubsonicSpell(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_explodeOnContactWithActors = true;
     this->m_explodeOnContactWithTerrain = true;
     this->CheckForCover = false;

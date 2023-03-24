@@ -1,5 +1,5 @@
 #include "SocialNavigatorController.h"
 
-ASocialNavigatorController::ASocialNavigatorController() {
+ASocialNavigatorController::ASocialNavigatorController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

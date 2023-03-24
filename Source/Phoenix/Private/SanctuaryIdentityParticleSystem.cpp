@@ -3,7 +3,7 @@
 void ASanctuaryIdentityParticleSystem::OnIdentityChanged(ESanctuaryIdentity OldIdentity, ESanctuaryIdentity NewIdentity) {
 }
 
-ASanctuaryIdentityParticleSystem::ASanctuaryIdentityParticleSystem() {
+ASanctuaryIdentityParticleSystem::ASanctuaryIdentityParticleSystem(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bAutoSwapWhenIdentityChanges = false;
     this->ParticleSystemComponent = NULL;
     this->LoadedAsset = NULL;

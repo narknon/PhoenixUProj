@@ -726,7 +726,7 @@ void ABiped_Player::AdjustComboPoints(EComboType ComboType, AActor* Target) {
 void ABiped_Player::AddCustomCamera(UCameraComponent* customCam, float weight) {
 }
 
-ABiped_Player::ABiped_Player() {
+ABiped_Player::ABiped_Player(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ConversationComponent = CreateDefaultSubobject<UConversationComponent>(TEXT("ConversationComponent"));
     this->Customization = CreateDefaultSubobject<UCustomizableCharacterComponent>(TEXT("Customization"));
     this->PlayerSocialReasoning = NULL;

@@ -29,6 +29,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<AMunitionType_Base> TalentProjectileMunition;
     
-    ACrucioSpellTool();
+    ACrucioSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

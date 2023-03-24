@@ -42,7 +42,7 @@ void AFocusTrigger::ActorOverlapBeginOverlap(UPrimitiveComponent* OverlappedComp
 void AFocusTrigger::Activate() {
 }
 
-AFocusTrigger::AFocusTrigger() {
+AFocusTrigger::AFocusTrigger(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FocusTriggerType = FOCUSTRIGGER_TYPE_WORLDEVENT;
     this->StartInactive = false;
     this->TheFocusProbablity = 1.00f;

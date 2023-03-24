@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ATotem : public AActor {
     GENERATED_BODY()
 public:
-    ATotem();
+    ATotem(const FObjectInitializer& ObjectInitializer);
 };
 

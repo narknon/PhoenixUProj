@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ACine_Character : public ACharacter {
     GENERATED_BODY()
 public:
-    ACine_Character();
+    ACine_Character(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -10,7 +10,7 @@ void AWaterVolume::SetupWater(FBoxSphereBounds i_Bounds, UStaticMesh* i_DeepColl
 void AWaterVolume::RecalculateDepth() {
 }
 
-AWaterVolume::AWaterVolume() {
+AWaterVolume::AWaterVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RootComp = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
     this->WaterTileMeshComponent = NULL;
     this->LakeAudioComponent = CreateDefaultSubobject<ULakeAudioComponent>(TEXT("LakeAudio"));

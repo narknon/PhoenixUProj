@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ABiomeCreatureSpawner : public ADynamicObjectVolume {
     GENERATED_BODY()
 public:
-    ABiomeCreatureSpawner();
+    ABiomeCreatureSpawner(const FObjectInitializer& ObjectInitializer);
 };
 

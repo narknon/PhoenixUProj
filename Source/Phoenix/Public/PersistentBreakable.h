@@ -8,7 +8,7 @@ UCLASS(Blueprintable)
 class PHOENIX_API APersistentBreakable : public AWorldObject {
     GENERATED_BODY()
 public:
-    APersistentBreakable();
+    APersistentBreakable(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool ResetState(EBreakableState NextState);
     

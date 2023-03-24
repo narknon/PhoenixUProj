@@ -1,5 +1,5 @@
 #include "FlightSpline.h"
 
-AFlightSpline::AFlightSpline() {
+AFlightSpline::AFlightSpline(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

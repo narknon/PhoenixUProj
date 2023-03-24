@@ -75,7 +75,7 @@ void APhoenixGameMode::ClearForceUseProgrammaticPlayerStart() {
 void APhoenixGameMode::AsyncLoadAssetList(const UObject* WorldContextObject, const TArray<TSoftObjectPtr<UObject>>& AssetsToStream, int32& UniqueId) {
 }
 
-APhoenixGameMode::APhoenixGameMode() {
+APhoenixGameMode::APhoenixGameMode(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ProgrammaticPlayerStart = NULL;
 }
 

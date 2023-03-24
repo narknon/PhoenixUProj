@@ -62,7 +62,7 @@ bool AProtegoSpellTool::CreateLinkToAttackingActor() {
     return false;
 }
 
-AProtegoSpellTool::AProtegoSpellTool() {
+AProtegoSpellTool::AProtegoSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bShowDebug = false;
     this->bAllowTick = true;
     this->ProtegoActorClass = NULL;

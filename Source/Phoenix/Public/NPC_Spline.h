@@ -19,6 +19,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     TArray<UArrowComponent*> PointUpArrows;
     
-    ANPC_Spline();
+    ANPC_Spline(const FObjectInitializer& ObjectInitializer);
 };
 

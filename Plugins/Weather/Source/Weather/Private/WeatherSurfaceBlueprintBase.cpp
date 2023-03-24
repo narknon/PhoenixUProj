@@ -1,5 +1,5 @@
 #include "WeatherSurfaceBlueprintBase.h"
 
-AWeatherSurfaceBlueprintBase::AWeatherSurfaceBlueprintBase() {
+AWeatherSurfaceBlueprintBase::AWeatherSurfaceBlueprintBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

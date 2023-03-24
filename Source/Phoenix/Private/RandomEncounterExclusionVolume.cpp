@@ -1,5 +1,5 @@
 #include "RandomEncounterExclusionVolume.h"
 
-ARandomEncounterExclusionVolume::ARandomEncounterExclusionVolume() {
+ARandomEncounterExclusionVolume::ARandomEncounterExclusionVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

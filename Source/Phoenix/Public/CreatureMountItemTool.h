@@ -16,7 +16,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     ACreatureMountHandler* MountHandler;
     
-    ACreatureMountItemTool();
+    ACreatureMountItemTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SpawnAndMountCreature(bool bUseTransition, bool bInFlight);
     

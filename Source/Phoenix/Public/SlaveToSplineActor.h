@@ -16,7 +16,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FSlaveToSplineSlave> Slaves;
     
-    ASlaveToSplineActor();
+    ASlaveToSplineActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ResetAll();
     

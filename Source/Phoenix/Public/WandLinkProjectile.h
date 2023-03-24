@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UNiagaraComponent* VFXComponent;
     
-    AWandLinkProjectile();
+    AWandLinkProjectile(const FObjectInitializer& ObjectInitializer);
 };
 

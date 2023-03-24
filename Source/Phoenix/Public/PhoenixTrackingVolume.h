@@ -27,7 +27,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float VolumeSearchRadius;
     
-    APhoenixTrackingVolume();
+    APhoenixTrackingVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void OnEndOverlap(AActor* SelfActor, AActor* OtherActor);
     

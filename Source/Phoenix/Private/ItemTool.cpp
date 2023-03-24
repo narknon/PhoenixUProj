@@ -12,7 +12,7 @@ ACharacter* AItemTool::GetCharacter() const {
     return NULL;
 }
 
-AItemTool::AItemTool() {
+AItemTool::AItemTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
     this->AbleExecutionClass = NULL;
 }

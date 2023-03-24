@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ACreatureGiveBirthHandler : public ACreatureGrowthHandler {
     GENERATED_BODY()
 public:
-    ACreatureGiveBirthHandler();
+    ACreatureGiveBirthHandler(const FObjectInitializer& ObjectInitializer);
 };
 

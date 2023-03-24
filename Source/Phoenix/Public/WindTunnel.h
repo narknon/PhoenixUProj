@@ -71,7 +71,7 @@ protected:
     TMap<AActor*, UAmbulatory_MovementComponent*> MovementMap;
     
 public:
-    AWindTunnel();
+    AWindTunnel(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void StopDoor();

@@ -28,7 +28,7 @@ void ACameraStackLookAtTargetActor::DeactivateLookAt(int32 PlayerIndex) {
 void ACameraStackLookAtTargetActor::ActivateLookAt(int32 PlayerIndex, float Duration) {
 }
 
-ACameraStackLookAtTargetActor::ACameraStackLookAtTargetActor() {
+ACameraStackLookAtTargetActor::ACameraStackLookAtTargetActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->LookAtStrength = ECameraStackLookAtStrength::Strong;
     this->TimeoutAfterTriggerEntered = 0.00f;
     this->bTriggerOnReEntry = true;

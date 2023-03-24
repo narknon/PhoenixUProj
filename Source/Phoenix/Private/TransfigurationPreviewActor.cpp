@@ -166,7 +166,7 @@ bool ATransfigurationPreviewActor::AreResourceRequirementsMet() const {
     return false;
 }
 
-ATransfigurationPreviewActor::ATransfigurationPreviewActor() {
+ATransfigurationPreviewActor::ATransfigurationPreviewActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MovementStyle = NULL;
     this->TwirlDirection = 1.00f;
     this->Snapping = ETransfigurationSnapping::NoSnapping;

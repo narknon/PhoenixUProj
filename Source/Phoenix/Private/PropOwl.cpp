@@ -16,7 +16,7 @@ void APropOwl::OnHitBySpell_Implementation(const ASpellTool* SpellTool, AActor* 
 void APropOwl::EndReaction() {
 }
 
-APropOwl::APropOwl() {
+APropOwl::APropOwl(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CapsuleComponent = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CapsuleComponent"));
     this->SkeletalMeshComponent = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("SkeletalMeshComponent"));
     this->AnimationComponent = CreateDefaultSubobject<UAnimationComponent>(TEXT("AnimationComponent"));

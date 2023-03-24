@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     TArray<UMultiFX2_Base*> PetrificusFX2;
     
-    APetrificusSpellTool();
+    APetrificusSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

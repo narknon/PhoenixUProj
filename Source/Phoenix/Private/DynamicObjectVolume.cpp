@@ -191,7 +191,7 @@ void ADynamicObjectVolume::AddForcePerceiveVolume(APerceptionPointBox* InVolume)
 void ADynamicObjectVolume::AddAliveVolume(APerceptionPointBox* InVolume) {
 }
 
-ADynamicObjectVolume::ADynamicObjectVolume() {
+ADynamicObjectVolume::ADynamicObjectVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bShowActivationDistances = false;
     this->bEnableAutoActivation = true;
     this->TriggerDistance = 1000.00f;

@@ -12,7 +12,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UWorldFXComponent* FXComponent;
     
-    AWorldFXActor();
+    AWorldFXActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetSpawnAttached(bool bNewSpawnAttached);
     

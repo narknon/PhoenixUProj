@@ -6,7 +6,7 @@
 void AFreeStandingClock::DoClockTick() {
 }
 
-AFreeStandingClock::AFreeStandingClock() {
+AFreeStandingClock::AFreeStandingClock(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->HandsComponent = CreateDefaultSubobject<USceneComponent>(TEXT("Hands"));
     this->HourHand = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Hour_Hand"));
     this->MinuteHand = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Minute_Hand"));

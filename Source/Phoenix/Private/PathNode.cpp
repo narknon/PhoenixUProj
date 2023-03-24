@@ -10,7 +10,7 @@ void APathNode::BroadcastArrived(AActor* pActor) {
 }
 
 
-APathNode::APathNode() {
+APathNode::APathNode(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_waitTime = 0.00f;
     this->m_threshold = 100.00f;
     this->m_arrivalTimeout = -1.00f;

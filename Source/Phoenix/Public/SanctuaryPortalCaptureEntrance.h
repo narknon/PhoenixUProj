@@ -30,7 +30,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     bool bHasRuntimeCapture;
     
-    ASanctuaryPortalCaptureEntrance();
+    ASanctuaryPortalCaptureEntrance(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RuntimeReCapture();
     

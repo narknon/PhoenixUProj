@@ -9,7 +9,7 @@ UCLASS(Blueprintable, NonTransient)
 class ABLECORE_API AAbleHUD : public APreloadArchitectHUD {
     GENERATED_BODY()
 public:
-    AAbleHUD();
+    AAbleHUD(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateDebugTarget();
     

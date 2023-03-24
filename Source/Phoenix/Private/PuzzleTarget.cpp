@@ -18,7 +18,7 @@ FVector APuzzleTarget::GetNewVelocity(UPrimitiveComponent* PrimComp) {
     return FVector{};
 }
 
-APuzzleTarget::APuzzleTarget() {
+APuzzleTarget::APuzzleTarget(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->VolumeComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("TriggerVolume"));
     this->TargetComponent = CreateDefaultSubobject<UBillboardComponent>(TEXT("Target"));
     this->bCanComplete = true;

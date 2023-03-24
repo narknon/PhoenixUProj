@@ -1,7 +1,7 @@
 #include "RuneJunctionSwitch.h"
 
 
-ARuneJunctionSwitch::ARuneJunctionSwitch() {
+ARuneJunctionSwitch::ARuneJunctionSwitch(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bIsUnderHeat = false;
 }
 

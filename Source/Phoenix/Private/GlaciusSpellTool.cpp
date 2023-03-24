@@ -1,6 +1,6 @@
 #include "GlaciusSpellTool.h"
 
-AGlaciusSpellTool::AGlaciusSpellTool() {
+AGlaciusSpellTool::AGlaciusSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TerrainImpactZOffset = 0.00f;
     this->GlaciusTerrainImpactComponent = NULL;
     this->GlaciusPlatformClass = NULL;

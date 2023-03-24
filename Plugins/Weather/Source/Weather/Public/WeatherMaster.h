@@ -20,7 +20,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     URenderSettingsComponent* OvercastVolume;
     
-    AWeatherMaster();
+    AWeatherMaster(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void NextSequence();
     

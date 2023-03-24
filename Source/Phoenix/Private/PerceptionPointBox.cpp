@@ -1,5 +1,5 @@
 #include "PerceptionPointBox.h"
 
-APerceptionPointBox::APerceptionPointBox() {
+APerceptionPointBox::APerceptionPointBox(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

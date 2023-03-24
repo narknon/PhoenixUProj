@@ -1,6 +1,6 @@
 #include "MunitionType_Hitbox.h"
 
-AMunitionType_Hitbox::AMunitionType_Hitbox() {
+AMunitionType_Hitbox::AMunitionType_Hitbox(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PhysicsImpulse = 0.00f;
     this->m_hitVictimInterval = 10.00f;
     this->bUseMunitionOwnerAtImpactSource = false;

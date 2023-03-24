@@ -22,7 +22,7 @@ void AFastTravelLocation::AdjustBeaconWorldLocation(const FString& Name, const F
 }
 
 
-AFastTravelLocation::AFastTravelLocation() {
+AFastTravelLocation::AFastTravelLocation(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bIsSaveLocation = false;
 }
 

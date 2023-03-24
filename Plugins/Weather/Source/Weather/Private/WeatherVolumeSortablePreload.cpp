@@ -1,5 +1,5 @@
 #include "WeatherVolumeSortablePreload.h"
 
-AWeatherVolumeSortablePreload::AWeatherVolumeSortablePreload() {
+AWeatherVolumeSortablePreload::AWeatherVolumeSortablePreload(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

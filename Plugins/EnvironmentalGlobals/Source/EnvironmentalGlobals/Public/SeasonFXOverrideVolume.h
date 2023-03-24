@@ -15,6 +15,6 @@ public:
     UPROPERTY(AdvancedDisplay, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 PhaseOverride;
     
-    ASeasonFXOverrideVolume();
+    ASeasonFXOverrideVolume(const FObjectInitializer& ObjectInitializer);
 };
 

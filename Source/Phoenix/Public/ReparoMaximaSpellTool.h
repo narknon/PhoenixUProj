@@ -16,7 +16,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float FailSafeTime;
     
-    AReparoMaximaSpellTool();
+    AReparoMaximaSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ARepairComplete(UActorComponent* Comp);
     

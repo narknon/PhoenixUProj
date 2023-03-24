@@ -82,7 +82,7 @@ void AFXAutoTriggerSingleton::AddActorByClass(AActor* Actor, UClass* ActorClass,
 void AFXAutoTriggerSingleton::ActorIsInCustomBucket(AActor* Actor, FName CustomBucket, bool& bIsIn) {
 }
 
-AFXAutoTriggerSingleton::AFXAutoTriggerSingleton() {
+AFXAutoTriggerSingleton::AFXAutoTriggerSingleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Globals = NULL;
 }
 

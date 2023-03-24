@@ -1,5 +1,5 @@
 #include "WeatherVolume.h"
 
-AWeatherVolume::AWeatherVolume() {
+AWeatherVolume::AWeatherVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

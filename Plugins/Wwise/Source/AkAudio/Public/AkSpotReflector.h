@@ -25,6 +25,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float Level;
     
-    AAkSpotReflector();
+    AAkSpotReflector(const FObjectInitializer& ObjectInitializer);
 };
 

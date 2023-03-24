@@ -12,6 +12,6 @@ private:
     FName NurturingSpaceID;
     
 public:
-    ACreatureNurturingVolume();
+    ACreatureNurturingVolume(const FObjectInitializer& ObjectInitializer);
 };
 

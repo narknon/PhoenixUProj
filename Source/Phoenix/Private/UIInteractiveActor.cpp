@@ -2,7 +2,7 @@
 #include "CognitionStimuliSourceComponent.h"
 
 
-AUIInteractiveActor::AUIInteractiveActor() {
+AUIInteractiveActor::AUIInteractiveActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CognitionStimuliSourceComponent = CreateDefaultSubobject<UCognitionStimuliSourceComponent>(TEXT("CognitionStimuliSource"));
 }
 

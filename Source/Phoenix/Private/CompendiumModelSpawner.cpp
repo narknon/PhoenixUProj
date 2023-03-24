@@ -13,6 +13,6 @@ void ACompendiumModelSpawner::ForceMountAssetsToBeResident(USkeletalMeshComponen
 void ACompendiumModelSpawner::AsyncLoadModelClassFromDbId(const FString& InItemName) {
 }
 
-ACompendiumModelSpawner::ACompendiumModelSpawner() {
+ACompendiumModelSpawner::ACompendiumModelSpawner(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

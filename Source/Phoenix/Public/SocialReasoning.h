@@ -92,7 +92,7 @@ public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     TWeakObjectPtr<AFocusTrigger> LookAtMe;
     
-    ASocialReasoning();
+    ASocialReasoning(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     FGreetingQueryData WhomShallIGreet(const TArray<AActor*>& PotentialGreetees, float& Score);
     

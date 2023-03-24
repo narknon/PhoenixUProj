@@ -73,7 +73,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USplineComponent* SmoothedSpline;
     
-    AGuideSpline();
+    AGuideSpline(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RemovePath();
     

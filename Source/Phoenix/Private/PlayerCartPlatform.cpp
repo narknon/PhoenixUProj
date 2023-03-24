@@ -5,6 +5,6 @@ class AActor;
 void APlayerCartPlatform::SetDismountLocation(AActor* Target, FTransform DismountLocation, FTransform CompanionDismountLocation) {
 }
 
-APlayerCartPlatform::APlayerCartPlatform() {
+APlayerCartPlatform::APlayerCartPlatform(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

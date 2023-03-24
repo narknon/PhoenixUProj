@@ -40,7 +40,7 @@ TArray<FGameplayTag> AWorldEventCoreMechanics::GetLocationTags() {
     return TArray<FGameplayTag>();
 }
 
-AWorldEventCoreMechanics::AWorldEventCoreMechanics() {
+AWorldEventCoreMechanics::AWorldEventCoreMechanics(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->GeneralLocationActor = NULL;
     this->TeleportLocationActor = NULL;
     this->ProductionStatusMask = 0;

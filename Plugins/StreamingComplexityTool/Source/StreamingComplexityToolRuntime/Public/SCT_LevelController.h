@@ -45,6 +45,6 @@ private:
     UWorld* LevelToAnalyze;
     
 public:
-    ASCT_LevelController();
+    ASCT_LevelController(const FObjectInitializer& ObjectInitializer);
 };
 

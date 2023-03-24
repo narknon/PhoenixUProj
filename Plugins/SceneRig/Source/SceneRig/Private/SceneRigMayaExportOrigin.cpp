@@ -1,5 +1,5 @@
 #include "SceneRigMayaExportOrigin.h"
 
-ASceneRigMayaExportOrigin::ASceneRigMayaExportOrigin() {
+ASceneRigMayaExportOrigin::ASceneRigMayaExportOrigin(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

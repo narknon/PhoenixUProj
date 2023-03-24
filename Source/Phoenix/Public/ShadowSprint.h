@@ -22,7 +22,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UShadowSprintMovementComponent* MovementComponent;
     
-    AShadowSprint();
+    AShadowSprint(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetScaleInfo(bool bInScaleIn, float InActiveScale);
     

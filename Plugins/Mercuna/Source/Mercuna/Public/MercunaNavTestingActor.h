@@ -76,7 +76,7 @@ protected:
     AMercunaNavOctree* Octree;
     
 public:
-    AMercunaNavTestingActor();
+    AMercunaNavTestingActor(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnSplineUpdate(EMercunaSplineEvent::Type SplineEvent);

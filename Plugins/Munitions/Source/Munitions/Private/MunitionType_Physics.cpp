@@ -1,6 +1,6 @@
 #include "MunitionType_Physics.h"
 
-AMunitionType_Physics::AMunitionType_Physics() {
+AMunitionType_Physics::AMunitionType_Physics(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_speed = 10000.00f;
     this->m_explodeOnContactWithActors = true;
     this->m_explodeOnContactWithTerrain = true;

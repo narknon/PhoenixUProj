@@ -6,7 +6,7 @@ void AApparitionSpellTool::TeleportNow() {
 void AApparitionSpellTool::SetDirection(float X, float Y) {
 }
 
-AApparitionSpellTool::AApparitionSpellTool() {
+AApparitionSpellTool::AApparitionSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bShowDebug = false;
     this->ApparitionActorClass = NULL;
     this->TeleportFX = NULL;

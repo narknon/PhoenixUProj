@@ -1,5 +1,5 @@
 #include "MercunaNavSeed.h"
 
-AMercunaNavSeed::AMercunaNavSeed() {
+AMercunaNavSeed::AMercunaNavSeed(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -82,7 +82,7 @@ private:
     UMaterialInstanceDynamic* DebugFocusPlaneMID;
     
 public:
-    ACameraStackManager();
+    ACameraStackManager(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SwitchToCamera(AActor* NewCamera, bool bInOverrideBlendDuration, float InBlendDuration);
     

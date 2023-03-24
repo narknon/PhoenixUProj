@@ -18,7 +18,7 @@ AActor* AAvaAssetStreamingVolumeSet::GetAssetOwner() {
     return NULL;
 }
 
-AAvaAssetStreamingVolumeSet::AAvaAssetStreamingVolumeSet() {
+AAvaAssetStreamingVolumeSet::AAvaAssetStreamingVolumeSet(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AssetOwner = NULL;
 }
 

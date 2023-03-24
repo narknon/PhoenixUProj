@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UVolumetricCloudsPreviewComponent* PreviewComponent;
     
-    AVolumetricCloudsPreviewActor();
+    AVolumetricCloudsPreviewActor(const FObjectInitializer& ObjectInitializer);
 };
 

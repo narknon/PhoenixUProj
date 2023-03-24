@@ -202,7 +202,7 @@ private:
     TArray<AActor*> DebugActors;
     
 public:
-    AMapHogwartsBPActor();
+    AMapHogwartsBPActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetStaticMapTarget(FVector Target);
     

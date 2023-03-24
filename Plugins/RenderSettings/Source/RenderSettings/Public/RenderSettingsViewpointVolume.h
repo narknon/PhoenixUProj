@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float ViewpointLerp;
     
-    ARenderSettingsViewpointVolume();
+    ARenderSettingsViewpointVolume(const FObjectInitializer& ObjectInitializer);
 };
 

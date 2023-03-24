@@ -8,7 +8,7 @@ UCLASS(Blueprintable)
 class AHowler_Character : public ACharacter, public ICustomizableCharacterInterface {
     GENERATED_BODY()
 public:
-    AHowler_Character();
+    AHowler_Character(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

@@ -7,6 +7,6 @@ void AAncientMagicWaypoint::StopTrackingFootPlants() {
 }
 
 
-AAncientMagicWaypoint::AAncientMagicWaypoint() {
+AAncientMagicWaypoint::AAncientMagicWaypoint(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

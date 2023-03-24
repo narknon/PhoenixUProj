@@ -64,7 +64,7 @@ void ASpiderWeb_Spitter::InitOverlap() {
 
 
 
-ASpiderWeb_Spitter::ASpiderWeb_Spitter() {
+ASpiderWeb_Spitter::ASpiderWeb_Spitter(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bRegen = true;
     this->RegenTime = 8.00f;
     this->MaxWebLength = 1200.00f;

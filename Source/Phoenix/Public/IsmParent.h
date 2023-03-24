@@ -18,6 +18,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool DisableISM;
     
-    AIsmParent();
+    AIsmParent(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -21,7 +21,7 @@ void AHideTrigger::Deactivate(bool bInFromEndPlay) {
 void AHideTrigger::Activate() {
 }
 
-AHideTrigger::AHideTrigger() {
+AHideTrigger::AHideTrigger(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->HideFlags = 0;
     this->PauseScheduleFlags = 0;
     this->bStartActive = true;

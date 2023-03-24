@@ -53,7 +53,7 @@ protected:
     bool bFirstUpdate;
     
 public:
-    ALightCullingSingleton();
+    ALightCullingSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static void SetVolumetricScatteringIntensity(ULightComponent* Light, float VolumetricScatteringIntensity);
     

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class APerceptionPointSphere : public APerceptionPointArea {
     GENERATED_BODY()
 public:
-    APerceptionPointSphere();
+    APerceptionPointSphere(const FObjectInitializer& ObjectInitializer);
 };
 

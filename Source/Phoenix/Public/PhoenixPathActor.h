@@ -32,6 +32,6 @@ private:
     UMapPathComponent* PathComponent;
     
 public:
-    APhoenixPathActor();
+    APhoenixPathActor(const FObjectInitializer& ObjectInitializer);
 };
 

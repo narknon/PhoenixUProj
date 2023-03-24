@@ -41,7 +41,7 @@ void AHerb::FinishHarvestingHerb() {
 
 
 
-AHerb::AHerb() {
+AHerb::AHerb(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RespawnTime = 259200;
     this->CurrentStage = 0;
 }

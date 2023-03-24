@@ -130,6 +130,7 @@
 # Ignore content folders except mats
 !/Content/Mods/TestMod/**
 !/Content/Utils/**
+!/Content/MapGen/**
 
 !USMAP/*
 

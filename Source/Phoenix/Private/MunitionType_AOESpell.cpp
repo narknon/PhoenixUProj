@@ -7,7 +7,7 @@ ASpellTool* AMunitionType_AOESpell::GetSpellTool() const {
     return NULL;
 }
 
-AMunitionType_AOESpell::AMunitionType_AOESpell() {
+AMunitionType_AOESpell::AMunitionType_AOESpell(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_hitVictimInterval = 10.00f;
     this->m_damageType = NULL;
     this->m_explosionFX = NULL;

@@ -1,5 +1,5 @@
 #include "AntiSocialAAIController.h"
 
-AAntiSocialAAIController::AAntiSocialAAIController() {
+AAntiSocialAAIController::AAntiSocialAAIController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

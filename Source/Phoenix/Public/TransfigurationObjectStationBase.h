@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UCognitionStimuliSourceComponent* CogSourceComponent;
     
-    ATransfigurationObjectStationBase();
+    ATransfigurationObjectStationBase(const FObjectInitializer& ObjectInitializer);
 };
 

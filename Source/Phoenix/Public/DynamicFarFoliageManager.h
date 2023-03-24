@@ -26,7 +26,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 TotalInstancesCount;
     
-    ADynamicFarFoliageManager();
+    ADynamicFarFoliageManager(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void MainProcessIteration(float DeltaTime);
     

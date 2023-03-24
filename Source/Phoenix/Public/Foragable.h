@@ -12,7 +12,7 @@ public:
     UPROPERTY(BlueprintCallable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FCollectedForageableDelegate OnForageableCollected;
     
-    AForagable();
+    AForagable(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     bool ResetState(EForageableState NextState);
     

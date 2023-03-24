@@ -1,5 +1,5 @@
 #include "AggroHideTrigger.h"
 
-AAggroHideTrigger::AAggroHideTrigger() {
+AAggroHideTrigger::AAggroHideTrigger(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -23,7 +23,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float m_AttackingSpeed;
     
-    ADraingingDraughtOrb();
+    ADraingingDraughtOrb(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Attack();
     

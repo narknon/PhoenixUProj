@@ -25,7 +25,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float AvatarCapsuleRefRadius;
     
-    APhoenixCameraStackManager();
+    APhoenixCameraStackManager(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StartFadeToZeroOpacity();
     

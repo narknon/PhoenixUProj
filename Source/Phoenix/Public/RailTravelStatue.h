@@ -57,7 +57,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float TravelDirection;
     
-    ARailTravelStatue();
+    ARailTravelStatue(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void InitializeForTravel(USplineComponent* InSplineComponent, float InTravelDirection);
     

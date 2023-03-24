@@ -6,7 +6,7 @@ void AAvaTileRegionVolumeSet::ForceDeactivate() {
 void AAvaTileRegionVolumeSet::ForceActivate() {
 }
 
-AAvaTileRegionVolumeSet::AAvaTileRegionVolumeSet() {
+AAvaTileRegionVolumeSet::AAvaTileRegionVolumeSet(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->UnloadCO_ = false;
     this->UnloadFO_ = false;
     this->UnloadHN_ = false;

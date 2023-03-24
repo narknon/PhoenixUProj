@@ -24,6 +24,6 @@ protected:
     UPrimitiveComponent* Volume;
     
 public:
-    ANamedPoint();
+    ANamedPoint(const FObjectInitializer& ObjectInitializer);
 };
 

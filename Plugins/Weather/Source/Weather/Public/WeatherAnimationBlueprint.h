@@ -7,6 +7,6 @@ UCLASS(Abstract, Blueprintable)
 class WEATHER_API AWeatherAnimationBlueprint : public AWeatherSurfaceBlueprintBase {
     GENERATED_BODY()
 public:
-    AWeatherAnimationBlueprint();
+    AWeatherAnimationBlueprint(const FObjectInitializer& ObjectInitializer);
 };
 

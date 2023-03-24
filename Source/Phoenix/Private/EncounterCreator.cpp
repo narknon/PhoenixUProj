@@ -1,6 +1,6 @@
 #include "EncounterCreator.h"
 
-AEncounterCreator::AEncounterCreator() {
+AEncounterCreator::AEncounterCreator(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bActivateEncounter = true;
     this->bHideEncounterVolumes = false;
     this->DynamicObjectVolumeCount = 2;

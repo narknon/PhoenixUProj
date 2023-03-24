@@ -27,6 +27,6 @@ protected:
     bool bSignalledAllReady;
     
 public:
-    ASkinFXSingleton();
+    ASkinFXSingleton(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -25,7 +25,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftObjectPtr<AActor> CameraActorOverride;
     
-    ACameraStackLookAtTargetActor();
+    ACameraStackLookAtTargetActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StopPlayerInitiation(int32 PlayerIndex);
     

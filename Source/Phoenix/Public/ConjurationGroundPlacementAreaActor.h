@@ -12,7 +12,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UConjurationGroundPlacementAreaComponent* GroundPlacementAreaComponent;
     
-    AConjurationGroundPlacementAreaActor();
+    AConjurationGroundPlacementAreaActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void BuildMesh();
     

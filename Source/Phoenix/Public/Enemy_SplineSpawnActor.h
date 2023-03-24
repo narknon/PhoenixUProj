@@ -41,7 +41,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FMultiFX2Handle LandingFXHandle2;
     
-    AEnemy_SplineSpawnActor();
+    AEnemy_SplineSpawnActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StartLandingVFX(FVector StartLocation);
     

@@ -9,7 +9,7 @@ bool AGlassWaller::WithEditor() {
 void AGlassWaller::SetMobility(EComponentMobility::Type InMobility) {
 }
 
-AGlassWaller::AGlassWaller() {
+AGlassWaller::AGlassWaller(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SplineComponent = CreateDefaultSubobject<USplineComponent>(TEXT("Spline Component"));
     this->InstancedStaticMeshComponent = CreateDefaultSubobject<UInstancedStaticMeshComponent>(TEXT("Instanced Static Mesh Component"));
     this->NavigationGeometryGatheringMode = ENavDataGatheringMode::Default;

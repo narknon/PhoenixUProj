@@ -15,7 +15,7 @@ bool APerceptionPointArea::GetActive() {
     return false;
 }
 
-APerceptionPointArea::APerceptionPointArea() {
+APerceptionPointArea::APerceptionPointArea(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CollisionComponent = NULL;
 }
 

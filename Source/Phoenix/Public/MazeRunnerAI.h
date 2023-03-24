@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AMazeRunnerAI : public ASocialNavigatorController {
     GENERATED_BODY()
 public:
-    AMazeRunnerAI();
+    AMazeRunnerAI(const FObjectInitializer& ObjectInitializer);
 };
 

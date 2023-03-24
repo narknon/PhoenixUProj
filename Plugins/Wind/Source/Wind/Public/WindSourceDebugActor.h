@@ -58,6 +58,6 @@ protected:
     UInstancedStaticMeshComponent* WindArrows;
     
 public:
-    AWindSourceDebugActor();
+    AWindSourceDebugActor(const FObjectInitializer& ObjectInitializer);
 };
 

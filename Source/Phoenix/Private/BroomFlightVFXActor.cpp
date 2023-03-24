@@ -12,7 +12,7 @@
 
 
 
-ABroomFlightVFXActor::ABroomFlightVFXActor() {
+ABroomFlightVFXActor::ABroomFlightVFXActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MapTraceType = TraceTypeQuery1;
     this->Time = 0.00f;
     this->PitchMultiply = 0.00f;

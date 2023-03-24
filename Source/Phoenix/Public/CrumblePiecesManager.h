@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class ACrumblePiecesManager : public AActor {
     GENERATED_BODY()
 public:
-    ACrumblePiecesManager();
+    ACrumblePiecesManager(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void TryToRepairAll(AActor* TargetActor);

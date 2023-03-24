@@ -8,7 +8,7 @@ UCLASS(Blueprintable)
 class AFieldGuidePage : public AActor {
     GENERATED_BODY()
 public:
-    AFieldGuidePage();
+    AFieldGuidePage(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     bool MoveToNextLocation(const FTransform& DestinationTransform, const float Speed, float DeltaTime);
     

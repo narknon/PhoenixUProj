@@ -13,6 +13,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bEnabled;
     
-    AWeatherDecalPlacementActor();
+    AWeatherDecalPlacementActor(const FObjectInitializer& ObjectInitializer);
 };
 

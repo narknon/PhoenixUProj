@@ -35,7 +35,7 @@ private:
     UModel* ConversionTempModel;
     
 public:
-    ANoMountZoneVolume();
+    ANoMountZoneVolume(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);

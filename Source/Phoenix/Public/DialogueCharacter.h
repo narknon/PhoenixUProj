@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UCharacterStateComponent* ObjectStateComponent;
     
-    ADialogueCharacter();
+    ADialogueCharacter(const FObjectInitializer& ObjectInitializer);
 };
 

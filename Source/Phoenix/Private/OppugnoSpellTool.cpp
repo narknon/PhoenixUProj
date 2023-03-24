@@ -15,7 +15,7 @@ void AOppugnoSpellTool::OnOppugnoMunitionImpact(AMunitionType_Base* MunitionInst
 void AOppugnoSpellTool::OnActorHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit) {
 }
 
-AOppugnoSpellTool::AOppugnoSpellTool() {
+AOppugnoSpellTool::AOppugnoSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TargetIdentifyRadius = 100.00f;
     this->OppugnoAngularDamping = 0.00f;
     this->OppugnoLinearDamping = 10.00f;

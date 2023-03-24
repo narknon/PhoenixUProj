@@ -9,7 +9,7 @@ UCLASS(Blueprintable)
 class AHousePointsHourglass : public AActor {
     GENERATED_BODY()
 public:
-    AHousePointsHourglass();
+    AHousePointsHourglass(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void UpdateFinalHouseScore(TMap<FString, UStaticMeshComponent*> Houses);

@@ -14,6 +14,6 @@ private:
     UWindSourceVortexComponent* Component;
     
 public:
-    AWindVortexSource();
+    AWindVortexSource(const FObjectInitializer& ObjectInitializer);
 };
 

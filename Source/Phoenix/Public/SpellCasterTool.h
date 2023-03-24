@@ -27,7 +27,7 @@ private:
     TMap<USpellToolRecord*, ASpellTool*> SpellToolMap;
     
 public:
-    ASpellCasterTool();
+    ASpellCasterTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StopSpell(AMunitionType_Base* InMunition);
     

@@ -34,7 +34,7 @@ protected:
     FDbSingleColumnInfo LockId;
     
 public:
-    AMountZoneVolumeBase();
+    AMountZoneVolumeBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsIgnored(EMountTypes InType) const;
     

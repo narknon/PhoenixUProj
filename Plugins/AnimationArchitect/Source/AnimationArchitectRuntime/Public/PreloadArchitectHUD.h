@@ -7,7 +7,7 @@ UCLASS(Blueprintable, NonTransient)
 class ANIMATIONARCHITECTRUNTIME_API APreloadArchitectHUD : public AHUD {
     GENERATED_BODY()
 public:
-    APreloadArchitectHUD();
+    APreloadArchitectHUD(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TogglePreloadArchitectHUD();
     

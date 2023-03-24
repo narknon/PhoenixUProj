@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class RENDERSETTINGS_API AOutsideOverrideVolume : public AInsideOutsideOverrideVolume {
     GENERATED_BODY()
 public:
-    AOutsideOverrideVolume();
+    AOutsideOverrideVolume(const FObjectInitializer& ObjectInitializer);
 };
 

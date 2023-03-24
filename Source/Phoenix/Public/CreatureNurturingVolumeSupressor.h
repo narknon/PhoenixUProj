@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ACreatureNurturingVolumeSupressor : public ACreatureNurturingVolumeBase {
     GENERATED_BODY()
 public:
-    ACreatureNurturingVolumeSupressor();
+    ACreatureNurturingVolumeSupressor(const FObjectInitializer& ObjectInitializer);
 };
 

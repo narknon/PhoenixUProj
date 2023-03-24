@@ -1,7 +1,7 @@
 #include "BlendableGlobalLightingVolumeFogBase.h"
 #include "GlobalLightingBlendableExpHeightFogVolume.h"
 
-ABlendableGlobalLightingVolumeFogBase::ABlendableGlobalLightingVolumeFogBase() {
+ABlendableGlobalLightingVolumeFogBase::ABlendableGlobalLightingVolumeFogBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FogZMode = EGlobalLightingFogZMode::BaseOfVolume;
     this->Transmuter = NULL;
     this->Priority = 1.00f;

@@ -7,7 +7,7 @@ bool AChannelingSpellTool::HasMinChannelingTimeBeenMet() {
     return false;
 }
 
-AChannelingSpellTool::AChannelingSpellTool() {
+AChannelingSpellTool::AChannelingSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ChargeVersionAvailable = true;
     this->DUMMY = false;
     this->bSetTargetTrackers = true;

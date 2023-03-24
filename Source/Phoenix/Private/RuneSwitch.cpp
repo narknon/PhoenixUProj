@@ -1,5 +1,5 @@
 #include "RuneSwitch.h"
 
-ARuneSwitch::ARuneSwitch() {
+ARuneSwitch::ARuneSwitch(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

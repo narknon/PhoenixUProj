@@ -24,7 +24,7 @@ void APerWorldAccessibilitySettings::AddActorToHighContrastGameplayBucket(AActor
 void APerWorldAccessibilitySettings::ActorIsInHighContrastGameplayBucket(AActor* Actor, EHighContrastGameplayBucket Bucket, bool& bFound) {
 }
 
-APerWorldAccessibilitySettings::APerWorldAccessibilitySettings() {
+APerWorldAccessibilitySettings::APerWorldAccessibilitySettings(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TargetStencilValue = -1;
     this->SetBaseStencilValue = -1;
     this->LastSetTargetStencilValue = -1;

@@ -56,7 +56,7 @@ protected:
     bool bFlowOutLake;
     
 public:
-    ARiverVolume();
+    ARiverVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetupRiver(FTransform i_RiverTransform, FVector i_RiverAveDir, TMap<FVector, FVector2D> i_RiverFlowPoints, FBoxSphereBounds i_WaterBoxInfo, float i_VolumeZRotation, UStaticMesh* i_RiverMesh, UStaticMesh* i_DeepCollision, UStaticMesh* i_ShallowCollision, bool i_bFlowInLake, bool i_bFlowOutLake);
     

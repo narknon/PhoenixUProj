@@ -1,5 +1,5 @@
 #include "SceneRigPlayerManager.h"
 
-ASceneRigPlayerManager::ASceneRigPlayerManager() {
+ASceneRigPlayerManager::ASceneRigPlayerManager(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

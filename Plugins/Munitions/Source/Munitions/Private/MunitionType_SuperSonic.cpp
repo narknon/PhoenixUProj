@@ -1,6 +1,6 @@
 #include "MunitionType_SuperSonic.h"
 
-AMunitionType_SuperSonic::AMunitionType_SuperSonic() {
+AMunitionType_SuperSonic::AMunitionType_SuperSonic(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_hitActorFX = NULL;
     this->m_hitActorSfx = NULL;
     this->m_hitTerrainFX = NULL;

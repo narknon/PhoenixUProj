@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float DelayBeforeTeleport;
     
-    AFastTravelPort();
+    AFastTravelPort(const FObjectInitializer& ObjectInitializer);
 };
 

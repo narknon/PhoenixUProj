@@ -6,7 +6,7 @@ class AActor;
 void AHideTransfigurationObjectActor::OnOverlapEnd(AActor* OverlappedActor, AActor* OtherActor) {
 }
 
-AHideTransfigurationObjectActor::AHideTransfigurationObjectActor() {
+AHideTransfigurationObjectActor::AHideTransfigurationObjectActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Box"));
 }
 

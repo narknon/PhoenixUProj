@@ -31,6 +31,6 @@ private:
     float CurrSpeedOfFlow;
     
 public:
-    ARiverSectionAudio();
+    ARiverSectionAudio(const FObjectInitializer& ObjectInitializer);
 };
 

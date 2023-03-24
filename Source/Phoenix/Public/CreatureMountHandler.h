@@ -171,7 +171,7 @@ protected:
     UInteractionArchitectAsset* PreviousMountInteractionsAsset;
     
 public:
-    ACreatureMountHandler();
+    ACreatureMountHandler(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool ToggleCreatureMountCapsule(ACreature_Character* InCreatureCharacter, const FName& InName, bool bInEnabled) const;

@@ -289,7 +289,7 @@ private:
     AMunitionType_Base* IgnoreMunition;
     
 public:
-    AProtegoSpellTool();
+    AProtegoSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     bool WasParryAbilityEventSent();
     

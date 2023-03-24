@@ -26,7 +26,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     AActor* DragonPlatform;
     
-    ADragonEscapeScene();
+    ADragonEscapeScene(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void QueueFinalRelease();
     

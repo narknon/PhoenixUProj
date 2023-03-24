@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bAutoFindSkyActor;
     
-    ADayNightMaster();
+    ADayNightMaster(const FObjectInitializer& ObjectInitializer);
 };
 

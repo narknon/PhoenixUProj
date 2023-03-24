@@ -27,7 +27,7 @@ private:
     UScheduledEntity* OwnedScheduledEntity;
     
 public:
-    AEnemyBroomRider_AiController();
+    AEnemyBroomRider_AiController(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void StopAndWaitForPlayer(float CriticalDistance);
     

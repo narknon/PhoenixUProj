@@ -1,6 +1,6 @@
 #include "ArrestoMomentumSpellTool.h"
 
-AArrestoMomentumSpellTool::AArrestoMomentumSpellTool() {
+AArrestoMomentumSpellTool::AArrestoMomentumSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SlowDownTime = 1.00f;
     this->SpeedUpTime = 0.50f;
     this->ObjectMassMax = 250.00f;

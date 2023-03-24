@@ -104,7 +104,7 @@ private:
     UUserWidget* m_pFollowWidget;
     
 public:
-    APhoenixHoverDronePawn();
+    APhoenixHoverDronePawn(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsMaintainingConstantAltitude() const;
     

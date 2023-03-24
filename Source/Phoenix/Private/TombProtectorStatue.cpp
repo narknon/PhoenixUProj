@@ -1,5 +1,5 @@
 #include "TombProtectorStatue.h"
 
-ATombProtectorStatue::ATombProtectorStatue() {
+ATombProtectorStatue::ATombProtectorStatue(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

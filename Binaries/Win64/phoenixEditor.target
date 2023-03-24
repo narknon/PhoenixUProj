@@ -16,7 +16,7 @@
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE4+Release-4.27",
-		"BuildId": "7c2d3d42-2c82-44ea-8407-a3005d9e6cfd"
+		"BuildId": "4641d48f-173c-4f76-bb26-86200b238285"
 	},
 	"BuildProducts": [
 		{
@@ -33,6 +33,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-Cmd.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealPSKPSA/Binaries/Win64/UE4Editor-UnrealPSKPSA.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealPSKPSA/Binaries/Win64/UE4Editor-UnrealPSKPSA.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -1052,14 +1060,6 @@
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.pdb",
-			"Type": "SymbolFile"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/UMGFocus/Binaries/Win64/UE4Editor-UMGFocus.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1969,6 +1969,14 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -5940,6 +5948,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/UnrealPSKPSA/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Media/BinkMedia/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6312,10 +6324,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/UMGFocus/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6576,6 +6584,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Developer/PixWinPlugin/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -6807,6 +6819,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/phoenix.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/UnrealPSKPSA/UnrealPSKPSA.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -7226,22 +7242,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/WEditorImprovements/WEditorImprovements.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/EnginePlugins/WBGM/Editor/WBGMEditor/WBGMEditor.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/EnginePlugins/WBGM/Developer/BlueprintValidator/WBlueprintValidator.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(ProjectDir)/Plugins/UMGFocus/UMGFocus.uplugin",
 			"Type": "UFS"
 		},
@@ -7259,10 +7259,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Windows/WinDualShock/WinDualShock.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/SnapTo/SnapTo.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -7291,10 +7287,6 @@
 		},
 		{
 			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Runtime/Nvidia/NVIDIAGfeSDK/NVIDIAGfeSDK.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/EnginePlugins/Editor/GraphPrinter/GraphPrinter.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -7327,10 +7319,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Editor/StylusInput/StylusInput.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/IGCacheSim/IGCacheSim.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -7639,6 +7627,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin",
 			"Type": "UFS"
 		},
 		{

@@ -1,5 +1,5 @@
 #include "MazeRunnerAI.h"
 
-AMazeRunnerAI::AMazeRunnerAI() {
+AMazeRunnerAI::AMazeRunnerAI(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

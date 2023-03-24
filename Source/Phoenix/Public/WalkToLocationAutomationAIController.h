@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AWalkToLocationAutomationAIController : public ASocialNavigatorController {
     GENERATED_BODY()
 public:
-    AWalkToLocationAutomationAIController();
+    AWalkToLocationAutomationAIController(const FObjectInitializer& ObjectInitializer);
 };
 

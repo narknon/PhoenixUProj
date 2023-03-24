@@ -19,7 +19,7 @@ protected:
     EConjurationSpawnState SpawnState;
     
 public:
-    AConjurationPreviewEffect();
+    AConjurationPreviewEffect(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void UpdateFXBlueprint(float DeltaTime);

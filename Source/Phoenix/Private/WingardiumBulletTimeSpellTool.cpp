@@ -23,7 +23,7 @@ void AWingardiumBulletTimeSpellTool::AdjustWingardiumHeight(float Adjust) {
 void AWingardiumBulletTimeSpellTool::AdjustWingardiumDistance(float Adjust) {
 }
 
-AWingardiumBulletTimeSpellTool::AWingardiumBulletTimeSpellTool() {
+AWingardiumBulletTimeSpellTool::AWingardiumBulletTimeSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->WingardiumComponent = NULL;
     this->MassLimit = 1000.00f;
     this->TapZVelocity = 500.00f;

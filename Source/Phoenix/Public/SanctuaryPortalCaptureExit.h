@@ -19,6 +19,6 @@ public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<TWeakObjectPtr<AActor>> HiddenActorInstances;
     
-    ASanctuaryPortalCaptureExit();
+    ASanctuaryPortalCaptureExit(const FObjectInitializer& ObjectInitializer);
 };
 

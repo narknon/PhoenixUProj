@@ -45,7 +45,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USphereComponent* m_TwisterStoppingSphere;
     
-    ATwisterMixtureEffect();
+    ATwisterMixtureEffect(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Tick(float DeltaSeconds);
     

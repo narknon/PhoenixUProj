@@ -1,5 +1,5 @@
 #include "FastTravelStatue.h"
 
-AFastTravelStatue::AFastTravelStatue() {
+AFastTravelStatue::AFastTravelStatue(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -17,7 +17,7 @@ public:
     UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     TSet<TWeakObjectPtr<AActor>> EnteredList;
     
-    ANPC_Volume();
+    ANPC_Volume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetActive(bool bInActive);
     

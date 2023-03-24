@@ -4,6 +4,6 @@ bool APersistentBreakable::ResetState_Implementation(EBreakableState NextState) 
     return false;
 }
 
-APersistentBreakable::APersistentBreakable() {
+APersistentBreakable::APersistentBreakable(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class PHOENIX_API ATransfigurationStructureBase : public ATransfigurationObjectBase {
     GENERATED_BODY()
 public:
-    ATransfigurationStructureBase();
+    ATransfigurationStructureBase(const FObjectInitializer& ObjectInitializer);
 };
 

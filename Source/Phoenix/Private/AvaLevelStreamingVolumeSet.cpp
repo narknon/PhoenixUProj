@@ -30,7 +30,7 @@ void AAvaLevelStreamingVolumeSet::ForceUnload() {
 void AAvaLevelStreamingVolumeSet::ForceLoad() {
 }
 
-AAvaLevelStreamingVolumeSet::AAvaLevelStreamingVolumeSet() {
+AAvaLevelStreamingVolumeSet::AAvaLevelStreamingVolumeSet(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bIsExterior = false;
     this->bExemptFromInteriorExteriorCulling = false;
     this->bSwapsPrecomputedVisibility = false;

@@ -1,5 +1,5 @@
 #include "StreamingPlaceholderDbId.h"
 
-AStreamingPlaceholderDbId::AStreamingPlaceholderDbId() {
+AStreamingPlaceholderDbId::AStreamingPlaceholderDbId(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

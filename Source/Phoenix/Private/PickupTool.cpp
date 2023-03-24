@@ -7,7 +7,7 @@
 void APickupTool::DeactivateTool_Implementation() {
 }
 
-APickupTool::APickupTool() {
+APickupTool::APickupTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AccioCatchable = false;
 }
 

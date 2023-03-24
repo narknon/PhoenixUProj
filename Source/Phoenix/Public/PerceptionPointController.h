@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class APerceptionPointController : public AAIController {
     GENERATED_BODY()
 public:
-    APerceptionPointController();
+    APerceptionPointController(const FObjectInitializer& ObjectInitializer);
 };
 

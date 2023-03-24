@@ -3,7 +3,7 @@
 void AMapHogwartsCamera::UpdateCamera() {
 }
 
-AMapHogwartsCamera::AMapHogwartsCamera() {
+AMapHogwartsCamera::AMapHogwartsCamera(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RotateCenterTarget = NULL;
     this->AllowRotation = false;
     this->AllowZoom = true;

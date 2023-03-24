@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class ALODActorRotationManager : public AActor {
     GENERATED_BODY()
 public:
-    ALODActorRotationManager();
+    ALODActorRotationManager(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     TArray<AActor*> FilterValidActorRef(TArray<TSoftObjectPtr<AActor>> ActorRefList);
     

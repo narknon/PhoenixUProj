@@ -21,7 +21,7 @@ void APhoenixHoverDronePawn::ActorOverlapEndOverlap(UPrimitiveComponent* Overlap
 void APhoenixHoverDronePawn::ActorOverlapBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* Other, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& OverlapInfo) {
 }
 
-APhoenixHoverDronePawn::APhoenixHoverDronePawn() {
+APhoenixHoverDronePawn::APhoenixHoverDronePawn(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MaxAccelToGravRatio = 0.20f;
     this->DroneTiltInterpSpeed_Accel = 1.00f;
     this->DroneTiltInterpSpeed_Decel = 2.00f;

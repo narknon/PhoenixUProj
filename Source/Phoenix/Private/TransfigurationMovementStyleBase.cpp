@@ -38,7 +38,7 @@ void ATransfigurationMovementStyleBase::ClearLitBeams_Implementation() {
 void ATransfigurationMovementStyleBase::CanPlace_Implementation(bool bCanPlace) {
 }
 
-ATransfigurationMovementStyleBase::ATransfigurationMovementStyleBase() {
+ATransfigurationMovementStyleBase::ATransfigurationMovementStyleBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PreviewActor = NULL;
     this->LinearInterpolationSpeed = 13.00f;
     this->bUseSpringDynamics = true;

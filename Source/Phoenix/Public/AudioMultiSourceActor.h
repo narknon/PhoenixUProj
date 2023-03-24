@@ -41,6 +41,6 @@ private:
     TArray<UAkComponent*> AudioComponents;
     
 public:
-    AAudioMultiSourceActor();
+    AAudioMultiSourceActor(const FObjectInitializer& ObjectInitializer);
 };
 

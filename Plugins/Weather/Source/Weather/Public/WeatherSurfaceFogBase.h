@@ -14,7 +14,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     ESurfaceFogType ShowingFogType;
     
-    AWeatherSurfaceFogBase();
+    AWeatherSurfaceFogBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RecalculateBounds();
     

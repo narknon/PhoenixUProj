@@ -33,6 +33,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
     bool bUsePresetWeatherWind;
     
-    AVolumetricCloudsActor();
+    AVolumetricCloudsActor(const FObjectInitializer& ObjectInitializer);
 };
 

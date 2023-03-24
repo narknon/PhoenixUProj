@@ -1,6 +1,6 @@
 #include "AvadaKedavraSpellTool.h"
 
-AAvadaKedavraSpellTool::AAvadaKedavraSpellTool() {
+AAvadaKedavraSpellTool::AAvadaKedavraSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TimeDilationCurve = NULL;
 }
 

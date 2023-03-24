@@ -71,7 +71,7 @@ protected:
     bool bDisableStencil;
     
 public:
-    AStencilManagerSingleton();
+    AStencilManagerSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject"))
     static void SetStencilPlayerNearFadeDisable(UObject* WorldContextObject, bool bPlayerNearFadeDisable);
     

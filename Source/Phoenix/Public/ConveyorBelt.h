@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AConveyorBelt : public AActor {
     GENERATED_BODY()
 public:
-    AConveyorBelt();
+    AConveyorBelt(const FObjectInitializer& ObjectInitializer);
 };
 

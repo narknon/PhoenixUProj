@@ -24,7 +24,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
     TMap<FName, UMaterialPermuterLoadingBundle*> KeyMaterialBundles;
     
-    AFXAutoTriggerSingleton();
+    AFXAutoTriggerSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject"))
     static void SetWorldCustomCondition(UObject* WorldContextObject, FName WorldConditionName, bool bEnabled);
     

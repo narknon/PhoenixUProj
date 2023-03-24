@@ -125,7 +125,7 @@ bool ATransfigurationSpellToolBase::AreResourceRequirementsMet() const {
     return false;
 }
 
-ATransfigurationSpellToolBase::ATransfigurationSpellToolBase() {
+ATransfigurationSpellToolBase::ATransfigurationSpellToolBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TwirlDirection = 1.00f;
     this->HoldingDurationBeforeTransfigurationTimerStart = 0.25f;
     this->bWaitForCharacterAnimations = false;

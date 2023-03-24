@@ -11,7 +11,7 @@ void ACreatureFeed::InitializeRelease(ACreature_Character* NewSelectedCreature) 
 void ACreatureFeed::FloatToCreature(FVector ReleaseVelocity) {
 }
 
-ACreatureFeed::ACreatureFeed() {
+ACreatureFeed::ACreatureFeed(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->StartFeedAnimDistance = 40.00f;
     this->bUsePelletStartingScaleInAnim = false;
     this->MaxWaitTime = 3.00f;

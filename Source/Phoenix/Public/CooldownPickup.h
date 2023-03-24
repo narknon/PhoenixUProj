@@ -24,7 +24,7 @@ protected:
     UPrimitiveComponent* Prim;
     
 public:
-    ACooldownPickup();
+    ACooldownPickup(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UnpauseAndShow();
     

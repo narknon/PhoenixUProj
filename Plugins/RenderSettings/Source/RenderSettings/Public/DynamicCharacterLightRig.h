@@ -44,7 +44,7 @@ protected:
     bool bInitializedOwnerChannels;
     
 public:
-    ADynamicCharacterLightRig();
+    ADynamicCharacterLightRig(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     void LightRigEnabled(bool& Enabled);
     

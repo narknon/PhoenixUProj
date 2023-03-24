@@ -14,7 +14,7 @@ ELockOnReticleType AActor_LockOnReticle::GetLockedOnType() const {
     return ELockOnReticleType::None;
 }
 
-AActor_LockOnReticle::AActor_LockOnReticle() {
+AActor_LockOnReticle::AActor_LockOnReticle(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AimModeCircleGrowRate = 2.00f;
     this->AimModeCircleShrinkRate = 1.00f;
     this->TargetingHorizontalStickAngle = 65.00f;

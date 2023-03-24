@@ -23,7 +23,7 @@ protected:
     TSubclassOf<UBroomChallengeScreen> RaceWidgetClass;
     
 public:
-    ARacePlatform();
+    ARacePlatform(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnPlatformUnlocked();
     

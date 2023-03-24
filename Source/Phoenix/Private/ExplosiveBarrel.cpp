@@ -30,7 +30,7 @@ bool AExplosiveBarrel::ExplodeDamage(AActor* DamageActor) {
 }
 
 
-AExplosiveBarrel::AExplosiveBarrel() {
+AExplosiveBarrel::AExplosiveBarrel(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BarrelMesh = NULL;
     this->bSimulatePhysics = true;
     this->ExplosionTimer = 5.00f;

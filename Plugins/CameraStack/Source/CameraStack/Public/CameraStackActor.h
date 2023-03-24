@@ -65,7 +65,7 @@ protected:
     TArray<FCameraStackActorBehaviorTreePair> BehaviorTreePairs;
     
 public:
-    ACameraStackActor();
+    ACameraStackActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetNamedSecondaryTargetActor(FName InName, AActor* InActor);
     

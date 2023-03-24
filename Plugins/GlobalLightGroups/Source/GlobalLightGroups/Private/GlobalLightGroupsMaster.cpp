@@ -1,6 +1,6 @@
 #include "GlobalLightGroupsMaster.h"
 
-AGlobalLightGroupsMaster::AGlobalLightGroupsMaster() {
+AGlobalLightGroupsMaster::AGlobalLightGroupsMaster(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RegionGroupMap = NULL;
 }
 

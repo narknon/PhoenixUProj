@@ -28,7 +28,7 @@ protected:
     UParticleSystem* LoadedAsset;
     
 public:
-    ASanctuaryIdentityParticleSystem();
+    ASanctuaryIdentityParticleSystem(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnIdentityChanged(ESanctuaryIdentity OldIdentity, ESanctuaryIdentity NewIdentity);

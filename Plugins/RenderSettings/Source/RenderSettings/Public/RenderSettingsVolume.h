@@ -107,7 +107,7 @@ protected:
     FCharacterLightRigAdjustments CharacterLightRigAdjustmentsData;
     
 public:
-    ARenderSettingsVolume();
+    ARenderSettingsVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateEnginePostProcessing();
     

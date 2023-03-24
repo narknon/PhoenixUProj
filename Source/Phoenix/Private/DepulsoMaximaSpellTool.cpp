@@ -1,6 +1,6 @@
 #include "DepulsoMaximaSpellTool.h"
 
-ADepulsoMaximaSpellTool::ADepulsoMaximaSpellTool() {
+ADepulsoMaximaSpellTool::ADepulsoMaximaSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bShowDebug = false;
     this->BasePhysicsImpulse = 0.00f;
     this->MassScaledPhysicsImpulse = 2000.00f;

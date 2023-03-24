@@ -1,6 +1,6 @@
 #include "DepulsoSpellTool.h"
 
-ADepulsoSpellTool::ADepulsoSpellTool() {
+ADepulsoSpellTool::ADepulsoSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->TargetHalfAngleXY = 15;
     this->TargetHalfAngleZ = 45;
     this->LaunchAngle = 12.00f;

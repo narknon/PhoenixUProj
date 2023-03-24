@@ -70,7 +70,7 @@ protected:
     TWeakObjectPtr<AActor> ParentObject;
     
 public:
-    ABeaconLocation();
+    ABeaconLocation(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetStartInactive(bool inStartInactive);
     

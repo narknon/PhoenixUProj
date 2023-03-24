@@ -1,6 +1,6 @@
 #include "NavigationRedirectionVolume.h"
 
-ANavigationRedirectionVolume::ANavigationRedirectionVolume() {
+ANavigationRedirectionVolume::ANavigationRedirectionVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ForceOverlandArea = false;
 }
 

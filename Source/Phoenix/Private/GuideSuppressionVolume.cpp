@@ -8,6 +8,6 @@ void AGuideSuppressionVolume::OnEndOverlap(AActor* SelfActor, AActor* OtherActor
 void AGuideSuppressionVolume::OnBeginOverlap(AActor* SelfActor, AActor* OtherActor) {
 }
 
-AGuideSuppressionVolume::AGuideSuppressionVolume() {
+AGuideSuppressionVolume::AGuideSuppressionVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

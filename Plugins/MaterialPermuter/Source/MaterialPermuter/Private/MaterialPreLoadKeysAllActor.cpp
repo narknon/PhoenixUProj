@@ -1,5 +1,5 @@
 #include "MaterialPreLoadKeysAllActor.h"
 
-AMaterialPreLoadKeysAllActor::AMaterialPreLoadKeysAllActor() {
+AMaterialPreLoadKeysAllActor::AMaterialPreLoadKeysAllActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

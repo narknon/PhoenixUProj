@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class WEATHER_API AWeatherPresetVolumeBase : public AWeatherVolumeSortablePreload {
     GENERATED_BODY()
 public:
-    AWeatherPresetVolumeBase();
+    AWeatherPresetVolumeBase(const FObjectInitializer& ObjectInitializer);
 };
 

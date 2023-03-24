@@ -10,7 +10,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool Discovered;
     
-    AAncientMagicTarget();
+    AAncientMagicTarget(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetDebugVisible(bool DebugVisibleIn);
     

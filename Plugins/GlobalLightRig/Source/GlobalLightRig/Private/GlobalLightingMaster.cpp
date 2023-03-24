@@ -28,7 +28,7 @@ void AGlobalLightingMaster::CheckWorld() {
 void AGlobalLightingMaster::CaptureSkyLight() {
 }
 
-AGlobalLightingMaster::AGlobalLightingMaster() {
+AGlobalLightingMaster::AGlobalLightingMaster(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SkyAtmosphereHeightOffsetMeters = -250.00f;
     this->UseExternalLightingComponents = 32;
     this->ControlLightingComponents = 61;

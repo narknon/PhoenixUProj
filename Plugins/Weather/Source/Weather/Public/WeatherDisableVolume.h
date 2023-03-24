@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bDisableWeather;
     
-    AWeatherDisableVolume();
+    AWeatherDisableVolume(const FObjectInitializer& ObjectInitializer);
 };
 

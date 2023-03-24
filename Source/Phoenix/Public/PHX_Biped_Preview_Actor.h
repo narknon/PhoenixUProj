@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UCustomizableCharacterComponent* Customization;
     
-    APHX_Biped_Preview_Actor();
+    APHX_Biped_Preview_Actor(const FObjectInitializer& ObjectInitializer);
 };
 

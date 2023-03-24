@@ -109,7 +109,7 @@ void ASceneRigActor::AddEventHandlerWithActor(FName EventName, FTimeRigEventWith
 void ASceneRigActor::AddEventHandler(FName EventName, FTimeRigEventDynamicDelegate Delegate) {
 }
 
-ASceneRigActor::ASceneRigActor() {
+ASceneRigActor::ASceneRigActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bAutoInitialize = false;
     this->bAutoPlay = false;
     this->StartTime = 0.00f;

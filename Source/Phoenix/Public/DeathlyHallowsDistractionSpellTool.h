@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ADeathlyHallowsDistractionSpellTool : public AFireOnceSpellTool {
     GENERATED_BODY()
 public:
-    ADeathlyHallowsDistractionSpellTool();
+    ADeathlyHallowsDistractionSpellTool(const FObjectInitializer& ObjectInitializer);
 };
 

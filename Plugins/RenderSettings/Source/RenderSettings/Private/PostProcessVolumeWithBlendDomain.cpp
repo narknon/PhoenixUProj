@@ -3,6 +3,6 @@
 void APostProcessVolumeWithBlendDomain::CopySettings() {
 }
 
-APostProcessVolumeWithBlendDomain::APostProcessVolumeWithBlendDomain() {
+APostProcessVolumeWithBlendDomain::APostProcessVolumeWithBlendDomain(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

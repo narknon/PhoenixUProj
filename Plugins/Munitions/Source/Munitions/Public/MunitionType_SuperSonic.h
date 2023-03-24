@@ -35,6 +35,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float m_decalLifeSpan;
     
-    AMunitionType_SuperSonic();
+    AMunitionType_SuperSonic(const FObjectInitializer& ObjectInitializer);
 };
 

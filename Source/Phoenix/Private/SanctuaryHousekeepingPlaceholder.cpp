@@ -13,7 +13,7 @@ void ASanctuaryHousekeepingPlaceholder::OnChildActorEndPlay(AActor* Actor, TEnum
 void ASanctuaryHousekeepingPlaceholder::HandleBreakableDestroyed(const UObject* i_caller) {
 }
 
-ASanctuaryHousekeepingPlaceholder::ASanctuaryHousekeepingPlaceholder() {
+ASanctuaryHousekeepingPlaceholder::ASanctuaryHousekeepingPlaceholder(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->UID = 0;
     this->StaticMeshOverride = NULL;
     this->bIsAliveOnFirstLoad = false;

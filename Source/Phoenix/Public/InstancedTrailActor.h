@@ -48,7 +48,7 @@ protected:
     int32 NextTrailMember;
     
 public:
-    AInstancedTrailActor();
+    AInstancedTrailActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Reset();
     

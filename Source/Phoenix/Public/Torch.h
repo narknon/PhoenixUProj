@@ -359,7 +359,7 @@ protected:
     TArray<TSoftObjectPtr<UNiagaraSystem>> PhysicsFireSystems;
     
 public:
-    ATorch();
+    ATorch(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     bool TorchSetup(UObjectStateComponent* i_ObjectStateComp, UTimelineComponent* i_Timeline, UNiagaraComponent* i_FireParticle, USphereComponent* i_PropagateTrigger, UAkComponent* i_AkComp, UAnimatedLightComponent* i_AnimatedLight, UPointLightComponent* i_PL, USpotLightComponent* i_SL, UPointLightComponent* i_IL);

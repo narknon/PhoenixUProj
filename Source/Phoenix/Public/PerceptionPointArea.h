@@ -24,7 +24,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FPerceptionPointAreaDelegate OnExit;
     
-    APerceptionPointArea();
+    APerceptionPointArea(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetActive(bool bInActive);
     

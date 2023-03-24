@@ -30,7 +30,7 @@ TEnumAsByte<EHoverDroneControlMode::Type> AHoverDroneController::GetControlMode(
     return EHoverDroneControlMode::Player;
 }
 
-AHoverDroneController::AHoverDroneController() {
+AHoverDroneController::AHoverDroneController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->ControlModePawnClass[0] = NULL;
     this->ControlModePawnClass[1] = NULL;
     this->ControlModePawnClass[2] = NULL;

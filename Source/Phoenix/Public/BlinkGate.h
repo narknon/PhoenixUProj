@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ABlinkGate : public AActor {
     GENERATED_BODY()
 public:
-    ABlinkGate();
+    ABlinkGate(const FObjectInitializer& ObjectInitializer);
 };
 

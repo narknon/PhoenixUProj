@@ -1,6 +1,6 @@
 #include "LeviosoSpellTool.h"
 
-ALeviosoSpellTool::ALeviosoSpellTool() {
+ALeviosoSpellTool::ALeviosoSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MassMax = 100.00f;
     this->LinearDamping = 1.00f;
     this->AngularDamping = 1.00f;

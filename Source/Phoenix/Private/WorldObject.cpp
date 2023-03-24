@@ -8,6 +8,6 @@ void AWorldObject::OnAboutToSaveGame() {
 }
 
 
-AWorldObject::AWorldObject() {
+AWorldObject::AWorldObject(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

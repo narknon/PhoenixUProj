@@ -12,6 +12,6 @@ public:
     UPROPERTY(EditAnywhere, Export, meta=(AllowPrivateAccess=true))
     TArray<TWeakObjectPtr<ULocalLightComponent>> Lights;
     
-    ALightCollectionActor();
+    ALightCollectionActor(const FObjectInitializer& ObjectInitializer);
 };
 

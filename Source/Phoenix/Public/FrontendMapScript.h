@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class AFrontendMapScript : public ALevelScriptActor {
     GENERATED_BODY()
 public:
-    AFrontendMapScript();
+    AFrontendMapScript(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void GoToMenu();
     

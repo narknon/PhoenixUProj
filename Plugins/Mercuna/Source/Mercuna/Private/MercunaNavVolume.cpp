@@ -11,7 +11,7 @@ void AMercunaNavVolume::SetNavigationRotation(const FRotator& Rotation) {
 void AMercunaNavVolume::AddToOctree(AMercunaNavOctree* NewNavOctree) {
 }
 
-AMercunaNavVolume::AMercunaNavVolume() {
+AMercunaNavVolume::AMercunaNavVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->NavOctree = NULL;
     this->PreciseBoundaries = true;
     this->LOD = EMercunaLevelOfDetail::Full;

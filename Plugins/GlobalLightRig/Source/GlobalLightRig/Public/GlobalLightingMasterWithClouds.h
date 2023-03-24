@@ -24,6 +24,6 @@ protected:
     UVolumetricCloudsComponent* VolumetricCloudsComponent;
     
 public:
-    AGlobalLightingMasterWithClouds();
+    AGlobalLightingMasterWithClouds(const FObjectInitializer& ObjectInitializer);
 };
 

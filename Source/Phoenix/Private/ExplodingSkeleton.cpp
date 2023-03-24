@@ -29,7 +29,7 @@ AExplodingSkeleton* AExplodingSkeleton::SpawnExplodingSkeleton(AActor* SourceAct
 void AExplodingSkeleton::ExplodingSkeletonPieces(int32& TotalPieces, int32& CurrentlyAlivePieces) const {
 }
 
-AExplodingSkeleton::AExplodingSkeleton() {
+AExplodingSkeleton::AExplodingSkeleton(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AlivePieces = 0;
     this->SkinFXComponent = NULL;
     this->MaterialSwap = NULL;

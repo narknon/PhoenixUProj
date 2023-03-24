@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AAutomatedCapturePointOfInterest : public ANavigationObjectBase {
     GENERATED_BODY()
 public:
-    AAutomatedCapturePointOfInterest();
+    AAutomatedCapturePointOfInterest(const FObjectInitializer& ObjectInitializer);
 };
 

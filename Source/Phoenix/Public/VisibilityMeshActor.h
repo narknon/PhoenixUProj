@@ -14,6 +14,6 @@ private:
     UStaticMeshComponent* VisibilityMesh;
     
 public:
-    AVisibilityMeshActor();
+    AVisibilityMeshActor(const FObjectInitializer& ObjectInitializer);
 };
 

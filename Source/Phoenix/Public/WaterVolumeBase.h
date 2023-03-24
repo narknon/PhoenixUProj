@@ -144,7 +144,7 @@ protected:
     TMap<AActor*, float> RecentExitMap;
     
 public:
-    AWaterVolumeBase();
+    AWaterVolumeBase(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void UnDamp(UPrimitiveComponent* Mesh, UObjectStateInfo* ObjectState);

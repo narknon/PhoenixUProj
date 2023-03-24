@@ -33,7 +33,7 @@ protected:
     FPostProcessSettings EnginePostProcessSettings;
     
 public:
-    ARenderSettingsPostProcessingVolume();
+    ARenderSettingsPostProcessingVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Update();
     

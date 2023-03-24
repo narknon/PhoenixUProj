@@ -32,7 +32,7 @@ void ADynamicCharacterLightRig::DisableLightRig() {
 void ADynamicCharacterLightRig::AttachDynamicLightRig(AActor* ToActor, TSubclassOf<ADynamicCharacterLightRig> DynamicLightRigClass, ADynamicCharacterLightRig*& DynamicLightRig, FName AttachSocket) {
 }
 
-ADynamicCharacterLightRig::ADynamicCharacterLightRig() {
+ADynamicCharacterLightRig::ADynamicCharacterLightRig(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->DayTemperature = 5000.00f;
     this->NightTemperature = 6500.00f;
     this->LightingChannel = EDynamicCharacterLightRigChannel::ChannelAuto;

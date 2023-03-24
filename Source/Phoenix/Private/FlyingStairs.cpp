@@ -8,7 +8,7 @@ void AFlyingStairs::DestroyRandomStairChain() {
 void AFlyingStairs::BuildRandomStairChain() {
 }
 
-AFlyingStairs::AFlyingStairs() {
+AFlyingStairs::AFlyingStairs(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FlyingStairsArea = CreateDefaultSubobject<UCapsuleComponent>(TEXT("FlyingStairsArea"));
     this->CloudMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Cloud"));
     this->TimeForStairsToStayAtHeightDuringMovement = 3.00f;

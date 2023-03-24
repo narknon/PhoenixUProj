@@ -16,7 +16,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FTransform CompanionDismountLocation;
     
-    APlayerCart();
+    APlayerCart(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void UpdateCartPositionAndRotation(const FVector& InNewLocation, const FRotator& InNewRotation, const FVector& InVelocity);

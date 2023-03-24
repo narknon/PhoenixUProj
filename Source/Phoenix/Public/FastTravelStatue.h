@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AFastTravelStatue : public AFastTravelPort {
     GENERATED_BODY()
 public:
-    AFastTravelStatue();
+    AFastTravelStatue(const FObjectInitializer& ObjectInitializer);
 };
 

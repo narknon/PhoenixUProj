@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float SpawnDistance;
     
-    AMunitionType_Potion();
+    AMunitionType_Potion(const FObjectInitializer& ObjectInitializer);
 };
 

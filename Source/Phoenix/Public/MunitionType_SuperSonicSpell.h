@@ -24,7 +24,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool IgnoreProtego;
     
-    AMunitionType_SuperSonicSpell();
+    AMunitionType_SuperSonicSpell(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
     UFUNCTION(BlueprintCallable)

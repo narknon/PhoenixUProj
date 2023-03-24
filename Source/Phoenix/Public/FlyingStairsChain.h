@@ -37,7 +37,7 @@ private:
     TArray<FFlyingStairStatus> FlyingStairs;
     
 public:
-    AFlyingStairsChain();
+    AFlyingStairsChain(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);

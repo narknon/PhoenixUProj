@@ -16,7 +16,7 @@ APlayerController* ACameraStackTransitionController::GetPlayerController_Impleme
     return NULL;
 }
 
-ACameraStackTransitionController::ACameraStackTransitionController() {
+ACameraStackTransitionController::ACameraStackTransitionController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->StackSettings = NULL;
     this->CameraActorClass = NULL;
     this->bConstrainAspectRatio = false;

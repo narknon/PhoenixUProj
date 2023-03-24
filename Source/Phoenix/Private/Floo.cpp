@@ -70,7 +70,7 @@ void AFloo::ActivateExitCamera() {
 void AFloo::ActivateEnterCamera() {
 }
 
-AFloo::AFloo() {
+AFloo::AFloo(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->EnterCrouched = false;
     this->EnterDistance = 100.00f;
 }

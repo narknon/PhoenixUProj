@@ -29,7 +29,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bEnabled;
     
-    ARenderSettingsCustomBlendDomainVolumeAttached();
+    ARenderSettingsCustomBlendDomainVolumeAttached(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetPriority(float NewPriority);
     

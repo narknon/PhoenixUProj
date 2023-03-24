@@ -15,7 +15,7 @@ protected:
     ULockableComponent* LockableComponent;
     
 public:
-    APearDoor();
+    APearDoor(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void TickleThePear(const UObject* Caller);

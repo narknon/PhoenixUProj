@@ -11,7 +11,7 @@ void ASanctuaryPortalCaptureEntrance::Capture() {
 void ASanctuaryPortalCaptureEntrance::ApplyMaterialParameters(UMaterialInstanceDynamic* InMaterialInstanceDynamic) {
 }
 
-ASanctuaryPortalCaptureEntrance::ASanctuaryPortalCaptureEntrance() {
+ASanctuaryPortalCaptureEntrance::ASanctuaryPortalCaptureEntrance(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RenderTarget = NULL;
     this->PreRenderedTexture = NULL;
     this->Exit = NULL;

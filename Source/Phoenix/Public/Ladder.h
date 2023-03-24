@@ -15,7 +15,7 @@ protected:
     bool bPlayerMountTopEnabled;
     
 public:
-    ALadder();
+    ALadder(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent, BlueprintPure)
     float GetMeshHeight() const;
     

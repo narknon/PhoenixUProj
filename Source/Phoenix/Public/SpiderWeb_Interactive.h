@@ -110,7 +110,7 @@ private:
     TArray<AActor*> IgnoreBurnActors;
     
 public:
-    ASpiderWeb_Interactive();
+    ASpiderWeb_Interactive(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void WebThaw();

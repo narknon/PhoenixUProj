@@ -63,7 +63,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     ULumosEmberTrick* EmberTrick;
     
-    ALumosEmberActor();
+    ALumosEmberActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateLumosFlicker(float DeltaTime, bool bIsFading);
     

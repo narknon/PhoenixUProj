@@ -4,6 +4,6 @@ bool AFieldGuidePage::MoveToNextLocation(const FTransform& DestinationTransform,
     return false;
 }
 
-AFieldGuidePage::AFieldGuidePage() {
+AFieldGuidePage::AFieldGuidePage(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

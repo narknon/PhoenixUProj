@@ -10,7 +10,7 @@ void ADungeonWaterVolume::SetupWater(FBoxSphereBounds i_Bounds, UStaticMesh* i_S
 void ADungeonWaterVolume::FinalizeSetup() {
 }
 
-ADungeonWaterVolume::ADungeonWaterVolume() {
+ADungeonWaterVolume::ADungeonWaterVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->RootComp = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
     this->SurfacePlane = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("SurfacePlane"));
     this->bShallowWater = false;

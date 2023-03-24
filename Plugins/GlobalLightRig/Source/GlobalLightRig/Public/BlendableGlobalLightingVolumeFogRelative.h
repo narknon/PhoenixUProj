@@ -34,7 +34,7 @@ protected:
     UBlendableGlobalLightingVolumeFogRelativeDefaults* Defaults;
     
 public:
-    ABlendableGlobalLightingVolumeFogRelative();
+    ABlendableGlobalLightingVolumeFogRelative(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ReloadDefaults();
     

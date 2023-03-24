@@ -1,5 +1,5 @@
 #include "SocialSplineController.h"
 
-ASocialSplineController::ASocialSplineController() {
+ASocialSplineController::ASocialSplineController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

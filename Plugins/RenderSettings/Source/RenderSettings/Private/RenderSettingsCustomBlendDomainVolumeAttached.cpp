@@ -3,7 +3,7 @@
 void ARenderSettingsCustomBlendDomainVolumeAttached::SetPriority(float NewPriority) {
 }
 
-ARenderSettingsCustomBlendDomainVolumeAttached::ARenderSettingsCustomBlendDomainVolumeAttached() {
+ARenderSettingsCustomBlendDomainVolumeAttached::ARenderSettingsCustomBlendDomainVolumeAttached(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AttachTo = NULL;
     this->Priority = 0.00f;
     this->BlendRadius = 100.00f;

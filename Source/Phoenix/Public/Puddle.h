@@ -18,7 +18,7 @@ private:
     UStaticMeshComponent* Mesh;
     
 public:
-    APuddle();
+    APuddle(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable)
     void OnEndOverlap(AActor* SelfActor, AActor* OtherActor);

@@ -81,7 +81,7 @@ private:
     bool bNeedsRebuild;
     
 public:
-    AMercunaNavOctree();
+    AMercunaNavOctree(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UpdateModifierVolumeParams(AMercunaNavModifierVolume* ModifierVolume);
     

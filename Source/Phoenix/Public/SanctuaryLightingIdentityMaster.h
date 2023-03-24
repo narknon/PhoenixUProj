@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USanctuaryLightingIdentityMasterComponent* MasterComponent;
     
-    ASanctuaryLightingIdentityMaster();
+    ASanctuaryLightingIdentityMaster(const FObjectInitializer& ObjectInitializer);
 };
 

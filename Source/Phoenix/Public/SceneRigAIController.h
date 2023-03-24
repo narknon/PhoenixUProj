@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class ASceneRigAIController : public ASocialNavigatorController {
     GENERATED_BODY()
 public:
-    ASceneRigAIController();
+    ASceneRigAIController(const FObjectInitializer& ObjectInitializer);
 };
 

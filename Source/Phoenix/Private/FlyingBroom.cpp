@@ -189,7 +189,7 @@ void AFlyingBroom::AddBoostPercentage(float Percent) {
 void AFlyingBroom::AcceleratePressed() {
 }
 
-AFlyingBroom::AFlyingBroom() {
+AFlyingBroom::AFlyingBroom(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->MountedCharacter = NULL;
     this->ActiveScale = 1.00f;
     this->bScaleIn = true;

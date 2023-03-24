@@ -5,7 +5,7 @@ class AActor;
 void ADescendoSpellTool::OnActorHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit) {
 }
 
-ADescendoSpellTool::ADescendoSpellTool() {
+ADescendoSpellTool::ADescendoSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PushToGroundDelay = 0.25f;
     this->GroundDamage = 50.00f;
     this->MinDamageDealt = -1.00f;

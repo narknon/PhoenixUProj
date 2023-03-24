@@ -67,6 +67,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float m_decalLifeSpan;
     
-    AMunitionType_Physics();
+    AMunitionType_Physics(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -12,7 +12,7 @@ UCLASS(Blueprintable)
 class SOCIALDISPLAY_API ASocialAIController : public AAIController {
     GENERATED_BODY()
 public:
-    ASocialAIController();
+    ASocialAIController(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetRequestedSpeed(float InSpeed);
     

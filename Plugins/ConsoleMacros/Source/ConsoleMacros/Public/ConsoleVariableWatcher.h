@@ -21,7 +21,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<UWatchedConsoleVariableInt*> IntVariables;
     
-    AConsoleVariableWatcher();
+    AConsoleVariableWatcher(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject"))
     static void WatchIntConsoleVariable(UObject* WorldContextObject, const FString& ConsoleVariable, UWatchedConsoleVariableInt*& Variable);
     

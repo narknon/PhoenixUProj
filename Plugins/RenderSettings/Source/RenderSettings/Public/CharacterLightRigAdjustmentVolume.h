@@ -23,6 +23,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
     bool bUnbounded;
     
-    ACharacterLightRigAdjustmentVolume();
+    ACharacterLightRigAdjustmentVolume(const FObjectInitializer& ObjectInitializer);
 };
 

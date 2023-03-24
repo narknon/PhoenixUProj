@@ -43,7 +43,7 @@ protected:
     int32 SpawnNum;
     
 public:
-    ASpiderWeb_Spawner();
+    ASpiderWeb_Spawner(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     bool WebThaw();

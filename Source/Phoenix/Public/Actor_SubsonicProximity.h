@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     USphereComponent* SphereComponent;
     
-    AActor_SubsonicProximity();
+    AActor_SubsonicProximity(const FObjectInitializer& ObjectInitializer);
 };
 

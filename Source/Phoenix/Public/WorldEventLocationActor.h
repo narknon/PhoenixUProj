@@ -73,7 +73,7 @@ private:
     TArray<TWeakObjectPtr<UWorldEventSocketComponent>> WorldEventSockets;
     
 public:
-    AWorldEventLocationActor();
+    AWorldEventLocationActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool UseForcedWorldEventSubset() const;
     

@@ -6,6 +6,6 @@ void AAmbulatoryHUD::ToggleAmbulatoryHUD() {
 void AAmbulatoryHUD::OnIntegrate() {
 }
 
-AAmbulatoryHUD::AAmbulatoryHUD() {
+AAmbulatoryHUD::AAmbulatoryHUD(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -89,7 +89,7 @@ void AEnemyAIWeapon::BroadcastWeaponEvent(EEnemyAIWeapon_Event InEvent) {
 void AEnemyAIWeapon::BroadcastWeapon_AnimEvent(FName InName) {
 }
 
-AEnemyAIWeapon::AEnemyAIWeapon() {
+AEnemyAIWeapon::AEnemyAIWeapon(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->AggroCorruptionSettings = NULL;
     this->AggroCorruptionInstance = NULL;
     this->EquipApplyTagTime = 0.00f;

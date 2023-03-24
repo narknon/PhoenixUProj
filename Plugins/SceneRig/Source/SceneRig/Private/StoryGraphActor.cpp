@@ -40,7 +40,7 @@ bool AStoryGraphActor::HandleEvent(FName Event, FStoryGraphDynamicEventHandler H
     return false;
 }
 
-AStoryGraphActor::AStoryGraphActor() {
+AStoryGraphActor::AStoryGraphActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("SceneComponent"));
     this->StoryGraph = NULL;
     this->bHoldCurtainUntilPlay = false;

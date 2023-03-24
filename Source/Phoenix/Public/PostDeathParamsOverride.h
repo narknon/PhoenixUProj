@@ -18,6 +18,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FPostDeath_Params CurrentParameters;
     
-    APostDeathParamsOverride();
+    APostDeathParamsOverride(const FObjectInitializer& ObjectInitializer);
 };
 

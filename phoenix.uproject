@@ -101,6 +101,10 @@
 		}
 	],
 	"Plugins": [
+        {
+			"Name": "UnrealPSKPSA",
+			"Enabled": true
+		},
 		{
 			"Name": "BinkMedia",
 			"Enabled": true
@@ -542,7 +546,7 @@
 		},
 		{
 			"Name": "WEditorImprovements",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "AnimationBudgetAllocator",
@@ -573,7 +577,7 @@
 		},
 		{
 			"Name": "SnapTo",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "RemoteControl",
@@ -597,7 +601,7 @@
 		},
 		{
 			"Name": "GraphPrinter",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/466303b6cd724968b3ee0a1a1b623f4b"
 		},
 		{
@@ -615,7 +619,7 @@
 		},
 		{
 			"Name": "IGCacheSim",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "Watermark",

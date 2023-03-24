@@ -3,7 +3,7 @@
 void AWeatherExclusionVolume::SetPriority(float NewPriority) {
 }
 
-AWeatherExclusionVolume::AWeatherExclusionVolume() {
+AWeatherExclusionVolume::AWeatherExclusionVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bHideCameraFX = true;
     this->bHideSurfaceFX = false;
     this->Priority = 0.00f;

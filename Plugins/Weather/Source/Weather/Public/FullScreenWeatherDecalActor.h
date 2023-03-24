@@ -7,6 +7,6 @@ UCLASS(Blueprintable, NotPlaceable, Transient)
 class WEATHER_API AFullScreenWeatherDecalActor : public ADecalActor {
     GENERATED_BODY()
 public:
-    AFullScreenWeatherDecalActor();
+    AFullScreenWeatherDecalActor(const FObjectInitializer& ObjectInitializer);
 };
 

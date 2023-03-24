@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UStatsComponentReportComponent* UpdateComponent;
     
-    AStatsComponentReport();
+    AStatsComponentReport(const FObjectInitializer& ObjectInitializer);
 };
 

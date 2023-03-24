@@ -7,7 +7,7 @@ UCLASS(Blueprintable)
 class ACreaturePettingTool : public ACreatureInteractionTool {
     GENERATED_BODY()
 public:
-    ACreaturePettingTool();
+    ACreaturePettingTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RemoveAimAtTarget();
     

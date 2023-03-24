@@ -1,5 +1,5 @@
 #include "LightCollectionActor.h"
 
-ALightCollectionActor::ALightCollectionActor() {
+ALightCollectionActor::ALightCollectionActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

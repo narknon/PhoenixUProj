@@ -38,7 +38,7 @@ protected:
     TArray<ADungeonWaterVolume*> OverlappingDungeonWaterVolumes;
     
 public:
-    AWaterIgnoreVolume();
+    AWaterIgnoreVolume(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);

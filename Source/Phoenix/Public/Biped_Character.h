@@ -175,7 +175,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSubclassOf<ABiped_Character> m_studentActorClassF;
     
-    ABiped_Character();
+    ABiped_Character(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ZeroKinematicIntegratorLinearVelocity();
     

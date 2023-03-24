@@ -49,6 +49,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FVector RegionCenterPoint;
     
-    APhoenixMapRegion();
+    APhoenixMapRegion(const FObjectInitializer& ObjectInitializer);
 };
 

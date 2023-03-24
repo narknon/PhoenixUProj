@@ -53,6 +53,6 @@ protected:
     TSubclassOf<AMunitionType_Base> m_RockMunition;
     
 public:
-    AEdurusPotionItemTool();
+    AEdurusPotionItemTool(const FObjectInitializer& ObjectInitializer);
 };
 

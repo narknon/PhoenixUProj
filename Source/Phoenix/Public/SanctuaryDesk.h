@@ -29,7 +29,7 @@ protected:
     UMaterialInstanceDynamic* BackMaterialInstance;
     
 public:
-    ASanctuaryDesk();
+    ASanctuaryDesk(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ClearPage(bool bFrontSide);
     

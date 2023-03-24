@@ -22,7 +22,7 @@ protected:
     TMap<TWeakObjectPtr<UObject>, FObjectfade> FadeMap;
     
 public:
-    AObjectFadeMaster();
+    AObjectFadeMaster(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static bool MeshStartFadeEaseFunction(UMeshComponent* Mesh, const FObjectFadeParamsEaseFunction& Setup, EObjectFadeCompletedAction FadeCompletedAction, float TimeFactorOverride);
     

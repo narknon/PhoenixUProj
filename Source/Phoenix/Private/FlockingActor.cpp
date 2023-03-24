@@ -20,7 +20,7 @@ void AFlockingActor::GetAdjustableParameters(FFlockingParametersAdjustable& Para
 void AFlockingActor::Generate() {
 }
 
-AFlockingActor::AFlockingActor() {
+AFlockingActor::AFlockingActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->Leader = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("LeaderMesh"));
     this->bEnableCollisions = false;
     this->bEnableFlocking = true;

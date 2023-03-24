@@ -16,7 +16,7 @@ void AWorldFXActor::GetSpawnAttached(bool& bIsSpawnAttached) {
 void AWorldFXActor::ForceRefreshPreview() {
 }
 
-AWorldFXActor::AWorldFXActor() {
+AWorldFXActor::AWorldFXActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FXComponent = CreateDefaultSubobject<UWorldFXComponent>(TEXT("WorldFXComponent"));
 }
 

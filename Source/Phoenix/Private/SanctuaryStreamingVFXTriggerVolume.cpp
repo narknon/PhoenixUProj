@@ -21,7 +21,7 @@ void ASanctuaryStreamingVFXTriggerVolume::OnNiagaraFinished(UNiagaraComponent* P
 void ASanctuaryStreamingVFXTriggerVolume::OnIdentityChanged(ESanctuaryIdentity OldIdentity, ESanctuaryIdentity NewIdentity) {
 }
 
-ASanctuaryStreamingVFXTriggerVolume::ASanctuaryStreamingVFXTriggerVolume() {
+ASanctuaryStreamingVFXTriggerVolume::ASanctuaryStreamingVFXTriggerVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bAutoSwapWhenIdentityChanges = false;
     this->BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("RootComponent"));
     this->PlayerTriggers = true;

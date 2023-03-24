@@ -30,7 +30,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDbEditorButtonWidget AddButton;
     
-    AFloo();
+    AFloo(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ShowAvatar(bool bTF);
     

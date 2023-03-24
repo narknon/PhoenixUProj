@@ -9,7 +9,7 @@ UCLASS(Blueprintable)
 class ABaseDestructibleArmor : public APhoenixBudgetedActor {
     GENERATED_BODY()
 public:
-    ABaseDestructibleArmor();
+    ABaseDestructibleArmor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void HandlePeeves(AActor* Other);
     

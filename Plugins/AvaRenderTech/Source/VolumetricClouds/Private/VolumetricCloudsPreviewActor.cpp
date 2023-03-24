@@ -1,7 +1,7 @@
 #include "VolumetricCloudsPreviewActor.h"
 #include "VolumetricCloudsPreviewComponent.h"
 
-AVolumetricCloudsPreviewActor::AVolumetricCloudsPreviewActor() {
+AVolumetricCloudsPreviewActor::AVolumetricCloudsPreviewActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PreviewComponent = CreateDefaultSubobject<UVolumetricCloudsPreviewComponent>(TEXT("VolumetricCloudsPreviewComponent0"));
 }
 

@@ -15,7 +15,7 @@ bool ANPC_Volume::GetActive() {
     return false;
 }
 
-ANPC_Volume::ANPC_Volume() {
+ANPC_Volume::ANPC_Volume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CollisionComponent = NULL;
 }
 

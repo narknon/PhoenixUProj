@@ -46,7 +46,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     bool bDitheredAlphaFade;
     
-    AExplodingSkeleton();
+    AExplodingSkeleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     static AExplodingSkeleton* SpawnExplodingSkeletonSkinFX(AActor* SourceActor, UExplodingSkeletonPieceSetup* PieceSetup, FExplodingSkeletonImpulse InitialImpulse, FExplodingSkeletonInitialDelay InitialDelay, TSubclassOf<ASkinFXDefinition> SkinFXEffect, FName InCollisionProfileName, FVector BaseOffset);
     

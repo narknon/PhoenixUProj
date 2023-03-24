@@ -20,7 +20,7 @@ void APortraitPaintingActor::OnFleshLoaded(AActor* Actor, UScheduledEntity* Sche
 void APortraitPaintingActor::OnCharacterLoadComplete(AActor* Actor) {
 }
 
-APortraitPaintingActor::APortraitPaintingActor() {
+APortraitPaintingActor::APortraitPaintingActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PortraitActorRange = 1000.00f;
     this->CameraFarPlane = 1000.00f;
     this->MainPortraitSwapType = EMaterialPermuterLoadingBundleAndSwapType::Hard;

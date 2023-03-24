@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class AEnemy_Controller : public ANPC_Controller {
     GENERATED_BODY()
 public:
-    AEnemy_Controller();
+    AEnemy_Controller(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UPostProcessingVarsComponent* Component;
     
-    APostProcessingVarsActor();
+    APostProcessingVarsActor(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -1,6 +1,6 @@
 #include "StreamingPlaceholderUnlocked.h"
 
-AStreamingPlaceholderUnlocked::AStreamingPlaceholderUnlocked() {
+AStreamingPlaceholderUnlocked::AStreamingPlaceholderUnlocked(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bAutoSwapWhenLockChanges = false;
 }
 

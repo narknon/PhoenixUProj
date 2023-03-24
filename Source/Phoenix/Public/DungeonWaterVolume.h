@@ -26,7 +26,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UMaterialInstance* WaterMaterial;
     
-    ADungeonWaterVolume();
+    ADungeonWaterVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetupWater(FBoxSphereBounds i_Bounds, UStaticMesh* i_SurfaceMesh, const FVector& i_SurfaceLocation, UStaticMesh* i_DeepCollision, const FVector& i_DeepLocation, UStaticMesh* i_ShallowCollision, const FVector& i_ShallowLocation);
     

@@ -15,7 +15,7 @@ protected:
     ULockableComponent* LockableComponent;
     
 public:
-    APadlockDoor();
+    APadlockDoor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetLockedAndDifficulty(bool Locked, ELockDifficulty Difficulty, bool OpenLockable, bool ThrowLock, bool PlaySoundsAndEffects, bool DoChild);
     

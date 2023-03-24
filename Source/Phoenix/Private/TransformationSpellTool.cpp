@@ -27,7 +27,7 @@ void ATransformationSpellTool::EnterTransformAll() {
 void ATransformationSpellTool::CancelHoldTransforming() {
 }
 
-ATransformationSpellTool::ATransformationSpellTool() {
+ATransformationSpellTool::ATransformationSpellTool(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->LeftBehindPreviewActor = NULL;
     this->TransformationDuration = 1.00f;
 }

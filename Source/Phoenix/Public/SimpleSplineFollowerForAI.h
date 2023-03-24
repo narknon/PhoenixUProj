@@ -45,7 +45,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintCallable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FSplineCompleted OnSplineCompleted;
     
-    ASimpleSplineFollowerForAI();
+    ASimpleSplineFollowerForAI(const FObjectInitializer& ObjectInitializer);
 private:
     UFUNCTION(BlueprintCallable)
     void StartAIMovementOnSpline(UScheduledEntity* InScheduledEntity, int32 ActivityTypeBits);

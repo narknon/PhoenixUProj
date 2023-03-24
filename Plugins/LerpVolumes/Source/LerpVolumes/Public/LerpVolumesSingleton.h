@@ -44,7 +44,7 @@ protected:
     bool bLastLocalStateValid;
     
 public:
-    ALerpVolumesSingleton();
+    ALerpVolumesSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject"))
     static void LerpVolumesSetWorldVectorDefault(UObject* WorldContextObject, FName VariableName, FVector VariableValue);
     

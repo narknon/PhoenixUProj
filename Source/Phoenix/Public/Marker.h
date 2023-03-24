@@ -12,7 +12,7 @@ private:
     FName UniqueName;
     
 public:
-    AMarker();
+    AMarker(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     FName GenerateUniqueName(FName InBaseName);
     

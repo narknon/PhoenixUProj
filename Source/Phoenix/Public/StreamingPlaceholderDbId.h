@@ -11,6 +11,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FSpawnSelectInfo DbIdInfo;
     
-    AStreamingPlaceholderDbId();
+    AStreamingPlaceholderDbId(const FObjectInitializer& ObjectInitializer);
 };
 

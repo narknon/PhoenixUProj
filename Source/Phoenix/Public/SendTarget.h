@@ -40,7 +40,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<AActor*> TargetingActors;
     
-    ASendTarget();
+    ASendTarget(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetSendTargetPriority(uint8 InPriority);
     

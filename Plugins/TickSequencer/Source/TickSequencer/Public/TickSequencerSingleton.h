@@ -55,7 +55,7 @@ protected:
     uint32 ManualTickFrame;
     
 public:
-    ATickSequencerSingleton();
+    ATickSequencerSingleton(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void ForceTick();
     

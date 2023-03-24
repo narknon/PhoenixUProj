@@ -111,7 +111,7 @@ int32 ABeaconLocation::GetActivationDistance() {
     return 0;
 }
 
-ABeaconLocation::ABeaconLocation() {
+ABeaconLocation::ABeaconLocation(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->BeaconType = EBeaconType::BEACONTYPE_LOCATIONS;
     this->ActivationDistance = 0;
     this->EnterExitDistance = 0;

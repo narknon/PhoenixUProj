@@ -18,7 +18,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float SnapDistance;
     
-    AAuthoredPath();
+    AAuthoredPath(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SnapPoints();
     

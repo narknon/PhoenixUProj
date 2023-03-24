@@ -48,7 +48,7 @@ void AHerbPlot::DestroyHerb() {
 void AHerbPlot::ApplyFertilizer(FName FertilizerID, FName InteractorID) {
 }
 
-AHerbPlot::AHerbPlot() {
+AHerbPlot::AHerbPlot(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->PotionedSFXEvent = NULL;
     this->FertilizedSFXEvent = NULL;
     this->PlantedSFXEvent = NULL;

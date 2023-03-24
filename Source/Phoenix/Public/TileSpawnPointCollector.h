@@ -11,6 +11,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FCustomButtonWidget UpdateSpawnLocationsDBButton;
     
-    ATileSpawnPointCollector();
+    ATileSpawnPointCollector(const FObjectInitializer& ObjectInitializer);
 };
 

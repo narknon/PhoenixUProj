@@ -12,7 +12,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     ATransfigurationPreviewActor* PreviewActor;
     
-    AVanishmentStyleBase();
+    AVanishmentStyleBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void StartVanishment();
     

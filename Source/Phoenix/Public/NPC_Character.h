@@ -384,7 +384,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bDisableCreatureTurnNavChecks;
     
-    ANPC_Character();
+    ANPC_Character(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool WillAttackPlayer() const;
     

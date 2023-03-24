@@ -21,7 +21,7 @@ protected:
     float NewCreatureScaleVariation;
     
 public:
-    ACreatureGrowthHandler();
+    ACreatureGrowthHandler(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void TickFX(float DeltaSeconds);

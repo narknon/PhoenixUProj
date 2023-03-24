@@ -3,6 +3,6 @@
 void ACrimeScene::GlobalEnableCrime(bool i_Enable) {
 }
 
-ACrimeScene::ACrimeScene() {
+ACrimeScene::ACrimeScene(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -1,6 +1,6 @@
 #include "SanctuaryLoom.h"
 
 
-ASanctuaryLoom::ASanctuaryLoom() {
+ASanctuaryLoom::ASanctuaryLoom(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

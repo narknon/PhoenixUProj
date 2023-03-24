@@ -1,5 +1,5 @@
 #include "LandscapeDummyCamera.h"
 
-ALandscapeDummyCamera::ALandscapeDummyCamera() {
+ALandscapeDummyCamera::ALandscapeDummyCamera(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

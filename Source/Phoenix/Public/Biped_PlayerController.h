@@ -99,7 +99,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float InteractionRange;
     
-    ABiped_PlayerController();
+    ABiped_PlayerController(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void TutorialAutoTargetBitChanged(bool bNewValue);
     

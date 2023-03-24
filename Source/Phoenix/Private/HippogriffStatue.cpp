@@ -1,6 +1,6 @@
 #include "HippogriffStatue.h"
 
 
-AHippogriffStatue::AHippogriffStatue() {
+AHippogriffStatue::AHippogriffStatue(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

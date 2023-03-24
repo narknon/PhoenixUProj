@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UBipedStateComponent* ObjectStateComponent;
     
-    APHX_Able_Preview_Actor();
+    APHX_Able_Preview_Actor(const FObjectInitializer& ObjectInitializer);
 };
 

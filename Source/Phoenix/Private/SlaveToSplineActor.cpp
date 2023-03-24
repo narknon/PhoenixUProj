@@ -4,7 +4,7 @@
 void ASlaveToSplineActor::ResetAll() {
 }
 
-ASlaveToSplineActor::ASlaveToSplineActor() {
+ASlaveToSplineActor::ASlaveToSplineActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FollowSpline = CreateDefaultSubobject<USplineComponent>(TEXT("FollowSpline"));
 }
 

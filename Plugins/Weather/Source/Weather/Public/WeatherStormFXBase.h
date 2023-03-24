@@ -19,7 +19,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bUseOverrideActivationDistanceMeters;
     
-    AWeatherStormFXBase();
+    AWeatherStormFXBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnStormStart(FWeatherStormState StormState);
     

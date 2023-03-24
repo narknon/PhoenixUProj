@@ -12,7 +12,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UPointLightComponentWithCullingSettings* PointLightComponent;
     
-    APointLightWithCullingSettings();
+    APointLightWithCullingSettings(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void Copy();
     

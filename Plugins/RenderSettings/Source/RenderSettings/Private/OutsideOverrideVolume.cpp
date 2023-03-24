@@ -1,5 +1,5 @@
 #include "OutsideOverrideVolume.h"
 
-AOutsideOverrideVolume::AOutsideOverrideVolume() {
+AOutsideOverrideVolume::AOutsideOverrideVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -19,7 +19,7 @@ void AInstancedFlockingActor::GetAdjustableParameters(FFlockingParametersAdjusta
 void AInstancedFlockingActor::Generate() {
 }
 
-AInstancedFlockingActor::AInstancedFlockingActor() {
+AInstancedFlockingActor::AInstancedFlockingActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->FlockMeshes = CreateDefaultSubobject<UInstancedStaticMeshComponent>(TEXT("FlockMeshes"));
     this->bEnableCollisions = false;
     this->bEnableFlocking = true;

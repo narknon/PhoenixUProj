@@ -12,6 +12,6 @@ void AEditorAwareActor::PostEditorChangeProperty_Implementation(const FName& Pro
 void AEditorAwareActor::EditorTick_Implementation(const float DeltaSeconds) {
 }
 
-AEditorAwareActor::AEditorAwareActor() {
+AEditorAwareActor::AEditorAwareActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

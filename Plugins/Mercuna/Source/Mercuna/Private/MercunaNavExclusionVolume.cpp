@@ -1,6 +1,6 @@
 #include "MercunaNavExclusionVolume.h"
 
-AMercunaNavExclusionVolume::AMercunaNavExclusionVolume() {
+AMercunaNavExclusionVolume::AMercunaNavExclusionVolume(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bApplyToAllNavOctrees = true;
 }
 

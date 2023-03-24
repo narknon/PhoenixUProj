@@ -12,7 +12,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FLightGroupSettings Settings;
     
-    ALightGroupActorBase();
+    ALightGroupActorBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     void GetLightRegionGroup(FName& Region, FName& Group);
     

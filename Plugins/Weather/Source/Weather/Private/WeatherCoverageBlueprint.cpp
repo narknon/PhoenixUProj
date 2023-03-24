@@ -1,5 +1,5 @@
 #include "WeatherCoverageBlueprint.h"
 
-AWeatherCoverageBlueprint::AWeatherCoverageBlueprint() {
+AWeatherCoverageBlueprint::AWeatherCoverageBlueprint(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 

@@ -109,7 +109,7 @@ protected:
     TArray<TWeakObjectPtr<AActor>> HiddenFarAwayArray;
     
 public:
-    ARevelioSpellTool();
+    ARevelioSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void RevealHiddenActor(AActor* InActor);
     

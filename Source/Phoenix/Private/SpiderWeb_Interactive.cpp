@@ -65,7 +65,7 @@ void ASpiderWeb_Interactive::DestroyWeb() {
 
 
 
-ASpiderWeb_Interactive::ASpiderWeb_Interactive() {
+ASpiderWeb_Interactive::ASpiderWeb_Interactive(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->CharSpeedMode = ETargetSpeedMode::IsWalking;
     this->WebLinearDamping = 7.00f;
     this->WebAngularDamping = 7.00f;

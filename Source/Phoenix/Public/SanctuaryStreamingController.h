@@ -40,7 +40,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FOnZoneIsVisible OnZoneIsVisible;
     
-    ASanctuaryStreamingController();
+    ASanctuaryStreamingController(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void UnlockLockForZone(FName ZoneName);
     

@@ -15,7 +15,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float MaxExpandSize;
     
-    AAncientMagicNova();
+    AAncientMagicNova(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetNotifyObject(UObject* Object);
     

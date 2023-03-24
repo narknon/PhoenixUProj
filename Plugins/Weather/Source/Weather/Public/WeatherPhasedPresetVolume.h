@@ -15,7 +15,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName ActivePhase;
     
-    AWeatherPhasedPresetVolume();
+    AWeatherPhasedPresetVolume(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetActiveWeatherPhase(FName PhaseName, bool& bSuccess);
     

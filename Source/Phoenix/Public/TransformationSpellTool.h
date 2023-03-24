@@ -28,7 +28,7 @@ protected:
     TArray<TSubclassOf<ATransformationStyleBase>> TransformationStyles;
     
 public:
-    ATransformationSpellTool();
+    ATransformationSpellTool(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
     void TransformPlaceholder(ATransfigurationPlaceholder* Placeholder, AActor* ExistingActor, FVector FxInfoCenter, FVector FxInfoExtent);
     

@@ -29,7 +29,7 @@ void AAncientGate::InitialMaterialSetup(TArray<AActor*> i_RedTarget, TArray<AAct
 void AAncientGate::AncientGateSetup(USceneComponent* i_ArrowComponent, USceneComponent* i_LeftPoint, USceneComponent* i_RightPoint, FLinearColor i_RedColor, FLinearColor i_BlueColor) {
 }
 
-AAncientGate::AAncientGate() {
+AAncientGate::AAncientGate(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->m_CurrentLeft = NULL;
     this->m_CurrentRight = NULL;
 }

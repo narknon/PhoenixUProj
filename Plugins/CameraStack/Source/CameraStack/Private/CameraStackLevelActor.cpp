@@ -9,7 +9,7 @@ AActor* ACameraStackLevelActor::GetRuntimeTarget() const {
     return NULL;
 }
 
-ACameraStackLevelActor::ACameraStackLevelActor() {
+ACameraStackLevelActor::ACameraStackLevelActor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
     this->bIsInWorldSpace = false;
 }
 

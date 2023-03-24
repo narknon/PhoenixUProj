@@ -22,6 +22,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Interp, meta=(AllowPrivateAccess=true))
     bool bEnabled;
     
-    ARenderSettingsViewpointVolumeBase();
+    ARenderSettingsViewpointVolumeBase(const FObjectInitializer& ObjectInitializer);
 };
 

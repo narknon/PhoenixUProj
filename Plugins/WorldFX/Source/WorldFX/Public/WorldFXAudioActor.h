@@ -12,7 +12,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
     UWorldFXAudioComponent* SFXComponent;
     
-    AWorldFXAudioActor();
+    AWorldFXAudioActor(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     void SetSpawnAttached(bool bNewSpawnAttached);
     
